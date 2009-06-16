@@ -1,0 +1,55 @@
+#shsMultisportScoreboard { width: 200px; }
+#shsMultisportScoreboard { font-family: Arial,Helvetica,sans-serif; font-size: 12px; vertical-align: top }
+
+#shsMultisportScoreboard .shsTable td, #shsMultisportScoreboard .shsTable th { font-size: 10px; }
+#shsMultisportScoreboard .shsTableTtlRow td, #shsMultisportScoreboard .shsTableTtlRow th { font-size: 12px;  }
+#shsMultisportScoreboard .shsTableSubttlRow td, #shsMultisportScoreboard .shsTableSubttlRow td { font-size: 11px; }
+#shsMultisportScoreboard .shsTableBowlttlRow td, #shsMultisportScoreboard .shsTableBowlttlRow td { font-size: 11px; }
+
+#shsMultisportScoreboard .teamRank { font-variant: small-caps; display: inline }
+#shsMultisportScoreboard .teamName { font-weight: normal; display: inline }
+#shsBody .teamRank { font-variant: small-caps; display: inline }
+#shsBody .teamName { font-weight: normal; display: inline }
+
+
+#shsMultisportScoreboard .shsMiniStatus { text-align: right }
+
+#shsMultisportScoreboard .shsMiniCopyright { float: left; display: inline }
+#shsMultisportScoreboard .shsMiniCopyrightText { font-size: 9px; text-align: right }
+#shsMultisportScoreboard .shsMiniSportSpacer { height: 5px }
+
+#shsMultisportScoreboard .Spanish { display: none }
+
+#shsMultisportScoreboard .shsMiniStatus { width: 20% }
+#shsMultisportScoreboard .shsMiniTeamScore { width: 10% }
+#shsMultisportScoreboard .shsMiniTeamName { width: 70% }
+
+/*USE PADDINGS TO MAKE THE SEPARATORS WIDER
+#shsMultisportScoreboard tr.shsMiniRowSpacer td { height: 3px; background-color: #cccccc }
+#shsMultisportScoreboard td.shsMiniColSpacer { padding: 2px; background-color: #cccccc }
+*/
+
+#shsMultisportScoreboard tr.shsMiniRowSpacer td { height: 1px; background-color: #cccccc }
+#shsMultisportScoreboard td.shsMiniColSpacer { width: 1px; background-color: #cccccc }
+
+table.shsLinescore .teamRank { font-size: 11px; font-variant: small-caps; display: inline }
+table.shsLinescore .teamName { font-weight: bold; display: inline }
+
+.shsCTZone {display: none}
+.shsMTZone {display: none}
+.shsPTZone {display: none}
+.shsBSTZone {display: none}
+.shsGMTZone {display: none}
+.shsCSTZone {display: none}
+.shsCETZone {display: none}
+
+
+#shsWidgets .shsLiveNav,#shsWidgets .shsGameHomeRuns, #shsWidgets .shsGamePitchers, #shsWidgets .shsScoreSpacer
+   {background-color: #FFFFFF}
+
+#shsTeamScoreboards td.gamedate { display: none }
+ 
+#shsWidgets td {font-size: 11px}
+
+
+

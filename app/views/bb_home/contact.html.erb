@@ -1,0 +1,41 @@
+<br>
+<h1><font face="Arial" color=#000000 style="font-size: 35px">Contact Us</font></h1>
+  <p class="about" style="font-size:16px">
+	Please fill out the following form if you have feedback, questions, or would like to advertise on our site.<br>
+	<br>
+
+<% form_tag :controller=> "bb_home", :action => 'submit_feedback' do %>
+<%= error_messages_for 'user' %>
+
+  <div title="Contact Us" id="entryform"> 
+
+  <div  class="form">
+  <%= text_area 'feedback', 'text', 'cols' => 50, 'rows' => 6 %><br/>
+  <br>
+  <label for="feedback_name">Name (Optional)</label><br/>
+  <%= text_field 'feedback', 'submitter'  %><br/></br><br>
+  <label for="feedback_name">Email</label><br/>
+  <%= text_field 'feedback', 'submitter_email'  %><br/></br><br>
+  
+  <%= submit_tag "Submit Feedback" %>
+  </div>
+</div>
+<% end %>
+  <br><br>  
+  <br><br>  
+
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+  <br><br>  
+
+

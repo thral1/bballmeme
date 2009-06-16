@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title><%= page_title(controller.root_url) %></title>
+<link href="/styles.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<link href="/styles_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<script type = "text/javascript">
+  function changeText(text) {
+    document.getElementById('dynamicText').innerHTML = text;//'Arizona Cardinals';
+  }
+  function restoreText() {
+    document.getElementById('dynamicText').innerHTML = 'pick a team&nbsp;&nbsp;&nbsp;&nbsp;';
+  }
+  function markSelectedClass(text) {
+    document.getElementById('dynamicText').innerHTML = text;//'Arizona Cardinals';
+  }
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13214172-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<body>
+<div id="container">
+  <table id="container">
+	  <%= "<div id=\"header_#{sport_prefix(controller.root_url)}\">" %>
+		<a href="/">			
+    <% if controller.root_url =~ /fball/i %>
+      <!--<h1><span><%= short_sport_name(controller.root_url) %></span>NEWS</h1>-->
+      <img src=/images/bballnews_logo.gif />
+    <% else %>
+      <img src=/images/bballnews_logo.gif />
+    <% end %>
+    </a>
+    <!--<h6><%= slogan(controller.root_url) %></h6> -->
+	</div>
+
+	<div id="hat">	
+    <div id="hat-container">		
+      <ul id="dynamic-text">
+        <li id="dynamicText">pick a team</li>
+      </ul>
+      <ul id="user-tasks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="core">	
+	  <img src="images/nba/logo-nba-teams-small-vert-plus-nba.png" class="hiddenPic">
+			<% if !@teams.nil? -%>
+      <%= "<div class=\"#{sport_prefix(controller.root_url)}_cssmenu\">" %>
+        <%= "<ul class=\"#{sport_prefix(controller.root_url)}_cssmenu\">" %>
+
+        <% if controller.root_url =~ /bballnews/i %>
+          <% if @team.nil? %>
+            <li class="NBA_fixed" onMouseOver='changeText("NBA")' onMouseOut='restoreText()'><a href="/"></a></li>
+          <% else %>
+            <li class="NBA" onMouseOver='changeText("NBA")' onMouseOut='restoreText()'><a href="/"></a></li>
+          <% end %>
+        <% end %>
+
+				<% for team in @teams -%>
+          <% if !@team.nil? && (team.id == @team.id) %>
+            <% if (28 == team.id) %>
+              <li class="FortyNiners_fixed" onMouseOver='changeText("San Francisco 49ers")' onMouseOut='restoreText()'><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[team.name] %></li>
+            <% elsif (55 == team.id) %>
+              <li class="SeventySixers_fixed" onMouseOver='changeText("Philadelphia 76ers")' onMouseOut='restoreText()'><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[team.name] %></li>
+            <% else %>
+              <li class="<%= team.name %>_fixed" onMouseOver='changeText("<%= team.city%> <%= team.name%>")' onMouseOut='restoreText()'><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[team.name] %></li>
+            <% end -%>
+          <% else %>
+            <% if (28 == team.id) %>
+              <li class="FortyNiners" onMouseOver='changeText("San Francisco 49ers")' onMouseOut='restoreText()'><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[team.name] %></li>
+            <% elsif (55 == team.id) %>
+              <li class="SeventySixers" onMouseOver='changeText("Philadelphia 76ers")' onMouseOut='restoreText()'><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[team.name] %></li>
+            <% else %>
+              <li class="<%= team.name %>" onMouseOver='changeText("<%= team.city%> <%= team.name%>")' onMouseOut='restoreText()'><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[team.name] %></li>
+            <% end -%>
+          <% end %>
+			  <% end -%>
+        </ul>
+      </div>
+			<% end -%>			
+</div><!-- core -->
+
+  	<div class="core_text">
+    <% if (controller.controller_name =~ /teams|articles/i) %>
+      <div id="header-bottom-left">
+        <%= "<ul class=\"#{sport_prefix(controller.root_url)}_team\">" %>
+          <% if (controller.controller_name =~ /teams/) %>
+            <% if 28 == @team.id %>
+            <li class="FortyNiners"><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[@team.name] %></li>
+            <% elsif 55 == @team.id %>
+            <li class="SeventySixers"><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[@team.name] %></li>
+            <% else %>
+            <li class="<%= @team.name %>"><%= link_to "", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[@team.name] %></li>
+            <% end %>
+          <% elsif (controller.controller_name =~ /fb_articles/) %>
+            <li class="nfl"><a href="/"><img align="left" src=/images/nfl_sportslogos_100/nfl_50.png /></li>
+          <% elsif (controller.controller_name =~ /bb_articles/) %>
+            <li class="nba"><a href="/"><img align="left" src=/images/nba/nba_40.gif /></li>
+          <% end %>
+  </ul>
+  <%= yield %> <!-- this will display "NBA News" or "team.name" depending on the controller -->
+	  <ul class="tabmenu">
+          <% if ( controller.controller_name =~ /articles/ ) %>
+            <% if ( controller.action_name == "main" || controller.action_name == "index" || controller.action_name == "show" )%><li class="selected"><% else %><li ><% end %>
+            <%= link_to "main", :controller => controller.controller_name, :action => "main"%></li>
+            <% if controller.action_name == "news" %><li class="selected"><% else %><li ><% end %>
+            <%= link_to "news", :controller => controller.controller_name, :action => "news"%></li>
+            <% if controller.action_name == "blogs" %><li class="selected"><% else %><li ><% end %>
+            <%= link_to "blogs", :controller => controller.controller_name, :action => "blogs"%></li>
+          <% elsif (controller.controller_name =~ /teams/) %>
+            <% if ( controller.action_name == "main" || controller.action_name == "index" || controller.action_name == "show" )%><li class="selected"><% else %><li ><% end %>
+            <%= link_to "main", :controller => controller.controller_name, :action => "main", :id => @team.id %></li>
+            <% if controller.action_name == "news" %><li class="selected"><% else %><li ><% end %>
+            <%= link_to "news", :controller => controller.controller_name, :action => "news", :id => @team.id  %></li>
+            <% if controller.action_name == "blogs" %><li class="selected"><% else %><li ><% end %>
+            <%= link_to "blogs", :controller => controller.controller_name, :action => "blogs", :id => @team.id  %></li>
+            <% end %>
+    </ul>
+      </div>
+      <% else %>
+          <%= yield %> <!-- this will display "NFL News" or "team.name" depending on the controller -->
+      <% end %>
+
+      <br>
+
+      <% if !@articles.nil? -%>
+      <% for article in @articles -%>
+        <h1><%= link_to "#{article.title}", href = "#{article.url}" %></h1>
+        <span class="byline">
+          <% if( article.author && article.author != "") %>
+            <%= "by #{article.author}" %>
+          <% end -%>
+          <% if( article.publication ) %>
+            <span class="bracket">
+              <%= "(#{link_to article.publication, "http://" + article.publication})" %> 
+              </span>
+          <% end -%>/ <font color="black"><% if !article.publication_date.nil? %><%= "#{Date::MONTHNAMES[article.publication_date.month]} #{article.publication_date.mday}" %><% end%> </font></span>
+        <br>
+        <div class="article_text">
+          <%= get_article_text(article) %>
+        <br>
+        <span class="comments">
+        <strong>
+        <% if (article.num_comments == 1) %><%= "#{article.num_comments}" %> comment</strong>
+        <% elsif (article.num_comments.nil?) %>0 comments</strong>
+        <% else %><%= "#{article.num_comments}" %> comments</strong>
+        <% end -%>
+        <% if( article.teams_mentioned && article.teams_mentioned != "") %>
+        /<i> tags: </i><span class="tags"><% article.teams_mentioned.split.each do|t| %><%= link_to "#{t} ", :controller => determine_teams_controller(controller.root_url), :action => "show", :id => Team::team_name_to_id[t] %><% end %></span><br><!--#{article.players_mentioned}-->
+        <% end %>
+        </span>
+        </div>
+      <%end -%>
+        <br>
+      <%end -%>
+
+  </div><!-- core_text -->
+  <div class="core_right">
+    <br>
+    <% if (controller.controller_name =~ /teams|articles/i) %>
+      <% if !@top_reads.nil? %>
+        <dl class="curved">
+        <dt>Top Reads of the Week</dt>
+        <dd>
+        <p>
+        <% i = 1 %>
+        <% @top_reads.each{|t| %>
+          <%= "#{i}. " %><%= link_to t.title, t.url %><br>
+          <% i = i + 1 %>
+          <% } %>
+        <!--<p class="last">&nbsp;</p>-->
+        </dd>
+        </dl>
+      <% end %>
+
+      <dl class="curved">
+      <dt>Affiliate Sites</dt>
+      <dd>
+      <p><%= affiliate_sites(controller.root_url) %>
+      <!--<p class="last">&nbsp;</p>-->
+      </dd>
+      </dl>
+    <% end %>
+  </div><!-- core_right -->
+	<p>&nbsp;</p>
+	<div id="hat">
+	<div id="hat-container-footer">
+	<ul id="user-tasks-footer">
+		
+          <li>
+	  <% if !@articles.nil? && defined?(@articles.total_pages) -%>
+	  <%= will_paginate (@articles) %>
+	  <!--<%= will_paginate(@articles) %>-->
+          <%end -%>
+          </li>
+          <li class="test">
+          <br>
+          </li>
+          <%= copyright_notice(controller.root_url) %>
+        </ul>
+      </div>
+    </div>
+  </div><!-- footer -->
+  </td></tr>
+</table>
+</div> <!-- container -->
+<!-- Facebook -->
+<script src="//ah8.facebook.com/js/conversions/tracking.js"></script><script type="text/javascript">
+try {
+  FB.Insights.impression({
+       'id' : 6002452900061,
+            'h' : 'e187dccc17'
+              });
+    } catch (e) {}
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,39 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BeWFfewebSq2QBJSaigTF4IC_B4jboUH4uaP0BcCNtwHg6yUQARgBIMfQghMoAjgAUPmUiMwDYMne-IbIo-gZsgEeYmxvZy5zZWF0dGxldGltZXMubndzb3VyY2UuY29tugEKMzAweDI1MF9qc8gBAdoBeWh0dHA6Ly9ibG9nLnNlYXR0bGV0aW1lcy5ud3NvdXJjZS5jb20vcG9saXRpY3Nub3J0aHdlc3QvMjAwOS8wNS8wMS9ncmVnb2lyZV9rZXlhcmVuYV9iaWxsX3VubGlrZWx5X2luX3NwZWNpYWxfc2VzaW9uLmh0bWyAAgGoAwHoA4UG6AOOA-gDPugDPegDmAP1AwgEAAQ&amp;num=1&amp;sig=AGiWqtz--LUYHWVFThq1rCO-meYcnFtGgA&amp;client=ca-pub-4532355179464318&amp;adurl=http://www.RedmondHardwoodHouse.com"; 
+google_ad.visible_url = "www.RedmondHardwoodHouse.com"; 
+google_ad.line1 = "Beautiful home in Redmond"; 
+google_ad.line2 = "Granite, slate, stainless kitchen"; 
+google_ad.line3 = "Nearly 1/3 acre in Education Hill"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B3fxkewebSq2QBJSaigTF4IC_B9K58pkBxJ_12ArAjbcBkKJiEAIYAiDH0IITKAI4AFDM_I6k_f____8BYMne-IbIo-gZsgEeYmxvZy5zZWF0dGxldGltZXMubndzb3VyY2UuY29tugEKMzAweDI1MF9qc8gBAdoBeWh0dHA6Ly9ibG9nLnNlYXR0bGV0aW1lcy5ud3NvdXJjZS5jb20vcG9saXRpY3Nub3J0aHdlc3QvMjAwOS8wNS8wMS9ncmVnb2lyZV9rZXlhcmVuYV9iaWxsX3VubGlrZWx5X2luX3NwZWNpYWxfc2VzaW9uLmh0bWzIAoD7uwqoAwHoA4UG6AOOA-gDPugDPegDmAP1AwgEAAQ&amp;num=2&amp;sig=AGiWqtxIO2Y_7qvTFYo0HvzalLLFYzmcRg&amp;client=ca-pub-4532355179464318&amp;adurl=http://www.bobmcdonnell.com/signup1.php"; 
+google_ad.visible_url = "www.BobMcDonnell.com"; 
+google_ad.line1 = "McDonnell for Governor"; 
+google_ad.line2 = "Bold Solutions. Virginia Jobs."; 
+google_ad.line3 = "Contribute Now!"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_info.feedback_url = "https://www.google.com/adsense/support/bin/request.py?contact=abg_afc&amp;url=http://blog.seattletimes.nwsource.com/politicsnorthwest/2009/05/01/gregoire_keyarena_bill_unlikely_in_special_sesion.html&amp;hl=en&amp;client=ca-pub-4532355179464318&amp;adU=www.RedmondHardwoodHouse.com&amp;adT=Beautiful+home+in+Redmond&amp;adU=www.BobMcDonnell.com&amp;adT=McDonnell+for+Governor"; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

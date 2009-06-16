@@ -1,0 +1,7 @@
+<% if 30 == @team.id %>
+  <a class="heading" href="/teams/show/<%= Team::team_name_to_id[@team.name] %>"><%= "#{@team.city} Bucs" -%></a>
+<% elsif 19 == @team.id %>
+  <a class="heading" href="/teams/show/<%= Team::team_name_to_id[@team.name] %>"><%= "NE #{@team.name}" -%></a>
+<% else %>
+  <a class="heading" href="/teams/show/<%= Team::team_name_to_id[@team.name] %>"><%= "#{@team.city} #{@team.name}" -%></a>
+<% end %>

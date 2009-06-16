@@ -1,0 +1,156 @@
+/** wordpress basics **/
+.wp-caption img {
+margin-bottom: 5px;
+padding:4px;
+border: 1px solid #ddd;
+background-color:#FFFFFF;
+}
+
+.wp-caption-text {
+color:#FFFFFF;
+text-align:center;
+background-color:#6096cd;
+padding-top: 5px;
+padding-bottom: 5px;
+width: auto;
+background-image: url(images/wp-caption.gif);
+background-repeat: repeat-x;
+background-position: left bottom;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+code {
+font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+img.centered {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignright {
+padding: 4px;
+margin: 0 0 2px 7px;
+display: inline;
+}
+
+img.alignleft {
+padding: 4px;
+margin: 0 7px 2px 0;
+display: inline;
+}
+
+.alignright {
+float: right;
+}
+
+.alignleft {
+float: left
+}
+
+/** begin calendar **/
+#wp-calendar {
+empty-cells: show;
+margin: 10px auto 0;
+width: 155px;
+}
+
+#wp-calendar #next a {
+padding-right: 10px;
+text-align: right;
+}
+
+#wp-calendar #prev a {
+padding-left: 10px;
+text-align: left;
+}
+
+#wp-calendar a {
+display: block;
+}
+
+#wp-calendar caption {
+text-align: center;
+width: 100%;
+}
+
+#wp-calendar td {
+padding: 3px 0;
+text-align: center;
+}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+background-color: #fff; }
+
+/** various tags and classes **/
+acronym, abbr, span.caps {
+cursor: help;
+}
+
+acronym, abbr {
+border-bottom: 1px dashed #999;
+}
+
+blockquote {
+margin: 15px 30px 0 10px;
+padding-left: 20px;
+border-left: 5px solid #ddd;
+}
+
+blockquote cite {
+margin: 5px 0 0;
+display: block;
+}
+
+.center {
+text-align: center;
+}
+
+.hidden {
+display: none;
+}
+
+hr {
+display: none;
+}
+
+a img {
+border: none;
+}
+
+/* begin captions */
+.aligncenter,
+div.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wp-caption {
+border: 1px solid #ddd;
+text-align: center;
+background-color: #f3f3f3;
+padding-top: 4px;
+margin: 10px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+.wp-caption img {
+margin: 0;
+padding: 0;
+border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+font-size: 11px;
+line-height: 17px;
+padding: 4px 4px 5px;
+margin: 0;
+background: none;
+color: #333;
+}

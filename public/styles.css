@@ -1,0 +1,1375 @@
+body {
+	background: #000000;
+	/*background: #999999 url(images/grey_white.jpg) repeat-y 50% 0;*/
+	/*background: #999999 url(images/lbj.jpg);*/
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+	color: #333
+}
+/* nytimes */
+a{color:#004276;text-decoration:none;}a:visited{color:#666699;}a:hover{text-decoration:underline;}a img{border:none;}.image a{display:block;}
+
+#container { 
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background: #FFFFFF top left repeat-y;*/
+  background: #ffffff
+}
+#header_bb {
+	width: 1019px;
+/*	background: #3d3d3d top right no-repeat; */
+    background: #FFFFFF url(images/nba1.jpg) top left no-repeat;
+	float: left;
+	text-align: left;
+  padding-left: 5px;
+}
+#header_fb {
+	width: 1019px;
+/*	background: #3d3d3d top right no-repeat; */
+    background: #FFFFFF url(images/nfl1.jpg) top left no-repeat;
+	float: left;
+	text-align: left;
+  padding-left: 5px;
+}
+  #header a:hover {
+    text-decoration: none;
+  }
+	#header h1 {
+		color: #ff4000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		font-weight: lighter;
+		letter-spacing: -2px;
+		text-transform: uppercase;
+		margin-right: 10px;
+		margin-top: 10px;
+		line-height: 65px;
+    margin-bottom: 0px;
+		color: #ff4000;
+	}
+	#header span {
+    color: #eeeeee;
+		font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+		font-size: 40px;
+		font-weight: lighter;
+		letter-spacing: -2px;
+		text-transform: uppercase;
+	}
+  p.about {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+		
+	#header h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #999999;
+		letter-spacing: 0px;
+		font-style: italic;
+		line-height: 14px;
+		margin-right: 10px;
+	}
+	#header h6 {
+		color: #eeeeee;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		letter-spacing: 0px;
+		font-style: italic;
+    margin-top: 0px;
+		line-height: 14px;
+		margin-right: 10px;
+	}
+#left_black {
+	width: 100px;
+  height: 100%;
+	background: #d4d4d4 top left repeat-y;
+	float: left;
+}
+	.navcontainer { 
+	 	width: 100px; 
+		margin-top: 200px;
+	}
+
+	.navcontainer ul {
+		margin-left: 0;
+		margin-top: 0;
+		padding-left: 0;
+		list-style-type: none;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.navcontainer a {
+		display: block;
+		padding: 3px;
+		width: 94px;
+		font-size: 0.7em;
+	}
+	
+	.navcontainer a:link, #navlist a:visited {
+		color: #ff4000;
+		text-decoration: none;
+	}
+	
+	.navcontainer a:hover {
+		background: #fff 96% 50%;
+		filter: alpha(opacity=50);
+		-moz-opacity: 0.5;
+		opacity: 0.5;
+		color: #000000;
+		
+	}
+		
+		
+	h2.navlist {
+		/*font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;*/
+/* nytimesh2{font-size:2em;line-height:1.1em;} */
+		/*font-size: 28px; */
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.1em;
+		text-transform: none;
+		font-weight: thick;
+		letter-spacing: -1px;
+    text-align: left;
+		color: #000000;
+	}
+#core {
+	background: #FFFFFF ;
+  width: 1024px;
+	float: left;
+  font-family:georgia,"times new roman",times,serif;
+  font-size:72.5%;
+  line-height:1.5em;
+  color:#333;
+  background-color:#fff;
+}
+	#core h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		/*font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;*/
+/* nytimesh2{font-size:2em;line-height:1.1em;} */
+		/*font-size: 28px; */
+    font-size: 2.5em;
+    line-height: 1.1em;
+		text-transform: none;
+		font-weight: thicker;
+		letter-spacing: -1px;
+    text-align: left;
+    margin-left: 10px;
+		/*color: #0895DD;*/
+	 /* background: #FFFFFF url(images/pink_core_back.jpg) top left no-repeat;*/
+		color: #000000;
+		padding: 0px 10px 0px 100px;
+	}
+
+.core_right{
+	background: #FFFFFF ;
+	width: 329px;
+  float: right;
+ /* margin-left:685px;*/
+	padding: 5px;
+  font-family:georgia,"times new roman",times,serif;
+  /*line-height:1.5em;*/
+}
+.core_text {
+	background: #FFFFFF ;
+  width: 66%;
+	width: 675px;
+	float: left;
+  font-family:georgia,"times new roman",times,serif;
+  font-size:72.5%;
+  line-height:1.5em;
+  color:#333;
+  background-color:#fff;
+	padding: 5px;
+	/*margin-right: 15px;
+	_margin-right: 8px;*/
+	margin-top: 0px;
+	/*margin-left: 5px;*/
+}
+	.core_text h2 {
+		/*font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;*/
+/* nytimesh2{font-size:2em;line-height:1.1em;} */
+		/*font-size: 28px; */
+    font-size: 2.5em;
+    line-height: 1.1em;
+		text-transform: none;
+		font-weight: thicker;
+		letter-spacing: -1px;
+    text-align: center;
+		/*color: #0895DD;*/
+	 /* background: #FFFFFF url(images/pink_core_back.jpg) top left no-repeat;*/
+		color: #000000;
+		padding: 0px 10px 0px 5px;
+	}
+	.core_text h1 {
+		/*font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;*/
+/* nytimesh2{font-size:2em;line-height:1.1em;} */
+		/*font-size: 28px; */
+    font-size: 2em;
+    line-height: 1.0em;
+		text-transform: none;
+		font-weight: normal;
+		letter-spacing: -1px;
+		/*color: #0895DD;*/
+	 /* background: #FFFFFF url(images/pink_core_back.jpg) top left no-repeat;*/
+		color: #666666;
+		padding: 0px 10px 0px 5px;
+    margin-bottom: 2px;
+	}
+	.core_text p {
+		padding-left: 5px;
+		font-size: 1.2em;
+    line-height: 1.25em;
+    color: #000000
+	}
+	.core_text a {
+		color: #004276;
+    text-decoration:none;
+    visited{color:#666699;}
+    hover{text-decoration:underline;}
+	}
+
+  span.byline {
+		padding-left: 5px;
+/*nytimes  font-size:1.2em;line-height:1.25em;margin-bottom:5px;}*/
+    font-size: 1.1em;
+    line-height: 1.25em;
+    color: #CC0000;
+ /*style="font-size: 7.5pt; font-family: Verdana; color: #CC0000"*/
+  }
+		
+  div.article_text {
+		padding-left: 5px;
+		font-size: 1.2em;
+    line-height: 1.25em;
+    color: #000000
+  }
+  span.comments {
+    color: #000000
+  }
+  span.bracket {
+    color: #225db7
+  }
+
+  span.tags {
+    color: #225db7
+  }
+
+  a.tags {
+    color: #225db7
+  }
+/*.mod-blog-post a {color:#225db7;} */
+
+#footer {
+	width: 1024px;
+	height: auto;
+	background: #999;
+	clear: both;
+	text-align: center;
+}
+	#footer p {
+		padding: 3px;
+		margin: 0;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 0.6em;
+		color: #333333;
+	}
+	#footer a {
+		color: #5A0C4D;
+		text-decoration: none;
+	}
+
+
+/* Setup */
+  div.fb_cssmenu {
+    padding: 0 0 0 60px;
+    float: left;
+  }
+  ul.fb_cssmenu {
+    list-style:none;
+    padding: 0px;
+  }
+  #dynamicText2 li{
+    float: left;
+    color: #000000;
+  }
+  ul.fb_cssmenu li {
+		font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 13px;
+    font-weight: bolder;
+		letter-spacing: -1px;
+
+  }
+  ul.fb_cssmenu li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url("images/logos-mod-small2_washedout.png") no-repeat 0 0;
+  }
+/* Normal links */
+  ul.fb_cssmenu li.Cardinals a {
+    background-position: 0 0;
+  }
+  ul.fb_cssmenu li.Falcons a {
+    background-position: 0 -50px;
+  }
+  ul.fb_cssmenu li.Ravens a {
+    background-position: 0 -100px;
+  }
+  ul.fb_cssmenu li.Bills a{
+    background-position: 0 -150px;
+  }
+  ul.fb_cssmenu li.Panthers a{
+    background-position: 0 -200px;
+  }
+  ul.fb_cssmenu li.Bears a{
+    background-position: 0 -250px;
+  }
+  ul.fb_cssmenu li.Bengals a{
+    background-position: 0 -300px;
+  }
+  ul.fb_cssmenu li.Browns a{
+    background-position: 0 -350px;
+  }
+  ul.fb_cssmenu li.Cowboys a{
+    background-position: 0 -400px;
+  }
+  ul.fb_cssmenu li.Broncos a{
+    background-position: 0 -450px;
+  }
+  ul.fb_cssmenu li.Lions a{
+    background-position: 0 -500px;
+  }
+  ul.fb_cssmenu li.Packers a{
+    background-position: 0 -550px;
+  }
+  ul.fb_cssmenu li.Texans a{
+    background-position: 0 -600px;
+  }
+  ul.fb_cssmenu li.Colts a{
+    background-position: 0 -650px;
+  }
+  ul.fb_cssmenu li.Jaguars a{
+    background-position: 0 -700px;
+  }
+  ul.fb_cssmenu li.Chiefs a{
+    background-position: 0 -750px;
+  }
+  ul.fb_cssmenu li.Dolphins a{
+    background-position: 0 -800px;
+  }
+  ul.fb_cssmenu li.Vikings a{
+    background-position: 0 -850px;
+  }
+  ul.fb_cssmenu li.Patriots a{
+    background-position: 0 -900px;
+  }
+  ul.fb_cssmenu li.Saints a{
+    background-position: 0 -950px;
+  }
+  ul.fb_cssmenu li.Giants a{
+    background-position: 0 -1000px;
+  }
+  ul.fb_cssmenu li.Jets a{
+    background-position: 0 -1050px;
+  }
+  ul.fb_cssmenu li.Raiders a{
+    background-position: 0 -1100px;
+  }
+  ul.fb_cssmenu li.Eagles a{
+    background-position: 0 -1150px;
+  }
+  ul.fb_cssmenu li.Steelers a{
+    background-position: 0 -1200px;
+  }
+  ul.fb_cssmenu li.Chargers a{
+    background-position: 0 -1250px;
+  }
+  ul.fb_cssmenu li.FortyNiners a{
+    background-position: 0 -1300px;
+  }
+  ul.fb_cssmenu li.Seahawks a{
+    background-position: 0 -1350px;
+  }
+  ul.fb_cssmenu li.Rams a{
+    background-position: 0 -1400px;
+  }
+  ul.fb_cssmenu li.Buccaneers a{
+    background-position: 0 -1450px;
+  }
+  ul.fb_cssmenu li.Titans a{
+    background-position: 0 -1500px;
+  }
+  ul.fb_cssmenu li.Redskins a{
+    background-position: 0 -1550px;
+  }
+
+/* Hover links */
+  ul.fb_cssmenu li.Cardinals a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 0;
+  }
+  ul.fb_cssmenu li.Falcons a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -50px;
+  }
+  ul.fb_cssmenu li.Ravens a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -100px;
+  }
+  ul.fb_cssmenu li.Bills a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -150px;
+  }
+  ul.fb_cssmenu li.Panthers a:hover{
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -200px;
+  }
+  ul.fb_cssmenu li.Bears a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -250px;
+  }
+  ul.fb_cssmenu li.Bengals a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -300px;
+  }
+  ul.fb_cssmenu li.Browns a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -350px;
+  }
+  ul.fb_cssmenu li.Cowboys a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -400px;
+  }
+  ul.fb_cssmenu li.Broncos a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -450px;
+  }
+  ul.fb_cssmenu li.Lions a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -500px;
+  }
+  ul.fb_cssmenu li.Packers a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -550px;
+  }
+  ul.fb_cssmenu li.Texans a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -600px;
+  }
+  ul.fb_cssmenu li.Colts a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -650px;
+  }
+  ul.fb_cssmenu li.Jaguars a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -700px;
+  }
+  ul.fb_cssmenu li.Chiefs a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -750px;
+  }
+  ul.fb_cssmenu li.Dolphins a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -800px;
+  }
+  ul.fb_cssmenu li.Vikings a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -850px;
+  }
+  ul.fb_cssmenu li.Patriots a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -900px;
+  }
+  ul.fb_cssmenu li.Saints a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -950px;
+  }
+  ul.fb_cssmenu li.Giants a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1000px;
+  }
+  ul.fb_cssmenu li.Jets a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1050px;
+  }
+  ul.fb_cssmenu li.Raiders a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1100px;
+  }
+  ul.fb_cssmenu li.Eagles a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1150px;
+  }
+  ul.fb_cssmenu li.Steelers a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1200px;
+  }
+  ul.fb_cssmenu li.Chargers a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1250px;
+  }
+  ul.fb_cssmenu li.FortyNiners a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1300px;
+  }
+  ul.fb_cssmenu li.Seahawks a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1350px;
+  }
+  ul.fb_cssmenu li.Rams a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1400px;
+  }
+  ul.fb_cssmenu li.Buccaneers a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1450px;
+  }
+  ul.fb_cssmenu li.Titans a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1500px;
+  }
+  ul.fb_cssmenu li.Redskins a:hover {
+    background: url("images/logos.png") no-repeat 0 0;
+    background-position: 0 -1550px;
+  }
+
+/* Sub-heading */
+  div.logo_heading {
+    padding: 0 0 0 60px;
+  }
+  ul.logo_heading {
+    list-style:none;
+    padding: 0px;
+  }
+  ul.logo_heading li {
+    float: left;
+  }
+  ul.logo_heading li a {
+    display: block;
+    width: 100px;
+    height: 80px;
+    background: url("images/logo-nfl-teams-large-vert.png") no-repeat 0 0;
+  }
+/* Normal links */
+  ul.logo_heading li.Cardinals a {
+    background-position: 0 0;
+  }
+  ul.logo_heading li.Falcons a {
+    background-position: 0 -100px;
+  }
+  ul.logo_heading li.Ravens a {
+    background-position: 0 -200px;
+  }
+  ul.logo_heading li.Bills a{
+    background-position: 0 -300px;
+  }
+  ul.logo_heading li.Panthers a{
+    background-position: 0 -400px;
+  }
+  ul.logo_heading li.Bears a{
+    background-position: 0 -500px;
+  }
+  ul.logo_heading li.Bengals a{
+    background-position: 0 -600px;
+  }
+  ul.logo_heading li.Browns a{
+    background-position: 0 -700px;
+  }
+  ul.logo_heading li.Cowboys a{
+    background-position: 0 -800px;
+  }
+  ul.logo_heading li.Broncos a{
+    background-position: 0 -900px;
+  }
+  ul.logo_heading li.Lions a{
+    background-position: 0 -1000px;
+  }
+  ul.logo_heading li.Packers a{
+    background-position: 0 -11000px;
+  }
+  ul.logo_heading li.Texans a{
+    background-position: 0 -1200px;
+  }
+  ul.logo_heading li.Colts a{
+    background-position: 0 -1300px;
+  }
+  ul.logo_heading li.Jaguars a{
+    background-position: 0 -1400px;
+  }
+  ul.logo_heading li.Chiefs a{
+    background-position: 0 -1500px;
+  }
+  ul.logo_heading li.Dolphins a{
+    background-position: 0 -1600px;
+  }
+  ul.logo_heading li.Vikings a{
+    background-position: 0 -1700px;
+  }
+  ul.logo_heading li.Patriots a{
+    background-position: 0 -1800px;
+  }
+  ul.logo_heading li.Saints a{
+    background-position: 0 -1900px;
+  }
+  ul.logo_heading li.Giants a{
+    background-position: 0 -2000px;
+  }
+  ul.logo_heading li.Jets a{
+    background-position: 0 -2100px;
+  }
+  ul.logo_heading li.Raiders a{
+    background-position: 0 -2200px;
+  }
+  ul.logo_heading li.Eagles a{
+    background-position: 0 -2300px;
+  }
+  ul.logo_heading li.Steelers a{
+    background-position: 0 -2400px;
+  }
+  ul.logo_heading li.Chargers a{
+    background-position: 0 -2500px;
+  }
+  ul.logo_heading li.FortyNiners a{
+    background-position: 0 -2600px;
+  }
+  ul.logo_heading li.Seahawks a{
+    background-position: 0 -2700px;
+  }
+  ul.logo_heading li.Rams a{
+    background-position: 0 -2800px;
+  }
+  ul.logo_heading li.Buccaneers a{
+    background-position: 0 -2900px;
+  }
+  ul.logo_heading li.Titans a{
+    background-position: 0 -3000px;
+  }
+  ul.logo_heading li.Redskins a{
+    background-position: 0 -3100px;
+  }
+
+/* Setup Basketball */
+  div.bb_cssmenu {
+    padding: 0 0 0 60px;
+    float: left;
+  }
+  ul.bb_cssmenu {
+    list-style:none;
+    padding: 0px;
+  }
+  #dynamicText2 li{
+    float: left;
+    color: #000000;
+  }
+  ul.bb_cssmenu li {
+		font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 13px;
+    font-weight: bolder;
+		letter-spacing: -1px;
+
+  }
+  ul.bb_cssmenu li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url("images/nba/logo-nba-teams-small-vert-washedout-plus-nba.png") no-repeat 0 0;
+  }
+  
+/* Normal links */
+  ul.bb_cssmenu li.Hawks a {
+    background-position: 0 0;
+  }
+  ul.bb_cssmenu li.Celtics a {
+    background-position: 0 -50px;
+  }
+  ul.bb_cssmenu li.Bobcats a {
+    background-position: 0 -100px;
+  }
+  ul.bb_cssmenu li.Bulls a{
+    background-position: 0 -150px;
+  }
+  ul.bb_cssmenu li.Cavaliers a{
+    background-position: 0 -200px;
+  }
+  ul.bb_cssmenu li.Mavericks a{
+    background-position: 0 -250px;
+  }
+  ul.bb_cssmenu li.Nuggets a{
+    background-position: 0 -300px;
+  }
+  ul.bb_cssmenu li.Pistons a{
+    background-position: 0 -350px;
+  }
+  ul.bb_cssmenu li.Warriors a{
+    background-position: 0 -400px;
+  }
+  ul.bb_cssmenu li.Rockets a{
+    background-position: 0 -450px;
+  }
+  ul.bb_cssmenu li.Pacers a{
+    background-position: 0 -500px;
+  }
+  ul.bb_cssmenu li.Clippers a{
+    background-position: 0 -550px;
+  }
+  ul.bb_cssmenu li.Lakers a{
+    background-position: 0 -600px;
+  }
+  ul.bb_cssmenu li.Grizzlies a{
+    background-position: 0 -650px;
+  }
+  ul.bb_cssmenu li.Heat a{
+    background-position: 0 -700px;
+  }
+  ul.bb_cssmenu li.Bucks a{
+    background-position: 0 -750px;
+  }
+  ul.bb_cssmenu li.Timberwolves a{
+    background-position: 0 -800px;
+  }
+  ul.bb_cssmenu li.Nets a{
+    background-position: 0 -850px;
+  }
+  ul.bb_cssmenu li.Hornets a{
+    background-position: 0 -900px;
+  }
+  ul.bb_cssmenu li.Knicks a{
+    background-position: 0 -950px;
+  }
+  ul.bb_cssmenu li.Thunder a{
+    background-position: 0 -1000px;
+  }
+  ul.bb_cssmenu li.Magic a{
+    background-position: 0 -1050px;
+  }
+  ul.bb_cssmenu li.SeventySixers a{
+    background-position: 0 -1100px;
+  }
+  ul.bb_cssmenu li.Suns a{
+    background-position: 0 -1150px;
+  }
+  ul.bb_cssmenu li.Trailblazers a{
+    background-position: 0 -1200px;
+  }
+  ul.bb_cssmenu li.Kings a{
+    background-position: 0 -1250px;
+  }
+  ul.bb_cssmenu li.Spurs a{
+    background-position: 0 -1300px;
+  }
+  ul.bb_cssmenu li.Raptors a{
+    background-position: 0 -1400px;
+  }
+  ul.bb_cssmenu li.Jazz a{
+    background-position: 0 -1450px;
+  }
+  ul.bb_cssmenu li.Wizards a{
+    background-position: 0 -1500px;
+  }
+  ul.bb_cssmenu li.NBA a{
+    background-position: 0 -1550px;
+  }
+
+  ul.bb_cssmenu li.Hawks_fixed a {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 0;
+  }
+  ul.bb_cssmenu li.Celtics_fixed a {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -50px;
+  }
+  ul.bb_cssmenu li.Bobcats_fixed a {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -100px;
+  }
+  ul.bb_cssmenu li.Bulls_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -150px;
+  }
+  ul.bb_cssmenu li.Cavaliers_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -200px;
+  }
+  ul.bb_cssmenu li.Mavericks_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -250px;
+  }
+  ul.bb_cssmenu li.Nuggets_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -300px;
+  }
+  ul.bb_cssmenu li.Pistons_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -350px;
+  }
+  ul.bb_cssmenu li.Warriors_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -400px;
+  }
+  ul.bb_cssmenu li.Rockets_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -450px;
+  }
+  ul.bb_cssmenu li.Pacers_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -500px;
+  }
+  ul.bb_cssmenu li.Clippers_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -550px;
+  }
+  ul.bb_cssmenu li.Lakers_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -600px;
+  }
+  ul.bb_cssmenu li.Grizzlies_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -650px;
+  }
+  ul.bb_cssmenu li.Heat_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -700px;
+  }
+  ul.bb_cssmenu li.Bucks_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -750px;
+  }
+  ul.bb_cssmenu li.Timberwolves_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -800px;
+  }
+  ul.bb_cssmenu li.Nets_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -850px;
+  }
+  ul.bb_cssmenu li.Hornets_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -900px;
+  }
+  ul.bb_cssmenu li.Knicks_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -950px;
+  }
+  ul.bb_cssmenu li.Thunder_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1000px;
+  }
+  ul.bb_cssmenu li.Magic_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1050px;
+  }
+  ul.bb_cssmenu li.SeventySixers_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1100px;
+  }
+  ul.bb_cssmenu li.Suns_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1150px;
+  }
+  ul.bb_cssmenu li.Trailblazers_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1200px;
+  }
+  ul.bb_cssmenu li.Kings_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1250px;
+  }
+  ul.bb_cssmenu li.Spurs_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1300px;
+  }
+  ul.bb_cssmenu li.Raptors_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1400px;
+  }
+  ul.bb_cssmenu li.Jazz_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1450px;
+  }
+  ul.bb_cssmenu li.Wizards_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1500px;
+  }
+  ul.bb_cssmenu li.NBA_fixed a{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1550px;
+  }
+
+/* Hover links */
+  ul.bb_cssmenu li.Hawks a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 0;
+  }
+  ul.bb_cssmenu li.Celtics a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -50px;
+  }
+  ul.bb_cssmenu li.Bobcats a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -100px;
+  }
+  ul.bb_cssmenu li.Bulls a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -150px;
+  }
+  ul.bb_cssmenu li.Cavaliers a:hover{
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -200px;
+  }
+  ul.bb_cssmenu li.Mavericks a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -250px;
+  }
+  ul.bb_cssmenu li.Nuggets a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -300px;
+  }
+  ul.bb_cssmenu li.Pistons a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -350px;
+  }
+  ul.bb_cssmenu li.Warriors a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -400px;
+  }
+  ul.bb_cssmenu li.Rockets a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -450px;
+  }
+  ul.bb_cssmenu li.Pacers a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -500px;
+  }
+  ul.bb_cssmenu li.Clippers a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -550px;
+  }
+  ul.bb_cssmenu li.Lakers a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -600px;
+  }
+  ul.bb_cssmenu li.Grizzlies a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -650px;
+  }
+  ul.bb_cssmenu li.Heat a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -700px;
+  }
+  ul.bb_cssmenu li.Bucks a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -750px;
+  }
+  ul.bb_cssmenu li.Timberwolves a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -800px;
+  }
+  ul.bb_cssmenu li.Nets a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -850px;
+  }
+  ul.bb_cssmenu li.Hornets a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -900px;
+  }
+  ul.bb_cssmenu li.Knicks a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -950px;
+  }
+  ul.bb_cssmenu li.Thunder a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1000px;
+  }
+  ul.bb_cssmenu li.Magic a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1050px;
+  }
+  ul.bb_cssmenu li.SeventySixers a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1100px;
+  }
+  ul.bb_cssmenu li.Suns a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1150px;
+  }
+  ul.bb_cssmenu li.Trailblazers a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1200px;
+  }
+  ul.bb_cssmenu li.Kings a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1250px;
+  }
+  ul.bb_cssmenu li.Spurs a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1300px;
+  }
+  ul.bb_cssmenu li.Raptors a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1400px;
+  }
+  ul.bb_cssmenu li.Jazz a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1450px;
+  }
+  ul.bb_cssmenu li.Wizards a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1500px;
+  }
+  ul.bb_cssmenu li.NBA a:hover {
+    background: url("images/nba/logo-nba-teams-small-vert-plus-nba.png") no-repeat 0 0;
+    background-position: 0 -1550px;
+  }
+
+  .hiddenPic {display:none;}
+
+  /* Bleacher report */
+#hat {float: left; background: url("images/brbackground.png") repeat-x 0 0; color: #eee; font: 12px Helvetica, Arial, sans-serif; height: 43px; left: 0; position: left; text-align: left; top: 0; width: 1024px; z-index: 900000}
+#hat-container {margin: 0 auto; padding-bottom: 5px; width: 974px}
+
+#dynamic-text {float: left; height: 10px}
+#dynamic-text li {float: left; font: 15px Helvetica, Arial, sans-serif; list-style-type: none; margin: -2px 0px 0 20px; color: #ffffff; 0 -1px 0}
+
+#user-tasks {float: right; height: 10px}
+#user-tasks li {float: left; font: 15px Helvetica, Arial, sans-serif; list-style-type: none; margin: -2px 0px 0 20px; color: #ff4000; text-shadow: #1f1f1f 0 -1px 0}
+#user-tasks a {color: #ff9500}
+
+/*#user-tasks a:active, #user-tasks a:focus, #user-tasks a:hover {border-bottom: 1px solid #ff4000} */
+#user-tasks li.admin {margin-top: 10px; position: relative}
+#user-tasks li.fb-promo {margin-top: 11px}
+#user-tasks li.logout a, #user-tasks li.settings a {border-bottom-color: #aaa; color: #aaa}
+#user-tasks li.user {color: #fff}
+#user-tasks li.user a {border-bottom-color: #fff; color: #fff}
+
+#hat-footer {float: left; background: url("images/brbackground.png") repeat-x 0 0; color: #eee; font: 12px Helvetica, Arial, sans-serif; height: 43px; left: 0; position: left; text-align: left; top: 0; width: 1024px; z-index: 900000}
+#hat-container-footer { text-align: center; margin: 0 auto; padding-bottom: 5px; width: 974px}
+
+#user-tasks-footer {text-align: center; height: 10px}
+#user-tasks-footer li {font: 18px Helvetica, Arial, sans-serif; list-style-type: none; margin: -10px 110px 0 50px; color: #ff9900; text-shadow: #1f1f1f 0 -1px 0}
+#user-tasks-footer li.test {font: 8px Helvetica, Arial, sans-serif; list-style-type: none; margin: -10px 110px 0 50px; color: #ffffff; text-shadow: #1f1f1f 0 -1px 0}
+#user-tasks-footer a {color: #ff9900}
+/*
+#signup {margin-left: 25px}
+#user-tasks #login2, #user-tasks #signup {margin-top: 0px}
+#user-tasks #login2 a, #user-tasks #signup a {border-bottom-style: none}
+#user-tasks .hat-divider {background: url(http://www.bleacherreport.com/images/hat/dotted.png) repeat-y 0 0; height: 30px; margin: 4px 10px 0 25px; width: 1px}
+.facebook-profile {float: left; margin: -4px 5px 0 0}
+.facebook_welcome img {float: left; margin-top: 1px}
+.facebook_welcome span {float: left; margin: 6px 0 0 5px}
+.hat-tab-logo {float: left}
+.hat-tab-logo img {margin-right: 5px}
+.hat-tab-logo strong {display: none}
+.hat-tab-text {display: block; float: left; margin-top: 7px}
+
+#hat-tab form {display: inline}
+#hat-tab .indicator {float: right; margin-left: 5px}
+#hat-tab .indicator #newsletter-promotion-submit {margin-left: 0}
+#hat-tab .text_input {background: url(http://www.bleacherreport.com/images/hat/sprite.png) no-repeat 0 -71px; border-style: none; color: #666; float: left; font-size: 11px; height: 15px; margin-left: 5px; padding: 5px; width: 136px}
+#hat.logged-in {background: #373737 none}
+#hat.logged-in #hat-container {padding: 5px 1%; width: 98%}
+*/
+
+  /* reddit.com */
+  #header-bottom-left a.heading {
+		font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7em;
+    line-height: 1.1em;
+		text-transform: none;
+		font-weight: thicker;
+		letter-spacing: -2px;
+		color: #000000;
+  }
+  /* Teams fb */
+  ul.fb_team {
+    list-style:none;
+    padding: 0px;
+  }
+  ul.fb_team li {
+		font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 13px;
+    font-weight: bolder;
+		letter-spacing: -1px;
+
+  }
+  #header-bottom-left span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("images/logo-nfl-teams-medium-vert.png") no-repeat 0 0;
+  }
+  ul.fb_team li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("images/logo-nfl-teams-40-vert.png") no-repeat 0 0;
+  }
+/* Normal links */
+  ul.fb_team li.nfl a {
+    background: no-repeat 0 0;
+  }
+  ul.fb_team li.Cardinals a {
+    background-position: 0 0;
+  }
+  ul.fb_team li.Falcons a {
+    background-position: 0 -50px;
+  }
+  ul.fb_team li.Ravens a {
+    background-position: 0 -100px;
+  }
+  ul.fb_team li.Bills a{
+    background-position: 0 -150px;
+  }
+  ul.fb_team li.Panthers a{
+    background-position: 0 -200px;
+  }
+  ul.fb_team li.Bears a{
+    background-position: 0 -250px;
+  }
+  ul.fb_team li.Bengals a{
+    background-position: 0 -300px;
+  }
+  ul.fb_team li.Browns a{
+    background-position: 0 -350px;
+  }
+  ul.fb_team li.Cowboys a{
+    background-position: 0 -400px;
+  }
+  ul.fb_team li.Broncos a{
+    background-position: 0 -450px;
+  }
+  ul.fb_team li.Lions a{
+    background-position: 0 -500px;
+  }
+  ul.fb_team li.Packers a{
+    background-position: 0 -550px;
+  }
+  ul.fb_team li.Texans a{
+    background-position: 0 -600px;
+  }
+  ul.fb_team li.Colts a{
+    background-position: 0 -650px;
+  }
+  ul.fb_team li.Jaguars a{
+    background-position: 0 -700px;
+  }
+  ul.fb_team li.Chiefs a{
+    background-position: 0 -750px;
+  }
+  ul.fb_team li.Dolphins a{
+    background-position: 0 -800px;
+  }
+  ul.fb_team li.Vikings a{
+    background-position: 0 -850px;
+  }
+  ul.fb_team li.Patriots a{
+    background-position: 0 -900px;
+  }
+  ul.fb_team li.Saints a{
+    background-position: 0 -950px;
+  }
+  ul.fb_team li.Giants a{
+    background-position: 0 -1000px;
+  }
+  ul.fb_team li.Jets a{
+    background-position: 0 -1050px;
+  }
+  ul.fb_team li.Raiders a{
+    background-position: 0 -1100px;
+  }
+  ul.fb_team li.Eagles a{
+    background-position: 0 -1150px;
+  }
+  ul.fb_team li.Steelers a{
+    background-position: 0 -1200px;
+  }
+  ul.fb_team li.Chargers a{
+    background-position: 0 -1250px;
+  }
+  ul.fb_team li.FortyNiners a{
+    background-position: 0 -1300px;
+  }
+  ul.fb_team li.Seahawks a{
+    background-position: 0 -1350px;
+  }
+  ul.fb_team li.Rams a{
+    background-position: 0 -1400px;
+  }
+  ul.fb_team li.Buccaneers a{
+    background-position: 0 -1450px;
+  }
+  ul.fb_team li.Titans a{
+    background-position: 0 -1500px;
+  }
+  ul.fb_team li.Redskins a{
+    background-position: 0 -1550px;
+  }
+
+  /* Teams bb */
+  ul.bb_team {
+    list-style:none;
+    padding: 0px;
+  }
+  ul.bb_team li {
+		font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 13px;
+    font-weight: bolder;
+		letter-spacing: -1px;
+
+  }
+  #header-bottom-left span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("images/nba/logo-nba-teams-medium-vert.png") no-repeat 0 0;
+  }
+  ul.bb_team li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("images/nba/logo-nba-teams-40-vert.png") no-repeat 0 0;
+  }
+/* Normal links */
+  ul.bb_team li.nba a {
+    background: no-repeat 0 0;
+  }
+  ul.bb_team li.Hawks a {
+    background-position: 0 0;
+  }
+  ul.bb_team li.Celtics a {
+    background-position: 0 -50px;
+  }
+  ul.bb_team li.Bobcats a {
+    background-position: 0 -100px;
+  }
+  ul.bb_team li.Bulls a{
+    background-position: 0 -150px;
+  }
+  ul.bb_team li.Cavaliers a{
+    background-position: 0 -200px;
+  }
+  ul.bb_team li.Mavericks a{
+    background-position: 0 -250px;
+  }
+  ul.bb_team li.Nuggets a{
+    background-position: 0 -300px;
+  }
+  ul.bb_team li.Pistons a{
+    background-position: 0 -350px;
+  }
+  ul.bb_team li.Warriors a{
+    background-position: 0 -400px;
+  }
+  ul.bb_team li.Rockets a{
+    background-position: 0 -450px;
+  }
+  ul.bb_team li.Pacers a{
+    background-position: 0 -500px;
+  }
+  ul.bb_team li.Clippers a{
+    background-position: 0 -550px;
+  }
+  ul.bb_team li.Lakers a{
+    background-position: 0 -600px;
+  }
+  ul.bb_team li.Grizzlies a{
+    background-position: 0 -650px;
+  }
+  ul.bb_team li.Heat a{
+    background-position: 0 -700px;
+  }
+  ul.bb_team li.Bucks a{
+    background-position: 0 -750px;
+  }
+  ul.bb_team li.Timberwolves a{
+    background-position: 0 -800px;
+  }
+  ul.bb_team li.Nets a{
+    background-position: 0 -850px;
+  }
+  ul.bb_team li.Hornets a{
+    background-position: 0 -900px;
+  }
+  ul.bb_team li.Knicks a{
+    background-position: 0 -950px;
+  }
+  ul.bb_team li.Thunder a{
+    background-position: 0 -1000px;
+  }
+  ul.bb_team li.Magic a{
+    background-position: 0 -1050px;
+  }
+  ul.bb_team li.SeventySixers a{
+    background-position: 0 -1100px;
+  }
+  ul.bb_team li.Suns a{
+    background-position: 0 -1150px;
+  }
+  ul.bb_team li.Trailblazers a{
+    background-position: 0 -1200px;
+  }
+  ul.bb_team li.Kings a{
+    background-position: 0 -1250px;
+  }
+  ul.bb_team li.Spurs a{
+    background-position: 0 -1300px;
+  }
+  ul.bb_team li.Raptors a{
+    background-position: 0 -1400px;
+  }
+  ul.bb_team li.Jazz a{
+    background-position: 0 -1450px;
+  }
+  ul.bb_team li.Wizards a{
+    background-position: 0 -1500px;
+  }
+
+#header-bottom-left {
+ font-size:larger;
+ border-bottom:1px solid black;
+}
+#header-img {margin-top:2px; margin-right: 5px;}
+
+.tabmenu {
+ list-style-type:none;
+ white-space:nowrap;
+ display:inline;
+ float: right;
+/* margin:-17px -6px; */
+ margin:26px 0px;
+}
+.tabmenu li {
+ display:inline;
+ font-weight:bold;
+/* margin:0px 3px; */
+}
+.tabmenu li a {
+ padding:2px 6px 0 6px;
+ color: #ffffff;
+ /*background-color:#eff7ff;*/
+ background-color:#1f1f1f;
+ vertical-align: bottom;
+ }
+.tabmenu li.selected a{
+ /*color:orangered;*/
+ color:#ff9900;
+ background-color:white;
+ border:1px solid #1f1f1f;
+ border-bottom:2px solid white;
+ z-index:100;
+}
+
+dl.curved {background: url("images/brbackground.png") repeat-x 0 0;/*background:#3d3d3d url(c_tl.gif) top left no-repeat;*/ margin:50px auto 50px auto; padding:0; width:92%;}
+dl.curved dt {background:transparent; padding:10px; text-align:center; color:#fff;color: #ff9900; text-shadow: #1f1f1f 0 -1px 0;}
+dl.curved dd {background:#eee; padding:0; margin:0;}
+dl.curved dd p {margin:0; padding:10px; line-height:1.3em;}
+dl.curved dd p.last {background:transparent; }

@@ -1,0 +1,629 @@
+/*
+Theme Name: Urban Elements
+Theme URI: http://www.press75.com/
+Description: The first release under my abstract line of blogging themes. Detailed usage instructions for this theme can be found at <a href="http://www.press75.com/docs/urbanelements/">http://www.press75.com/docs/urbanelements/</a>. Don't forget to configure the Urban Elements Theme Options page.
+Version: 1.0
+Author: Jason Schuller
+Author URI: http://www.press75.com/
+
+This theme was designed and built by Jason Schuller,
+whose portfolio you will find at www.jdidit.com
+
+The CSS, XHTML and design is all Copyright 2009 Circa75 Media, LLC:
+*/
+
+body {
+margin: 0;
+padding: 0;
+background: #1A1915 url(images/bg.jpg) top center no-repeat fixed;
+font: 0.75em Tahoma, Arial, Helvetica, sans-serif; 
+color: #47443a; 
+line-height: 18px;
+}
+
+h1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+font-size: 36px;
+color: #FFFFFF;
+}
+
+h1 a:link, h1 a:active, h1 a:visited {
+color: #FFFFFF;
+}
+
+h1 a:hover {
+color: #999999;
+}
+
+a:link, a:visited {
+color: #1F1E18;
+text-decoration: none;
+}
+
+a:hover {
+color: #A7A195;
+}
+
+h2 {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+margin: 5px 0 0 5px;
+padding: 0;
+width: 450px;
+}
+
+h2 a:link, h2 a:active, h2 a:visited{
+font-size:1em; color:#47443A;
+}
+
+h2 a:hover {
+font-size:1em; color:#333333;
+text-decoration: underline;
+}
+
+#wrapper {
+margin-left: auto;
+margin-right: auto;
+width: 980px;
+}
+
+img {
+border: 0;
+}
+
+p {
+margin: 0 0 10px 0;
+}
+
+ul {
+list-style: none;
+}
+
+blockquote {
+width: 80%;
+height: auto;
+margin: 0; 
+padding: 15px 25px 15px 85px;
+display: block;
+}
+
+#header {
+background: url(images/headerbg.png) top right no-repeat;
+height: 150px;
+}
+
+#logo {
+height: 90px;
+width: 540px;
+margin: 0 0 0 40px;
+float: left;
+}
+
+#textlogo {
+height: 75px;
+width: 540px;
+margin: 0 0 0 40px;
+padding: 15px 0 0 0;
+float: left;
+}
+
+* + html #textlogo {
+height: 50px;
+margin: 0 0 0 40px;
+padding: 40px 0 0 0;
+}
+
+/** begin navigation **/
+#navigation {
+width: 670px;
+margin: 0 0 0 40px;
+float: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+#navigation a:link, #navigation a:visited {
+color: #FFFFFF;
+}
+
+#navigation a:hover {
+color: #B1B1B1;
+}
+/** end navigation **/
+
+#sitesearch {
+float: left;
+margin: 18px 0 0 0;
+}
+
+#searchwrap {
+margin: 0 0 0 25px;
+}
+
+#searchwrap input{
+vertical-align: middle;
+background: none;
+color: #FFFFFF;
+font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+font-size: 12px;
+}
+
+#searchwrap #s{
+border: none;
+padding: 6px 0 5px 0;
+margin: 0;
+width: 188px;
+}
+
+#content {
+float: left;
+background: url(images/shadow.png) top left repeat-y;
+}
+
+#main {
+width: 605px;
+float: left;
+}
+
+#main h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 16px;
+font-weight: normal;
+margin: 0 0 5px 0;
+padding: 0;
+}
+
+.themonth {
+color: #000000;
+text-transform: uppercase;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 16px;
+margin: 60px 0 0 13px;
+float: left;
+}
+
+.postbox {
+width: 605px;
+float: left;
+padding: 0 0 10px 0;
+margin: 0 0 10px 0;
+background: url(images/postbreak.gif) bottom left no-repeat;
+}
+
+.postbox ul {
+list-style: disc;
+}
+
+.pagebox {
+width: 605px;
+float: left;
+padding: 0 0 10px 12px;
+margin: 0 0 10px 43px;
+background: url(images/pagebreak.gif) bottom left no-repeat;
+}
+
+.thepost {
+float: left;
+margin: 0 0 0 6px;
+}
+
+img.postimage {
+margin: 4px 0 0 0;
+}
+
+* + html img.postimage {
+margin: -8px 0 0 0;
+}
+
+.postcomments {
+width: 60px;
+height: 38px;
+float: right;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 18px;
+text-align: center;
+color: #FFFFFF;
+padding: 9px 0 0 0;
+background: url(images/postcomments.png) no-repeat 0 0;
+cursor: pointer;
+}
+
+* + html .postcomments {
+margin: 0 17px 0 0;
+padding: 10px 0 0 0;
+}
+
+.postcomments:hover {
+background: url(images/postcomments.png) no-repeat 0 -48px;
+}
+
+.postcomments a:link, .postcomments a:visited {
+color: #FFFFFF;
+}
+
+.postdets {
+font: .92em Georgia, "Times New Roman", Times, serif; 
+line-height: 1.2em;
+text-transform: uppercase;
+margin: 4px 0 5px 5px;
+color: #404040;
+}
+
+.postdets a:link,.postdets a:visited {
+color: #404040;
+}
+
+.postdets a:hover {
+color: #A3A09A;
+}
+
+.postcontent {
+margin: 10px 0 5px 5px;
+width: 515px;
+}
+
+#inlinead {
+margin: 20px 0 20px -1px;
+width: 515px;
+height: 82px;
+background: #EBEBEB;
+border: 1px solid #BDBDBD;
+text-align: center;
+}
+
+#inlinead img {
+margin: 11px 0 0 0;
+}
+
+.postcontent a:link {
+text-decoration: underline;
+}
+
+/** begin comment styles **/
+#comments {
+margin: 0 0 0 0;
+}
+
+#comments h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 16px;
+font-weight: normal;
+color: #181512;
+margin: 5px 0 0 0;
+padding: 0;
+}
+
+#comments p {
+margin: 5px 0 5px 0;
+}
+
+.comment-author {
+font-family: "Times New Roman", Times, serif;
+font-size: 14px;
+font-weight: normal;
+}
+
+.comment-meta {
+font-size: 10px;
+font-weight: normal;
+margin: 0 0 10px 0;
+}
+
+.avatar {
+float: right;
+display: inline;
+padding: 8px;
+margin: 0 2px 4px 4px;
+background: url(images/avatarbg.png) top left no-repeat;
+}
+
+#comment {
+width: 510px;
+font: 12px arial,helvetica,verdana,sans-serif;
+}
+
+h2.commh2 {
+font-size: 1.4em !important;
+padding: 0 0 5px;
+color: #333 !important;
+}
+
+ol.commentlist {
+margin: 10px 0 20px;
+padding: 0;
+list-style: none;
+font-size: 12px;
+}
+
+ol.commentlist p {
+margin-bottom: 10px;
+width: 515px;
+}
+
+ol.commentlist cite {
+font-style: normal;
+font-weight: bold;
+margin: 0;
+padding: 0;
+}
+
+ol.commentlist li.alt {
+padding: 0 15px 15px 66px;
+margin: 10px 0 5px 0;
+background: url(images/postbreak.gif) bottom left no-repeat;
+}
+
+ol.commentlist li {
+padding: 0 15px 15px 66px;
+margin: 10px 0 5px 0;
+background: url(images/postbreak.gif) bottom left no-repeat;
+}
+
+ol.commentlist li div.reply {
+border: 1px solid #999999;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius :2px;
+color: #666666;
+font: bold 9px/1 helvetica,arial,sans-serif;
+padding: 5px 10px;
+text-align: center;
+width: 36px;
+}
+
+ol.commentlist li div.reply:hover {
+background: #999999;
+border: 1px solid #666666;
+}
+
+ol.commentlist li div.reply a {
+color: #666;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+ol.commentlist li ul.children { 
+list-style: none; 
+margin: 0;
+padding: 0;
+text-indent: 0; 
+}
+
+ol.commentlist li ul.children li {
+background: none;
+margin: 0;
+padding: 10px 0 10px 0;
+}
+
+ol.commentlist li ul.children li.alt {
+background: none;
+margin: 0;
+padding: 10px 0 10px 0;
+}
+
+ol.commentlist li ul.children li.depth-2 { margin:0; }
+ol.commentlist li ul.children li.depth-3 { margin:0; }
+ol.commentlist li ul.children li.depth-4 { margin:0; }
+ol.commentlist li ul.children li.depth-5 { margin:0; }
+
+input#submit {
+background: url(images/submit.png);
+cursor: pointer;
+margin: 0 0 0 -5px;
+}
+
+input#submit:hover {
+background: url(images/submit.alt.png);
+}
+
+
+#comment,#author,#email,#url {
+background: url(images/fields.jpg) top left repeat-x;
+border: 1px solid #E5E3D8;
+padding: 2px;
+margin: 3px 0 2px 0;
+color: #404040;
+}
+
+#respond {
+padding: 0 15px 10px 66px;
+}
+/** end comment styles **/
+
+/** begin sidebar **/
+#sidewrap {
+width: 375px;
+float: left;
+background: url(images/sidefooterbg.png) bottom left no-repeat;
+}
+
+* + html #sidewrap {
+padding: 0 0 49px 0;
+}
+
+#sidebar {
+width: 360px;
+float: left;
+background: url(images/sidebg.png) top left repeat-y;
+color: #CCCCCC;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 1.2em;
+margin: 0 0 49px 0;
+padding: 0 0 0 15px;
+}
+
+#sidebar p {
+margin: 5px 0 5px 0;
+}
+
+#sidebar h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 18px;
+color: #FFFFFF;
+font-weight: normal;
+margin: 2px 0 4px 0;
+padding: 0 0 8px 0;
+background:url(images/sidebreak.png) bottom left no-repeat;
+}
+
+#sidebar a:link, #sidebar a:visited {
+color: #FFFFFF;
+}
+
+#sidebar a:hover {
+color: #CCCCCC;
+text-decoration: underline;
+}
+
+#sideads {
+width: 320px;
+margin: 0 0 25px 15px;
+float: left;
+}
+
+#sideads img {
+width: 125px;
+height: 125px;
+float: left;
+margin: 10px;
+}
+
+.widgetblock {
+width: 320px;
+margin: 0 0 25px 0;
+float: left;
+}
+
+.widgetblock ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.widgetblock li {
+padding:5px 0 8px 0;
+background:url(images/sidebreak.png) bottom left no-repeat;
+}
+
+#tag_cloud {
+font-family: Georgia, "Times New Roman", Times, serif;
+margin: 10px 0 25px 0;
+float: left;
+}
+
+#contactblock {
+width: 320px;
+float: left;
+}
+
+ul.follow {
+list-style:none;
+margin:10px 0 0 0;
+padding:0;
+}
+
+li.rss {
+background:url(images/social/subscribe.png) left no-repeat;
+padding:2px 0 2px 22px;
+}
+
+li.feedburner {
+background:url(images/social/subscribe.png) left no-repeat;
+padding:2px 0 2px 22px;
+}
+
+li.facebook {
+background:url(images/social/facebook.png) left no-repeat;
+padding:2px 0 2px 22px;
+}
+
+li.twitter {
+background:url(images/social/twitt.png) left no-repeat;
+padding:2px 0 2px 22px;
+}
+
+li.technorati {
+background:url(images/social/technorati.png) left no-repeat;
+padding:2px 0 2px 22px;
+}
+
+li.delicious {
+background:url(images/social/delic.png) left no-repeat;
+padding:2px 0 2px 22px;
+}
+/** end contact block **/
+/** end sidebar **/
+#footer {
+width: 980px;
+height: 105px;
+float: left;
+font-size: 11px;
+background: url(images/footerbg.png) top left no-repeat;
+line-height: 1.2em;
+}
+
+#footer a:link, #footer a:visited {
+color: #404040;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+#footer p {
+margin: 0 0 0 70px;
+padding: 0;
+}
+
+.copyright {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 12px;
+line-height: 1.5em;
+color: #181512;
+}
+
+#footertext {
+float: left;
+width: 400px;
+margin: 20px 0 0 0;
+}
+
+#pagenav {
+float: right;
+margin: 0 395px 0 0;
+}
+
+* + html #pagenav {
+margin: 3px 395px 0 0;
+}
+
+span.navback {
+width:24px;
+height:24px;
+display:block;
+float:right;
+background:url(images/back.png) no-repeat 0 0;
+cursor:pointer;
+}
+
+span.navback:hover {
+background:url(images/back.png) no-repeat 0 -24px;
+}
+
+span.navforward{
+width:24px;
+height:24px;
+display:block;
+float:right;
+background:url(images/forward.png) no-repeat 0 0;
+cursor:pointer;
+}
+
+span.navforward:hover {
+background:url(images/forward.png) no-repeat 0 -24px;
+}

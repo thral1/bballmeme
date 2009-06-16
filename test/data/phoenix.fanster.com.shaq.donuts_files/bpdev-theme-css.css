@@ -1,0 +1,12 @@
+
+.bpdev-widget-avatar-list li {
+	display: inline;
+	float: left;
+	margin: 2px -17px 0 7px !important;
+}
+ul.bpdev-widget-avatar-list {
+	margin: 0px -34px 0px -7px;
+	clear: both;
+}
+
+		

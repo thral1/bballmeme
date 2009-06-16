@@ -1,0 +1,40 @@
+Platform,Browser,Resolution,Colors,Comments,By
+Ubuntu 8,Firefox,1280 x 1024,,"“FBALLNEWS” overlaps logo
+lines through “FBALLNEWS”
+background is grey
+",
+Windows Vista,Firefox,1280 x 800,32bit,"“FBALLNEWS” overlaps logo
+lines through “FBALLNEWS”
+background is grey
+links on bottom are same color as background",
+Windows Vista,IE,1280 x 800,32bit,"Logo is to the left of “FBALLNEWS” title
+Horizontal rule under “FBALLNEWS” is thinner than other browsers
+background is grey
+links on bottom are same color as background (except feedback)
+",
+Windows Vista,Chrome,1280 x 800,32bit,"“FBALLNEWS” overlaps logo 
+lines through “FBALLNEWS” background is grey 
+background is grey
+links on bottom are same color as background (except feedback)
+horizontal rule under “FBALLNEWS” is thinner than other browsers
+",
+
+,IE,1280 x 800,,,
+,IE,,,,
+,IE,,,,
+,FF,1280 x 800,,,
+,FF,,,,
+,FF,,,,
+,Chrome,1280 x 800,,,
+,Chrome,,,,
+,Chrome,,,,
+,Safari,1280 x 800,,,
+,Safari,,,,
+,Safari,,,,
+,BB,,,,
+,BB,,,,
+,BB,,,,
+,iPhone,,,,
+,iPhone,,,,
+,iPhone,,,,
+Windows Vista,Firefox,1440 x 900,,,Amir

@@ -1,0 +1,55 @@
+/* styles for results container */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-container {
+	position:relative;
+	top:2.4em;
+	*top:0.43em;
+	left:-1.8em;
+	*left:-10.9em;
+	width:20em;
+}
+/* styles for header/body/footer wrapper within container */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-content {
+	position:absolute;
+	width:26em;
+	*width:25.8em;
+	border:1px solid #808080;
+	background:#fff;
+	overflow:hidden;
+	z-index:9050;
+	color:#000000;
+}
+/* styles for container shadow */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-shadow {
+	position:absolute;
+	margin:.3em;
+	width:100%;
+	background:#000;
+	-moz-opacity: 0.10;
+	opacity:.10;
+	filter:alpha(opacity=10);
+	z-index:9049;
+}
+/* styles for results list */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-content ul{
+	margin:0;
+	padding:0;
+	text-align:left;
+	list-style:none;
+	width:26em;
+}
+/* styles for result item */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-content li {
+	margin:0;
+	padding:2px 5px;
+	white-space:nowrap;
+	list-style:none;
+}
+/* styles for prehighlighted result item */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-content li.yui-ac-prehighlight {
+	background:#B3D4FF;
+}
+/* styles for highlighted result item */
+.msnHdr #search #searchform .searchinputarea .searchinput .yui-ac-content li.yui-ac-highlight {
+	background:#cccccc;
+	color:#ffffff;
+} 

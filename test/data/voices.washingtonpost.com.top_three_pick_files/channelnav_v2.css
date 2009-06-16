@@ -1,0 +1,17 @@
+#wp_navcontainer {width:970px; height:21px; background:#5B87B8; color:#0c4790;}
+#wp_navcontainer td {font:normal 11px arial !important; background:#eee;}
+#wp_navcontainer td.txt {font:bold 11px arial !important; padding:0 4px;}
+#wp_navcontainer table {padding:0; margin:0; background:#eee;}
+table.navtable a {display:block; background:#eee; text-decoration:none; padding:0px 4px; color:#0c4790 !important; font-weight:normal !important;}
+table.navtable a:hover {background:#fff; color:red !important; padding:0px 4px;}
+table.navtable td.adbox a, .navtable td.adbox a:hover {background:#DFEEF7; color:#0c4790 !important; padding:0;}
+#wp_navcontainer table.navtable td.adbox {border-bottom:1px solid #0d3159; background:#DFEEF7; padding-left:3px;}
+table.navtable td div.btnline {height:2px; font-size:0; overflow:hidden; background:red; margin:1px 0 0 3px;}
+#wp_navcontainer a .color1, #wp_navcontainer a:hover .color1, #wp_navcontainer .color1 {color:#333;}
+div.navitem {z-index:999; float:left; position:relative; cursor:hand;}
+div.navitem a {cursor:hand;}
+div.navitem table {display:none; position:absolute; top:21px; left:0; border-width:1px 1px 0px 1px; border-style:solid; border-color:#0d3159;}
+/* BEGIN HIDE FROM IE MAC \*/
+div.navitem:hover table, div.over table {display:block;}
+/* END HIDE FROM IE MAC */
+.bold {font-weight:bold;}

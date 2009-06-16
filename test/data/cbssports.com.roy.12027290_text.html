@@ -1,0 +1,255 @@
+Inner text: 
+
+
+
+<style ="" type="text/css">
+/*styles used by Email a Friend panel UI*/
+form {margin:0px; padding:0px;}
+#emailDisclaimer {display:block; text-align:center; margin-top:5px;}
+#emailPanelContent em {color:#696969; font-size:1.0em;}
+#emailPanelContent {padding:10px; min-height:120px;}
+#emailPanelContent h5 {font-size:11px; margin:5px 0px;}
+#emailPanelContent label {font-weight:bold;}
+#emailHeader {display:block;} /* set for toggling display */
+#emailError {display:block;} /* set for toggling display */
+#emailLoading {padding:20px; text-align:center; color:#696969; font-weight:bold;}
+#insertContactButton {display:inline; margin-left:2px;}
+#addContactButton {display:inline; margin:2px;}
+#createContactButton {display:inline; margin:2px 0px 5px 0px;}
+.buttonText {padding:1px 2px; line-height:1.4em; height:1.4em; color:#4F7499; border:1px solid #AAAAAA; background-color:#eeeeee; font-weight:bold;}
+.buttonText a { text-decoration:none;}
+#emailPanelContent .buttonPlus {vertical-align:-10%;}
+.custombutton {background:none; border:medium none; cursor:pointer; margin:0; padding:0;}
+div.scrollContainer {width:340px; height:150px; overflow:auto;}
+.yui-skin-spln .container-close {position:absolute; top:5px; right:6px; width:25px; height:15px; background:url(http://images.cbssports.com/yui/latest/assets/skins/sam/sprite.png) no-repeat 0 -300px; cursor:pointer; text-decoration:none;}
+
+
+CBSi.namespace("app.Email.SendPanel");(function(){var c=YAHOO.util.Dom;var d=YAHOO.lang.JSON;var a=YAHOO.util.Connect;var b=0;CBSi.app.Email.SendPanel={init:function(e){if(typeof(e)=="undefined"){e={}}this.panelType=(typeof(e.panelType)!="undefined")?e.panelType:1;this.panelTitle=(typeof(e.panelTitle)!="undefined")?e.panelTitle:"E-mail this to a Friend";this.location=(typeof(e.location)!="undefined")?e.location:"";this.title=(typeof(e.title)!="undefined")?e.title:"";this.email=(typeof(e.email)!="undefined")?e.email:"";if(b==1){this._debug("panelType",this.panelType);this._debug("panelTitle",this.panelTitle);this._debug("email",this.email);this._debug("location",this.location);this._debug("title",this.title)}this.emailFriendFormState=new Array();this.containerID=e.containerID;var f=this._createPanelContainer(this.containerID);this.emailFriendPanel=CBSi.panel.create("emailPanel",{width:"360px",underlay:"shadow",visible:false,draggable:true,constraintoviewport:true,close:true});this.emailFriendPanel.setHeader(this.panelTitle);this.emailFriendPanel.setBody('<div id="emailLoading"><div align="center"><div class="loadingImg"></div><p>Loading...</p></div></div>');this.emailFriendPanel.render(f);this.emailFriendPanel.show();this.emailFriendPanel.center();this.load(this.panelType);return false},_createPanelContainer:function(f){var e=c.get(f);if(!e){e=document.createElement("div");e.id=f;e.className="yui-skin-spln";document.body.appendChild(e);c.setStyle(e,"min-height","120px")}return e},_toggleDisplay:function(f,g){var e=c.get(f);if(typeof(e)=="undefined"){return""}if(g){c.setStyle(f,"display",g)}else{e.style.display=(e.style.display=="none"||e.style.display==""?"block":"none")}return},_displayProcessingMsg:function(g){var f=(typeof(g)!="undefined")?g+"...":"Processing...";var e='<div id="emailLoading"><div align="center"><div class="loadingImg"></div><p>'+f+"</p></div></div>";this._toggleDisplay("emailHeader","none");this._toggleDisplay("emailError","none");this._toggleDisplay("emailDisclaimer","none");c.get("emailContent").innerHTML=e;return},submitEmailForm:function(f){a.setForm(f);this._displayProcessingMsg();var e="/data/email/send-friend";var h={success:this._showSendResponse,failure:this._displayError,scope:this};var g=a.asyncRequest("POST",e,h,null);return false},_showSendResponse:function(g){g.responseText=g.responseText.replace(//g,"");var f;try{f=d.parse(g.responseText)}catch(j){f={code:-1,desc:"error",msg:"Invalid JSON response"}}if(f.code==1){var h='<div align="center"><p><strong>Thank You!</strong></p><p>Your e-mail has been sent.</p><p><a href="#" onclick="CBSi.app.Email.SendPanel.load(1,1); return false;"><strong>Send to another recipient</strong></a></p><p><a href="#" onclick="CBSi.app.Email.SendPanel.close(); return false;"><strong>Close</strong></a></p></div>'}else{var h='<div align="center"><p><strong>We\'re Sorry!</strong></p><p>There was an error sending your e-mail.</p><p><a href="#" onclick="CBSi.app.Email.SendPanel.load(1); return false;"><strong>Please try again.</strong></a></p></div>'}c.get("emailPanelContent").innerHTML=h},close:function(){this.emailFriendPanel.hide()},load:function(e,g){if(b==1){this._debug("load with default view",e)}if(typeof(e)=="undefined"){if(this.panelType==1){e=1}else{if(this.panelType==2){e=2;g=2}}}if(e==2){this._saveFormState()}if(g==2){this.close()}if(g==1){this.emailFriendFormState.emails="";this.emailFriendFormState.message=""}var f='<div id="emailPanelContent">';f+='<div id="emailHeader"></div>';f+='<div id="emailError" class="warn"></div>';f+='<div id="emailContent"></div>';f+='<em id="emailDisclaimer">E-mail addresses provided will not be used for solicitation.</em>';f+="</div>";this.emailFriendPanel.setBody(f);this.displayPanel(e);return false},displayPanel:function(e,f){if(b==1){this._debug("displayPanel")}if(typeof f=="undefined"){f={}}this._displayProcessingMsg("Loading...");c.get("emailError").innerHTML="";switch(e){case 1:this._getEmailFormHTML();break;case 2:this._contactListHTML();break;case 3:this._addContactFormHTML();break;case 4:this._editContactFormHTML(f);break;case 5:this._deleteContactFormHTML(f);break}},_renderForm:function(f,e){if(b==1){this._debug("_renderForm")}this._toggleDisplay("emailHeader","block");this._toggleDisplay("emailError","block");this._toggleDisplay("emailDisclaimer","block");this._insertHeader(e);c.get("emailContent").innerHTML=f;if(this.panelType==1){this._loadFormState()}},loadContacts:function(f){if(b==1){this._debug("loadContacts")}var e="";for(i=0;i<f.length;i++){var g=f.elements[i];if(g.type=="checkbox"&&g.checked==true){if(this.emailFriendFormState.emails.search(g.value)==-1){if(e){e+=","+g.value}else{e=g.value}}}}if(typeof(this.emailFriendFormState.emails)!="undefined"&&this.emailFriendFormState.emails.length>0){this.emailFriendFormState.emails+=","+e}else{this.emailFriendFormState.emails=e}if(this.panelType==1){this.displayPanel(1)}else{this._loadFormState();this.emailFriendPanel.hide()}},manageContacts:function(g,e){a.setForm(g);var f="";switch(e){case"create":f="/emailafriend/add_contact";break;case"update":f="/emailafriend/update";break;case"delete":f="/emailafriend/delete";break}var j={success:function(l){var k=l.responseText.replace(//g,"");if(k==1){this.displayPanel(2)}else{this._displayError(k)}},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("POST",f,j,null);return false},_displayError:function(g){var e="There was an error processing your request please close this window and try to send again";var f=(typeof(g)=="undefined")?e:g;c.get("emailError").innerHTML="<p>"+f+"</p>";return false},_insertHeader:function(f){var e=c.get("emailHeader");if(typeof(e)!="undefined"&&typeof(f)!="undefined"){content="<h5>"+f+"</h5>";e.innerHTML=content}return},_getEmailFormHTML:function(){var f="/emailafriend/email-panel?location="+this.location+"&email="+this.email+"&title="+this.title;var e;var h={success:function(j){this._renderForm(j.responseText)},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_contactListHTML:function(){var f="/emailafriend/contact_list";var e;var h={success:function(j){this._renderForm(j.responseText,"Contact List")},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_addContactFormHTML:function(){var f="/emailafriend/create";var e;var h={success:function(j){this._renderForm(j.responseText,"Create New Contact")},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_editContactFormHTML:function(e){if(typeof(e)=="undefined"){e={}}var g="/emailafriend/edit?nickname="+e.nickname+"&email="+e.email;var f;var j={success:function(k){this._renderForm(k.responseText,"Edit Contact")},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("GET",g,j,null);return false},_deleteContactFormHTML:function(e){if(typeof(e)=="undefined"){e={}}var g="/emailafriend/deleteconf?nickname="+e.nickname+"&contact_email="+e.email;var f;var j={success:function(k){this._renderForm(k.responseText,"Delete Contact")},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("GET",g,j,null);return false},_saveFormState:function(){if(b==1){this._debug("_saveFormState")}if(typeof(document.emailfriendform)!="undefined"){this.emailFriendFormState.emails=document.emailfriendform.emails.value;this.emailFriendFormState.self_email=document.emailfriendform.self_email.value;this.emailFriendFormState.subject=document.emailfriendform.subject.value;this.emailFriendFormState.message=document.emailfriendform.message.value}},_loadFormState:function(){if(b==1){this._debug("_loadFormState")}if(c.inDocument("emailfriendform")==1){if(b==1){this._debug("emailfriendform exists")}if(typeof(this.emailFriendFormState.emails)!="undefined"){document.emailfriendform.emails.value=this.emailFriendFormState.emails}if(typeof(this.emailFriendFormState.self_email)!="undefined"){document.emailfriendform.self_email.value=this.emailFriendFormState.self_email}if(typeof(this.emailFriendFormState.subject)!="undefined"){document.emailfriendform.subject.value=this.emailFriendFormState.subject}if(typeof(this.emailFriendFormState.message)!="undefined"){document.emailfriendform.message.value=this.emailFriendFormState.message}}},_debug:function(h,g){var f=navigator.userAgent.toLowerCase();var e="";if(typeof(h)!="undefined"){if(typeof(g)!="undefined"){e=" = "+g}if(f.indexOf("firefox")!=-1){console.log(h+e)}else{alert(h+e)}}return}}})();
+          Now that two-time All-Star Brandon Roy       and the Portland Trail Blazers
+have agreed to a five-year contract extension, his agent says it is
+possible Roy will stay in his native Northwest for his entire career. 
+
+        
+
+
+
+    
+Agent Bob Myers confirmed to the Associated Press late Wednesday night
+that Roy has agreed in principle to a five-year contract at the NBA
+maximum salary. Myers said the fifth year, ending in 2015, is at Roy's
+option.           Myers said he's expecting the Blazers to hold a news conference on       Friday to announce the deal.        
+The extension could be worth more than $80 million, depending on what
+the league's salary cap is for the 2010-11 season. That would be the
+second-richest in Portland's history.     
+Roy, 25, will earn just under $4 million this season, the final year of
+his rookie contract. The new deal is likely to net him around $14
+million for the 2010-11 season, and he will receive 10.5 percent raises
+on his base salary each season from 2011-2012 through the end of the
+deal.     
+Myers acknowledged it is rare for players today to remain with one team
+for their entire careers because of free agency and the salary cap, but
+said Roy "is one of the unique players to have a chance to have that
+sort of relationship with one team."           "Both sides would benefit in that arrangement," Myers said.        
+Roy led the Blazers with 22.6 points and 5.1 assists per game last
+season, his third in the league. The Seattle native and 2006 Pac-10
+Player of the Year at Washington was the NBA Rookie of the Year in 2007
+as the No. 6 overall pick by Minnesota, who traded his rights to
+Portland.     
+The versatile, high-scoring guard helped the Blazers go 54-28 last
+season, which they began as the second-youngest team in the NBA and
+ended with their first postseason appearance since 2003. Roy scored 52
+points in a game against Phoenix in December, the second most points
+scored in a game by a Blazers player.     
+In the process, he and the team won back a fan base that had been jaded
+by the so-called Jail Blazers of the recent past.           Portland was 21-61 in the season before Roy arrived.      
+
+
+
+Formatted text: 
+
+style ="" type="text/css">
+/*styles used by Email a Friend panel UI*/
+
+form {margin:0px; padding:0px;}
+
+#emailDisclaimer {display:block; text-align:center; margin-top:5px;}
+
+#emailPanelContent em {color:#696969; font-size:1.0em;}
+
+#emailPanelContent {padding:10px; min-height:120px;}
+
+#emailPanelContent h5 {font-size:11px; margin:5px 0px;}
+
+#emailPanelContent label {font-weight:bold;}
+
+#emailHeader {display:block;} /* set for toggling display */
+
+#emailError {display:block;} /* set for toggling display */
+
+#emailLoading {padding:20px; text-align:center; color:#696969; font-weight:bold;}
+
+#insertContactButton {display:inline; margin-left:2px;}
+
+#addContactButton {display:inline; margin:2px;}
+
+#createContactButton {display:inline; margin:2px 0px 5px 0px;}
+
+.buttonText {padding:1px 2px; line-height:1.4em; height:1.4em; color:#4F7499; border:1px solid #AAAAAA; background-color:#eeeeee; font-weight:bold;}
+
+.buttonText a { text-decoration:none;}
+
+#emailPanelContent .buttonPlus {vertical-align:-10%;}
+
+.custombutton {background:none; border:medium none; cursor:pointer; margin:0; padding:0;}
+
+div.scrollContainer {width:340px; height:150px; overflow:auto;}
+
+.yui-skin-spln .container-close {position:absolute; top:5px; right:6px; width:25px; height:15px; background:url(http://images.cbssports.com/yui/latest/assets/skins/sam/sprite.png) no-repeat 0 -300px; cursor:pointer; text-decoration:none;}
+
+
+
+
+
+CBSi.namespace("app.Email.SendPanel");(function(){var c=YAHOO.util.Dom;var d=YAHOO.lang.JSON;var a=YAHOO.util.Connect;var b=0;CBSi.app.Email.SendPanel={init:function(e){if(typeof(e)=="undefined"){e={}}this.panelType=(typeof(e.panelType)!="undefined")?e.panelType:1;this.panelTitle=(typeof(e.panelTitle)!="undefined")?e.panelTitle:"E-mail this to a Friend";this.location=(typeof(e.location)!="undefined")?e.location:"";this.title=(typeof(e.title)!="undefined")?e.title:"";this.email=(typeof(e.email)!="undefined")?e.email:"";if(b==1){this._debug("panelType",this.panelType);this._debug("panelTitle",this.panelTitle);this._debug("email",this.email);this._debug("location",this.location);this._debug("title",this.title)}this.emailFriendFormState=new Array();this.containerID=e.containerID;var f=this._createPanelContainer(this.containerID);this.emailFriendPanel=CBSi.panel.create("emailPanel",{width:"360px",underlay:"shadow",visible:false,draggable:true,constraintoviewport:true,close:true});this.emailFriendPanel.setHeader(this.panelTitle);this.emailFriendPanel.setBody('<div id="emailLoading"><div align="center"><div class="loadingImg"></div><p>Loading...</p></div></div>');this.emailFriendPanel.render(f);this.emailFriendPanel.show();this.emailFriendPanel.center();this.load(this.panelType);return false},_createPanelContainer:function(f){var e=c.get(f);if(!e){e=document.createElement("div");e.id=f;e.className="yui-skin-spln";document.body.appendChild(e);c.setStyle(e,"min-height","120px")}return e},_toggleDisplay:function(f,g){var e=c.get(f);if(typeof(e)=="undefined"){return""}if(g){c.setStyle(f,"display",g)}else{e.style.display=(e.style.display=="none"||e.style.display==""?"block":"none")}return},_displayProcessingMsg:function(g){var f=(typeof(g)!="undefined")?g+"...":"Processing...";var e='<div id="emailLoading"><div align="center"><div class="loadingImg"></div><p>'+f+"</p></div></div>";this._toggleDisplay("emailHeader","none");this._toggleDisplay("emailError","none");this._toggleDisplay("emailDisclaimer","none");c.get("emailContent").innerHTML=e;return},submitEmailForm:function(f){a.setForm(f);this._displayProcessingMsg();var e="/data/email/send-friend";var h={success:this._showSendResponse,failure:this._displayError,scope:this};var g=a.asyncRequest("POST",e,h,null);return false},_showSendResponse:function(g){g.responseText=g.responseText.replace(//g,"");var f;try{f=d.parse(g.responseText)}catch(j){f={code:-1,desc:"error",msg:"Invalid JSON response"}}if(f.code==1){var h='<div align="center"><p><strong>Thank You!</strong></p><p>Your e-mail has been sent.</p><p><a href="#" onclick="CBSi.app.Email.SendPanel.load(1,1); return false;"><strong>Send to another recipient</strong></a></p><p><a href="#" onclick="CBSi.app.Email.SendPanel.close(); return false;"><strong>Close</strong></a></p></div>'}else{var h='<div align="center"><p><strong>We\'re Sorry!</strong></p><p>There was an error sending your e-mail.</p><p><a href="#" onclick="CBSi.app.Email.SendPanel.load(1); return false;"><strong>Please try again.</strong></a></p></div>'}c.get("emailPanelContent").innerHTML=h},close:function(){this.emailFriendPanel.hide()},load:function(e,g){if(b==1){this._debug("load with default view",e)}if(typeof(e)=="undefined"){if(this.panelType==1){e=1}else{if(this.panelType==2){e=2;g=2}}}if(e==2){this._saveFormState()}if(g==2){this.close()}if(g==1){this.emailFriendFormState.emails="";this.emailFriendFormState.message=""}var f='<div id="emailPanelContent">';f+='<div id="emailHeader"></div>';f+='<div id="emailError" class="warn"></div>';f+='<div id="emailContent"></div>';f+='<em id="emailDisclaimer">E-mail addresses provided will not be used for solicitation.</em>';f+="</div>";this.emailFriendPanel.setBody(f);this.displayPanel(e);return false},displayPanel:function(e,f){if(b==1){this._debug("displayPanel")}if(typeof f=="undefined"){f={}}this._displayProcessingMsg("Loading...");c.get("emailError").innerHTML="";switch(e){case 1:this._getEmailFormHTML();break;case 2:this._contactListHTML();break;case 3:this._addContactFormHTML();break;case 4:this._editContactFormHTML(f);break;case 5:this._deleteContactFormHTML(f);break}},_renderForm:function(f,e){if(b==1){this._debug("_renderForm")}this._toggleDisplay("emailHeader","block");this._toggleDisplay("emailError","block");this._toggleDisplay("emailDisclaimer","block");this._insertHeader(e);c.get("emailContent").innerHTML=f;if(this.panelType==1){this._loadFormState()}},loadContacts:function(f){if(b==1){this._debug("loadContacts")}var e="";for(i=0;i<f.length;i++){var g=f.elements[i];if(g.type=="checkbox"&&g.checked==true){if(this.emailFriendFormState.emails.search(g.value)==-1){if(e){e+=","+g.value}else{e=g.value}}}}if(typeof(this.emailFriendFormState.emails)!="undefined"&&this.emailFriendFormState.emails.length>0){this.emailFriendFormState.emails+=","+e}else{this.emailFriendFormState.emails=e}if(this.panelType==1){this.displayPanel(1)}else{this._loadFormState();this.emailFriendPanel.hide()}},manageContacts:function(g,e){a.setForm(g);var f="";switch(e){case"create":f="/emailafriend/add_contact";break;case"update":f="/emailafriend/update";break;case"delete":f="/emailafriend/delete";break}var j={success:function(l){var k=l.responseText.replace(//g,"");if(k==1){this.displayPanel(2)}else{this._displayError(k)}},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("POST",f,j,null);return false},_displayError:function(g){var e="There was an error processing your request please close this window and try to send again";var f=(typeof(g)=="undefined")?e:g;c.get("emailError").innerHTML="<p>"+f+"</p>";return false},_insertHeader:function(f){var e=c.get("emailHeader");if(typeof(e)!="undefined"&&typeof(f)!="undefined"){content="<h5>"+f+"</h5>";e.innerHTML=content}return},_getEmailFormHTML:function(){var f="/emailafriend/email-panel?location="+this.location+"&email="+this.email+"&title="+this.title;var e;var h={success:function(j){this._renderForm(j.responseText)},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_contactListHTML:function(){var f="/emailafriend/contact_list";var e;var h={success:function(j){this._renderForm(j.responseText,"Contact List")},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_addContactFormHTML:function(){var f="/emailafriend/create";var e;var h={success:function(j){this._renderForm(j.responseText,"Create New Contact")},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_editContactFormHTML:function(e){if(typeof(e)=="undefined"){e={}}var g="/emailafriend/edit?nickname="+e.nickname+"&email="+e.email;var f;var j={success:function(k){this._renderForm(k.responseText,"Edit Contact")},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("GET",g,j,null);return false},_deleteContactFormHTML:function(e){if(typeof(e)=="undefined"){e={}}var g="/emailafriend/deleteconf?nickname="+e.nickname+"&contact_email="+e.email;var f;var j={success:function(k){this._renderForm(k.responseText,"Delete Contact")},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("GET",g,j,null);return false},_saveFormState:function(){if(b==1){this._debug("_saveFormState")}if(typeof(document.emailfriendform)!="undefined"){this.emailFriendFormState.emails=document.emailfriendform.emails.value;this.emailFriendFormState.self_email=document.emailfriendform.self_email.value;this.emailFriendFormState.subject=document.emailfriendform.subject.value;this.emailFriendFormState.message=document.emailfriendform.message.value}},_loadFormState:function(){if(b==1){this._debug("_loadFormState")}if(c.inDocument("emailfriendform")==1){if(b==1){this._debug("emailfriendform exists")}if(typeof(this.emailFriendFormState.emails)!="undefined"){document.emailfriendform.emails.value=this.emailFriendFormState.emails}if(typeof(this.emailFriendFormState.self_email)!="undefined"){document.emailfriendform.self_email.value=this.emailFriendFormState.self_email}if(typeof(this.emailFriendFormState.subject)!="undefined"){document.emailfriendform.subject.value=this.emailFriendFormState.subject}if(typeof(this.emailFriendFormState.message)!="undefined"){document.emailfriendform.message.value=this.emailFriendFormState.message}}},_debug:function(h,g){var f=navigator.userAgent.toLowerCase();var e="";if(typeof(h)!="undefined"){if(typeof(g)!="undefined"){e=" = "+g}if(f.indexOf("firefox")!=-1){console.log(h+e)}else{alert(h+e)}}return}}})();
+
+          Now that two-time All-Star Brandon Roy       and the Portland Trail Blazers
+
+have agreed to a five-year contract extension, his agent says it is
+
+possible Roy will stay in his native Northwest for his entire career. 
+
+
+
+        
+
+
+
+
+
+
+
+    
+
+Agent Bob Myers confirmed to the Associated Press late Wednesday night
+
+that Roy has agreed in principle to a five-year contract at the NBA
+
+maximum salary. Myers said the fifth year, ending in 2015, is at Roy's
+
+option.           Myers said he's expecting the Blazers to hold a news conference on       Friday to announce the deal.        
+
+The extension could be worth more than $80 million, depending on what
+
+the league's salary cap is for the 2010-11 season. That would be the
+
+second-richest in Portland's history.     
+
+Roy, 25, will earn just under $4 million this season, the final year of
+
+his rookie contract. The new deal is likely to net him around $14
+
+million for the 2010-11 season, and he will receive 10.5 percent raises
+
+on his base salary each season from 2011-2012 through the end of the
+
+deal.     
+
+Myers acknowledged it is rare for players today to remain with one team
+
+for their entire careers because of free agency and the salary cap, but
+
+said Roy "is one of the unique players to have a chance to have that
+
+sort of relationship with one team."           "Both sides would benefit in that arrangement," Myers said.        
+
+Roy led the Blazers with 22.6 points and 5.1 assists per game last
+
+season, his third in the league. The Seattle native and 2006 Pac-10
+
+Player of the Year at Washington was the NBA Rookie of the Year in 2007
+
+as the No. 6 overall pick by Minnesota, who traded his rights to
+
+Portland.     
+
+The versatile, high-scoring guard helped the Blazers go 54-28 last
+
+season, which they began as the second-youngest team in the NBA and
+
+ended with their first postseason appearance since 2003. Roy scored 52
+
+points in a game against Phoenix in December, the second most points
+
+scored in a game by a Blazers player.     
+
+In the process, he and the team won back a fan base that had been jaded
+
+by the so-called Jail Blazers of the recent past.           Portland was 21-61 in the season before Roy arrived.      
+
+
+
+
+HTML: 
+
+<div class="story-body"><div align="right"><script type="text/javascript" src="cbssports.com.roy_files/dragdrop-min.js"></script><script type="text/javascript" src="cbssports.com.roy_files/container-min.js"></script><script type="text/javascript" src="cbssports.com.roy_files/connection-min.js"></script><script type="text/javascript" src="cbssports.com.roy_files/json-min.js"></script>
+<link href="cbssports.com.roy_files/container.css" rel="stylesheet" type="text/css" />
+<style ="" type="text/css">
+/*styles used by Email a Friend panel UI*/
+form {margin:0px; padding:0px;}
+#emailDisclaimer {display:block; text-align:center; margin-top:5px;}
+#emailPanelContent em {color:#696969; font-size:1.0em;}
+#emailPanelContent {padding:10px; min-height:120px;}
+#emailPanelContent h5 {font-size:11px; margin:5px 0px;}
+#emailPanelContent label {font-weight:bold;}
+#emailHeader {display:block;} /* set for toggling display */
+#emailError {display:block;} /* set for toggling display */
+#emailLoading {padding:20px; text-align:center; color:#696969; font-weight:bold;}
+#insertContactButton {display:inline; margin-left:2px;}
+#addContactButton {display:inline; margin:2px;}
+#createContactButton {display:inline; margin:2px 0px 5px 0px;}
+.buttonText {padding:1px 2px; line-height:1.4em; height:1.4em; color:#4F7499; border:1px solid #AAAAAA; background-color:#eeeeee; font-weight:bold;}
+.buttonText a { text-decoration:none;}
+#emailPanelContent .buttonPlus {vertical-align:-10%;}
+.custombutton {background:none; border:medium none; cursor:pointer; margin:0; padding:0;}
+div.scrollContainer {width:340px; height:150px; overflow:auto;}
+.yui-skin-spln .container-close {position:absolute; top:5px; right:6px; width:25px; height:15px; background:url(http://images.cbssports.com/yui/latest/assets/skins/sam/sprite.png) no-repeat 0 -300px; cursor:pointer; text-decoration:none;}
+
+<script type="text/javascript">
+CBSi.namespace("app.Email.SendPanel");(function(){var c=YAHOO.util.Dom;var d=YAHOO.lang.JSON;var a=YAHOO.util.Connect;var b=0;CBSi.app.Email.SendPanel={init:function(e){if(typeof(e)=="undefined"){e={}}this.panelType=(typeof(e.panelType)!="undefined")?e.panelType:1;this.panelTitle=(typeof(e.panelTitle)!="undefined")?e.panelTitle:"E-mail this to a Friend";this.location=(typeof(e.location)!="undefined")?e.location:"";this.title=(typeof(e.title)!="undefined")?e.title:"";this.email=(typeof(e.email)!="undefined")?e.email:"";if(b==1){this._debug("panelType",this.panelType);this._debug("panelTitle",this.panelTitle);this._debug("email",this.email);this._debug("location",this.location);this._debug("title",this.title)}this.emailFriendFormState=new Array();this.containerID=e.containerID;var f=this._createPanelContainer(this.containerID);this.emailFriendPanel=CBSi.panel.create("emailPanel",{width:"360px",underlay:"shadow",visible:false,draggable:true,constraintoviewport:true,close:true});this.emailFriendPanel.setHeader(this.panelTitle);this.emailFriendPanel.setBody('<div id="emailLoading"><div align="center"><div class="loadingImg"></div><p>Loading...</p></div></div>');this.emailFriendPanel.render(f);this.emailFriendPanel.show();this.emailFriendPanel.center();this.load(this.panelType);return false},_createPanelContainer:function(f){var e=c.get(f);if(!e){e=document.createElement("div");e.id=f;e.className="yui-skin-spln";document.body.appendChild(e);c.setStyle(e,"min-height","120px")}return e},_toggleDisplay:function(f,g){var e=c.get(f);if(typeof(e)=="undefined"){return""}if(g){c.setStyle(f,"display",g)}else{e.style.display=(e.style.display=="none"||e.style.display==""?"block":"none")}return},_displayProcessingMsg:function(g){var f=(typeof(g)!="undefined")?g+"...":"Processing...";var e='<div id="emailLoading"><div align="center"><div class="loadingImg"></div><p>'+f+"</p></div></div>";this._toggleDisplay("emailHeader","none");this._toggleDisplay("emailError","none");this._toggleDisplay("emailDisclaimer","none");c.get("emailContent").innerHTML=e;return},submitEmailForm:function(f){a.setForm(f);this._displayProcessingMsg();var e="/data/email/send-friend";var h={success:this._showSendResponse,failure:this._displayError,scope:this};var g=a.asyncRequest("POST",e,h,null);return false},_showSendResponse:function(g){g.responseText=g.responseText.replace(/<!--.*-->/g,"");var f;try{f=d.parse(g.responseText)}catch(j){f={code:-1,desc:"error",msg:"Invalid JSON response"}}if(f.code==1){var h='<div align="center"><p><strong>Thank You!</strong></p><p>Your e-mail has been sent.</p><p><a href="#" onclick="CBSi.app.Email.SendPanel.load(1,1); return false;"><strong>Send to another recipient</strong></a></p><p><a href="#" onclick="CBSi.app.Email.SendPanel.close(); return false;"><strong>Close</strong></a></p></div>'}else{var h='<div align="center"><p><strong>We\'re Sorry!</strong></p><p>There was an error sending your e-mail.</p><p><a href="#" onclick="CBSi.app.Email.SendPanel.load(1); return false;"><strong>Please try again.</strong></a></p></div>'}c.get("emailPanelContent").innerHTML=h},close:function(){this.emailFriendPanel.hide()},load:function(e,g){if(b==1){this._debug("load with default view",e)}if(typeof(e)=="undefined"){if(this.panelType==1){e=1}else{if(this.panelType==2){e=2;g=2}}}if(e==2){this._saveFormState()}if(g==2){this.close()}if(g==1){this.emailFriendFormState.emails="";this.emailFriendFormState.message=""}var f='<div id="emailPanelContent">';f+='<div id="emailHeader"></div>';f+='<div id="emailError" class="warn"></div>';f+='<div id="emailContent"></div>';f+='<em id="emailDisclaimer">E-mail addresses provided will not be used for solicitation.</em>';f+="</div>";this.emailFriendPanel.setBody(f);this.displayPanel(e);return false},displayPanel:function(e,f){if(b==1){this._debug("displayPanel")}if(typeof f=="undefined"){f={}}this._displayProcessingMsg("Loading...");c.get("emailError").innerHTML="";switch(e){case 1:this._getEmailFormHTML();break;case 2:this._contactListHTML();break;case 3:this._addContactFormHTML();break;case 4:this._editContactFormHTML(f);break;case 5:this._deleteContactFormHTML(f);break}},_renderForm:function(f,e){if(b==1){this._debug("_renderForm")}this._toggleDisplay("emailHeader","block");this._toggleDisplay("emailError","block");this._toggleDisplay("emailDisclaimer","block");this._insertHeader(e);c.get("emailContent").innerHTML=f;if(this.panelType==1){this._loadFormState()}},loadContacts:function(f){if(b==1){this._debug("loadContacts")}var e="";for(i=0;i<f.length;i++){var g=f.elements[i];if(g.type=="checkbox"&&g.checked==true){if(this.emailFriendFormState.emails.search(g.value)==-1){if(e){e+=","+g.value}else{e=g.value}}}}if(typeof(this.emailFriendFormState.emails)!="undefined"&&this.emailFriendFormState.emails.length>0){this.emailFriendFormState.emails+=","+e}else{this.emailFriendFormState.emails=e}if(this.panelType==1){this.displayPanel(1)}else{this._loadFormState();this.emailFriendPanel.hide()}},manageContacts:function(g,e){a.setForm(g);var f="";switch(e){case"create":f="/emailafriend/add_contact";break;case"update":f="/emailafriend/update";break;case"delete":f="/emailafriend/delete";break}var j={success:function(l){var k=l.responseText.replace(/<!--.*-->/g,"");if(k==1){this.displayPanel(2)}else{this._displayError(k)}},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("POST",f,j,null);return false},_displayError:function(g){var e="There was an error processing your request please close this window and try to send again";var f=(typeof(g)=="undefined")?e:g;c.get("emailError").innerHTML="<p>"+f+"</p>";return false},_insertHeader:function(f){var e=c.get("emailHeader");if(typeof(e)!="undefined"&&typeof(f)!="undefined"){content="<h5>"+f+"</h5>";e.innerHTML=content}return},_getEmailFormHTML:function(){var f="/emailafriend/email-panel?location="+this.location+"&email="+this.email+"&title="+this.title;var e;var h={success:function(j){this._renderForm(j.responseText)},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_contactListHTML:function(){var f="/emailafriend/contact_list";var e;var h={success:function(j){this._renderForm(j.responseText,"Contact List")},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_addContactFormHTML:function(){var f="/emailafriend/create";var e;var h={success:function(j){this._renderForm(j.responseText,"Create New Contact")},failure:function(j){this._displayError()},scope:this};var g=a.asyncRequest("GET",f,h,null);return false},_editContactFormHTML:function(e){if(typeof(e)=="undefined"){e={}}var g="/emailafriend/edit?nickname="+e.nickname+"&email="+e.email;var f;var j={success:function(k){this._renderForm(k.responseText,"Edit Contact")},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("GET",g,j,null);return false},_deleteContactFormHTML:function(e){if(typeof(e)=="undefined"){e={}}var g="/emailafriend/deleteconf?nickname="+e.nickname+"&contact_email="+e.email;var f;var j={success:function(k){this._renderForm(k.responseText,"Delete Contact")},failure:function(k){this._displayError()},scope:this};var h=a.asyncRequest("GET",g,j,null);return false},_saveFormState:function(){if(b==1){this._debug("_saveFormState")}if(typeof(document.emailfriendform)!="undefined"){this.emailFriendFormState.emails=document.emailfriendform.emails.value;this.emailFriendFormState.self_email=document.emailfriendform.self_email.value;this.emailFriendFormState.subject=document.emailfriendform.subject.value;this.emailFriendFormState.message=document.emailfriendform.message.value}},_loadFormState:function(){if(b==1){this._debug("_loadFormState")}if(c.inDocument("emailfriendform")==1){if(b==1){this._debug("emailfriendform exists")}if(typeof(this.emailFriendFormState.emails)!="undefined"){document.emailfriendform.emails.value=this.emailFriendFormState.emails}if(typeof(this.emailFriendFormState.self_email)!="undefined"){document.emailfriendform.self_email.value=this.emailFriendFormState.self_email}if(typeof(this.emailFriendFormState.subject)!="undefined"){document.emailfriendform.subject.value=this.emailFriendFormState.subject}if(typeof(this.emailFriendFormState.message)!="undefined"){document.emailfriendform.message.value=this.emailFriendFormState.message}}},_debug:function(h,g){var f=navigator.userAgent.toLowerCase();var e="";if(typeof(h)!="undefined"){if(typeof(g)!="undefined"){e=" = "+g}if(f.indexOf("firefox")!=-1){console.log(h+e)}else{alert(h+e)}}return}}})();
+</script></div><!-- T12027290 --><!-- Sesame Modified: 08/06/2009 07:28:32 --><!-- sversion: 14 &#036;Updated: bjstubits&#036;  -->    <p>      Now that two-time All-Star <a href="http://www.cbssports.com/nba/players/playerpage/1113179">Brandon Roy</a>       and the <a href="http://www.cbssports.com/nba/teams/page/POR">Portland Trail Blazers</a>
+have agreed to a five-year contract extension, his agent says it is
+possible Roy will stay in his native Northwest for his entire career. </p><!-- 300x250 -->
+
+        
+
+
+
+    <p>
+Agent Bob Myers confirmed to the Associated Press late Wednesday night
+that Roy has agreed in principle to a five-year contract at the NBA
+maximum salary. Myers said the fifth year, ending in 2015, is at Roy's
+option. </p>    <p>      Myers said he's expecting the Blazers to hold a news conference on       Friday to announce the deal.    </p>    <p>
+The extension could be worth more than $80 million, depending on what
+the league's salary cap is for the 2010-11 season. That would be the
+second-richest in Portland's history. </p>    <p>
+Roy, 25, will earn just under $4 million this season, the final year of
+his rookie contract. The new deal is likely to net him around $14
+million for the 2010-11 season, and he will receive 10.5 percent raises
+on his base salary each season from 2011-2012 through the end of the
+deal. </p>    <p>
+Myers acknowledged it is rare for players today to remain with one team
+for their entire careers because of free agency and the salary cap, but
+said Roy "is one of the unique players to have a chance to have that
+sort of relationship with one team." </p>    <p>      "Both sides would benefit in that arrangement," Myers said.    </p>    <p>
+Roy led the Blazers with 22.6 points and 5.1 assists per game last
+season, his third in the league. The Seattle native and 2006 Pac-10
+Player of the Year at Washington was the NBA Rookie of the Year in 2007
+as the No. 6 overall pick by Minnesota, who traded his rights to
+Portland. </p>    <p>
+The versatile, high-scoring guard helped the Blazers go 54-28 last
+season, which they began as the second-youngest team in the NBA and
+ended with their first postseason appearance since 2003. Roy scored 52
+points in a game against Phoenix in December, the second most points
+scored in a game by a Blazers player. </p>    <p>
+In the process, he and the team won back a fan base that had been jaded
+by the so-called Jail Blazers of the recent past. </p>    <p>      Portland was 21-61 in the season before Roy arrived.    </p>  </div>

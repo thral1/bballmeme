@@ -1,0 +1,203 @@
+/* --------// start: General Playoff Styles // ----------- */
+body.playoffs #subheader{background:transparent none no-repeat scroll center 78px; width:100%;}
+body.playoffs #content{padding-top:80px;}
+body.playoffs .ie6 #content .floatleft, body.playoffs .ie6 #content .floatright{margin:0px;}
+body.playoffs #sub-branding{height:80px; margin-left:-10px; clear:both; overflow:hidden;}
+body.playoffs #sub-branding .logo{height:80px; width:400px; background-repeat:no-repeat;}
+body.playoffs #sub-branding .presby{float:right; height:80px; width:500px; text-align:right;}
+
+#sub-branding h2 { float:left; width: 500px; } 
+#sub-branding h2 a { display: block; height: 80px; } 
+#sub-branding h2 a b { position: absolute; left: -9999em; }
+
+
+#playoffs{margin:0 0 6px -10px; overflow:hidden;}
+
+#playoffs ul.tabs-main{padding:0px; margin:0px; list-style:none; overflow:hidden; height:1%;}
+#playoffs ul.tabs-main li{position:relative; float:left; display:block; width:234px; height:24px; margin:0px 3px 0px 0px; padding:0px;}
+#playoffs ul.tabs-main li.last{margin-right:0px; width:233px;}
+#playoffs ul.tabs-main li a{position:relative; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#FFF; display:block; padding:4px 0px; text-align:center;}
+#playoffs ul.tabs-main li a:hover{text-decoration:none;}
+#playoffs ul.tabs-main li:hover .tab-bg{opacity:0.7; filter: alpha(opacity=70);}
+#playoffs ul.tabs-main li.inactive:hover .tab-bg{opacity:0.2; filter: alpha(opacity=20);}
+#playoffs ul.tabs-main li.active a{font-weight:bold;}
+#playoffs ul.tabs-main li.inactive a{cursor:default;}
+#playoffs ul.tabs-main li .tab-bg{position:absolute; top:0px; right:0px; bottom:0px; left:0px; opacity:0.2; filter: alpha(opacity=20);}
+#playoffs ul.tabs-main li.active .tab-bg{opacity:0.5; filter: alpha(opacity=50);}
+#playoffs ul.tabs-main li .tab-bg .tab-bg-right{position:absolute; top:0px; right:0px; bottom:0px; width:4px; background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main_right.png) no-repeat;}
+#playoffs ul.tabs-main li .tab-bg .tab-bg-left{position:absolute; background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main.png) no-repeat; top:0px; left:0px; bottom:0px; right:4px;}
+
+.ie6 #playoffs ul.tabs-main li .tab-bg{width:233px; height:24px;}
+.ie6 #playoffs ul.tabs-main li .tab-bg .tab-bg-left{width:229px; height:24px;}
+.ie6 #playoffs ul.tabs-main li .tab-bg .tab-bg-right{width:4px; height:24px;}
+.ie6 #playoffs ul.tabs-main li .tab-bg .tab-bg-right{background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main_right.png',sizingMethod='crop');}
+.ie6 #playoffs ul.tabs-main li .tab-bg .tab-bg-left{background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main.png',sizingMethod='crop');}
+
+#playoffs .series-select{position:relative; overflow:hidden; height:1%;}
+#playoffs .series-select .transparent-background{position:absolute; top:0px; right:0px; bottom:0px; left:0px; margin:0px; width:944px; background:#000; opacity:0.5; filter: alpha(opacity=50);}
+.ie6 #playoffs .series-select .transparent-background{height: expression(this.parentNode.offsetHeight + 'px');}
+
+#playoffs .series-select ul{margin:0px; padding:10px 12px 0px 12px; overflow:hidden; height:1%; position:relative;}
+#playoffs .series-select ul li{float:left; display:block; overflow:hidden; height:1%;}
+#playoffs .series-select ul.series-8 li{width:115px;}
+#playoffs .series-select ul.series-4 li{width:230px;}
+#playoffs .series-select ul.series-2 li{width:460px;}
+#playoffs .series-select ul.series-final li{width:920px;}
+#playoffs .series-select ul li a{cursor:pointer; display:block; height:1%; overflow:hidden; border-right:1px #3d5b62 solid; padding:0px 6px 0px 0px; margin:6px 0px 5px 6px; text-align:center; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+#playoffs .series-select ul li.inactive a{cursor:default;}
+#playoffs .series-select ul.series-4 li a{ padding:0px 16px 0px 10px;}
+#playoffs .series-select ul.series-2 li a{ padding:0px 46px 0px 40px;}
+#playoffs .series-select ul li a:hover{text-decoration:none; color:#FFF !important;}
+#playoffs .series-select ul li.active{background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main_left.png) no-repeat;}
+.ie6 #playoffs .series-select ul li.active{background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main_left_ie6.png) no-repeat;}
+#playoffs .series-select ul li.last a{border:none;}
+#playoffs .series-select ul.series-8 li.last-in-conference a{padding:6px 6px 0px 0px; margin:0px 0px 5px 6px;}
+#playoffs .series-select ul.series-4 li.last-in-conference a{padding:6px 16px 0px 10px; margin:0px 0px 5px 6px;}
+#playoffs .series-select ul li.active a{background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main.png) no-repeat right top; color:#999 !important; padding:6px 6px 5px 2px; margin:0px 0px 0px 4px; border:none;}
+#playoffs .series-select ul li.active a span{color:#CCC !important;}
+#playoffs .series-select ul li a:hover span{color:#CCC !important;}
+#playoffs .series-select ul.series-4 li.active a{padding:6px 16px 5px 12px;}
+#playoffs .series-select ul.series-2 li.active a{padding:6px 46px 5px 42px;}
+#playoffs .series-select ul.series-final li a{padding:0px 150px;}
+.ie6 #playoffs .series-select ul li.active a{background-image:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_tab_main_ie6.png);}
+#playoffs .series-select ul li a .teams{overflow:hidden; height:1%;}
+#playoffs .series-select ul li a .teams span{display:block; padding-top:4px;}
+#playoffs .series-select ul li a .teams .teamname{margin:4px 0px; width:40px;}
+#playoffs .series-select ul li.active a .teams .teamname{color:#FFF;}
+#playoffs .series-select ul.series-2 li a .teams .teamname{margin:4px 0px; width:130px; font-size:12px; font-family:Helvetica, Arial, sans-serif;}
+#playoffs .series-select ul.series-final li a .teams .teamname{margin:3px 0px; width:150px; font-size:14px; font-family:Helvetica, Arial, sans-serif;}
+#playoffs .series-select ul li a .teams .teamname.floatleft{margin-left:6px; text-align:left;}
+#playoffs .series-select ul li a .teams .teamname.floatright{margin-right:6px; text-align:right;}
+#playoffs .series-select ul li a .teams .logo-small.undetermined{height:23px; width:23px;}
+
+#playoffs .series-select ul.series-final li .teams{margin-top:-25px; margin-bottom:-15px;}
+#playoffs .series-select ul.series-final li a span{font-size:14px; padding-top:25px;}
+#playoffs .series-select ul.series-final li a .teams .logo-large{height:65px;}
+#playoffs .series-select ul.series-final li a .teams .logo-large .overlay{background:url(http://a.espncdn.com/i/nhl/playoffs2009/logo_overlay_med.png) repeat-x bottom; height:65px; width:80px;}
+.ie #playoffs .series-select ul.series-final li a .teams .logo-large{height:64px;}
+.ie #playoffs .series-select ul.series-final li a .teams .logo-large .overlay{height:64px;}
+.ie6 #playoffs .series-select ul.series-final li a .teams .logo-large .overlay{background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.espncdn.com/i/nhl/playoffs2009/logo_overlay_med.png',sizingMethod='crop');}
+#playoffs .series-select ul.series-final li a .teams .teamname{margin-top:29px; font-size:16px; width:200px;}
+#playoffs .series-select ul.series-final li.active a{padding:6px 156px 5px 152px;}
+
+#playoffs .playoff-content{background:#000; padding:10px; overflow:hidden; height:1%;}
+#playoffs .playoff-content .top-story-image{position:absolute; height:376px; overflow:hidden;}
+#playoffs .playoff-content .top-story-headline{width:314px; height:376px; position:relative; color:#FFF;}
+#playoffs .playoff-content .top-story-headline .transparent-background{position:absolute; z-index:0; top:0px; left:0px; bottom:0px; right:0px; width:100%; background:#000; opacity:0.8; filter: alpha(opacity=80);}
+.ie6 #playoffs .playoff-content .top-story-headline .transparent-background{height: expression(this.parentNode.offsetHeight + 'px');}
+
+#playoffs .playoff-content .top-story-headline ul.headline-tabs{position:relative; padding:0px; margin:0px auto -1px 70px; z-index:50; list-style:none; overflow:hidden;}
+#playoffs .playoff-content .top-story-headline ul.headline-tabs li{position:relative; display:block; float:left;}
+#playoffs .playoff-content .top-story-headline ul.headline-tabs li a{display:block; color:#767676 !important; font-family:Helvetica, Arial, sans-serif; font-size:11px; padding:0px 10px 8px 10px;}
+#playoffs .playoff-content .top-story-headline ul.headline-tabs li a:hover{color:#CCC !important; text-decoration:none;}
+#playoffs .playoff-content .top-story-headline ul.headline-tabs li.active a{background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_headline_caret.png) no-repeat bottom; color:#FFF !important;}
+
+#playoffs .playoff-content .top-story-headline .content-wrapper{position:relative; padding:10px 6px 0px 16px; background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_headline.png) no-repeat; overflow:hidden; min-height:200px;}
+.ie6 #playoffs .playoff-content .top-story-headline .content-wrapper{clear:both; margin-top:-1px; background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_headline_ie6.png) no-repeat; height:350px;}
+#playoffs .playoff-content .top-story-headline .content-wrapper h2{margin-bottom:6px; font-size:24px; line-height:30px; font-weight:bold; font-family:Helvetica, Arial, sans-serif;}
+#playoffs .playoff-content .top-story-headline .content-wrapper p{font-size:12px; margin-bottom:6px; font-family:Helvetica, Arial, sans-serif;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul{color:#FFFFFF; list-style-position:inside; list-style-type:disc; margin-top:0px;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul li{font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+#playoffs .playoff-content .top-story-headline .series-results{position:absolute; bottom:0px; right:0px; left:10px;}
+#playoffs .playoff-content .top-story-headline .series-results h5{font-size:10px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#9f9f9f; font-weight:normal;}
+#playoffs .playoff-content .top-story-headline .series-results h4{font-size:12px; font-family:Helvetica, Arial, sans-serif; color:#FFF;}
+#playoffs .playoff-content .top-story-headline .series-results ul.game-tabs{margin:4px 0px -1px 0px; padding:0px; overflow:hidden; height:1%; list-style:none; position:relative; z-index:50;}
+#playoffs .playoff-content .top-story-headline .series-results ul.game-tabs li{display:block; float:left; width:38px; margin-right:2px;}
+#playoffs .playoff-content .top-story-headline .series-results ul.game-tabs li a{display:block; padding:2px 0px; width:100%; text-align:center; background:#151515; border:1px #3E3E3E solid; border-bottom:0px; color:#999; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+#playoffs .playoff-content .top-story-headline .series-results ul.game-tabs li a:hover{text-decoration:none; background:#272727; color:#FFF;}
+#playoffs .playoff-content .top-story-headline .series-results ul.game-tabs li.active a{background:#353535; padding-bottom:3px; color:#FFF;}
+
+#playoffs .playoff-content .top-story-headline .series-results .game-details{background:#353535; border:1px #3E3E3E solid; height:1%; padding:6px; overflow:hidden;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper{background:#151515; float:left; padding:6px;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper .status{display:block; margin:0px; padding:3px 0px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#989898; font-weight:bold;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper ul.details{margin:0px 0px 6px 0px; padding:0px; font-familyHelvetica, :Arial, sans-serif; font-size:13px; color:#FFF; list-style:none;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper ul.details li{display:block; width:130px; padding:0px; margin:0px; text-align:right; line-height:15px;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper ul.details li.winner{font-weight:bold; background:url(http://a.espncdn.com/i/nhl/playoffs2009/bg_score_caret.png) no-repeat left center;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper ul.details a{display:block; float:left; padding-left:8px; color:#FFF !important;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper ul.links{margin:0px; padding:0px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; list-style:none;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details .score-wrapper ul.links li{display:block;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers{margin:0px 0px 0px 148px; padding:0px; list-style:none;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers li{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px; color:#FFF; margin-bottom:6px; overflow:hidden; display: block; float:none; }
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers li.last{margin-bottom:0px;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers li img{float:left; margin-right:4px;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers li a.player{color:#FFF !important;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers li ul.stats{margin:0px; padding:0px; overflow:hidden; list-style:none;}
+#playoffs .playoff-content .top-story-headline .series-results .game-details ul.leading-scorers li ul.stats li{display:block; margin: 0px 4px 0px 0px; color:#888888;}
+
+#playoffs .playoff-content .video-player{position:absolute;  width:576px; top:24px; left:16px; background:#CCC;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist{margin:0px; padding:0px; list-style:none; list-style-position:outside; overflow:hidden;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li{margin:0px 0px 20px 0px; padding:0px; width:100%; overflow:hidden;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a{display:block; padding:6px; margin:0px 0px 0px 6px; overflow:hidden; color:#ABABAB; font-family:Verdana, Arial, Helvetica, sans-serif !important; font-size:11px !important;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a:hover{text-decoration:none; background:#161616; padding:5px; border:1px #363636 solid;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a .video-thumb{position:relative; float:left;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a .video-thumb .vid-icon{background:transparent url(http://a3.espncdn.com/prod/assets/icon_video.png) no-repeat scroll 6px 6px; border-width:0; position:absolute; z-index:50; height:51px; opacity:0.75; position:absolute; width:89px;}
+.ie6 #playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a .video-thumb .vid-icon{background-image:url(http://a3.espncdn.com/prod/assets/icon_video_ie6.png);}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a h5{margin-left:96px; color:#76A7D6; font-weight:bold; font-size:11px; margin-top:4px;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li a p{margin:0px 0px 0px 96px; font-size:11px;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li.active{background:url(http://a.espncdn.com/i/nhl/playoffs2009/video_playlist_caret.png) no-repeat;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li.active a{background:#353535; border:1px #3E3E3E solid; border-left:none; color:#AAA;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li.active a:hover{padding:6px;}
+#playoffs .playoff-content .top-story-headline .content-wrapper ul.video-playlist li.active a h5{color:#FFF;}
+
+
+/* --------// start: Module Styles // ----------- */
+.col-left.no-border {border:0 !important;}
+.mod-scoreboard .mod-content ul li ul li.title {font-weight:bold;}
+/* injury reports */
+.mod-open-list-logo .mod-content p {margin:0 0 10px;}
+.mod-open-list-logo .mod-content ul li {border-top:#E0E0E0 1px solid; padding-top:6px;}
+.mod-open-list-logo .mod-content ul li ul li {padding: 4px 6px 0 70px; border:0;}
+.mod-open-list-logo .mod-content ul li.first {border-top:0;}
+.mod-open-list-logo .mod-content ul li h5 {margin:0 10px 0 6px !important; color:#666666;}
+.mod-open-list-logo .mod-content ul li ul li h6 {margin:0 10px 0 0 !important;}
+
+/* stats */
+ul.team-stats li.first ul li a{ font-weight: bold; }
+ul.team-stats li ul li {display:block; border:0; float:left; clear:none;}
+ul.team-stats li {border-bottom:#E0E0E0 1px solid; padding:2px 0; float:left;}
+ul.team-stats li.first, ul.team-stats li.last {border:0;}
+.team-stats h5 {display:inline;}
+.team-stats li.col1 {width:64px; padding-left:10px;}
+.team-stats li ul li.col2 {width:106px;}
+.team-stats li ul li.col3 {width:106px;}
+
+/* experts picks */
+.mod-experts ul li dl {float:left; width:28%; margin:0 !important;}
+.mod-experts ul li {border-top:0 !important;}
+
+body.playoffs .mod-open .mod-content h5{color:#666666;}
+
+
+/*override video styles */
+.mod-video-playlist{
+        border: none;
+}
+
+/*Must See CSS */
+.mod-must-see-4 .mod-header{background-color:#FFFFFF; background-image:none; border-color:#C2C2C2 #C2C2C2 -moz-use-text-color; border-style:solid solid none; border-width:1px 1px 0;}
+.ie .mod-must-see-4 .mod-header { border-color: #c2c2c2; }
+.mod-must-see-4 .mod-header h4{color:#474747; font-family:helvetica,arial,sans-serif; line-height:30px;}
+.mod-must-see-4 .mod-content{color:#2E2E2E; padding-top:8px; font-size:11px; line-height:14px;}
+.mod-must-see-4 .mod-content ul{padding:0px; margin:0px;}
+.mod-must-see-4 .mod-content ul li{float:left; display:block; width:151px; border-right:1px #EBECEE solid;}
+.mod-must-see-4 .mod-content ul li.last{border:none;}
+.mod-must-see-4 .mod-content ul li div{padding:0px 8px;}
+.mod-must-see-4 .mod-content ul li div p{margin:0px 0px 5px;}
+
+
+
+#playoffs .series-select ul.series-2 li a{padding:5px 26px 5px 22px !important; margin:0px 0px 0px 4px;}
+#playoffs .series-select ul.series-2 li a .teams{ margin-bottom:-14px;}
+#playoffs .series-select ul.series-2 li a .teams .teamname{padding-top:6px;}
+#playoffs .series-select ul.series-2 li a .teams span{padding-top:8px; font-size:11px;}
+        
+/* NBA SPECIFIC */
+body.nba.playoffs #playoffs .series-select ul.series-2 li .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_40_nba_playoffs.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul.series-2 li .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_40_nba_playoffs_ie6.png);}
+body.nba.playoffs #playoffs .series-select ul.series-2 li.active .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-40-vert.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul.series-2 li.active .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-40-vert-ie6.png);}
+body.nba.playoffs #playoffs .series-select ul.series-2 li a:hover .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-40-vert.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul.series-2 li a:hover .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-40-vert-ie6.png);}
+body.nba.playoffs #playoffs .series-select ul.series-2 li.inactive .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_40_nba_playoffs.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul.series-2 li.inactive .logo-nba-40{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_40_nba_playoffs_ie6.png);}

@@ -1,0 +1,50 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B-hxWXp6ZSsDYO5HajQThjZDcB8_R65oBr6i68ArAjbcBkKk2EAEYBCC0g_oFKAM4AFDqxaGg-v____8BYMne-IbIo-gZoAGHo67tA7IBGXZvaWNlcy53YXNoaW5ndG9ucG9zdC5jb23IAQHaAVtodHRwOi8vdm9pY2VzLndhc2hpbmd0b25wb3N0LmNvbS93aXphcmRzaW5zaWRlci8yMDA5LzA1L3RoZV9yaXNrX29mX3RyYWRpbmdfYV90b3BfdGhyZS5odG1sgAIByALPxtEKqAMB6AOIAugDggL1AwAEAAT1AwQAAAA&amp;num=4&amp;sig=AGiWqtwNVssbBsm940_GV205SL_5OPbfyQ&amp;client=ca-washingtonpost-article-site_js&amp;adurl=http://finance.uncommonwisdomdaily.com/bernankes-secret-debt-solution-to-end-the-financial-crisis/%3Fsc%3DG100%26ec%3D95050"; 
+google_ad.visible_url = "www.UncommonWisdomDaily.com"; 
+google_ad.line1 = "Bernanke\x26#39;s Debt Solution"; 
+google_ad.line2 = "Central Banks To Change Value Of"; 
+google_ad.line3 = "Money - What It Means For You."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B7V2NXp6ZSsDYO5HajQThjZDcB7jrs6AB9L6Z3gvAjbcB0LRHEAIYBSC0g_oFKAM4AFDk2tSWB2DJ3viGyKPoGaAB7sjA8AOyARl2b2ljZXMud2FzaGluZ3RvbnBvc3QuY29tyAEB2gFbaHR0cDovL3ZvaWNlcy53YXNoaW5ndG9ucG9zdC5jb20vd2l6YXJkc2luc2lkZXIvMjAwOS8wNS90aGVfcmlza19vZl90cmFkaW5nX2FfdG9wX3RocmUuaHRtbKgDAegDiALoA4IC9QMABAAE9QMEAAAA&amp;num=5&amp;sig=AGiWqtzPwUKcYx-KiqUAswLZuokIy5fJzA&amp;client=ca-washingtonpost-article-site_js&amp;adurl=http://dtcoach2.jeffed77.hop.clickbank.net/%3Ftid%3DPSNL"; 
+google_ad.visible_url = "www.PennyStockProphet.com"; 
+google_ad.line1 = "Penny Stock Prophet"; 
+google_ad.line2 = "$1,000 Turned Into $1.4 Million"; 
+google_ad.line3 = "Brand New Penny Stock Newsletter"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BDwd9Xp6ZSsDYO5HajQThjZDcB_Oi7JYBn-KXxQ7AjbcBoOFnEAMYBiC0g_oFKAM4AFCvs9a3_P____8BYMne-IbIo-gZsgEZdm9pY2VzLndhc2hpbmd0b25wb3N0LmNvbcgBAdoBW2h0dHA6Ly92b2ljZXMud2FzaGluZ3RvbnBvc3QuY29tL3dpemFyZHNpbnNpZGVyLzIwMDkvMDUvdGhlX3Jpc2tfb2ZfdHJhZGluZ19hX3RvcF90aHJlLmh0bWypAjPJqTBV4a4-qAMB6AOIAugDggL1AwAEAAT1AwQAAAA&amp;num=6&amp;sig=AGiWqtxq8Mf-GUb4dsStfSL8_Qd6MQLwQg&amp;client=ca-washingtonpost-article-site_js&amp;adurl=http://howtobuyhotpennystocks.com"; 
+google_ad.visible_url = "howtobuyhotpennystocks.com"; 
+google_ad.line1 = "Buy Hot Penny Stocks"; 
+google_ad.line2 = "Hot Penny Stocks email alerts"; 
+google_ad.line3 = "Receive winning picks for Free!"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

@@ -1,0 +1,216 @@
+/*  
+Theme Name: Dime Magazine
+Theme URI: http://
+Description: Dime
+Version: 1.0
+Author: Jeremy Zilar, Daniel Weiss, Jed Mowshowitz
+Author URI: http://silencematters.com/
+Author URI: http://theinterzone.net
+*/
+
+body {margin:0; padding:0; background:url(images/body_rpt.jpg) center top repeat-y #555; font-size: .625em; font-weight: normal; font-family: Arial, sans-serif; line-height:1em; color:#555;}
+a:link, a:visited {color:#E21D1B; border:none;}
+a:link img, a:visited img {border:none;}
+a:hover {text-decoration: underline;}
+#page {margin:0 auto; padding:15px 15px 30px 15px; border:2px #ddd solid; width:902px; display: block; xbackground:#fff;}
+#footer {clear:left; border-top:2px #900 solid;}
+
+/*Head ==========================*/
+#head {margin:0; padding:0; float:left; width: 902px;}
+#logo {margin: 0; padding: 0 5px 0 0; width:168px; height:90px; float:left;}
+#logo h1 {padding:0; margin:0; width:168px; height:90px; float:left;}
+#logo h1 a {margin: 0; padding: 0; float: left; width:168px; height:90px; background: #333 url("images/dimemag-black168x90.jpg") no-repeat;}
+#topcats {float: left; padding: 0 20px 0 0;}
+.catfeature {float: left; padding: 0 21px 0 19px; margin: 20px 0 0 0; background:url("images/topdots.gif") no-repeat top right; display: block; width: 100px; font-size: 1em; line-height: 1.2;}
+.catfeature img {margin-bottom: 3px; width: 100px; height: 100px;}
+.catfeature a:link, .catfeature a:visited {color: #666; text-decoration: none;}
+.catfeature a:hover, .catfeature a:active {color: #000; text-decoration: underline;}
+#currentissue {height:136px; float:right; margin: 20px 0 10px 0; width: 322px;}
+#currentissuestext {float: left; width: 75px; height: 136px; padding: 0 10px 0 0;}
+#currentissuestext h3 {margin: 0;}
+#currentissuestext p {font-size: 1.1em; line-height: 1.1;}
+#currentissuestext a:link, #currentissuestext a:visited {text-decoration: none;}
+#currentissuestext a:hover {text-decoration: underline;}
+#bouncecover {float: left; width: 112px; height: 136px; margin: 0; padding: 0 0 0 10px;}
+#dimecover {float: left; width: 100px; height: 136px; margin: 0; padding: 0;}
+#currentissuestext p {margin: 10px 0;}
+
+/*search & feeds ==========================*/
+#searchbar {margin-top:0px; border-top:2px #555 solid; border-bottom:2px #555 solid; float:left; width:100%;}
+#searchbar #searchform {margin:5px 0; padding:0px 0; width:255px; height:19px; float:left;}
+#searchform #s {margin:0px 0; padding:0; width:227px; height:17px; border:1px #666 solid; float:left;}
+#searchform #searchsubmit {margin:0px 0; padding:0 0 0 0; width:19px; height:19px; border:none; float:left;}
+ul#feeds {margin:0; margin-top:1px; float:right;}
+ul#feeds li{margin-left:10px; padding:8px 0; padding-left:20px; list-style-type: none; font-size:1.1em; font-weight: bold; float:left; background:url("images/feed-icon.gif") 0 5px no-repeat;}
+ul#feeds li.addtoany {background:url("images/addtoany-icon.gif") 0 5px no-repeat;}
+ul#feeds li#mygoogle {background:none; padding:5px 0;}
+ul#feeds li#myyahoo {background:none; padding:5px 0;}
+
+/*Navigation ==========================*/
+#nav {margin:10px 0 5px 0px; width: 902px; clear: left; float: left;}
+#nav ul {margin:0; padding:0; text-align:right;}
+#nav li {margin:0 1px 0 0; padding:0 0 0 5px; text-align: left; text-align:right; list-style-type: none; text-transform: uppercase; color:#E21D1B; float:left; display:inline;}
+#nav li a:link, #nav li a:visited {font-family: Arial, "MS Trebuchet", sans-serif; font-size: 1em; font-weight: bold; letter-spacing:1px; text-decoration: none;}
+#nav li a:hover {border-bottom:1px #E21D1B solid;}
+#nav li.blog a:link {padding:0;}
+#nav li.subscribe a:link, #nav li.smack a:link, #nav li.current-issue a:link {padding:0;}
+#nav li.dime-tv a:link, #nav li.bounce a:link {padding:0;}
+#nav li.forums a:link {padding:0;}
+
+/*content ==========================*/
+#content {margin:20px 0 0 0; width:902px; float: left;}
+.col {float:left;}
+h2.pagehead {margin: 10px 0;}
+h3 {margin:0 0 0 0; padding:5px 0 0 0; font-size: 1.3em; font-weight: bold; line-height:1.3em; color:#333; text-transform: uppercase; xfloat:left; background: url("images/dot.gif") repeat-x top left;}
+h4, .catfeature h4 {font-size: 1.3em; font-weight: bold; text-transform: uppercase; color: #000; margin: 0 0 1px 0;}
+h4 a:link, h4 a:visited, .catfeature h4 a:link, .catfeature h4 a:visited {color: #000;}
+h4 a:hover, .catfeature h4 a:hover {color: #999;}
+#blog h3 {padding-top:14px;}
+.logo-blog {float:left; margin-top:4px;  margin-left:5px;}
+#blog {width:488px; background: url("images/dot.gif") repeat-x top left; /*	background:#ddd;*/}
+
+/*categories ==========================*/
+.info {margin:10px 0; padding:2px 15px; font-size: 1.1em; text-transform: uppercase; letter-spacing:1px; color:#7F7F7F;}
+.info a:link, .info a:visited {/* padding-right:3px; */ font-weight: bold; color:#7F7F7F; text-decoration:none;}
+.info a:hover {text-decoration:underline;}
+.info .date {font-size: 1em;}
+.post .info {background: url("images/default.gif") 0 2px no-repeat;}
+.post.nikead {text-align: center; width: 480px; padding-top: 25px;}
+.post.smack .info {background: url("images/smack.gif") 0 2px no-repeat;}
+.post.hit-list .info {background: url("images/hit-list.gif") 0 2px no-repeat;}
+.post.hoopla .info {background: url("images/hoopla.gif") 0 2px no-repeat;}
+.post.styles .info {background: url("images/styles.gif") 0 2px no-repeat;}
+.post.fantasy .info {background: url("images/fantasy.gif") 0 2px no-repeat;}
+.post.pats .info {background: url("images/pats.gif") 0 2px no-repeat;}
+.post.all-star .info {background: url("images/all-star.gif") 0 2px no-repeat;}
+
+/*Posts ==========================*/
+.post {margin:0 0 0 0; padding:5px 0 20px 0; float: left; background:url("images/dot.gif") repeat-x top left; max-width: 488px;}
+.post a:link, .post a:visited {text-decoration: none;}
+.post a:hover{text-decoration: underline;}
+h2 {margin:6px 0 0 0; padding:0; font-family: Arial, sans-serif; font-size: 2.4em; text-decoration: none; text-transform: uppercase;}
+h2 a:link, h2 a:visited {margin:0; color:#333; text-decoration: none; line-height:1em;}
+h2 a:hover {text-decoration:underline;}
+p {margin:14px 0; font-size: 1.2em; line-height:1.6em; font-family: Georgia, Times, serif; color:#666;}
+.byline {margin:5px 0 0 1px; text-transform: uppercase; font-family: Arial, sans-serif; font-size: 1.1em;}
+.entry img {border:1px #ccc solid;}
+.entry embed {margin: 0; padding: 0; max-width: 488px;}
+.post ul, .post ol {padding-left:30px; font-size: 1.2em; line-height:1.5em; font-family: Georgia, Times, serif;}
+.post li {padding-left:-6px;}
+.post blockquote {margin:0 30px; padding-left:10px; border-left:1px #ccc solid;}
+.postmetadata {margin:5px 0; font-family: Arial, sans-serif; font-size: 1em; color:#888; text-transform: uppercase;}
+.postmetadata iframe {margin: 0 0 -7px 0; width:100px;}
+#similarposts ul li {font-size: 1.2em; line-height: 1.6em;}
+#similarposts ul li a:link, #similarposts ul li a:visited {text-decoration: none;}
+#similarposts ul li a:hover, #similarposts ul li a:active {text-decoration: underline;}
+.navigation {padding-bottom:25px; font-family: Arial, sans-serif; font-size: 1.6em; clear: both;}
+.clearleft {clear: left;}
+
+/*Images in Posts ==========================*/
+.postnavleft {float: left; margin: 0 10px 5px 0;} 
+.postnavright {float: right; margin: 0 0 5px 10px;}
+.left240, .alignleft {margin-right:12px; margin-bottom:21px; float:left;}
+.right240, .alignright {margin-left:12px; margin-bottom:21px; float:right;}
+/* ADDED TO CORRECT DOUBLE APPLICATION OF STYLES IN SOME POSTS */
+.left240 .alignleft, .left240 .alignright, .right240 .alignleft, .right240 .alignright {margin: 0;}
+.full488 {margin-bottom:21px;}
+.alignnone {margin: 14px 0 21px 0; display: block;}
+.thumbdisplay {float: left; margin: 0 10px 5px 0;}
+.caption {margin-top:5px; display: block; color:#999;}
+.dimecaption {margin-top:-15px; margin-bottom: 21px; color:#999; clear: left; float: left;}
+.wp-caption {max-width: 480px;}
+.wp-caption p.wp-caption-text {font: 1em Arial, sans-serif; color: #999; margin: 3px 0 0 0;}
+
+/*Sidebar ==========================*/
+#sidebar {margin-left:10px; margin-bottom:20px; padding-left:15px; width:202px; float:left; background:url("images/dot.gif") repeat-y top left;}
+#sidebar h3 {margin:12px 0 0 0; padding:5px 0 0 0; clear: left;}
+#sidebar h3#breakingnews {margin-top: 0;}
+#sidebar p {font-family: Arial, sans-serif; font-size: 1.1em; line-height:1.2em;}
+#sidebar ul {margin:8px 0; padding:0;}
+#sidebar li {font-size: 1.1em; line-height:1.6em; list-style-type: none; text-transform: uppercase;}
+#sidebar li small {text-transform: none;}
+#sidebar li.feature {line-height: 1.2; margin-bottom: 5px;}
+#sidebar li.feature img {width: 50px; height: 50px; float: left; margin: 0 5px 2px 0;}
+#sidebar li a:link, #sidebar li a:visited, #sidebar2 li a:link, #sidebar li a:visited {color:#7F7F7F; text-decoration: none;}
+#sidebar li a:hover, #sidebar2 li a:hover {color:#555; text-decoration: underline;}
+#sidebar li.feature a:link, #sidebar li.feature a:visited {color: #000;}
+#sidebar li.feature a:hover, #sidebar li.feature a:active {color: #555; text-decoration: underline;}
+#sidebar2 ul {margin:8px 0; padding-left: 0; list-style: none;}
+#sidebar2 ul li ul li {font-size: 1em; padding-left: 0; line-height:1.6em; list-style: inside square; text-transform: uppercase;}
+#sidebar .promo {margin-bottom:12px; /*hmmmmmmm*/ padding-left:4px; padding-bottom:6px; background:#333; float:left;}
+#sidebar .promo h3 {margin:0; padding:4px 0 0 0; color:#fff; background:none;}
+#sidebar .promo img {margin:12px 4px; width:75px; height:75px; display:block; float:right; background:#ccc; clear:left;}
+#sidebar .promo p {margin:6px 0px; line-height:1.3em; font-size: 1.1em; font-family: Georgia, Times, serif;}
+#sidebar .promo.hit-list, #sidebar .promo.hit-list h3, #sidebar .promo.hit-list p {color:#333;}
+#sidebar .promo.hit-list {background:#CC9915;}
+#sidebar .promo.smack, #sidebar .promo.smack h3, #sidebar .promo.smack p, #sidebar .promo.styles, #sidebar .promo.styles h3, #sidebar .promo.styles p, #sidebar .promo.fantasy, #sidebar .promo.fantasy h3, #sidebar .promo.fantasy p {color:#fff;}
+#sidebar .promo.smack {background:#B73133;}
+#sidebar .promo.styles {background:#649A31;}
+#sidebar .promo.fantasy {background:#6497c6;}
+#links h2 {margin:10px 0 0 0; text-transform:uppercase; font-size: 1em; line-height:1.2em; color:#444;}
+#links ul {margin:0px 0;}
+#links li {margin:4px 0; font-size: 1em; line-height:1.2em; text-transform:none; color:#777;}
+#links li a:link, #links li a:visited {font-size: 1.1em; list-style-type: none; color:#7F7F7F; text-decoration: none; text-transform:uppercase;}
+#links li a:hover {color:#555; text-decoration: underline;}
+#subscribe {margin:0 0 10px 0; padding:0; width:200px; float:left;}
+#subscribe h2 {margin:0; padding:9px 0; font-size:2em; color:#E21D1B;}
+#subscribe p {margin:0; padding:0; font-size:1.2em; font-weight:normal;}
+#subscribe input {margin:3px 0; padding:3px 2px; width:193px; text-transform: uppercase; font-size:1em; color:#999; border-top:2px #999 solid; border-bottom:2px #eee solid; border-left:2px #999 solid; border-right:2px #eee solid;}
+#subscribe input.submit {width:75px; text-align:center; display:block; border:none;}
+
+/*Comments ==========================*/
+h3 #comments{background: none;}
+ol.commentlist {padding-left:18px;}
+ol.commentlist li {margin:0 0 23px 0; padding:2px 4px;}
+.commentlist .alt {background:#eee;}
+p.commentauthor {margin:3px 0 0 0; font-family: Arial, sans-serif; font-size: 1.1em;}
+.commentauthor a:link, .commentauthor a:visited {text-decoration: none;}
+.commentauthor a:hover {text-decoration: underline;}
+.commentmetadata {margin:0; padding:0; font-size: 1em; font-family: Arial, sans-serif;}
+.commentmetadata a:link, .commentmetadata a:visited {color:#555; text-decoration: none;}
+.commentmetadata a:hover {text-decoration:underline;}
+
+/*Subscribe & Issues ==========================*/
+#newsletterhead {font-size: 1.6em; line-height: 1; margin-bottom: 6px;}
+#newsletterinfo, #newsletter p {margin: 6px 0; font-size: 1em; line-height: 1;}
+#newsletterinfo {margin-bottom: 12px; font-family: Arial, sans-serif;}
+.issue {margin-top:10px; margin-bottom:10px; width:100%; float:left;}
+.issue img {float:left;}
+.issue_details {width:240px; float:right;}
+.issue_details h4 {margin:0px 0; padding:0; font-size: 1.6em; line-height:1em; color:#E21D1B;}
+.issue_details ul {margin:12px 0; padding:0; font-size: 1.4em; font-weight:bold;}
+.issue_details li {margin:12px 0; padding:0; list-style-type: none; color:#333;}
+.issue_details h5 {margin:7px 0 15px 0; font-size: 1.1em; color:#E21D1B;}
+.pages img {margin:12px 12px 0 0; float:left;}
+#pastissue h3 {margin-top:0px; margin-bottom:10px;}
+#pastissue img {margin-right:7px; margin-bottom:7px; float:left;}
+#pastissue .issue {margin:0px 0 10px 0; padding-bottom:5px; float:none; background: url("images/dot.gif") repeat-x bottom left;}
+#pastissue .issue_details {float:none; width:200px;}
+#pastissue .issue_details h4 {font-size: 1.1em;}
+#pastissue .issue_details h5 {margin:3px 0; font-size: 1em;}
+#pastissue .issue_details ul {margin:5px 0; font-size: .9em;}
+#pastissue ul li {margin:0;}
+#pastissue p {font-size: .9em;}
+#pastissue #subscribe {padding:5px 0; margin-bottom:10px; background: url("images/dot.gif") repeat-x top left;}
+p.pdf a {padding-top:3px; padding-left:20px; text-transform:uppercase; text-decoration:none; font-family: Arial, sans-serif; font-weight:bold; background: url("images/downloadpdf.gif") no-repeat;}
+#pastissue p.pdf a {margin-top:2px; padding:3px 0; padding-left:20px; text-transform:uppercase; text-decoration:none; font-family: Arial, sans-serif; font-weight:bold; background: url("images/downloadpdf.gif") no-repeat;}
+
+/*Adbar ==========================*/
+#adbar {margin-left:10px; padding-left:12px; float:left; background:url("images/dot.gif") repeat-y top left;}
+
+/*AD Positions ==========================*/
+.ad {margin:0 0 0 0; padding:0; background:#333; color:yellow;}
+#position1 {width:728px; height:90px; float: left; background: #333;}
+#position3 {margin-left:5px; width:490px; height:250px; background:#666;}
+#position4 {margin-left:5px; width:157px; text-transform: capitalize/uppercase/lowercase; height:76px; display:block; overflow: hidden; border-top:1px #ccc solid; border-bottom:1px #ccc solid; border:1px #ccc solid; background:#fff;}
+#position5, #position9, #position10 {margin-left:5px; margin-top:10px; width:160px; height:600px; background:#333;}
+#position6 {margin:20px auto; width:300px;}
+#position7 {margin:20px auto; width:150px;}
+#position8 {margin:20px auto; width:132px;}
+.googlead {margin:20px auto; background:#fff; clear:both;}
+.post-ad {padding-left:6px; padding-bottom:12px; width:75px; float:right;}
+
+
+/* Video thumbs */
+.post .entry .thumbs {width: 488px; background: #000; height: 75px;}
+.post .entry .thumbs a {float: left; margin: 10px; color: #fff; text-align: center;}

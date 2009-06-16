@@ -1,0 +1,53 @@
+/* --------// start: NBA Playoff Specific Styles // ----------- */
+body.nba-faded{background-image:url(http://a.espncdn.com/i/nba/playoffs2009/bg_faded_gray.jpg); background-repeat:repeat-x;}
+body.nba-faded .bg-elements{background-image:url(http://a.espncdn.com/i/nba/playoffs2009/bg_nba_faded_elements.jpg);}
+body.nba.playoffs #subheader{background-image:url(http://a.espncdn.com/i/nba/playoffs2009/bg_sub_nba_playoffs09.jpg);}
+body.nba.playoffs #sub-branding .logo{background-image:url(http://a.espncdn.com/i/nba/playoffs2009/logo_nba_playoffs_series_09.png);}
+body.nba.playoffs.finals #sub-branding .logo{background-image:url(http://a.espncdn.com/i/nba/playoffs2009/logo_nba_playoffs_finals_09.png);}
+body.nba #playoffs ul.tabs-main li.inactive a{color:#f5b87d;}
+body.nba #playoffs .series-select ul li a{ color:#f5b87d;}
+body.nba #playoffs .series-select ul li a span{color:#A6702C;}
+
+body.nba.playoffs #playoffs .series-select ul li .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_25_nba_playoffs.png);}
+body.nba.playoffs #playoffs .series-select ul li.active .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-small-vert.png);}
+body.nba.playoffs #playoffs .series-select ul li a:hover .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-small-vert.png);}
+body.nba.playoffs #playoffs .series-select ul li.inactive a:hover .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_25_nba_playoffs.png);}
+
+body.nba #playoffs .series-select ul li.inactive a {color:#a6702c !important;}
+body.nba #playoffs .series-select ul li.inactive a span{color:#a6702c !important;}
+body.nba #playoffs .series-select ul li.inactive a:hover{color:#a6702c !important;}
+body.nba #playoffs .series-select ul li.inactive a:hover span{color:#a6702c !important;}
+body.nba #playoffs .series-select ul li a .teams .logo-small.undetermined{ width: 25px; height:25px; }
+
+
+body.nba .mod-experts dl dd {text-indent:30px; width:100%;}
+
+body.nba #playoffs .series-select ul li a{ border-color:#754505; }
+
+body.nba.playoffs .ie6 #playoffs .series-select ul li.active .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-small-vert-ie6.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul li a:hover .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-small-vert-ie6.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul li.inactive a:hover .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_25_nba_playoffs_ie6.png);}
+body.nba.playoffs .ie6 #playoffs .series-select ul li .logo-nba-small{background-image:url(http://a.espncdn.com/prod/assets/teamlogos/nba/logos_25_nba_playoffs_ie6.png);}
+body.nba.playoffs .ie6 #sub-branding .logo.finals{background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.espncdn.com/i/nba/playoffs2009/logo_nba_playoffs_finals_09.png',sizingMethod='crop');}
+body.nba.playoffs .ie6 #sub-branding .logo{background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.espncdn.com/i/nba/playoffs2009/logo_nba_playoffs_series_09.png',sizingMethod='crop');}
+
+/* ESPN.com research notes added - 4-2-09 */
+body.nba.playoffs .mod-content ul.research li { background-color:#fff; border-top: solid 1px #E0E0E0; padding: 5px 8px; height:1%; font-size:10px; }
+body.nba.playoffs .mod-content ul.research li.first { border-top:0px none;  }
+body.nba.playoffs .mod-content ul.research li.last { border-bottom:0px none;  }
+
+body.nba.playoffs .mod-matchups .mod-sub-header { overflow:hidden; height:1%; }
+body.nba.playoffs .mod-matchups .mod-sub-header h5 { text-align:center; width:47%; float:left; }
+body.nba.playoffs .mod-matchups .mod-sub-header h5.last { border-left: 1px solid #ccc; }
+
+/* Expert Picks added - 4-2-09 */
+body.nba .mod-experts dl dd {text-indent:30px; width:100%;}
+
+/* Playoff Matchups added - 4-2-09 */
+body.nba.playoffs .mod-matchups ul li dl {float:left; width:28%; margin:0 !important; line-height: 12px; font-size:10px;}
+body.nba.playoffs .mod-matchups ul li {border-top:0 !important;}
+body.nba.playoffs .mod-matchups dl dd { text-indent:0px; width:100%;}
+body.nba.playoffs .mod-matchups ul li h5 { font-size:10px; padding: 2px 0px 0px; margin:0 10px 0 6px !important; color:#666666; }
+
+/*seed*/
+#playoffs .playoff-content .top-story-headline .series-results span.seed{font-weight:normal; font-size:11px; color:#999;}

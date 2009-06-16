@@ -1,0 +1,92 @@
+Here are two interesting follow-ups to Tuesday’s post, in which I described how basketball teams who are behind at half-time fare a bit better than might be expected. 
+First, my friend Lionel Page points me to a related study of his,
+which analyzes tennis. Lionel uses a similar approach to arrive at a
+different conclusion, but I think his results point to the same
+psychological factors. Let me explain.
+Lionel analyzes over half a million tennis matches, but focuses on
+that subset of matches where the first set is played to a tie break
+(there are about 70,000 of them). In fact, he focuses on those matches
+where the first set is awfully close to a draw — a long and drawn-out
+tiebreak, lasting more than 20 points. But eventually someone wins, and
+it turns out that player is much more likely to win the second set. And
+so, winning leads to winning in tennis, but losing leads to winning in
+basketball.
+Are these results in conflict? I don’t
+think so: the effect of falling a little behind in a tennis tiebreak is
+very different to basketball. In tennis, falling behind in a tiebreak
+means losing the entire set, which is a big hurdle to overcome. Recall
+that Berger and Pope
+ran laboratory experiments in which they tried to figure out the (de-)
+motivating effect of being a little behind, a long way behind, tied, a
+little ahead, or a long way ahead. They found that being a little
+behind led to a burst of extra motivation, which describes the
+basketball finding nicely. But being a long way behind led to no extra
+motivation, and so the tennis player who just lost the first set
+doesn’t get these motivating benefits. In fact, Lionel’s finding
+suggests that it might actually be de-motivating. Because basketball
+scores are continuous, and tennis outcomes are so sharply discrete, the
+psychological impacts of small differences in early play are very
+different.
+Second, Freako commenters
+showed that they are among the most demanding consumers of statistical
+analyses, and were pretty vocal in what they perceived to be
+shortcomings in the Berger-Pope analysis (and see more from Andrew Gelman, here).  I passed on your comments to the authors, and here’s their response:
+In our sample of N.C.A.A. basketball games, teams that
+were losing by one point at halftime were more likely to win the game
+than teams winning by one point. This is indisputable. However, is this
+finding statistically significant given the noise in the data?
+The key issue here is understanding exactly what hypothesis we are
+testing to see whether losing by a small amount increases motivation.
+Directly comparing the winning percentage of teams down by one with
+teams up by one is problematic because these are different types of
+teams in different situations. Teams are not randomly assigned to be up
+or down by one. On average, teams down by one tend to be worse (they
+have a lower season winning percentage). Furthermore, it is
+mechanically harder for teams down by one to win. They have to score at
+least two more points than their opponent to win, while their opponents
+can win even if the teams trade baskets the rest of the game.
+This means that we shouldn’t expect teams down by one to win 50
+percent of games. What should be expected? This is where reasonable
+people may begin to differ on the right way to construct a
+counterfactual. Many different curves can be fitted to the data. One
+may argue (as many did in the comments) that a linear line should be
+fitted; Andrew Gelman suggests a logistic function. It ends up that it
+doesn’t really matter what curve is fit.
+For example, consider the figure below (the exact figure requested
+by Andrew Gelman) which indicates the winning percentage for the home
+team as the halftime point difference for the home team ranges from -10
+to 10. Also, note the inclusion of standard error bars for
+sophisticated readers. The dotted line represents the fitted curve from
+a simple logistic function when including the halftime score difference
+linearly. Focus on the winning percentage when either the away team was
+losing by a point, or the home team was losing by a point. In both of
+these situations, the losing team did better than expected. For
+example, when the home team is ahead by one point, they end up only
+winning 57.5 percent of games while we would have expected them to win
+65.6 percent of games. This difference in actual versus expected
+performance (8.1 percent) is statistically significant at conventional
+levels and provides evidence in favor of our hypothesis that losing can
+be motivating.
+
+
+
+This difference persists when controlling for home-team
+advantage, possession arrow to start the second half, prior season
+winning percentage, and team fixed effects (see Table 1 of the paper). 
+Further, supplementary analyses show that teams losing by one point
+closed the gap the most in the first few minutes after halftime
+(supporting our motivation hypothesis). Laboratory studies, using
+random assignment, also demonstrate that merely telling people they are
+slightly behind halfway through a competition leads them to exert more
+effort.
+Taken together, these findings indicate that being slightly behind motivates people to work harder and be more successful.    
+
+Finally, let me say just why I like this paper. It’s easy to mine
+sports data to find interesting anomalies, but sometimes it is hard to
+see what it means. And it is easy to get students in an experimental
+setting to do weird things that have no relevance to the real world. It
+is the juxtaposition of suggestive data from the field with a
+well-designed experiment that leads me to conclude there’s some
+interesting social science here.
+My friends at the Association for Professional Basketball Research have collected some interesting discussion threads on this controversy, here, including data suggesting a similar pattern in the NBA.
+	

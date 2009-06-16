@@ -1,0 +1,784 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+
+
+<!--
+
+ __  __                                __              ___    __ __     ________ 
+/\ \/\ \                              /\ \__         /'___`\ /\ \\ \   /\_____  \
+\ \ \_\ \    ___   _ __    ___      __\ \ ,_\   ____/\_\ /\ \\ \ \\ \  \/___//'/'
+ \ \  __ \  / __`\/\`'__\/' _ `\  /'__`\ \ \/  /',__\/_/// /__\ \ \\ \_    /' /'
+  \ \ \/\ \/\ \L\ \ \ \/ /\ \/\ \/\  __/\ \ \_/\__, `\ // /_\ \\ \__ ,__\ /' /' 
+   \ \_\ \_\ \____/\ \_\ \ \_\ \_\ \____\\ \__\/\____//\______/ \/_/\_\_//\_/  
+    \/_/\/_/\/___/  \/_/  \/_/\/_/\/____/ \/__/\/___/ \/_____/     \/_/  \// .com
+
+
+-->
+
+
+
+<title>The Silence of Jeff Bower -  Hornets247.com</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="description" content="New Orleans Hornets news, analysis and discussion.">
+<meta name="author" content="Niall Doherty">
+	
+
+
+	
+
+
+<!-- Rails Defaults -->
+<script src="hornets247.com.jeff_files/jquery_004.js" type="text/javascript"></script>
+<script src="hornets247.com.jeff_files/jquery-ui.js" type="text/javascript"></script>
+<script src="hornets247.com.jeff_files/jquery-fx.js" type="text/javascript"></script>
+<script src="hornets247.com.jeff_files/jrails.js" type="text/javascript"></script>
+
+<!-- Other JS -->
+<script type="text/javascript" src="hornets247.com.jeff_files/jquery_002.js"></script>
+
+<script type="text/javascript" src="hornets247.com.jeff_files/custom.js"></script>
+
+<!--<script type="text/javascript" src="/javascripts/smooth-scroll.js"></script>-->
+<script type="text/javascript" src="hornets247.com.jeff_files/jquery_003.js"></script>
+
+<script type="text/javascript" src="hornets247.com.jeff_files/jquery.js"></script>
+
+
+<!-- CSS Goodness -->
+<link href="hornets247.com.jeff_files/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+<link href="hornets247.com.jeff_files/comments.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="hornets247.com.jeff_files/sidebar-recently-posted.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if IE 6]><link href="/stylesheets/ie6.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 7]><link href="/stylesheets/ie7.css" media="all" rel="stylesheet" type="text/css" /><![endif]-->
+
+<style type="text/css">
+#master_wrap { background: #000 url("/stylesheets/images/themes/20080504-1242-packed-house.jpg") no-repeat center top }
+h1 { text-decoration: none }
+h1 a { display: block; height: 100px; margin: auto; line-height: 100%; position: relative; top: 45px; text-decoration: none; text-indent: -900em; width: 650px }
+#user_status a.shortcuts, #user_status a.logout { font-weight: 800 }
+#user_status a.shortcuts { border-right: 2px solid #555 }
+</style>
+
+
+<link rel="alternate" type="application/rss+xml" title="Full blog feed" href="http://feeds.feedburner.com/hornets247-blog">
+<link rel="alternate" type="application/rss+xml" title="Short blog feed" href="http://feeds.feedburner.com/hornets247-blog-short">
+<link media="all" href="hornets247.com.jeff_files/widget13.css" type="text/css" rel="stylesheet"></head><body id="blog"><object type="application/x-shockwave-flash" data="hornets247.com.jeff_files/button1.swf" id="atff" style="width: 1px; height: 1px; position: absolute; z-index: 100000;"><param value="transparent" name="wmode"><param value="always" name="allowScriptAccess"></object>
+
+<iframe src="hornets247.com.jeff_files/nav.html" style="border-bottom: 2px solid rgb(85, 85, 85); overflow: hidden; height: 35px; width: 100%;" frameborder="0" scrolling="no"></iframe>
+
+<a id="top"></a>
+
+
+	<div id="login_bar">
+
+	<div>
+	
+		<p><a href="http://www.hornets247.com/user/register">Register now</a> <a href="http://www.hornets247.com/user/forgot_password">Forgot password?</a></p>
+		
+		<form action="/user/login" method="post">
+			
+			<label for="login_bar_user">Username: </label><input id="login_bar_user" name="user[username]" size="30" type="text">
+			<label for="login_bar_password">Password: </label><input id="login_bar_password" name="user[password]" size="30" type="password">
+			<label class="remember" for="save_login">Remember? <input name="save_login" id="save_login" value="1" class="checkbox" type="checkbox"></label>
+			<input value="Log In" class="submit" type="submit">
+
+		</form>
+	
+	</div>
+	
+</div>
+
+
+
+<div id="master_wrap">
+<div id="content_wrap">
+
+<div id="header_wrap">
+
+  <h1><a href="http://www.hornets247.com/blog" title="Click here to return to the Hornets247.com homepage">Hornets247.com</a></h1>
+  
+  
+  
+		<div id="global_nav"> 
+			<ul>
+				<li id="nav-blog"><a href="http://www.hornets247.com/blog">Blog</a></li>
+				<li id="nav-journals"><a href="http://www.hornets247.com/journals">Journals</a></li>
+				<li id="nav-news"><a href="http://www.hornets247.com/news">News</a></li>
+				<li id="nav-calendar"><a href="http://www.hornets247.com/calendar">Calendar</a></li>
+				<li id="nav-vault"><a href="http://www.hornets247.com/vault">Vault</a></li>
+			</ul>
+		</div><!-- /global_nav -->
+  
+  
+  
+</div><!-- /header_wrap -->
+
+		
+
+		<div id="body-wrap-2col">
+			
+			<div id="body-leftcol"> 
+		
+				<div class="wrapper">
+				
+<div class="blog-post">
+  
+      
+  <h2>The Silence of Jeff Bower</h2>
+  
+  <div class="meta">
+    <span class="author"><a href="http://www.hornets247.com/users/ryanschwan" title="View Ryan Schwan's profile"><img src="hornets247.com.jeff_files/ryanschwan_s.png" alt="View Ryan Schwan's profile"></a>Posted by <a href="http://www.hornets247.com/users/ryanschwan" title="View Ryan Schwan's profile">Ryan Schwan</a></span>
+    <span class="date">August 09, 2009 at 21:18 Central</span>
+  </div>
+
+  <div class="post-content">
+    <p>David Aldridge's NBA.com o<a href="http://www.hornets247.com/news/lagniappe/2009/08/07/nbacoms-offseason-anlysis-hornets-among-the-dreamers">ff-season evaluation of the Hornets</a> drew some&nbsp; unhappy c<a href="http://www.hornets247.com/news/lagniappe/2009/08/07/nbacoms-offseason-anlysis-hornets-among-the-dreamers#comments">ommentary from our readers</a>.&nbsp;
+Like the comments, I'm not really a fan of his take on the Hornets, but
+there were a couple lines in there that made me grin:</p>
+<blockquote>
+<p>GM Jeff Bower keeps his own counsel . . . Quiet, but good. That's Bower.</p>
+</blockquote>
+<p><img style="float: right;" src="hornets247.com.jeff_files/117-jeff-bower-at-hooters.jpg" alt="Jeff Bower" height="400" width="267"></p>
+<p>Yes. That's Jeff Bower.&nbsp; Over the last four years, there has
+been one truth about Bower:&nbsp; He doesn't say much - or leak
+anything.&nbsp; When Bower signed Peja, there were no pundits who were
+predicting it.&nbsp; Bower traded for Chandler, and there wasn't any
+speculation of Chandler to the Hornets before it happened.&nbsp; Bower
+signed West to an extension - and the media hadn't even reported
+negotations were ongoing.&nbsp; Bower traded Mike James for Antonio
+Daniels and moved Chandler for Okafor, and the media had the story only
+a very brief time before the move happened.&nbsp; According to Bower,
+he had been exploring the Okafor trade for weeks with Charlotte, as
+every major news outlet could only re-iterate how inactive he was, and
+how the poor Hornets fans could only expect their team to fall apart
+and Paul to move on.</p>
+<p><a name="more"></a></p>
+<p>I tried to think of some trades or transactions that could have
+happened or did happen that had some fanfare and leaks around them -
+and the only one I could think of was the potential Chandler for Ben
+Wallace trade.&nbsp; Everyone was reporting that - but then, Phoenix's
+front office has more leaks than the Titanic.&nbsp; There was some
+information out there prior to the Morris Peterson signing, but that
+was because Utah was pursuing Peterson as well.&nbsp; That's about it.</p>
+<p>Bower just doesn't say much.&nbsp; You listen to one of his
+interviews, and he generally says what he wants to say in the first
+minute.&nbsp; After that, you'll get nothing out of him.&nbsp; His
+answers will be neutral, generally uninformative, somewhat evasive, and
+will never, ever, hint at his future plans.&nbsp;</p>
+<p>As a blogger, speculating about the Hornet's future moves, that can
+be rough.&nbsp; As an avid fan, hoping and wanting the Hornets to do
+something, <em>anything</em> earlier this summer, that was
+rough.&nbsp; However, as someone who wants the Hornets to do well, I
+love it.&nbsp; A man who can keep his mouth shut about a big deal while
+the media excoriates him? A man who never tips his hand to
+anyone?&nbsp; That's good stuff.</p>
+<p>What do you guys think?</p>
+  </div>
+  
+  <div id="before-after">
+    <p class="before js">Before <a href="http://www.hornets247.com/blog/2009/08/06/scott-rounds-out-coaching-staff-with-robert-pack">Scott rounds out coaching staff with Robert Pack</a></p>    <p class="after js">After <a href="http://www.hornets247.com/blog/2009/08/11/chris-paul-masters-a-new-crossover-into-childrens-books">Chris Paul Masters a New Crossover - into Children's Books</a></p>  </div>
+  
+  <div class="meta-full">
+    
+    <dl>
+      
+      <dt class="share">Share</dt>
+      <dd>
+	<a href="http://ballhype.com/post/" onclick="location.href='http://ballhype.com/post/url/?url='+encodeURIComponent('http://www.hornets247.com/blog/2009/08/09/the-silence-of-jeff-bower')+'&amp;title='+encodeURIComponent('The Silence of Jeff Bower');return false;">BallHype</a>, 
+	<a href="http://www.yardbarker.com/author/new" onclick="location.href='http://www.yardbarker.com/author/new?pUrl=' + (encodeURIComponent('http://www.hornets247.com/blog/2009/08/09/the-silence-of-jeff-bower'))+'&amp;pHead='+(encodeURIComponent('The Silence of Jeff Bower')), 'yardbarker'; return false;">YardBarker</a>, 
+	<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url=location.href; addthis_title=document.title; return addthis_click(this);" target="_blank">More ways to share</a> <script type="text/javascript">var addthis_pub = 'hornets247';</script><script type="text/javascript" src="hornets247.com.jeff_files/widget.html"></script>
+      </dd>
+      
+      <dt class="tags">Tags</dt>
+      <dd>
+		<a href="http://www.hornets247.com/blog/tag/2008-playoffs">2008 Playoffs</a>, 		<a href="http://www.hornets247.com/blog/tag/jeff-bower">Jeff Bower</a>	      </dd>
+      
+      <dt class="subscribe">Subscribe</dt>
+      <dd>
+	<a href="http://feeds.feedburner.com/hornets247-blog">Subscribe by RSS</a>, <a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=2585153&amp;loc=en_US">Subscribe by E-mail</a>, <a href="http://www.hornets247.com/feeds">More info</a>
+      </dd>
+      
+    </dl>
+    
+  </div><!-- .meta-full -->
+  
+  <div id="comments">
+    								<h2>5 thoughtful comments <span class="h-link"><a href="#post-comment">post your own</a></span></h2>
+								
+								<ol>
+										<li id="comment-40784">
+																				
+										<div class="the-commenter">
+																					<a href="http://www.hornets247.com/users/420ftJesus"><img src="hornets247.com.jeff_files/420ftJesus_l.png" alt="View 420ftJesus's profile" height="48" width="48"></a>
+											<p class="comment-author"><a href="http://www.hornets247.com/users/420ftJesus">420ftJesus</a></p>
+										
+											<p class="comment-meta"><a href="#comment-40784">08/09/09 11:10 PM</a></p>
+										</div><!-- .the-commenter -->
+										
+										<div class="the-comment">
+											<p>From what I can tell, he has a very clear idea of what he's willing and unwilling to talk about.  <br><br>I'd
+much prefer a GM who does good things and is quiet then one who does
+good things and blathers on, but that's just me (reference a number of
+quotes about sound and fury, fools, etc.). <br><br>If the restlessness I feel when he's silent and we're apparently static is the price of winning, then I'll pay the toll.<br><br>Of
+course, we have yet to see if these moves are good. The Okafor trade is
+really the big move that will be his legacy for this off-season. If
+Tyson misses more than a handful of games, it'll be an even swapor
+better.</p>
+											<p class="comment-meta">
+																									<a class="commenter-url" href="" rel="nofollow"></a>												
+													<a class="comment-count" href="#comment-40784">#1</a>
+												
+											</p>
+										</div><!-- .the-comment -->
+									</li>
+										<li id="comment-40791" class="alt">
+																				
+										<div class="the-commenter">
+																					<a href="http://www.hornets247.com/users/ChrisTrewdotCom"><img src="hornets247.com.jeff_files/ChrisTrewdotCom_l.png" alt="View ChrisTrew.com's profile" height="48" width="48"></a>
+											<p class="comment-author"><a href="http://www.hornets247.com/users/ChrisTrewdotCom">ChrisTrew.com</a></p>
+										
+											<p class="comment-meta"><a href="#comment-40791">08/09/09 11:50 PM</a></p>
+										</div><!-- .the-commenter -->
+										
+										<div class="the-comment">
+											<p>I love that it's news that our GM doesn't make news when he is creating news. Really.</p>
+											<p class="comment-meta">
+																									<a class="commenter-url" href="http://www.christrew.com/" rel="nofollow">www.christrew.com</a>												
+													<a class="comment-count" href="#comment-40791">#2</a>
+												
+											</p>
+										</div><!-- .the-comment -->
+									</li>
+										<li id="comment-40915">
+																				
+										<div class="the-commenter">
+																					<a href="http://www.hornets247.com/users/StefanC"><img src="hornets247.com.jeff_files/StefanC_l.png" alt="View StefanC's profile" height="48" width="48"></a>
+											<p class="comment-author"><a href="http://www.hornets247.com/users/StefanC">StefanC</a></p>
+										
+											<p class="comment-meta"><a href="#comment-40915">08/10/09 03:52 PM</a></p>
+										</div><!-- .the-commenter -->
+										
+										<div class="the-comment">
+											<p>I just read that article by David Aldridge yesterday &amp; I just wanted to slap the guy.<br><br>He
+mentioned in the post that Posey is our guy that really has to step up
+for us to be successful. Yes we could use more production from him (or
+any other player really), but it's gotta be someone like Hilton
+Armstrong or Julian Wright to at least contribute on a daily basis. <br><br>Everyone so far thinks we'll get worse with the Okafor trade, but I expect big things.<br><br>Last
+but not least, we were categorized with the Clippers, Thunder, &amp;
+Warriors in that post. Dreamers? Like we have no chance at all!</p>
+											<p class="comment-meta">
+																									<a class="commenter-url" href="" rel="nofollow"></a>												
+													<a class="comment-count" href="#comment-40915">#3</a>
+												
+											</p>
+										</div><!-- .the-comment -->
+									</li>
+										<li id="comment-41016" class="alt">
+																				
+										<div class="the-commenter">
+																					<a href="http://www.hornets247.com/users/bigindian15"><img src="hornets247.com.jeff_files/default_l.png" alt="View bigindian15's profile" height="48" width="48"></a>
+											<p class="comment-author"><a href="http://www.hornets247.com/users/bigindian15">bigindian15</a></p>
+										
+											<p class="comment-meta"><a href="#comment-41016">08/11/09 12:03 AM</a></p>
+										</div><!-- .the-commenter -->
+										
+										<div class="the-comment">
+											<p>I
+disagree. I think our key guy is Peja. If we can get his 07-08 numbers
+and 75 games played, we're a 55 win team again I think, even in the
+west because we have a better bench with Diogu, Posey and Collison and
+Paul even better.</p>
+											<p class="comment-meta">
+																																					
+													<a class="comment-count" href="#comment-41016">#4</a>
+												
+											</p>
+										</div><!-- .the-comment -->
+									</li>
+										<li id="comment-41075">
+										<span id="last-comment"></span>										
+										<div class="the-commenter">
+																					<a href="http://www.hornets247.com/users/The_big_H"><img src="hornets247.com.jeff_files/default_l.png" alt="View The_big_H's profile" height="48" width="48"></a>
+											<p class="comment-author"><a href="http://www.hornets247.com/users/The_big_H">The_big_H</a></p>
+										
+											<p class="comment-meta"><a href="#comment-41075">08/11/09 06:56 AM</a></p>
+										</div><!-- .the-commenter -->
+										
+										<div class="the-comment">
+											<p>There
+was a guy on Hornetsreport.com who came on, predicted the Chandler and
+Peja signing and then left. I think he was number 1 Hornet or
+something. The dude had major inside knowledge, so Bower does open his
+mouth to somebody.<br><br>I think it says more about the New Orleans
+media than anything. If you cover the Hornets for any length of time,
+surely you must develop some contracts or something but the Hornets
+media has no idea. <br><br>Most of the mainstream media comes from NY
+so they aren't going to care about the Hornets. Its up to the New
+Orleans media to get the scoop</p>
+											<p class="comment-meta">
+																																					
+													<a class="comment-count" href="#comment-41075">#5</a>
+												
+											</p>
+										</div><!-- .the-comment -->
+									</li>
+									</ol>
+								
+  </div><!-- #comments -->
+  <div id="comment-form">
+			<h2 id="post-comment">Post a Comment <span class="h-link trigger"><a href="#">Check out the guidelines</a></span></h2>
+
+	<fieldset style="display: none;" id="comment-guide" class="target start-closed">
+	  
+	  <h4>Some simple guidelines to keep the conversation legendary...</h4>
+<ul>
+	<li>We moderate if we have to. Comments can be deleted if necessary.</li>
+	<li>Always be respectful. You can disagree with someone all you like, just try real hard not to be a prick about it.</li>
+	<li>Racist, sexist or any kind of derogatory comments will not be tolerated. Don't even waste your time.</li>
+	<li>Stay on topic. If you feel like taking off on a tangent, that's what the <a href="http://www.hornets247.com/journals">Journals</a> are for.</li>
+	<li>Don't use profanities. We're trying to be all mature and responsible here. Help us out.</li>
+	<li>Using ALL CAPS is like yelling. There's no need to yell. We're right here.</li>
+</ul>
+	  
+	</fieldset>
+			<div class="comment-fork-js" id="comment-fork">
+	  
+	  <a class="tab-toggle active" href="#">I'm a Registered User</a><a class="tab-toggle" href="#">I'm an Unregistered User</a><fieldset>
+	    
+	    
+	    <p>Cool. You're already signed up. Just login below and you can leave a comment.</p>
+	    
+	    <form action="/user/login" class="regular" method="post">
+	    
+	    <p>
+	      <label for="user_username">Username:</label>
+	      <input id="user_username" name="user[username]" size="30" type="text">
+	    </p>
+	    
+	    
+	    <p>
+	      <label for="user_password">Password:</label>
+	      <input id="user_password" name="user[password]" size="30" type="password">
+	    </p>
+	    
+	    <p>
+	      <label style="display: inline;" for="save_login">Remember me?</label>
+	      <input name="save_login" value="1" class="checkbox save_login" type="checkbox">
+	    </p>
+
+	    <input name="current_url" value="/blog/2009/08/09/the-silence-of-jeff-bower#post-comment" type="hidden">
+	    
+	    <p>
+	      <input value="Login" class="submit" type="submit">
+	    </p>
+	    
+	    </form>
+	    
+	    <p><a href="http://www.hornets247.com/user/register">Register now</a> | <a href="http://www.hornets247.com/user/forgot_password">Forgot your password?</a></p>
+
+	  </fieldset>
+
+	  <fieldset style="display: none;">
+	    
+	    
+	    <p>No
+worries. Leave your comment below. You will need to supply us with a
+valid e-mail address so we can send an activation link for your
+comment. (Alternatively, you could take a minute to <a href="http://www.hornets247.com/user/register">register</a>. All the cool kids are doing it.)</p>
+
+	    <form action="/blog/2009/08/09/the-silence-of-jeff-bower" class="regular js" method="post">
+	    
+	    <p style="position: relative;">
+	      <label for="comment_commenter_name">Your name (required):</label>
+	      <input id="comment_commenter_name" name="comment[commenter_name]" size="30" type="text">
+	    </p>
+	    
+	    <p>
+	      <label for="comment_commenter_email">Your e-mail address (required):</label>
+	      <input id="comment_commenter_email" name="comment[commenter_email]" size="30" type="text">
+	      <span class="hint">A
+valid e-mail address is required to activate your comment. Please
+ensure the address you enter is correct. We promise not to spam you.
+Honest.<span class="hint-arrow"></span></span>
+	    </p>
+	    
+	    <p>
+	      <label for="comment_commenter_url">Your website address:</label>
+	      <input id="comment_commenter_url" name="comment[commenter_url]" size="30" type="text">
+	      <span class="hint">If you have a relevant website, please enter the full URL here (i.e. including "http://").<span class="hint-arrow"></span></span>
+	    </p>
+	    
+	    <p>
+	      <label for="comment_comment">Comment:</label>
+	      <textarea style="height: 20px; overflow-y: hidden;" class="autogrow" cols="40" id="comment_comment" name="comment[comment]" rows="5"></textarea>	    </p>
+
+	    <input id="comment_blog_id" name="comment[blog_id]" value="247697" type="hidden">
+	    <input name="current_url" value="/blog/2009/08/09/the-silence-of-jeff-bower" type="hidden">
+	    
+	    <input class="submit" name="commit" value="Submit" type="submit">
+	    
+	</form>    
+	  </fieldset>
+	  
+	</div><!-- #comment-fork -->
+	  </div><!-- #comment-form -->
+  
+</div><!-- /blog-post -->
+
+<div class="toolbox">
+  <a href="#top" class="back-to-top" title="Click here to zip back to the top of this page">Back to top</a>
+  
+</div>
+
+
+				</div><!-- /wrapper-->
+					
+			</div><!-- /body-leftcol -->
+
+			<div id="body-rightcol">
+		
+<div class="box twitter" style="padding: 0pt; background-color: rgb(143, 229, 254);">
+	<a href="http://www.twitter.com/hornets247" style="padding: 8px 15px; display: block; font-size: 11px; font-weight: 800; text-decoration: none;" title="Click here to see our latest updates on Twitter">Follow Hornets247 on Twitter »</a>
+</div><div class="box">
+<iframe src="hornets247.com.jeff_files/indexPlayerPage.html" marginheight="0" marginwidth="0" frameborder="0" height="283" scrolling="no" width="289"></iframe>
+</div><!-- .box --><div class="box" style="padding-left: 4px;">
+<iframe allowtransparency="true" src="hornets247.com.jeff_files/tickets.html" style="overflow: hidden; height: 112px; width: 300px;" frameborder="0" scrolling="no"></iframe>
+</div><!-- .box -->
+	<div class="box activity">
+		<h3>Recently Posted <span class="h-link"><a href="http://feeds.feedburner.com/hornets247-activity">subscribe</a></span></h3>
+		<ul>
+			<li>
+			
+				<h4><span>lagniappe</span> <a href="http://www.hornets247.com/news/lagniappe/2009/08/28/four-years">Four Years</a></h4>
+			
+			</li><li>
+			
+				<h4><span>news</span> <a href="http://www.hornets247.com/news/2009/08/28/marks-earns-return-to-hornets-in-200910-resigns">Marks earns return to Hornets in 2009-10, re-signs</a></h4>
+			
+			</li><li>
+			
+				<h4><span>news</span> <a href="http://www.hornets247.com/news/2009/08/28/new-orleans-hornets-sean-marks-again-tabbed-to-bolster-frontcourt">New Orleans Hornets' Sean Marks again tabbed to bolster frontcourt</a></h4>
+			
+			</li><li>
+			
+				<h4><span>blog</span> <a href="http://www.hornets247.com/blog/2009/08/27/quick-thoughts-on-sean-marks">Quick thoughts on Sean Marks</a></h4>
+			
+			</li><li>
+			
+				<h4><span>news</span> <a href="http://www.hornets247.com/news/2009/08/27/hornets-resign-free-agent-sean-marks">HORNETS RE-SIGN FREE AGENT SEAN MARKS</a></h4>
+			
+			</li><li>
+			
+				<h4><span>news</span> <a href="http://www.hornets247.com/news/2009/08/27/and-one-with-hugh-weber-volume-3">AND ONE! with Hugh Weber - Volume 3</a></h4>
+			
+			</li><li>
+			
+				<h4><span>lagniappe</span> <a href="http://www.hornets247.com/news/lagniappe/2009/08/27/top-10-power-forwards-of-the-0809-season">Top 10 power forwards of the ‘08-09 season</a></h4>
+			
+			</li><li>
+			
+				<h4><span>lagniappe</span> <a href="http://www.hornets247.com/news/lagniappe/2009/08/27/five-centers-to-watch-for-200910">Five centers to watch for 2009-10</a></h4>
+			
+			</li><li>
+			
+				<h4><span>news</span> <a href="http://www.hornets247.com/news/2009/08/26/no-team-usa-for-chris-paul-has-been-golden-for-new-orleans-hornets">No Team USA for Chris Paul has been golden for New Orleans Hornets</a></h4>
+			
+			</li><li>
+			
+				<h4><span>blog</span> <a href="http://www.hornets247.com/blog/2009/08/26/random-thoughts-including-paul-not-being-frosty-towards-the-hornets">Random Thoughts, Including Paul Not Being Frosty Towards the Hornets</a></h4>
+			
+			</li>
+		</ul>
+		
+	</div><!-- .box -->
+
+
+				<div class="subscribe box">
+	<h3>Subscribe <span class="h-link"><a href="http://www.hornets247.com/feeds">What does this mean?</a></span></h3>
+	<p>Plenty of ways to keep up with the latest on the blog:</p>
+	<ul>
+		<li>Full feed: <a href="http://feeds.feedburner.com/hornets247-blog">RSS</a> | <a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=2585153&amp;loc=en_US">E-mail</a></li>
+		<li>Short feed: <a href="http://feeds.feedburner.com/hornets247-blog-short">RSS</a> | <a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=2585159&amp;loc=en_US">E-mail</a></li>
+		<li><a href="http://feeds.feedburner.com/hornets247-activity">Site Activity Feed</a></li>
+		<li><a href="http://www.hornets247.com/feeds">More Feeds</a></li>
+	</ul>
+</div><!-- .subscribe .box -->
+				<div class="box wallpaper">
+					<h3>Fresh Wallpaper <span class="h-link"><a href="http://www.hornets247.com/vault/wallpapers">View all</a></span></h3>
+					
+					<a class="wp-img" href="http://www.hornets247.com/vault/wallpaper/2009/08/17/muggsy-bogues-vintage-light" title="">
+						<img src="hornets247.com.jeff_files/thumb.jpg" alt="Custom thumbnail for this wallpaper">
+						<span></span>
+					</a>
+					<p class="flickr"><img src="hornets247.com.jeff_files/flickr-icon-16x8.png" alt="Flickr icon"><a href="http://www.flickr.com/groups/hornets247" title="Visit the Hornets247 group on Flickr">More eye-candy on Flickr »</a></p>
+				</div><!-- .box -->
+
+				<div class="search-form box">
+					<h3>Search</h3>
+						<form action="http://www.hornets247.com/search" id="cse-search-box">
+	<div>
+		<input name="cx" value="009623964029627112212:u4fmjj06rgw" type="hidden">
+		<input name="cof" value="FORID:9" type="hidden">
+		<input name="ie" value="UTF-8" type="hidden">
+		<input name="q" size="31" class="text" type="text">
+		<input name="sa" value="Search" class="submit" type="submit">
+	</div>
+	</form>
+				</div><!-- .search-form .box -->
+				<div class="box events">
+					<h3>Upcoming Events <span class="h-link"><a href="http://www.hornets247.com/calendar">View all</a></span></h3>
+					<div class="wrapper">
+						<ul>							<li class="row1">
+								<span>
+									Saturday &nbsp;·&nbsp; Aug. 29 &nbsp;·&nbsp; 01:01 Central &nbsp;·&nbsp; <a href="http://www.hornets247.com/calendar/2009/08/29/david-wests-29th-birthday#comments" title="View comments">0</a>
+								</span>
+								<a href="http://www.hornets247.com/calendar/2009/08/29/david-wests-29th-birthday">David West's 29th birthday</a>
+							</li>							<li class="row0">
+								<span>
+									Monday &nbsp;·&nbsp; Sep. 28 &nbsp;·&nbsp; 01:01 Central &nbsp;·&nbsp; <a href="http://www.hornets247.com/calendar/2009/09/28/nba-media-day#comments" title="View comments">0</a>
+								</span>
+								<a href="http://www.hornets247.com/calendar/2009/09/28/nba-media-day">NBA Media Day</a>
+							</li>							<li class="row1">
+								<span>
+									Tuesday &nbsp;·&nbsp; Sep. 29 &nbsp;·&nbsp; 01:01 Central &nbsp;·&nbsp; <a href="http://www.hornets247.com/calendar/2009/09/29/training-camp-begins#comments" title="View comments">0</a>
+								</span>
+								<a href="http://www.hornets247.com/calendar/2009/09/29/training-camp-begins">Training Camp begins</a>
+							</li>							<li class="row0">
+								<span>
+									Wednesday &nbsp;·&nbsp; Oct. 07 &nbsp;·&nbsp; 18:00 Central &nbsp;·&nbsp; <a href="http://www.hornets247.com/calendar/2009/10/07/new-orleans-hornets-at-atlanta-hawks#comments" title="View comments">0</a>
+								</span>
+								<a href="http://www.hornets247.com/calendar/2009/10/07/new-orleans-hornets-at-atlanta-hawks">New Orleans Hornets at Atlanta Hawks</a>
+							</li>							<li class="row1">
+								<span>
+									Thursday &nbsp;·&nbsp; Oct. 08 &nbsp;·&nbsp; 18:30 Central &nbsp;·&nbsp; <a href="http://www.hornets247.com/calendar/2009/10/08/new-orleans-hornets-at-charlotte-bobcats#comments" title="View comments">0</a>
+								</span>
+								<a href="http://www.hornets247.com/calendar/2009/10/08/new-orleans-hornets-at-charlotte-bobcats">New Orleans Hornets at Charlotte Bobcats</a>
+							</li>
+						</ul>
+					</div><!-- .wrapper -->
+				</div><!-- .box .events -->
+<!--
+<div class="box">
+	<h3>Join the Team</h3>
+	<p>We recently launched a hugely improved version of Hornets247, and we're looking for more committed folks like ourselves to help moderate the site and keep the content fresh. If that sounds like you, get at us via <a href="/contact">our contact page</a>.</p>
+</div>
+-->
+<div class="box">
+	<h3>Friends of Hornets247</h3>
+	<a href="http://www.bobbyphillsfoundation.org/" target="_blank" title="The Bobby Phills Educational Awareness Foundation">
+		<img alt="Handsome Willy's bar New Orleans" src="hornets247.com.jeff_files/125-bobby-phills-foundation.jpg" style="margin-bottom: 5px;">
+	</a>
+	<a href="http://www.handsomewillys.com/" target="_blank" title="Hornets247's favorite bar in New Orleans">
+		<img alt="Handsome Willy's bar New Orleans" src="hornets247.com.jeff_files/94-handsome-willys-ad.jpg" style="margin-bottom: 5px;">
+	</a>
+<!--
+	<a href="http://www.tysonchandler.com" target="_blank" title="Visit the official site of Tyson Chandler">
+		<img alt="TysonChandler.com" src="/images/uploads/2008/10/55-tysonchandlercom-promotion.jpg" style="margin-bottom:5px">
+	</a>
+-->
+	<a href="http://www.pejastojakovic.org/" target="_blank" title="Peja Stojakovic Children's Foundation">
+		<img alt="TysonChandler.com" src="hornets247.com.jeff_files/72-peja-stojakovics-charitabowl-promo.jpg" style="margin-bottom: -7px;">
+	</a>
+</div>
+				
+			</div><!-- /blog-rightcol -->
+
+	</div><!-- /body-wrap -->
+
+	<div id="footer">
+
+				<div class="wrapper">
+		
+			<div class="footer-col">
+		
+								<div class="block">
+					<h4>Latest Journals</h4>
+					<ul>
+						<li><a href="http://www.hornets247.com/journals/2009/08/22/the-highgrade-sleepers">The High-Grade Sleepers</a></li>
+						<li><a href="http://www.hornets247.com/journals/2009/08/13/julian-wright">Julian Wright</a></li>
+						<li><a href="http://www.hornets247.com/journals/2009/07/29/hornets-signing-diogu">Hornets signing DIOGU</a></li>
+						<li><a href="http://www.hornets247.com/journals/2009/07/27/chandler-for-okafor">Chandler for Okafor???</a></li>
+						<li><a href="http://www.hornets247.com/journals/2009/05/19/machine-a-new-beginning">MACHINE : A New Beginning!</a></li>
+					</ul>
+				</div><!-- .block -->
+				<div class="block">
+	<h4>Hornets247 on the Interwebs</h4>
+	<ul>
+		<li><a href="http://www.facebook.com/pages/Hornets247com/29745212181">Facebook</a></li>
+		<li><a href="http://www.flickr.com/groups/hornets247">Flickr</a></li>
+		<li><a href="http://www.myspace.com/hornets247">MySpace</a></li>
+		<li><a href="http://www.netvibes.com/hornets247">Netvibes</a></li>
+		<li><a href="http://www.pandora.com/people/hornets247">Pandora</a></li>
+		<li><a href="http://www.twitter.com/hornets247">Twitter</a></li>
+		<li><a href="http://www.youtube.com/group/hornets247">YouTube</a></li>
+	</ul>
+</div><!-- .block -->				<div class="block store">
+	<h4>Hornets247 Store</h4>
+	<ul>
+		<li>
+			<a class="prod-img" href="http://www.zazzle.com/peja_caricature_tee_light_tshirt-235742786370440063"><img src="hornets247.com.jeff_files/278-peja-stojakovic-white-caricature-tshirt.jpg" alt="Peja Stojakovic White Caricature T-Shirt"></a>
+			<h5><a href="http://www.zazzle.com/peja_caricature_tee_light_tshirt-235742786370440063">Peja Stojakovic Caricature T-Shirt</a></h5>
+			<p>from <span>$17.95</span></p>
+		</li>
+		<li><a href="http://www.zazzle.com/hornets247">See all products in our store</a></li>
+	</ul>
+</div><!-- .block -->				
+			</div><!-- .footer-col -->
+		
+			<div class="footer-col">
+			
+				<div class="block twitter">
+	<h4>Twitter</h4>
+	<ul id="twitter_update_list">
+		<li><noscript>You must have JavaScript enabled to view our Twitter updates here.</noscript></li>
+	</ul>
+	<p><a href="http://twitter.com/hornets247">Follow Hornets247 on Twitter</a></p>
+</div><!-- .block -->1				
+			</div><!-- .footer-col -->
+		
+			<div class="footer-col">
+				
+								<div class="block f-comments">
+					<h4>Recent Comments</h4>
+					<ul>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/27/quick-thoughts-on-sean-marks#comment-44150" title="View comment">ticktock6<span> - about 4 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/27/quick-thoughts-on-sean-marks#comment-44140" title="View comment">StefanC<span> - about 5 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44057" title="View comment">The_big_H<span> - about 16 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44051" title="View comment">gf3<span> - about 19 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44047" title="View comment">Mario Zygiel<span> - about 21 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44043" title="View comment">gf3<span> - about 21 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44040" title="View comment">umd88<span> - about 23 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44038" title="View comment">gf3<span> - about 23 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/25/haiku-contest-win-an-autographed-chris-paul-jersey#comment-44036" title="View comment">Thudso3<span> - about 23 hours ago</span></a>
+						</li>
+						<li>
+							<a href="http://www.hornets247.com/blog/2009/08/27/quick-thoughts-on-sean-marks#comment-44030" title="View comment">Roger<span> - 1 day ago</span></a>
+						</li>
+					</ul>
+				</div><!-- .block -->
+								<div class="block">
+					<h4>Hornets News Headlines</h4>
+					<ul>
+						<li><a href="http://www.hornets247.com/news/2009/08/28/marks-earns-return-to-hornets-in-200910-resigns">Marks earns return to Hornets in 2009-10, re-signs</a></li>
+						<li><a href="http://www.hornets247.com/news/2009/08/28/new-orleans-hornets-sean-marks-again-tabbed-to-bolster-frontcourt">New Orleans Hornets' Sean Marks again tabbed to bolster frontcourt</a></li>
+						<li><a href="http://www.hornets247.com/news/2009/08/27/hornets-resign-free-agent-sean-marks">HORNETS RE-SIGN FREE AGENT SEAN MARKS</a></li>
+						<li><a href="http://www.hornets247.com/news/2009/08/27/and-one-with-hugh-weber-volume-3">AND ONE! with Hugh Weber - Volume 3</a></li>
+						<li><a href="http://www.hornets247.com/news/2009/08/26/no-team-usa-for-chris-paul-has-been-golden-for-new-orleans-hornets">No Team USA for Chris Paul has been golden for New Orleans Hornets</a></li>
+					</ul>
+				</div><!-- .block -->
+								<div class="block">
+					<h4>Highly Rated Links</h4>
+					<ul>
+						<li><a href="http://neworleanshornetsblog.blogspot.com/" target="_blank" title="">Big Easy Buzz Blog</a></li>
+						<li><a href="http://coachingbetterbball.blogspot.com/" target="_blank" title="Spreading the knowledge of basketball coaching">X's &amp; O's of Basketball</a></li>
+						<li><a href="http://my.nba.com/forum.jspa?forumID=300015625" target="_blank" title="Tyson Chandler's blog on NBA.com">Tyson Chandler's blog</a></li>
+						<li><a href="http://www.nba.com/hornets" target="_blank" title="The official site of the New Orleans Hornets">Hornets.com</a></li>
+						<li><a href="http://www.moosedenied.com/" target="_blank" title="Indescribable">moosedenied</a></li>
+						<li><a href="http://www.hornets247.com/vault/links">More links</a></li>
+					</ul>
+				</div><!-- .block -->
+				
+			</div><!-- .footer-col -->
+
+					<div id="f-meta">
+						<a title="Click here to zip back to the top of this page" class="back-to-top" href="#top">Back to top</a>
+						<p>Hornets247: Working to spread information, provide analysis and encourage discussion. <a href="http://www.hornets247.com/about">Learn more about us »</a></p>
+						<p id="copyright">Copyright © 2003-2009 <a href="http://www.hornets247.com/" title="Click here to return to the Hornets247.com homepage">Hornets247.com</a></p>
+						<p id="validation"><a href="http://jigsaw.w3.org/css-validator/validator?uri=www.hornets247.com" title="Validate site styles">CSS</a> <a href="http://validator.w3.org/check?uri=referer" title="Validate site structure">XHTML</a> <a href="http://feedvalidator.org/" title="Validate site feeds">RSS</a></p>
+					</div>
+		
+		</div><!-- .wrapper -->
+
+	</div><!-- /footer -->
+	
+ 
+			
+</div><!-- /content_wrap -->
+</div><!-- /master_wrap -->
+
+<!-- Start of StatCounter Code -->
+	<script type="text/javascript">
+		var sc_project=3352503; 
+		var sc_invisible=0; 
+		var sc_partition=36; 
+		var sc_security="49679a10"; 
+	</script>
+	<script type="text/javascript" src="hornets247.com.jeff_files/counter_xhtml.js"></script><span class="statcounter"><a class="statcounter" href="http://www.statcounter.com/" target="_blank"><img src="hornets247.com.jeff_files/t.gif" alt="StatCounter - Free Web Tracker and Counter" border="0"></a></span>
+<noscript><div class="statcounter"><a class="statcounter"
+href="http://www.statcounter.com/"><img class="statcounter"
+src="http://c37.statcounter.com/3352503/0/49679a10/0/" alt="screen
+resolution stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+<!-- Start of Google Analytics Code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="hornets247.com.jeff_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2593995-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End of Google Analytics Code -->
+<!-- SiteCatalyst code version: H.15.1. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
+<script type="text/javascript">
+var s_account="wdgespcom";
+var omniPageName = "espn:nba:truehoop:doherty_niall";
+var anMultiStepConv = "no";
+</script>
+
+<script type="text/javascript" src="hornets247.com.jeff_files/sOmni.js"></script>
+<script type="text/javascript" src="hornets247.com.jeff_files/analytics.js"></script>
+<!-- Traffic Variables -->
+<script type="text/javascript"><!--
+s_omni.pageName="nba:truehoop:doherty_niall";
+s_omni.server = window.location.host // Server from the Host
+s_omni.channel = "nba";
+s_omni.prop1 = "espn";
+s_omni.prop4 = "blog";
+s_omni.prop5 = "nba:truehoop";
+s_omni.prop17 = "en";
+s_omni.prop23 = "doherty_niall";
+s_omni.prop25 = "basketball";
+s_omni.prop26 = "nba";
+if(typeof(omniRegStatus) != "undefined" && omniRegStatus != "") s_omni.prop29=omniRegStatus;
+s_omni.prop30 = "n";
+s_omni.hier1 = "nba:truehoop:doherty_niall";
+s_omni.eVar9 = "en";
+s_omni.eVar10 = "doherty_niall";
+s_omni.eVar13 = "nba:truehoop:doherty_niall";
+s_omni.eVar19 = "basketball";
+s_omni.eVar21 = "nba";
+hbxparams = "{pageName=truehoop?archiveId=null&entryId=null, category=/nba/truehoop, crossgrid=nba/truehoop, columnist=, premium=N, hasAccess=N, username=, automated=N, contentId=null, contentSection=, wtSport=, sourceLine=, contentType=, event=}";
+anDebugCase = "v23May08.0.root-else:leafcat-truehoopORhashmarks:";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s_omni.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.15.1. -->
+
+<!-- Get Twitter Updates -->
+<script type="text/javascript" src="hornets247.com.jeff_files/blogger.html"></script>
+<script type="text/javascript" src="hornets247.com.jeff_files/hornets247.html"></script>
+
+<div style="position: absolute; top: -10000px; left: -10000px; width: 0pt; font-size: 14px; font-family: Verdana,Arial,Helvetica,sans-serif; line-height: 18px;"></div></body></html>

@@ -1,0 +1,511 @@
+/* BEGIN MANIFEST CODE *************************************************/
+
+
+
+
+
+
+/* END MANIFEST CODE *************************************************/
+
+p.xxsmall {
+   font-size: 70%;
+}
+
+p.xsmall {
+   font-size: 77%;
+}
+
+p.small {
+   font-size: 85%;
+}
+
+p.medium {
+   font-size: 100%;
+   width: auto;
+}
+
+p.large {
+   font-size: 114%;
+}
+
+p.xlarge {
+   font-size: 144%;
+}
+
+p.xxlarge {
+   font-size: 189%;
+}
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ * 
+ */
+
+table {font-size:inherit;font:100%;}
+
+/**
+ * 99% for safari; 100% is too large
+ */
+
+/**
+ * Bump up !IE to get to 13px equivalent
+ */
+pre, code {font:115% monospace;*font-size:100%;}
+
+/**
+ * Default line-height based on font-size rather than "computed-value"
+ * see: http://www.w3.org/TR/CSS21/visudet.html#line-height
+ */
+body * {line-height:1.3em;}
+
+/* Common stylesheet across all pages */
+
+/* Headings
+----------------------- */
+h1#masthead {
+    left: 0px;
+    position: right; /* <-------------------------------------------------------- */
+    top: 0px;
+}
+/** END Text ---------------------------------- */
+
+/* Links
+----------------------------------------------- */
+/* Maintain the order below */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: underline !important;
+}
+a:active {
+}
+a.standout {
+	text-decoration: underline !important;
+}
+/** END Text ---------------------------------- */
+
+/* Page - main container
+----------------------------------------------- */
+#page {
+    background-repeat: repeat-y;
+    margin: 0px auto;
+    position: relative;
+    width: 970px;	
+}
+/** END Page ---------------------------------- */
+
+#front-container {
+    position: relative;
+}
+
+/* Header
+----------------------------------------------- */
+#header-container {
+	width: 970px;
+}
+#head1 {
+	background-repeat: repeat-x;
+    height: 90px;
+}
+#head1 p.date,
+#head1 p.date-vendor {
+    font-weight: bold !important;
+    font-size: 85% !important;
+    width: 225px !important;
+    margin: 0px 10px !important;
+}
+#head1.home {
+    background-repeat: repeat-x;
+    height: 90px;
+	position: relative;
+}
+#head1.home #masthead,
+#head1.home #masthead img{
+    clear: both;
+}
+#head1.home .ad {
+    float: left;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 120px;
+}
+#head1.home h1 {
+	display: inline;
+}
+#head1.home #header-weather {
+    display: inline;
+    position: relative;
+    bottom: 19px;
+}
+#head1.home p.date {
+    text-align: right;
+	display: inline;
+}
+#head1.home p.weather-icon {
+    text-align: left;
+    position: relative;
+    top: 7px;
+	display: inline;
+    margin-right: 10px;
+}
+#head1.home p.weather {
+    text-align: left;
+	display: inline;
+}
+#subheader {
+    background-repeat: repeat-x;
+    height: 33px;
+}
+#subheader #search {
+    background: transparent;
+    display: inline; /* Fixes IE double-margin float bug */
+    float: left;
+    position: relative;
+    margin: 6px 0px 0px 20px;
+}
+#subheader #search label {
+    vertical-align: middle;
+}
+#subheader #search input.radio {
+    margin-left: 6px;
+}
+#subheader #search img.google-logo {
+    position: absolute;
+    right: -63px;
+    top: 0px;
+}
+#subheader #personalization {
+    display: inline; /* Fixes IE double-margin float bug */
+    float: right;
+    margin: 9px 8px 0px 0px;
+}
+#subheader #personalization a {
+    text-decoration: underline;
+}
+/** END Header -------------------------------- */
+
+/* Content
+----------------------------------------------- */
+#content {
+    display: inline; /* Fixes IE double-margin float bug */
+    float: left;
+    margin-right: 10px;
+    width: 526px;
+	
+}
+#page.poll #content {
+	width: 666px;
+}
+
+.entry-body,
+.comments-content {
+   font-size: 13px;
+}
+
+.entry-footer,
+.module-content {
+   font-size: 11px;
+  }
+  
+#more {
+	font-size:13px;
+	}
+    
+
+/** END Content ------------------------------- */
+
+/* Footer
+----------------------------------------------- */
+#footer {
+    border-top-width: 1px;
+    border-top-style: solid;
+    clear: both;
+    background-repeat: repeat-x;
+}
+#footer li {
+    font-family: Verdana;
+    line-height: normal;
+    display: inline;
+}
+#footer .footer-partners {
+    text-align: center;
+    padding: 6px 0px;
+}
+#footer #footer-utility {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: center;
+    padding: 6px 0px;
+}
+/** END Footer -------------------------------- */
+
+/* Ads
+----------------------------------------------- */
+#head1 .ad {
+    float: right;  /* <------------------------------------------------ */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 728px;
+}
+div.ad.google-wide {
+    clear: both;
+    margin-left: 135px;
+    padding: 10px 0px 10px 0px;
+}
+/** END Ads ----------------------------------- */
+
+/* Misc: Temporary - For testing only
+*---------------------------------------------- */
+/* BEGIN Clearfix: Allows clearing of floats without structural markup. 
+   More info: http://tinyurl.com/dh352 */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Holly Hack targets IE Win only \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* Holly Hack targets IE Win only \*/
+/* END Clearfix */
+.clear {
+    clear: both;
+}
+
+/* END MANIFEST CODE ******************************************/
+
+#navigation .ad {
+
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+    padding: 20px 2px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* Search */
+#sponsored-links {
+	clear:both;
+}
+#sponsored-links h4 { 
+	margin-bottom: 10px;
+}
+.sponsored-link {
+	margin-bottom: 10px;
+}
+.sponsored-link a,
+.sponsored-link span.title {
+	font-weight: bold;
+}
+#search-google-ads {
+	clear: both;
+}
+#search-google-ads h4 {
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#search-google-ads .google-ad {
+	margin-bottom: 5px;
+	background-color: #EEE;
+	padding: 5px;
+}
+
+#search-google-ads .google-ad .url a {
+	color: #666;
+}
+/* END Search */
+
+/* Styles listed for Market Ease of Use */
+
+/* Colors, Backgrounds */
+/* BEGIN MANIFEST CODE ******************************************/
+
+/* Headings
+----------------------------------------------- */
+h2 {
+    color: #004276;
+}
+
+h3 {
+    color: #004276;
+}
+h4 {
+    color: #900;
+}
+h5 {
+    color: #004276;
+}
+/** END Text ---------------------------------- */
+
+/* Links
+----------------------------------------------- */
+/* Maintain the order below */
+
+a:link {
+    color: #004276;
+}
+a:visited {
+    color: #004276;
+}
+/** END Text ---------------------------------- */
+
+/* Header
+----------------------------------------------- */
+#head1 {
+    background: url(http://beta.sun-sentinel.com/images/branding/header.gif);
+}
+#head1 p.date {
+    text-align: right !important;
+}
+#head1.home {
+    background: url(http://beta.sun-sentinel.com/images/branding/header-home.gif);
+}
+#head1.home p.weather-icon {
+    font-weight: bold;
+}
+#head1.home p.weather {
+    font-weight: bold;
+}
+#subheader {
+    background: #0061A9 url(http://www.sun-sentinel.com/images/branding/subheader.gif);
+    color: #FFF;
+}
+#subheader #search {
+    background: transparent;
+}
+#subheader #personalization a {
+    color: #FFF;
+}
+/** END Header -------------------------------- */
+
+/* Footer
+----------------------------------------------- */
+#footer {
+    background-color: #FFFFFF;
+    border-top-color: #999;
+}
+#footer li {
+    font-family: Verdana;
+	font-size:9px
+}
+#footer #footer-utility {
+    background-color: #DCDEE2;
+    border-top-color: #999;
+    border-bottom-color: #999;
+}
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+    color: #004276;
+}
+/** END Footer -------------------------------- */
+
+
+/* END MANIFEST CODE ******************************************/
+
+#navigation .ad {
+    background: url(http://www.sun-sentinel.com/images/branding/navigation-border-double.gif);
+}
+
+#subheader #subscription-button a#subsription-text {
+	color: #FFF;
+}
+
+/* END Colors */
+
+/* Fonts */
+
+/* BEGIN MANIFEST CODE ******************************************/
+
+/* Headings
+----------------------------------------------- */
+h2 {
+    font-size: 189%; /* See headers on article page templates. */
+    font-weight: bold;
+}
+#heading h1 {
+	font-size: 110%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 122%;
+    font-weight: bold;
+}
+/** END Text ---------------------------------- */
+
+/* Header
+----------------------------------------------- */
+#head1 p.date {
+    font-weight: bold;
+    font-size: 85%;
+}
+#subheader #search label {
+    font-size: 85%;
+    font-weight: bold;
+}
+#subheader #search input {
+    font-size: 85%;
+}
+#subheader #search span.google-enhanced {
+    font-size: 77%;
+    font-weight: normal;
+}
+#subheader #personalization {
+    font-size: 85%;
+}
+/** END Header -------------------------------- */
+
+/* Typepad Module Link Fix -------------------- */
+
+.module-header a,
+.module-header a:hover {
+	color:#FFFFFF;
+	}
+	
+/* End Typepad Module Link Fix ---------------- */
+
+/* END Fonts */
+
+/* bloglister formatting ---------------------- */
+
+div.feedburnerFeedBlock div#creditfooter {
+	display: none !important;
+	}
+
+div.feedburnerFeedBlock ul{
+	padding-left: 2px;
+	*margin-left: 0px;
+	margin-top: -6px;
+	*margin-top: -10px;
+}
+
+div.feedburnerFeedBlock li{
+	list-style-type:none !important;
+	margin-top: 10px !important;
+	margin-bottom: 6px !important;
+	/* line-height: 10px; */
+	}
+
+div.feedburnerFeedBlock a{
+	font: normal 12px;
+	font-weight: bold;
+	}
+	
+/* end bloglister formatting ------------------ */

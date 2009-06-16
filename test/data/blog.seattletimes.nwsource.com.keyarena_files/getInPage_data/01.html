@@ -1,0 +1,121 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>STND_MSHYCB_shop_legacy_dvdplyrs1v3_728x90</title>
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+</head><body style="border-width: 0px; margin: 0px;" bgcolor="White">
+<script type="text/javascript">
+var nRequiredVersion = 8; 
+var bIsRightVersion = false;	
+var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+if(isIE && isWin){
+document.writeln('<SCR' + 'IPT LANGUAGE=VBScript\>');
+document.writeln('on error resume next');
+document.writeln('Set oFlashPlayer = CreateObject("ShockwaveFlash.ShockwaveFlash." & nRequiredVersion)');
+document.writeln('If IsObject(oFlashPlayer) Then');
+document.writeln('bIsRightVersion = True');
+document.writeln('End If');
+document.writeln('If (Not bIsRightVersion) And (nRequiredVersion < 3) Then');
+document.writeln('Set oFlashPlayer = CreateObject("ShockwaveFlash.ShockwaveFlash")');
+document.writeln('If IsObject(oFlashPlayer) Then');
+document.writeln('bIsRightVersion = True');
+document.writeln('End If');
+document.writeln('End If');
+document.writeln('</SCR' + 'IPT\>'); 
+}
+function detectPluginUMA1244579669470() 
+{ 
+if (!bIsRightVersion) 
+{
+if (navigator.plugins != null && navigator.plugins.length > 0) {
+if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+var descArray = flashDescription.split(" ");
+var tempArrayMajor = descArray[2].split(".");	
+var versionMajor = tempArrayMajor[0];
+bIsRightVersion = (versionMajor >= nRequiredVersion);
+}
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1)
+{
+bIsRightVersion = (4 >= nRequiredVersion);
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1)
+{
+bIsRightVersion = (3 >= nRequiredVersion);
+}
+else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) 
+{
+bIsRightVersion = (2 >= nRequiredVersion);
+}
+}
+}
+detectPluginUMA1244579669470();
+var _UMA1244579669470_Instance =
+{
+http : "HTTP",
+image_path : "ec.atdmt.com/ds/NMMRTUMAAUMA",
+click : "http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?",
+imgs : []
+};
+if (!window.armapi_a1_a1)
+{
+var armapi_a1_a1 =
+{
+initialize : function(unique_id){},
+click : function(unique_id, num, suffix)
+{
+this.clickTrack(unique_id);
+this.clickThru(unique_id, num, suffix);
+},
+clickTrack : function(unique_id, num)
+{
+var instance = window[unique_id + "_Instance"];
+if (instance.click != "")
+{
+var img = new Image();
+img.src = instance.click + instance.http + "://" + instance.image_path + "/images/pixel.gif";
+instance.imgs.push(img); 
+}
+},
+clickThru : function(unique_id, num, suffix) {}
+};
+}
+var _strContentUMA1244579669470 = '';
+if(bIsRightVersion) 
+{ 
+var strFQDN = "HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/"; 
+var index = strFQDN.indexOf("/ds/");
+strFQDN = strFQDN.substring(0, index);
+_strContentUMA1244579669470 = '' + '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="HTTP://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="idSWFUMA1244579669470" width="728" height="90">'
++ '<param name="movie" value="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/090609_legacy_cashback_revised/STND_MSHYCB_shop_legacy_dvdplyrs1v3_728x90.swf?ver=1&clickTag1=http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01&clickTag=http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01" />'
++ '<param name="base" value="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/" />'
++ '<param name="FlashVars" value="unique_id=_UMA1244579669470&ArmApi=armapi_a1_a1&ArmClickUrl=http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.$num$/01&ArmClickToken=$num$" />'
++ '<param name="quality" value="high" />'
++ '<param name="salign" value="lt" />'
++ '<param name="loop" value="true" />'
++ '<param name="wmode" value="opaque" />'
++ '<param name="allowScriptAccess" value="always" />'
++ '<embed allowScriptAccess="always" quality="high" salign="LT" loop="true" type="application/x-shockwave-flash" pluginspace="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" base="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/" wmode="opaque" src="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/090609_legacy_cashback_revised/STND_MSHYCB_shop_legacy_dvdplyrs1v3_728x90.swf?ver=1&clickTag1=http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01&clickTag=http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01" width="728" height="90" FlashVars="unique_id=UMA1244579669470&ArmApi=armapi_a1_a1&ArmClickUrl=http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.$num$/01&ArmClickToken=$num$" />'
++ '</object>'
++ '';
+} 
+else 
+{ 
+_strContentUMA1244579669470 = '<a target="_blank" href="http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01?q=dvd+players" onclick="if(\'http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?\')(new Image).src=\'http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://ec.atdmt.com/images/pixel.gif\'"><img border="0" src="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/090609_legacy_cashback_revised/STND_MSHYCB_shop_legacy_dvdplyrs1_728x90.jpg?ver=1" width="728" height="90" /></a>';
+}
+</script>
+<script type="text/javascript" src="01_data/DocumentDotWrite.js"></script>
+<script type="text/javascript">DocumentDotWrite(_strContentUMA1244579669470);</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="HTTP://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="idSWFUMA1244579669470" height="90" width="728"><param name="movie" value="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/090609_legacy_cashback_revised/STND_MSHYCB_shop_legacy_dvdplyrs1v3_728x90.swf?ver=1&amp;clickTag1=http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01&amp;clickTag=http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01"><param name="base" value="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/"><param name="FlashVars" value="unique_id=_UMA1244579669470&amp;ArmApi=armapi_a1_a1&amp;ArmClickUrl=http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.$num$/01&amp;ArmClickToken=$num$"><param name="quality" value="high"><param name="salign" value="lt"><param name="loop" value="true"><param name="wmode" value="opaque"><param name="allowScriptAccess" value="always"><embed allowscriptaccess="always" quality="high" salign="LT" loop="true" type="application/x-shockwave-flash" pluginspace="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" base="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/" wmode="opaque" src="01_data/STND_MSHYCB_shop_legacy_dvdplyrs1v3_728x90.swf" flashvars="unique_id=UMA1244579669470&amp;ArmApi=armapi_a1_a1&amp;ArmClickUrl=http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.$num$/01&amp;ArmClickToken=$num$" height="90" width="728"></object>
+<script type="text/javascript"> 
+</script>
+<noscript>
+<a target="_blank"
+href="http://a1.interclick.com/icaid/18589/tid/7e2ba3b5-faf1-4c4c-9047-327e94e3aa20/click.ic?http://clk.atdmt.com/go/158014446/direct;wi.728;hi.90;ai.117552842;ct.1/01?q=dvd+players"><img
+border="0"
+src="HTTP://ec.atdmt.com/ds/NMMRTUMAAUMA/090609_legacy_cashback_revised/STND_MSHYCB_shop_legacy_dvdplyrs1_728x90.jpg?ver=1"
+width="728" height="90" /></a>
+</noscript>
+</body></html>

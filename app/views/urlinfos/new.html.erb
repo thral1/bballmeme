@@ -1,0 +1,23 @@
+<h1>New urlinfo</h1>
+
+<% form_for(@urlinfo) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <p>
+    <%= f.label :num_monthly_visitors %><br />
+    <%= f.text_field :num_monthly_visitors %>
+  </p>
+  <p>
+    <%= f.label :site_ranking %><br />
+    <%= f.text_field :site_ranking %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', urlinfos_path %>

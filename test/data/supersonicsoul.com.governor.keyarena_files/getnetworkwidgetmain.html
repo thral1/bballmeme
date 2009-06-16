@@ -1,0 +1,90 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+        <style type="text/css">
+            a, a:visited
+            {
+                color: rgb(59, 89, 152);
+                font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+                text-decoration: none;
+                font-size: 11px;
+            }
+
+            div.userlist
+            {
+                text-align: center;
+            }
+
+            div.userlist a
+            {
+                text-decoration: none;
+            }
+            
+            div.userlist img
+            {
+                border: none;
+                margin: 3;
+                width: 35;
+                height: 35;
+            }
+            
+            body
+            {
+                font-family: lucida grande;
+                font-size: 11px;
+                padding:2px;
+            }
+
+            #blogs img
+            {
+                width: 38px;
+                height: 30px;
+            }
+        </style>
+    </head><body>
+        <div id="fans" class="userlist">
+            <div style="font-family: 'lucida grande',tahoma; font-size: 12px; text-align: left;">Followers (10)</div>
+            <a href="#" onclick="showUser(0); return false;"><img title="Evan" src="getnetworkwidgetmain_data/safe_image_006.jpg"></a><a href="#" onclick="showUser(1); return false;"><img title="Kevin" src="getnetworkwidgetmain_data/safe_image_003.jpg"></a><a href="#" onclick="showUser(2); return false;"><img title="Baltazar" src="getnetworkwidgetmain_data/safe_image.jpg"></a><a href="#" onclick="showUser(3); return false;"><img title="Matthew" src="getnetworkwidgetmain_data/safe_image_004.jpg"></a><a href="#" onclick="showUser(4); return false;"><img title="Rafael" src="getnetworkwidgetmain_data/safe_image_005.jpg"></a><a href="#" onclick="showUser(5); return false;"><img title="Hugging" src="getnetworkwidgetmain_data/safe_image_009.jpg"></a><a href="#" onclick="showUser(6); return false;"><img title="Cris" src="getnetworkwidgetmain_data/safe_image_007.jpg"></a><a href="#" onclick="showUser(7); return false;"><img title="Paul" src="getnetworkwidgetmain_data/safe_image_008.jpg"></a><a href="#" onclick="showUser(8); return false;"><img title="Gary" src="getnetworkwidgetmain_data/safe_image_002.jpg"></a><a href="#" onclick="showUser(9); return false;"><img title="Chris" src="getnetworkwidgetmain_data/safe_image_010.jpg"></a>
+        </div>
+        <div id="fan">
+        </div>
+        <script type="text/javascript">
+            var blogId = 227694;
+            // Provide the XMLHttpRequest class for IE 5.x-6.x:
+if( typeof XMLHttpRequest == "undefined" ) XMLHttpRequest = function() {
+  try { return new ActiveXObject("Msxml2.XMLHTTP.6.0") } catch(e) {}
+  try { return new ActiveXObject("Msxml2.XMLHTTP.3.0") } catch(e) {}
+  try { return new ActiveXObject("Msxml2.XMLHTTP") } catch(e) {}
+  try { return new ActiveXObject("Microsoft.XMLHTTP") } catch(e) {}
+  throw new Error( "This browser does not support XMLHttpRequest." )
+};
+
+/**
+ * Show the user having the given index.
+ */
+function showUser(index) {
+    var request = new XMLHttpRequest();
+    request.open("GET", "/getnetworkwidgetfan?bid=" + blogId + "&index=" + index, true);
+    request.onreadystatechange = function(event) {
+        if (request.readyState == 4 && request.status == 200) {
+            document.getElementById("fans").style.display = "none";
+            document.getElementById("fan").style.display = "";
+            document.getElementById("fan").innerHTML = request.responseText;
+        }
+        else {
+            // Error
+        }
+    }
+    request.send(null);
+}
+
+/**
+ * Go back to the fans page.
+ */
+function back() {
+    document.getElementById("fans").style.display = "";
+    document.getElementById("fan").style.display = "none";
+}
+
+        </script>
+    </body></html>

@@ -1,0 +1,12 @@
+var OX_f3491d9a = '';
+OX_f3491d9a += "<"+"!--  Rubicon Project tag -->\n";
+OX_f3491d9a += "<"+"!--  Site: SB Nation   Zone: NBA - w/Text   Size: Banner (468x60)  -->\n";
+OX_f3491d9a += "<"+"script language=\"JavaScript\" type=\"text/javascript\">\n";
+OX_f3491d9a += "var cb = Math.random();\n";
+OX_f3491d9a += "var d = document;\n";
+OX_f3491d9a += "d.write(\'<"+"script language=\"JavaScript\" type=\"text/javascript\"\');\n";
+OX_f3491d9a += "d.write(\'src=\"http://optimized-by.rubiconproject.com/a/7470/12007/20895-1.js?cb=\'+cb+\'\">\');\n";
+OX_f3491d9a += "d.write(\'<"+"\\/scr\'+\'ipt>\');\n";
+OX_f3491d9a += "<"+"/script>\n";
+OX_f3491d9a += "<"+"!-- end Rubicon Project tag --><"+"div id=\'beacon_a022cf6cd2\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://ad.sbnation.com/lg.php?bannerid=274&amp;campaignid=64&amp;zoneid=2430&amp;loc=1&amp;referer=http%3A%2F%2Fwww.poundingtherock.com%2F2009%2F8%2F10%2F984554%2Fmy-team-is-better-than-yours&amp;cb=a022cf6cd2\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+document.write(OX_f3491d9a);

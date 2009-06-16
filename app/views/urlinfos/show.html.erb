@@ -1,0 +1,18 @@
+<p>
+  <b>Url:</b>
+  <%=h @urlinfo.url %>
+</p>
+
+<p>
+  <b>Num monthly visitors:</b>
+  <%=h @urlinfo.num_monthly_visitors %>
+</p>
+
+<p>
+  <b>Site ranking:</b>
+  <%=h @urlinfo.site_ranking %>
+</p>
+
+
+<%= link_to 'Edit', edit_urlinfo_path(@urlinfo) %> |
+<%= link_to 'Back', urlinfos_path %>

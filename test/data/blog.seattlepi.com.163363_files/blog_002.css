@@ -1,0 +1,93 @@
+/* overwrite main styles */
+#piMain {}
+#piRight1 {width: 193px; float: left; }
+#piRight2 {width: 300px; float: right; overflow: hidden;}
+#blogblock form {margin: 10px 0;}
+#blogblock .dd180 {font: 11px aria,sans-serif; width: 235px;}
+
+/* blog styles */
+#blogcontent, #blogcontent td {color: #333;}
+#blogcontent {margin-top: 25px; clear: both;}
+#piStory {margin-bottom: 25px;}
+
+.blogname {margin: 5px 0 0 0; font: bold 18px arial,sans-serif; color: #3a4a56; padding: 0 13px 0 0;}
+.blogname a {color: #3a4a56;}
+.blogdescription,.blogcategorydescription {margin: 0 0 18px 0; padding: 0 13px 0 0; font: 11px arial,sans-serif; color: #666;}
+.blogmonth,.blogcategory {font-weight: bold; margin-top: 5px; padding: 0 13px 0 0; color: #333; clear: both;}
+#bloglinkbar {font: 12px arial,sans-serif; padding: 8px 13px 0 0; color: #333;}
+
+#bloglinks {margin-top: 15px; }
+#bloglinks td {font: bold 11px arial,sans-serif; padding: 2px; }
+#bloglinks #mainlink {text-align: center;}
+#bloglinks #nextlink {text-align: right;}
+
+/*.blogdatebar {height: 30px; font: bold 11px/15px arial,sans-serif; color: #fff; padding: 0 0 0 4px;  background-image: url(http://blog.seattlepi.com/art2/datebar2b.gif); background-repeat: repeat-x; text-transform: uppercase;}*/
+.blogdatebar {font: bold 12px arial,sans-serif; color: #777; border-bottom: 1px solid #777; text-transform: uppercase; margin-bottom: 10px;}
+.blogentry {margin-bottom: 30px; }
+.blogentrytext {padding-top: 4px; width: 472px; overflow: auto; clear: both; margin-bottom: 0;}
+.blogentrytext blockquote {margin-left: 15px; border-left: 1px solid #ccc; padding-left: 10px; font-size: 11px;}
+.blogentrytext a {text-decoration: underline;}
+.blogentrytext h3 {font-size: 16px;}
+/*.blogtitle {font: bold 14px arial,sans-serif; color: #C3730C;}*/
+.blogtitle, .blogtitle a {font: bold 16px arial,sans-serif; color: #408EA5;}
+
+
+.blogsavesharecont {padding-bottom: 12px;}
+.blogsaveshare {display: none; margin-top: -8px; width: 294px; padding-bottom: 5px; position: absolute; background: #fff; border: 1px solid #069;}
+.blogsavesharelink {width: 145px; float: left; padding-bottom: 5px; font-size: 11px;}
+.blogsavesharelink a, .blogsavesharelink a:link, .blogsavesharelink a:visited {color: #069;}
+.blogsavesharelink img.sicon {vertical-align: middle; margin-right: 2px; margin-left: 5px;}
+.blogsavesharelabel {font: bold 12px/12px arial,sans-serif; margin-bottom: 5px; padding: 1px 0 1px 5px; background: #069; color: #fff; text-align: left;}
+.blogsavesharelabel a, .blogsavesharelabel a:link, .blogsavesharelabel a:visited {padding-left: 240px; font-size: 11px; color: #fff;}
+
+.blogauthor {font: bold 11px arial,sans-serif; clear: both; }
+.blogtools {float: right;}
+.blogtools a {margin-left: 2px;}
+.blogpicsmall {float: left; margin-right: 5px; margin-bottom: 10px;}
+.blogpicsmall a img {border: 0; }
+.blogpicsmall img {height: 50px; width: 50px;}
+.editorsnote {font: 11px arial,sans-serif; color: #666; margin: 10px 0; }
+
+#blogcomments {margin-top: 5px;}
+#commentcount {font: bold 11px arial,sans-serif; color: #fff; padding: 1px 0 1px 4px; background: #939393; text-transform: uppercase;}
+#blogcomments .message {font: 13px arial,sans-serif; border-bottom: 1px dashed #999;  padding-top: 10px; padding-bottom: 15px; color: #333;}
+#blogcomments p {margin: 15px 0;}
+#blogcomments .message p.poster {margin: 7px 0; font: 11px arial,sans-serif; color: #000; }
+#blogcomments .num {float: right; margin: 3px 0 10px 10px;  font: 11px arial,sans-serif; color: #666;}
+#blogcomments .numa a {font-size: 11px; padding: 1px 4px; border: 1px solid #ccc; background: #f4f4f4; text-align: center; margin-top: 3px; color: #004386;}
+#commentbox {font: 11px arial,sans-serif; color: #333;}
+#codes {display: none; margin: 0;}
+.onecomment {width: 472px; overflow: auto; padding-top: 10px; padding-bottom: 10px;}
+
+#codes ul {margin-top: 0; margin-bottom: 5px;}
+#forumtable .sbutton {background: #ccc; color: #333; border: 1px solid #000; font: bold 11px arial;}
+
+#wingcss {margin: 10px 12px 0 5px;}  /* width of inside 193-17 = 176px */
+#wingcss, #wingcss td {font: 11px arial,sans-serif; }
+#wingcss .wingheader {clear: both; padding: 1px 3px; background: #ccc; background-image: url(http://www.seattlepi.com/art2/homepage/hlheader.gif); background-repeat: repeat-x; color: #333; font: bold 11px/16px arial,sans-serif; margin-bottom: 3px;}
+
+#wingcss p {margin: 3px 0 12px 0; width: 176px; overflow: auto;}
+#wingbiocont {width: 176px; padding-bottom: 5px;}
+#wingcss .wingblogbios {float: left; padding: 1px 0 8px 0; width: 176px; clear: both; font: 11px arial,sans-serif;}
+#wingcss .wingblogbios a {font-weight: bold;}
+.wingblogbioI {width: 54px; float: left;}
+.wingblogbioT {width: 122px; float: right;}
+#wingcss .wingdd {width: 150px; font: 11px arial,sans-serif;}
+
+#archivemonth {margin: 1px 0 12px 0; width: 176px; border: 1px solid #ACA9AA; background: #f2f2f2;}
+#archivemonth td { text-align: center; padding-bottom: 3px;}
+#archivemonth td.dl {font-weight: bold; color: #C67102;}
+#archivemonth td.ml {font-weight: bold; background: #ACA9AA; color: #fff;}
+#archivemonth td.posted a {text-decoration: underline;}
+#po {font: bold 11px arial,sans-serif;}
+
+img.rightfloat {float: right; margin: 0 0 6px 8px;}
+.hide { display: none; }
+.callout {margin: 6px 0 8px 8px; font:  11px arial,sans-serif; }
+.calloutheader {background-image: url(http://www.seattlepi.com/art2/wingtab159.gif); background-repeat: no-repeat; color: #333333; font: bold 11px/11px arial,sans-serif; height: 15px; padding: 2px 0 0 4px;}
+
+#wingcss img.sicon {vertical-align: middle; margin-right: 2px;}
+
+.postimagecenter, .postimageleft, .postimageright {margin-bottom: 10px;}
+.postimageleft {float: left; margin-right: 10px;}
+.postimageright {float: right; margin-left: 10px;} 

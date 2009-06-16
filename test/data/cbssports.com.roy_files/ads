@@ -1,0 +1,50 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BoK815rKZSoz8M4fSjATx7KzPBqiB8IgBlMSGxA7AjbcB4LYNEAEYASD42Z8DKAM4AFCAjK6E-_____8BYMne-IbIo-gZoAH4mq37A7IBEXd3dy5jYnNzcG9ydHMuY29tyAEB2gEraHR0cDovL3d3dy5jYnNzcG9ydHMuY29tL25iYS9zdG9yeS8xMjAyNzI5MMgCntiTCagDAegDhQboAxToA4gC9QMAAAAE9QMEAAAA&amp;num=1&amp;sig=AGiWqtxjB06wR2Kmk0U2y6JldbcKblf66w&amp;client=ca-sportsline_js&amp;adurl=http://roia.biz/im/n/b9fNvq1BAAGJMUMAAASAQgAAUDhmMQA-A/"; 
+google_ad.visible_url = "www.bottomlinesecrets.com"; 
+google_ad.line1 = "Artery Clearing Secret"; 
+google_ad.line2 = "Hugh Downs reports on breakthrough"; 
+google_ad.line3 = "artery clearing secret."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BLUfA5rKZSoz8M4fSjATx7KzPBrCg8U2wuPe4BsCNtwGg4BQQAhgCIPjZnwMoAzgAUMSu9iVgyd74hsij6BmgAZac7_4DsgERd3d3LmNic3Nwb3J0cy5jb23IAQHaAStodHRwOi8vd3d3LmNic3Nwb3J0cy5jb20vbmJhL3N0b3J5LzEyMDI3MjkwgAIBqAMB6AOFBugDFOgDiAL1AwAAAAT1AwQAAAA&amp;num=2&amp;sig=AGiWqtwdadQdFLSM7dpbkHkecR73xTAFNA&amp;client=ca-sportsline_js&amp;adurl=http://www.harlemwizards.com/homepage.php%3Fref%3Dgoogle"; 
+google_ad.visible_url = "HarlemWizards.com"; 
+google_ad.line1 = "Harlem Wizards Basketball"; 
+google_ad.line2 = "Community \x26amp; School Fundraisers,"; 
+google_ad.line3 = "Half Time Shows \x26amp; Corporate Events"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=Bcohf5rKZSoz8M4fSjATx7KzPBvbBkZsBvrmC-ArAjbcBoOAUEAMYAyD42Z8DKAM4AFDz0ZSZ-P____8BYMne-IbIo-gZsgERd3d3LmNic3Nwb3J0cy5jb23IAQHaAStodHRwOi8vd3d3LmNic3Nwb3J0cy5jb20vbmJhL3N0b3J5LzEyMDI3MjkwqAMB6AOFBugDFOgDiAL1AwAAAAT1AwQAAAA&amp;num=3&amp;sig=AGiWqtxASjJKgSSWjhGQN8f-Uk6x3q63dg&amp;client=ca-sportsline_js&amp;adurl=http://www.FansGoWild.com/nba_watch/por.htm"; 
+google_ad.visible_url = "www.FansGoWild.com"; 
+google_ad.line1 = "Utah Jazz Watch"; 
+google_ad.line2 = "Officially Licensed Team Logo Watch"; 
+google_ad.line3 = "Free Shipping \x26amp; Lifetime Warranty"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

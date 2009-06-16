@@ -1,0 +1,90 @@
+#sidebar  .dem-graph {
+position: relative;
+font: 9px/10px arial, sans-serif;
+margin-top: 2px;
+padding-right: 1px;
+margin-bottom: 3px;
+}
+
+#sidebar  .dem-graph a, .dem-graph a:hover {
+display: block;
+float: left;
+height: 5px;
+cursor:default;
+text-decoration: none;
+border: 0;
+}
+
+
+#sidebar  .dem-winner a, #sidebar  .dem-winner a:hover {
+border-right: 0;
+}
+
+#sidebar  .dem-winner {
+padding-right: 0;
+}
+
+#sidebar  .dem-graph b, .dem-graph i {
+float: left;
+display: block;
+position: absolute;
+margin-left: 3px;
+font-weight: bold;
+font-style: normal;
+}
+
+#sidebar  .dem-vote-button {
+display: block;
+margin: 6px 0;
+}
+
+#sidebar  .democracy {
+padding-bottom: 5px;
+}
+
+/* kubrick fixies */
+#sidebar  .democracy form {
+text-align: left;	
+}
+
+html>body .entry .democracy ul {
+text-indent: 0 !important;
+}
+
+
+#sidebar  .democracy input {
+vertical-align: middle;
+}
+
+#sidebar  .dem-graph a b, #sidebar  .dem-graph a:hover b {
+display: none;
+}
+
+#sidebar  .dem-graph a:hover i {
+display: block;
+}
+
+/* yay IE hack - display or visibility don't work */
+* html #sidebar  .dem-graph a b, * html #sidebar  .dem-graph a:hover b {
+filter: alpha(opacity=0);
+display: block;
+}
+
+* html #sidebar  .dem-graph a:hover i {
+filter: alpha(opacity=100);
+display: block;
+}
+
+
+#sidebar  .dem-total-votes,#sidebar   .dem-added-by-guest {
+display: block;
+margin: 3px 0;
+}
+
+#sidebar  .dem-user-added {
+display: block;
+}
+
+#sidebar  .dem-archives .democracy {
+margin-bottom: 30px;	
+}

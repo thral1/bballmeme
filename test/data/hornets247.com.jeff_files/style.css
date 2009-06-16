@@ -1,0 +1,405 @@
+@import url("reset.css");
+@import url("blog-post.css");
+@import url("pagination.css");
+@import url("footer.css");
+@import url("nav.css");
+@import url("forms.css");
+@import url("tables.css");
+@import url("lists.css");
+@import url("notices.css");
+
+.temp {color: #999; font-style: oblique; clear: both}
+
+#content_wrap {
+	margin: auto;
+	text-align: center; /* IE centered */
+	font: 80%/170% Verdana, Arial, Helvetica, sans-serif;
+	width: 1000px !important; 
+	width: 100%; /* IE lightbox position */
+}
+
+.wrapper {
+	padding: 10px;
+}
+
+#header_wrap {
+	border-bottom: 1px solid #d1d2bd;
+	height: 255px;
+	margin: auto;
+	position: relative;
+	width: 1000px;
+}
+
+#header_wrap p a {
+	text-decoration: none;
+}
+
+#remember {
+	text-align: right;
+}
+
+#poll p {
+	margin-bottom: 5px;
+	line-height: 1em;
+}
+
+.col1 form {
+	width: 145px;
+}
+
+#login-form p {
+	margin-bottom: 3px;
+}
+
+#body-wrap-1col, #body-wrap-2col {
+	border-bottom: 1px solid #fff;
+	display: block;
+	height: 100%;
+	min-height: 400px;
+	overflow: auto;
+	padding-bottom: 25px;
+	position: relative;
+	width: 1000px;
+}
+
+#body-wrap-1col {
+	background: #fff;
+}
+
+#body-wrap-2col {
+	background: #fff url(images/bgs/spread-bg01.gif) repeat-y;
+}
+
+body#private #body-wrap-2col {
+	background: #fff url(images/bgs/spread-bg02.gif) repeat-y;
+}
+
+#body-wrap-2col #body-rightcol {
+	border-top: 1px solid #fff;
+	float: right;
+	overflow: hidden;
+	width: 320px;
+}
+
+#body-wrap-2col #body-leftcol {
+	float: left;
+	overflow: hidden;
+	width: 675px;
+}
+
+#body-wrap-2col #blog-form #body-leftcol { overflow: visible }
+
+#body-wrap-1col #body-leftcol {
+	width: 100%;
+}
+
+#body-leftcol .wrapper {
+	padding: 30px;
+}
+
+#body-rightcol .wrapper {
+	padding: 15px;
+}
+
+#body-rightcol .box {
+	background: url("images/bgs/sidebar-box-bg.gif") repeat-x bottom;
+	margin-left: 1px;
+	padding: 10px 15px 15px 15px;
+	/* position: relative; <-- took this out because it caused the h-span links to go crazy when doing the scoreboard slideToggle */
+}
+
+body#private #body-rightcol .box { background-image: url("images/bgs/sidebar-box-bg2.gif") }
+
+#body-rightcol .box p, #body-rightcol .box li {
+	color: #333;
+	font: 14px Arial, Helvetica, sans-serif;
+	line-height: 17px;
+}
+
+#body-rightcol .box a { color: #333 }
+#body-rightcol .box a:hover { color: #069 }
+#body-rightcol .box p { margin-bottom: 10px }
+#body-rightcol .box li { color: #666; margin-bottom: 5px }
+#body-rightcol .box ul { list-style: square; margin-left: 15px }
+#body-rightcol .box ol { list-style: decimal; margin: 0 5px 0 20px }
+#body-rightcol .subscribe { background: url("images/bgs/subscribe-icon.jpg") no-repeat bottom right }
+#body-rightcol .famous ul { list-style: none; margin: 0 }
+#body-rightcol .famous ul li a { background: url("images/icons/fame-star-fade.png") no-repeat left 3px; display: block; padding-left: 20px; text-decoration: none }
+#body-rightcol .famous ul li a:hover { background-image: url("images/icons/fame-star.png") }
+
+#body-rightcol .wallpaper a.wp-img { display: block; margin: 13px auto 0; padding: 1px; position: relative; text-align: center; width: 244px }
+#body-rightcol .wallpaper a.wp-img:hover { background: none }
+#body-rightcol .wallpaper img { border: 1px solid #ccc; padding: 1px }
+#body-rightcol .wallpaper a.wp-img:hover img { border-color: #fff }
+#body-rightcol .wallpaper a span { background: url(images/icons/new-wallpaper.png) no-repeat; display: block; height: 65px; left: -7px; position: absolute; top: -7px; width: 65px }
+#body-rightcol .wallpaper p.flickr { margin: 10px 0 0; text-align: center }
+#body-rightcol .wallpaper p.flickr a { text-decoration: none }
+#body-rightcol .wallpaper p.flickr a:hover { text-decoration: underline }
+#body-rightcol .wallpaper p.flickr img { border: 0; margin-right: 5px }
+
+#body-rightcol .box dt {
+	color: #868686;
+	font-weight: bold;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+
+dl#comments-close { margin-top: 15px }
+dl#comments-close span { display: block; margin-left: 25px }
+
+h2 {
+	color: #333;
+	font: 800 34px Helvetica, Arial, Sans-Serif;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+
+h2 a {
+	color: #333;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h2 span.h-link {
+	border-left: 2px solid #ccc;
+	color: #999;
+	font-size: 14px;
+	margin-left: 5px;
+	padding: 10px;
+	position: relative;
+	top: -6px;
+}
+
+h2 span.h-link label { color: #999 }
+h2 span.h-link a { color: #999; text-decoration: underline }
+h2 span.h-link a:hover { color: #666 }
+h2 span.h-link button { line-height: 16px }
+
+#body-rightcol h3 {
+	color: #999;
+	font: 24px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h3 span.h-link {
+	font-size: 11px;
+	font-weight: normal;
+	padding: 10px;
+	position: relative;
+	top: -4px;
+}
+
+h3 span.h-link a { color: #666 }
+h3 span.h-link a:hover { color: #333 }
+
+#body-leftcol p { margin-bottom: 15px }
+
+p a, #body-leftcol ul li a, ul.regular li a, ul.tight li a, dl a { color: #333 }
+p a:visited, ul.regular li a:visited, ul.tight li a:visited, dl a:visited { color: #6f6f6f }
+p a:hover, #body-leftcol ul li a:hover, ul.regular li a:hover, ul.tight li a:hover, dl a:hover { color: #069 }
+
+strong { font-weight: bold }
+
+#simple-captcha { padding: 8px 0 }
+#simple-captcha img {
+	border: 1px solid #ccc;
+	float: left;
+	margin: 0 5px 3px 0;
+	padding: 0;
+}
+#simple-captcha label { float: left; padding-top: 4px; width: 150px; }
+#body-leftcol #simple-captcha label { font-size: 11px; line-height: 17px; padding-top: 2px; width: 150px; }
+#simple-captcha input { clear: both; display: block }
+#body-rightcol #simple-captcha input { font-size: 12px; width: 277px }
+
+img.border {
+	background: #ccc;
+	padding: 5px;
+}
+
+img.left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.right {
+	float: right;
+	margin-left: 10px;
+}
+
+img.center, .post-content object {
+	margin: auto;
+    display: block;
+}
+
+.back2top {
+	display: block;
+	margin: auto;
+	width: 100px;
+	text-align: center;
+}
+
+#login_bar {
+	background: #000;
+	border-bottom: 2px solid #555;
+	font: 11px Arial;
+	overflow: auto;
+	padding: 4px 0 6px 0;
+	width: 100%;
+}
+
+#login_bar div {
+	width: 980px;
+	margin: auto;
+	text-align: center; /* IE centered */
+	color: #fff;
+}
+
+#login_bar p {
+	color: #666;
+	float: left;
+	margin-top: 3px;
+}
+
+#login_bar a {
+	color: #999;
+	font-size: 12px;
+	margin-right: 7px;
+	text-decoration: underline;
+}
+
+#login_bar a:hover {
+	background: none;
+	color: #0fc;
+}
+
+#login_bar form {
+	float: right;
+}
+
+#login_bar .submit {
+	font-size: 10px;
+	height: 19px;
+}
+
+#login_bar_user {
+	background: #fff url(images/icon-user.gif) no-repeat 3px 50%;
+}
+
+#login_bar_password {
+	background: #fff url(images/icon-key.gif) no-repeat 3px 50%; 
+}
+
+#login_bar_user, #login_bar_password {
+	font-size: 11px;
+	border: 1px #999 solid;
+	padding: 2px 2px 2px 18px;
+	width: 100px;
+}
+
+#login_bar label.remember input {
+	position: relative;
+	top: 2px;
+}
+
+#login_bar label {
+	display: none;
+}
+
+#login_bar label.remember {
+	color: #999;
+	display: inline;
+	margin: 0 3px 0 5px;
+}
+
+#body-leftcol .toolbox {
+	float: right;
+	width: 250px;
+}
+
+#body-leftcol .toolbox button, #body-leftcol .toolbox a {
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	float: right;
+	font-size: 14px;
+	height: auto;
+	margin-left: 5px;
+	padding: 2px 8px 4px 0;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+#body-leftcol button.create-shortcut {
+	background: url("images/buttons/shortcut.png") no-repeat left center;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	height: 23px;
+	line-height: 23px;
+	padding-left: 27px;
+}
+
+#body-leftcol a.back-to-top {
+	background: url("images/buttons/jump-top.png") no-repeat left center;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 23px;
+	margin-top: -3px;
+	padding-left: 22px;
+}
+
+.trigger {
+	cursor: pointer;
+}
+
+h4.trigger {
+	background: url("images/icons/arrow-black-right.gif") no-repeat left center;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 0 2px;
+	padding-left: 10px;
+}
+
+h4.active {
+	background: url("images/icons/arrow-black-down.gif") no-repeat left center;
+	margin-left: 0;
+	padding-left: 12px;
+}
+
+.box .target {
+	margin-top: 10px;
+}
+
+a#top {
+	position: absolute;
+	top: 0;
+}
+
+#body-wrap-2col #body-leftcol iframe { width: 613px }
+#body-wrap-2col #body-leftcol #image-manager { border: 1px solid #cdcdcd; height: 385px; margin-bottom: 30px }
+#body-wrap-2col #body-leftcol #wp-upload { border: 1px solid #ebebeb }
+#body-wrap-2col #body-leftcol #wp-thumb { height: 180px }
+
+body#search #body-leftcol .wrapper { padding: 0; margin: 30px; overflow: hidden }
+
+p.who-when { color: #999; font-size: 11px; margin: 15px 0 10px }
+p.who-when a { color: #999 }
+
+a#bug-link { background: url(images/icons/bug.png) no-repeat; height: 23px; margin: 5px; position: absolute; text-indent: -999em; width: 22px }
+
+/* SIDEBAR BLOCKS */
+#body-rightcol .events .wrapper, #body-rightcol .ads .wrapper { border: 1px solid #fff; margin-bottom: 2px; padding: 0 }
+#body-rightcol .events ul, #body-rightcol .ads ul { background: #fff; border: 4px solid #ebebeb; margin: 0 !important }
+#body-rightcol .events ul li, #body-rightcol .ads ul li { border-bottom: 1px solid #ebebeb; list-style: none; margin: 0; padding: 10px }
+#body-rightcol .events ul li.row1 { background: #ecfffb }
+#body-rightcol .events ul span { color: #666; display: block; font-size: 12px; margin-bottom: 5px }
+#body-rightcol .events ul li a { text-decoration: none }
+#body-rightcol .events ul li a:hover { text-decoration: underline }
+#body-rightcol .events ul li span a { background: url("images/icons/comment.png") no-repeat; color: #666; padding-left: 19px }
+#body-rightcol .ads ul li { color: #999; font-size: 12px; line-height: 15px }
+#body-rightcol .ads ul li a { color: #999; font-weight: 800; text-decoration: none }

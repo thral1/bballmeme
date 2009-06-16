@@ -1,0 +1,376 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+1:
+  id: 1
+  city: Arizona
+  name: Cardinals
+  type: FBTeam
+
+2:
+  id: 2
+  city: Atlanta
+  name: Falcons 
+  type: FBTeam
+
+3:
+  id: 3
+  city: Baltimore
+  name: Ravens
+  type: FBTeam
+
+4:
+  id: 4
+  city: Buffalo
+  name: Bills
+  type: FBTeam
+
+5:
+  id: 5
+  city: Carolina
+  name: Panthers
+  type: FBTeam
+
+6:
+  id: 6
+  city: Chicago
+  name: Bears
+  type: FBTeam
+
+7:
+  id: 7
+  city: Cincinatti
+  name: Bengals
+  type: FBTeam
+
+8:
+  id: 8
+  city: Cleveland
+  name: Browns
+  type: FBTeam
+
+9:
+  id: 9
+  city: Dallas
+  name: Cowboys
+  type: FBTeam
+
+10:
+  id: 10
+  city: Denver
+  name: Broncos
+  type: FBTeam
+
+11:
+  id: 11
+  city: Detroit
+  name: Lions
+  type: FBTeam
+
+12:
+  id: 12
+  city: Green Bay
+  name: Packers
+  type: FBTeam
+
+13:
+  id: 13
+  city: Houston
+  name: Texans
+  type: FBTeam
+
+14:
+  id: 14
+  city: Indianapolis
+  name: Colts
+  type: FBTeam
+
+15:
+  id: 15
+  city: Jacksonville
+  name: Jaguars
+  type: FBTeam
+
+16:
+  id: 16
+  city: Kansas City
+  name: Chiefs
+  type: FBTeam
+
+17:
+  id: 17
+  city: Miami
+  name: Dolphins
+  type: FBTeam
+
+18:
+  id: 18
+  city: Minnesota
+  name: Vikings
+  type: FBTeam
+
+19:
+  id: 19
+  city: New England
+  name: Patriots
+  type: FBTeam
+
+20:
+  id: 20
+  city: New Orleans
+  name: Saints
+  type: FBTeam
+
+21:
+  id: 21
+  city: New York 
+  name: Giants
+  type: FBTeam
+
+22:
+  id: 22
+  city: New York
+  name: Jets
+  type: FBTeam
+
+23:
+  id: 23
+  city: Oakland
+  name: Raiders
+  type: FBTeam
+
+24:
+  id: 24
+  city: Philadelphia
+  name: Eagles
+  type: FBTeam
+  
+25:
+  id: 25
+  city: Pittsburgh
+  name: Steelers
+  type: FBTeam
+
+26:
+  id: 26
+  city: San Diego
+  name: Chargers
+  type: FBTeam
+
+27:
+  id: 27
+  city: St. Louis
+  name: Rams
+  type: FBTeam
+
+28:
+  id: 28
+  city: San Francisco
+  name: 49ers
+  type: FBTeam
+
+29:
+  id: 29
+  city: Tennessee
+  name: Titans
+  type: FBTeam
+
+30:
+  id: 30
+  city: Tampa Bay
+  name: Buccaneers
+  type: FBTeam
+
+
+31:
+  id: 31
+  city: Washington
+  name: Redskins
+  type: FBTeam
+
+
+32:
+  id: 32
+  city: Seattle
+  name: Seahawks
+  type: FBTeam
+  
+33:
+  id: 33
+  city: Atlanta
+  name: Hawks
+  type: BBTeam
+
+34:
+  id: 34
+  city: Boston
+  name: Celtics
+  type: BBTeam
+
+35:
+  id: 35
+  city: Charlotte
+  name: Bobcats
+  type: BBTeam
+
+36:
+  id: 36
+  city: Chicago
+  name: Bulls
+  type: BBTeam
+
+37:
+  id: 37
+  city: Cleveland
+  name: Cavaliers
+  type: BBTeam
+
+38:
+  id: 38
+  city: Dallas
+  name: Mavericks
+  type: BBTeam
+
+39:
+  id: 39
+  city: Denver
+  name: Nuggets
+  type: BBTeam
+
+40:
+  id: 40
+  city: Detroit
+  name: Pistons
+  type: BBTeam
+
+41:
+  id: 41
+  city: Golden State
+  name: Warriors
+  type: BBTeam
+
+42:
+  id: 42
+  city: Houston
+  name: Rockets
+  type: BBTeam
+
+43:
+  id: 43
+  city: Indiana
+  name: Pacers
+  type: BBTeam
+
+44:
+  id: 44
+  city: Los Angeles
+  name: Clippers
+  type: BBTeam
+
+45:
+  id: 45
+  city: Los Angeles
+  name: Lakers
+  type: BBTeam
+
+46:
+  id: 46
+  city: Memphis
+  name: Grizzlies
+  type: BBTeam
+
+47:
+  id: 47
+  city: Miami
+  name: Heat
+  type: BBTeam
+
+48:
+  id: 48
+  city: Milwaukee
+  name: Bucks
+  type: BBTeam
+
+49:
+  id: 49
+  city: Minnesota
+  name: Timberwolves
+  type: BBTeam
+
+50:
+  id: 50
+  city: New Jersey
+  name: Nets
+  type: BBTeam
+
+51:
+  id: 51
+  city: New Orleans
+  name: Hornets
+  type: BBTeam
+
+52:
+  id: 52
+  city: New York
+  name: Knicks
+  type: BBTeam
+
+53:
+  id: 53
+  city: Oklahoma City
+  name: Thunder
+  type: BBTeam
+
+54:
+  id: 54
+  city: Orlando
+  name: Magic
+  type: BBTeam
+
+55:
+  id: 55
+  city: Philadelphia
+  name: 76ers
+  type: BBTeam
+
+56:
+  id: 56
+  city: Phoenix
+  name: Suns
+  type: BBTeam
+
+57:
+  id: 57
+  city: Portland
+  name: Trailblazers
+  type: BBTeam
+
+58:
+  id: 58
+  city: Sacramento
+  name: Kings
+  type: BBTeam
+
+59:
+  id: 59
+  city: San Antonio
+  name: Spurs
+  type: BBTeam
+
+60:
+  id: 60
+  city: Toronto
+  name: Raptors
+  type: BBTeam
+
+61:
+  id: 61
+  city: Utah
+  name: Jazz
+  type: BBTeam
+
+62:
+  id: 62
+  city: Washington
+  name: Wizards
+  type: BBTeam
+  

@@ -1,0 +1,24 @@
+<h1>Listing urlinfos</h1>
+
+<table>
+  <tr>
+    <th>Url</th>
+    <th>Num monthly visitors</th>
+    <th>Site ranking</th>
+  </tr>
+
+<% @urlinfos.each do |urlinfo| %>
+  <tr>
+    <td><%=h urlinfo.url %></td>
+    <td><%=h urlinfo.num_monthly_visitors %></td>
+    <td><%=h urlinfo.site_ranking %></td>
+    <td><%= link_to 'Show', urlinfo %></td>
+    <td><%= link_to 'Edit', edit_urlinfo_path(urlinfo) %></td>
+    <td><%= link_to 'Destroy', urlinfo, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New urlinfo', new_urlinfo_path %>

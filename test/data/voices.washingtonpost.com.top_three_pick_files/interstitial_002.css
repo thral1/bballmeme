@@ -1,0 +1,46 @@
+.header_wrapper {width:100%;text-align:center;margin:0px;padding:0px;margin-bottom:20px;position:relative;z-index:101}
+.leftandright {z-index:102;width:100%;height:37px;position:absolute;top:0px;left:0px}
+.imagediv {height:37px;background-repeat:no-repeat}
+.leftdiv {width:200px;float:left;cursor:pointer}
+.rightdiv {width:200px;float:right;cursor:pointer;background-position:top right}
+.middlediv {z-index:103;width:330px;margin:0 auto}
+
+.wp .header_wrapper {height:32px}
+.wp .leftandright {height:32px; background-color:#333}
+.wp .imagediv {height:32px}
+.wp .leftdiv {width:162px}
+.wp .rightdiv {width:162px}
+.wp .middlediv {width:420px}
+.wp .leftandright .leftdiv {background-image:url(http://www.washingtonpost.com/wp-srv/ad/interstitial/wp_int_header_left.gif)}
+.wp .leftandright .rightdiv {background-image:url(/wp-srv/ad/interstitial/wp_int_header_right.gif)}
+.wp .middlediv {background-position: top center;background-image:url(/wp-srv/ad/interstitial/wp_int_header_middle.gif)}
+
+.root .header_wrapper {height:45px}
+.root .leftandright {height:45px}
+.root .imagediv {height:45px}
+.root .leftdiv {width:173px}
+.root .rightdiv {width:173px}
+.root .middlediv {width:290px}
+.root {background-color:#663}
+.root .leftandright .leftdiv {background-image:url(/wp-srv/ad/interstitial/root_int_header_left.gif)}
+.root .leftandright .rightdiv {background-image:url(/wp-srv/ad/interstitial/root_int_header_right.gif)}
+.root .middlediv {background-position: top center;background-image:url(/wp-srv/ad/interstitial/root_int_header_middle.gif)}
+
+.slate .header_wrapper {height:37px}
+.slate .leftandright{background-color:#660032}
+.slate .leftandright .leftdiv {background-image:url(http://www.washingtonpost.com/wp-adv/images/slate_int_header_left.gif)}
+.slate .leftandright .rightdiv {background-image:url(http://www.washingtonpost.com/wp-adv/images/slate_int_header_right.gif)}
+.slate .middlediv {background-position: top center;background-image:url(http://www.washingtonpost.com/wp-adv/images/slate_int_header_middle.gif)}
+
+.nw .header_wrapper {height:37px}
+.nw .leftandright{background-color:#CC0000;height:47px}
+.nw .leftandright .leftdiv {height:47px;width:189px;background-image:url(http://www.washingtonpost.com/wp-adv/images/test/nw_int_header_left.gif)}
+.nw .leftandright .rightdiv {height:47px;width:189px;background-image:url(http://www.washingtonpost.com/wp-adv/images/test/nw_int_header_right.gif)}
+.nw .middlediv {height:47px;background-position: top center;background-image:url(http://www.washingtonpost.com/wp-adv/images/test/nw_int_header_middle.gif)}
+
+.bt .header_wrapper {height:47px}
+.bt .leftandright{background-image:url(http://www.washingtonpost.com/wp-adv/images/bt_int_header_bg.gif);height:47px}
+.bt .leftandright .leftdiv {background-image:url(http://www.washingtonpost.com/wp-adv/images/bt_int_header_left.gif);width:238px}
+.bt .leftandright .rightdiv {background-image:url(http://www.washingtonpost.com/wp-adv/images/bt_int_header_right.gif);width:238px; background-position:right top}
+.bt .middlediv {background-position: top center;background-image:url(http://www.washingtonpost.com/wp-adv/images/bt_int_header_middle.gif)}
+

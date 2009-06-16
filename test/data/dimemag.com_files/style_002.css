@@ -1,0 +1,116 @@
+#sidebar .democracy {
+	margin:10px 0;
+padding:7px;
+width:188px;
+font-size: 1em;
+line-height:1.1em;
+text-transform: uppercase;
+color:#fff;
+background:#B7875B;
+}
+
+#sidebar .democracy p {
+margin:0;
+padding:0;
+font-family: Arial, sans-serif;
+line-height:1.2em;
+color:#fff;
+}
+
+#sidebar .democracy ul {
+	margin:5px 0;
+}
+
+#sidebar .democracy li {
+	margin:3px 0;
+	padding:0px 0;
+}
+
+#sidebar .democracy li input {
+	margin:0;
+}
+
+#sidebar .democracy li label {
+	padding:0px 0 0 5px;
+}
+
+#sidebar .dem-vote-button {
+border:none;
+background:#fff;
+color: #B7875B;
+}
+
+#sidebar .dem-vote-link {
+	margin:-15px 0 0 0;
+text-align: right;
+float: right;
+color: #fff;
+font-size: .9em;
+text-decoration: none;
+}
+
+#sidebar .dem-vote-link a:link {
+text-decoration: none;
+}
+
+.democracy {
+max-width: 250px;
+}
+
+.democracy img {
+width: 100%;
+margin-bottom: 4px;
+vertical-align: middle;
+}
+
+.democracy input {
+vertical-align: middle;
+margin-right: 5px;
+width: auto;
+}
+
+.democracy .addAnswerText {
+width: 80%;;
+}
+
+.dem-graph {
+border: 1px solid #ccc;
+height: 10px;
+}
+
+.dem-graph a, .dem-graph a:hover {
+background: #efefef;
+border-bottom: 5px solid #e0e0e0;
+border-right: 1px solid #ccc;
+}
+
+
+* html .dem-graph a, * html .dem-graph a:hover {
+border-bottom-width: 6px;
+}
+
+* html .dem-graph {
+height: 11px;
+}
+
+.dem-graph b, .dem-graph i {
+color: #555;
+}
+
+.dem-voted-for-this {
+border-color: #888;
+}
+
+/* blix fix */
+.democracy ul { padding: 0; } 
+.democracy label {
+float: none;
+display: inline;
+}
+
+/*
+.democracy ul li {
+list-style: none;
+background: none;
+}
+*/

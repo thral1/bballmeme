@@ -1,0 +1,50 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BK89OXJ6ZSvCgO5vAjQTotZC1Ba2c1ocB19L5iA_AjbcBsN2sARABGAEgtIP6BSgDOABQmfnbkfz_____AWDJ3viGyKPoGaAB_NG2_wOyARl2b2ljZXMud2FzaGluZ3RvbnBvc3QuY29tyAEB2gFbaHR0cDovL3ZvaWNlcy53YXNoaW5ndG9ucG9zdC5jb20vd2l6YXJkc2luc2lkZXIvMjAwOS8wNS90aGVfcmlza19vZl90cmFkaW5nX2FfdG9wX3RocmUuaHRtbMgCtZu_AagDAegDiALoA4IC9QMABAAE9QMEAAAA&amp;num=1&amp;sig=AGiWqtznEqdsLHetVeAvZaQ-KJm41OTZ2Q&amp;client=ca-washingtonpost-article-site_js&amp;adurl=http://www.sharebuilder.com/affiliates/%3FPC%3Dsb%26SID%3D200049524014132%26MGDURL%3DWeb%252Fwelcome%252Fproseasy%252Findex.htm%26CMPID%3D10200045%26s_kwcid%3DTC%7C14383%7Ctop%2520stock%2520picks%7Cvoices.washingtonpost.com%7CC%7C%7C3949198393"; 
+google_ad.visible_url = "www.ShareBuilder.com"; 
+google_ad.line1 = "Buy Stocks for $4"; 
+google_ad.line2 = "No Account or Investment Minimums."; 
+google_ad.line3 = "No Inactivity Fees. Start Today!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BbHE1XJ6ZSvCgO5vAjQTotZC1BafbxZcBtZbItg_AjbcB4PtzEAIYAiC0g_oFKAM4AFCbouG9-P____8BYMne-IbIo-gZoAG5qejsA7IBGXZvaWNlcy53YXNoaW5ndG9ucG9zdC5jb23IAQHaAVtodHRwOi8vdm9pY2VzLndhc2hpbmd0b25wb3N0LmNvbS93aXphcmRzaW5zaWRlci8yMDA5LzA1L3RoZV9yaXNrX29mX3RyYWRpbmdfYV90b3BfdGhyZS5odG1sgAIBqQIzyakwVeGuPsgCgd6WDKgDAegDiALoA4IC9QMABAAE9QMEAAAA&amp;num=2&amp;sig=AGiWqtxs2D96ON-i2lno2qfAjJmx7JiHeQ&amp;client=ca-washingtonpost-article-site_js&amp;adurl=http://www.monsterstox.com"; 
+google_ad.visible_url = "www.monsterstox.com"; 
+google_ad.line1 = "Hot Penny Stocks"; 
+google_ad.line2 = "Penny Stocks that move up 700%."; 
+google_ad.line3 = "Join today for Free to profit."; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=BpR4sXJ6ZSvCgO5vAjQTotZC1Bc-YqZoB06CCjAzAjbcB4IObARADGAMgtIP6BSgDOABQx5qooP3_____AWDJ3viGyKPoGaAB2ezJ_QOyARl2b2ljZXMud2FzaGluZ3RvbnBvc3QuY29tyAEB2gFbaHR0cDovL3ZvaWNlcy53YXNoaW5ndG9ucG9zdC5jb20vd2l6YXJkc2luc2lkZXIvMjAwOS8wNS90aGVfcmlza19vZl90cmFkaW5nX2FfdG9wX3RocmUuaHRtbMgC26CpC6gDAegDiALoA4IC9QMABAAE9QMEAAAA&amp;num=3&amp;sig=AGiWqtwhwAntkvUKPdRVqSLkSv9g1c7H1g&amp;client=ca-washingtonpost-article-site_js&amp;adurl=http://www.optionsxpress.com/promos/200k_traders.aspx%3Fcmpid%3Dgcus74e39b234ea4ec1080ab2121640096a8"; 
+google_ad.visible_url = "optionsXpress.com"; 
+google_ad.line1 = "Stock Option Picks"; 
+google_ad.line2 = "Superior options trading technology"; 
+google_ad.line3 = "from industry leading optionsXpress"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

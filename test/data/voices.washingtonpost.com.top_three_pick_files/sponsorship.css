@@ -1,0 +1,126 @@
+.sponsorship {
+	/* positioning */
+	background-color:#FFFFFF;
+	padding:0;
+	border-top:0;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	margin-bottom:24px;
+
+	/* formatting */
+	overflow:hidden;
+	word-wrap:break-word;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#000000;
+	line-height:1.3;
+}
+.sponsorshiphack {
+	background-color:#0C4790;
+	height:2px;
+}
+.sponsorship a {
+	font-weight:bold;
+}
+.sponsorship h2, .sponsorship h2 a {
+	background-color:#DDEAF3 !important;
+	padding:2px !important;
+	padding-left:6px !important;
+	border-bottom:1px solid #CCCCCC !important;
+
+	font-size:8pt !important;
+	font-weight:bold !important;
+	text-decoration:none;
+	color:#0C4790 !important;
+	margin:0 !important;
+}
+.sponsorshipcontent {
+	background-color:#F1F8FF;
+	padding:6px;
+}
+.sponsorship h3 {
+	margin:0;
+	padding:0;
+	font:bold 11px Arial;
+}
+.sponsorship p {
+	margin:0;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+/* Hides from IE-mac \*/
+* html .sponsorshipbox {height: 1%;}
+/* End hide from IE-mac */
+
+
+/*------- Removes padding from refine bar when ad unit displays -------*/
+
+
+.sponsorship-nomargin {
+
+/* positioning */
+	background-color:#FFFFFF;
+	padding:0;
+	border-top:0;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	margin-bottom:0px;
+
+/* formatting */
+	overflow:hidden;
+	word-wrap:break-word;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#000000;
+	line-height:1.3;
+}
+
+.sponsorship-nomargin a {
+	font-weight:bold;
+}
+
+.sponsorship-nomargin h2, .sponsorship-nomargin h2 a {
+	background-color:#DDEAF3;
+	padding:2px;
+	padding-left:6px;
+	border-bottom:1px solid #CCCCCC;
+	font-size:8pt;
+	font-weight:bold;
+	text-decoration:none;
+	color:#0C4790;
+	margin:0;
+}
+
+.sponsorship-nomargin h3 {
+	margin:0;
+	padding:0;
+	font:bold 11px Arial;
+}
+
+.sponsorship-nomargin p {
+	margin:0;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+/* currently inline styles */
+.sponsorship .url{font-size:7pt;color:#5A87BD;font-weight:normal}
+.sponsorship .desc_text{color:#000000;font-weight:normal}
+.sponsorship .link_title{text-decoration:underline;color:#0C4790}
+/* for rep b & c */
+.sponsorship{border-top:2px solid #0C4790}
+div > .sponsorship{border-top:1px solid #ccc}
+.rep_b.sponsorshiphack,.rep_c.sponsorshiphack{display:none}
+.rep_b .link_title,.rep_c .link_title{color:#0c4690;text-decoration:none}
+.rep_b .desc_text,.rep_c .desc_text{color:#000}
+.rep_b .url,.rep_c .url{font-size:8pt}
+.rep_b .url{color:#181}
+.rep_c .url{color:#828282}
+.rep_b h2,.rep_b h2 a{background-color:#fff !important;border:none !important}
+.rep_c h2,.rep_c h2 a{background-color:#fff !important}
+.rep_b h2,.rep_c h2{color:#000 !important}
+.rep_c h2{border-bottom:1px solid #ccc !important;padding-left:0 !important;padding-right:0 !important;margin-left:6px !important;margin-right:6px !important;}
+.rep_b,.rep_c{background-color:#fff !important;border:1px solid #ccc !important}
+.sponsorshipcontent_b,.sponsorshipcontent_c{background-color:#fff !important;padding-top:2px;padding:6px}
+

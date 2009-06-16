@@ -1,0 +1,671 @@
+/*  
+Theme Name: MyApril-Reloaded
+Theme URI: http://www.jauhari.net/themes/myapril-reloaded
+Description: This is MyApril Reloaded Theme.</p> Visit the <a href="http://www.jauhari.net/themes/myapril-reloaded">Theme Page</a> for more informations and update.<br />. The CSS, XHTML and design is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a></p>
+Version: 1.3
+Author: Nurudin Jauhari
+Author URI: http://www.jauhari.net/
+
+	This theme was designed and built by Nurudin Jauhari,
+	whose blog you will find at http://www.jauhari.net/themes/myapril
+	Crafted on 26 November 2007
+	Last Edit 03 January 2008 10.53  +7 GMT
+
+	The CSS, XHTML and design is released under a Creative Commons Attribution 3.0 License:
+	http://creativecommons.org/licenses/by/3.0/
+
+*/
+
+/* Social Style 
+********************* */
+
+html
+{
+	height: 100%;
+	margin-bottom: 0.1em;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+img
+{
+	border: 0;
+}
+p
+{
+	line-height: 1.6em;
+	margin: 0.7em 0;
+}
+dl
+{
+	margin: 1em 0;
+}
+dt
+{
+	font-weight: bold;
+}
+dd
+{
+	margin: 0.5em;
+	padding: 0;
+}
+img.right
+{
+	float: right;
+	margin: 10px 0 0 10px;
+}
+img.left
+{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+hr
+{
+	display: none;
+}
+body
+{
+	background-attachment: fixed;
+	background: #333333;
+	color: #FFF;
+	font: 74%/1.6em verdana, tahoma, arial, sans-serif; 
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+}
+a:link, a:visited
+{
+	color: #E58553;
+}
+a:hover, a:active
+{
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Georgia, Verdana, Arial, Serif;
+}
+
+/* Etc
+******************** */
+br.clear {
+	clear: both;
+}
+
+/* Design 
+******************** */
+#page {
+	text-align: left;
+	width: 970px;
+	background: #333;
+	margin: 0 auto;
+	border-top: 5px solid #666666;
+}
+#pager {
+	height: 110px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #585858;
+	position: relative;
+}
+.ads726 {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}	
+#header {
+	background: #1BACF2;
+	border-bottom: 5px solid #FF6600;
+}
+#headr {
+	width: 220PX;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+	color: #C3EAFB;
+}
+#headr h1 {
+	margin-top: 20px;
+	text-indent: -5000px;
+}
+#headr h1 a {
+	background: url(images/logr.jpg) right center no-repeat;
+	height: 75px;
+	width: 225px;
+	display: block;
+}
+#headr .description {
+	display: none;
+}
+
+#content-wrap {
+	float: left;
+	width: 100%;
+}
+#content {
+	margin: 0 440px 0 0;
+	position: relative;
+	text-align: justify;
+}
+#content-single {
+	margin: 0 440px 0 0;
+	text-align: justify;
+	}
+#sidebar {
+	width: 410px;
+	margin-left: -410px;
+	float: left;
+}
+.master-side {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.side1 {
+	width: 175px;
+	float: left;
+	color: #333;
+	position: relative;
+}
+.side2 {
+	width: 235px;
+	float: left;
+	color: #CCC;
+	position: relative;
+}
+
+
+#footer-post {
+	margin-top: 5px;
+	border: 1px solid #000000;
+	background: #575757;
+	float: left;
+	width: 950px;
+	padding: 10px;
+}
+#footer-post  a {
+	color: #FFFFFF;
+}
+#footer-post  ul {
+	list-style: none;
+}
+#footer-post  ul ul{
+	list-style: square;
+	margin-left: 20px;
+}
+
+#footer-post h2{
+	color: #FFFFFF;
+	font: 700 1.5em garamond,georgia,times,serif;
+	border-bottom: 1px solid #777777;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+}
+
+#footer-post .f1 { width: 290px; float: left; }
+#footer-post .f2 { width: 290px; float: left; margin: 0px 15px;}
+#footer-post .f3 { width: 290px; float: left;}
+
+#footer {
+	width: 970px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: left;
+	position: relative;
+	color: #999;
+	font-size: 0.95em;
+}
+#footer a {
+	color: #999;
+}
+#footer a:hover {
+	color: #999;
+	text-decoration: underline
+}
+.rss {
+	background: url(images/feed-icon-10x10.png) left center no-repeat;
+	padding-left: 12px;
+}
+	#footer .right {
+		position: absolute;
+		right: 0;
+		text-align: right;
+		top:10px;
+	}
+/* Sidebar
+******************** */
+.master-side .search input, input#sbi {
+	padding: 5px 10px 5px 25px;
+	border: 2px solid #95AABC;
+	width: 381px;
+	font-weight: 700;
+	margin-top: 10px;
+	color: #666;
+	background: url(images/ico/zoom.png) 5px center no-repeat;
+}
+
+.master-side .search input:hover, .master-side .search input:focus, input#sbi:focus, input#sbi:hover {
+	padding: 5px 10px 5px 25px;
+	border: 2px solid #666;
+	width: 381px;
+	font-weight: 700;
+	margin-top: 10px;
+	color: #000;
+	background: url(images/ico/zoom.png) 5px center no-repeat;
+}
+
+/* Design  Sidebar
+******************** */
+.iright {
+	float: left;
+	margin-right: 10px;
+}	
+
+.stats {
+	border-top: 1px solid #585858;
+	padding: 2px 0;
+	margin-top: 15px;
+	clear: both;
+	color: #CCC;
+	border-bottom: 1px solid #585858;
+}
+	.posts {
+		background: url(images/ico/page.jpg) 0 0 no-repeat;
+		padding-left: 16px;
+	}
+	.comms {
+		background: url(images/ico/comment.jpg) 0 0 no-repeat;
+		padding-left: 16px;
+	}
+#sidebar  {
+	font-size: 0.9em;
+}
+#sidebar  ul li{
+	margin: 0 0 0.5em;
+}
+#sidebar ul ul ul li {
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+}
+.side1 h2, .side2 h2, h3#comments, h3#respond {
+	color: #FFF;
+	font: 700 1.8em garamond,georgia,times,serif;
+	border-bottom: 1px solid #E58553;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.master-side h2, .side3 h2 {
+	color: #FFF;
+	font: 700 1.8em garamond,georgia,times,serif;
+	border-bottom: 1px solid #E58553;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+}
+.master-side a {
+	text-decoration: none;
+}
+#sidebar .side1 a, #sidebar .side2 a {
+	color: #FF9900;
+	text-decoration: underline;
+}
+#sidebar a:hover {
+	color: #DBC0AF;
+	text-decoration: none;
+}
+
+.side2 .side2-data{
+	margin-left: 10px;
+}
+ul#sBlocks { list-style: none; width: 270px; padding: 0 0 0 10px; }
+
+	ul#sBlocks li { width: 125px; padding: 0 10px 10px 0; font-weight: bold; text-align: center; float: left; line-height: 1.3em; }
+
+
+#sidebar  ul{
+	list-style: none;
+}
+
+
+/* Design  Header
+********************* */
+#headr  h1 {
+	font: 2.1em Trebuchet MS,Tahoma, Verdana, Arial, Serif;
+}
+#headr  h1 a {
+	color: #333;
+}
+#headr .description {
+	display: none;
+}
+
+/* Design  Post
+********************* */
+.post {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #FF6600;
+	padding-bottom: 5px;
+}
+.postmetadata {
+	font-size: .9em;
+	color: #999;
+}
+.postmetadata  a{
+	color: #666;
+}
+
+h2.pagetitle {
+	text-align: right;
+	border-bottom: 1px solid #95AABC;
+	font: 700 1.8em garamond,georgia,times,serif;
+}
+.post h2 {
+	font: bold 2em Arial, "Trebuchet MS", Verdana, sans-serif; 
+}
+.post h2 a {	
+	color: #FFF;
+}
+.post h2 a:hover {
+	color: #CCC;
+}
+p.postmetadata {
+	color: #999;
+	font-size: 85%;
+	margin-bottom: 10px;
+}
+p.postmetadata a {
+	color: #999;
+	text-decoration: none;
+}
+span.timr {
+	background: url(images/ico/date.jpg) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.catr
+{
+	background: url(images/ico/page.jpg) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.authr
+{
+	background: url(images/ico/user.jpg) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.editr
+{
+	background: url(images/ico/pencil.jpg) 0 0 no-repeat;
+	padding-left: 15px;
+}
+span.commr
+{
+	background: url(images/ico/comment.jpg) 0 0 no-repeat;
+	padding-left: 15px;
+}
+.post a img, .post img,.post img a {
+	border: none;
+}
+.post ul, .post ol {
+	padding-left: 20px;
+}
+.post ul.postspermonth{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.post p a {
+	text-decoration: underline;
+}
+.post p a:hover {
+	text-decoration: none;
+}
+.post img a {
+	border: none;
+}	
+
+.tags {
+	font-weight: bold;
+	color: #BEBEBE;
+}
+.tags a {
+	color: #999999;
+}
+.categr, .monthr {
+	margin-bottom: 20px;
+}
+.categr h2, .monthr h2{
+	border-bottom: 1px solid #95AABC;
+}
+
+.info {
+ border-top: 2px solid #f7941d;
+ border-bottom: 3px solid #f7941d;
+ background: #fcdab2;
+ padding: 10px 5px;
+ font-weight: 700px;
+ color: #000;
+}
+.info  a:link, .info  a:visited {
+	border-bottom: 2px solid #fff;
+	color: #000;
+}
+.info  a:hover {
+	border-bottom: none;
+}
+
+.post h3, .post h4, .post h5 {
+	color: #5B7790;
+	border-bottom: 1px solid #95AABC;
+	font-family: Arial, verdana;
+}
+.post h3{
+	font-size: 1.4em;
+}
+.post h4, .post h5 {
+	font-size: 1.2em;
+}
+
+/* Comment Etc
+********************* */
+.navigation a
+{
+	color: #E58553;
+}
+.alignleft
+{
+	float: left;
+	width: 50%;
+}
+.alignright
+{
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+h3#comments, h3#respond {
+
+}
+input#addcommentbutton, #submit {
+	background: #666;
+	border: 2px solid #999;
+	padding: 4px 10px;
+	color: #efefef;
+	border-right: 2px solid #333;
+	border-bottom: 2px solid #333;
+}
+input#addcommentbutton:hover,#submit:hover,#submit:focus, input#addcommentbutton:focus {
+	background: #333;
+	border: 2px solid #000;
+	padding: 4px 10px;
+	color: #fff;
+	border-right: 2px solid #666;
+	border-bottom: 2px solid #666;
+}
+
+blockquote
+{
+	background: url(images/blockquote.gif) no-repeat left top;
+	color: #BEBEBE;
+	margin: 1em;
+	padding: 0 0 10px 50px;
+}
+#content .commentsfeedr
+{
+	background: url(images/ico/feed.gif) no-repeat left center;
+	padding: 2px 0 2px 20px;
+}
+#content .trackbackr
+{
+	background: url(images/ico/arrow_refresh.png) no-repeat left center;
+	padding-left: 20px;
+}
+input.textbox, textarea
+{
+	background: #000;
+	border: #95AABC 1px solid;
+	font: 1em Verdana, Arial, Serif;
+	padding: 2px;
+}
+input.textbox:focus, textarea:focus
+{
+	background: #000;
+	border: #999 1px solid;
+}
+textarea#comment {
+	width: 500px;
+	color: #FFF;
+}
+
+.comment
+{
+	background: #000;
+	border-bottom: #ddd 1px solid;
+	list-style: none;
+	margin: 0;
+	padding: 1em 0.5em;
+}
+.alt
+{
+	background: #575757;
+}
+.MyAvatars
+{
+	border: 1px solid #95AABC;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 3px;
+}
+
+/* Top Navigation Style 
+********************* */
+#navr
+{
+	background: transparent;
+	font-family: Trebuchet, "Trebuchet MS",Tahoma, Verdana, Arial, Serif;
+	margin: 0;
+	margin: 10px auto 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: 970px;
+}
+html #navr
+{
+	height: 1%;
+}
+#navr ul li
+{
+	float: left;
+	list-style-type: none;
+	margin: 0 5px 0 0;
+}
+#navr ul li.page_item a
+{
+	background: #B4B0B0;
+	border: #666666 1px solid;
+	border-bottom: none;
+	color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 0px;
+	padding: 2px 10px;
+	text-decoration: none;
+}
+#navr ul li.page_item a:hover {
+	background: #326588;
+	border: #326588 1px solid;
+	border-bottom: none;
+	color: #fff;
+}
+#navr ul li.page_item a:active, #navr ul li.current_page_item a
+{
+	background: #666666;
+	border: #666666 1px solid;
+	border-bottom: none;
+	color: #fff;
+	font-weight: bold;
+}
+#navr .top-rss {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+pre {
+	width: 95%;
+	overflow:auto;
+	font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+	color: #DA5800;
+	max-height: 350px;
+	line-height: 18px;
+	margin: 10px 0;
+	border: 1px solid #FFE674;
+	padding: 5px;
+	background: #FFFF99;
+}
+
+code, kbd {
+	font: 13px 'Courier New', Courier, Verdana, Arial, sans-serif;
+	color: #DA5800;
+	padding: 2px;
+}
+.codesnip-container {
+border:1px solid #95AABC; background:#eee; padding: 5px;margin:10px;
+
+}
+
+
+.links ul {
+list-style: none
+}
+.links ul li ul {
+ margin-left: 20px
+}
+img.wp-smiley { 
+   vertical-align: -25%; 
+}
+
+.cmd-avatar
+{
+clear: none;
+border-right: #687F92 1px solid;
+border-top: #687F92 1px solid;
+display: inline;
+float: right;
+margin: 5px;
+border-left: #687F92 1px solid;
+border-bottom: #687F92 1px solid;
+}
+
+/*
+1.0	: First Public Released
+1.1	: Fix Copyright Link Problem, Check function and fix missing images
+1.2	: Hack IE 6 Sidebar
+1.3	: Fix Single Post IE 6 Problem
+*/

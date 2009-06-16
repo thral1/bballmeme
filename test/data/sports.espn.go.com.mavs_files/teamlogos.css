@@ -1,0 +1,577 @@
+.logo-small { height:25px; width:25px; }
+.logo-medium { height:50px; width:50px; }
+.logo-large { height:80px; width:80px; }
+.logo-40 { height:40px; width:40px; }
+
+/* NBA team logos LARGE (50 x 50) sprite Start */
+.logo-nba-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-large-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nba-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-large-vert-ie6.png); background-repeat: no-repeat;}
+.nba-large-atl { background-position: 0px 0px; }
+.nba-large-bos { background-position: 0px -100px; }
+.nba-large-cha { background-position: 0px -200px; }
+.nba-large-chi { background-position: 0px -300px; }
+.nba-large-cle { background-position: 0px -400px; }
+.nba-large-dal { background-position: 0px -500px; }
+.nba-large-den { background-position: 0px -600px; }
+.nba-large-det { background-position: 0px -700px; }
+.nba-large-gsw { background-position: 0px -800px; }
+.nba-large-hou { background-position: 0px -900px; }
+.nba-large-ind { background-position: 0px -1000px; }
+.nba-large-lac { background-position: 0px -1100px; }
+.nba-large-lal { background-position: 0px -1200px; }
+.nba-large-mem { background-position: 0px -1300px; }
+.nba-large-mia { background-position: 0px -1400px; }
+.nba-large-mil { background-position: 0px -1500px; }
+.nba-large-min { background-position: 0px -1600px; }
+.nba-large-njn { background-position: 0px -1700px; }
+.nba-large-nor { background-position: 0px -1800px; }
+.nba-large-nyk { background-position: 0px -1900px; }
+.nba-large-okc { background-position: 0px -2000px; }
+.nba-large-orl { background-position: 0px -2100px; }
+.nba-large-phi { background-position: 0px -2200px; }
+.nba-large-pho { background-position: 0px -2300px; }
+.nba-large-por { background-position: 0px -2400px; }
+.nba-large-sac { background-position: 0px -2500px; }
+.nba-large-sas { background-position: 0px -2600px; }
+.nba-large-sea { background-position: 0px -2700px; }
+.nba-large-tor { background-position: 0px -2800px; }
+.nba-large-uth { background-position: 0px -2900px; }
+.nba-large-was { background-position: 0px -3000px; }
+/* NBA team logos MEDIUM (50 x 50) sprite End */
+
+/* NBA team logos (40 x 40) sprite Start */
+.logo-nba-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-40-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nba-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-40-vert-ie6.png); background-repeat: no-repeat;}
+.nba-40-atl { background-position: 0px 0px; } 
+.nba-40-bos { background-position: 0px -50px; }
+.nba-40-cha { background-position: 0px -100px; }
+.nba-40-chi { background-position: 0px -150px; }
+.nba-40-cle { background-position: 0px -200px; }
+.nba-40-dal { background-position: 0px -250px; }
+.nba-40-den { background-position: 0px -300px; }
+.nba-40-det { background-position: 0px -350px; }
+.nba-40-gsw { background-position: 0px -400px; }
+.nba-40-hou { background-position: 0px -450px; }
+.nba-40-ind { background-position: 0px -500px; }
+.nba-40-lac { background-position: 0px -550px; }
+.nba-40-lal { background-position: 0px -600px; }
+.nba-40-mem { background-position: 0px -650px; }
+.nba-40-mia { background-position: 0px -700px; }
+.nba-40-mil { background-position: 0px -750px; }
+.nba-40-min { background-position: 0px -800px; }
+.nba-40-njn { background-position: 0px -850px; }
+.nba-40-nor { background-position: 0px -900px; }
+.nba-40-nyk { background-position: 0px -950px; }
+.nba-40-okc { background-position: 0px -1000px; }
+.nba-40-orl { background-position: 0px -1050px; }
+.nba-40-phi { background-position: 0px -1100px; }
+.nba-40-pho { background-position: 0px -1150px; }
+.nba-40-por { background-position: 0px -1200px; }
+.nba-40-sac { background-position: 0px -1250px; }
+.nba-40-sas { background-position: 0px -1300px; }
+.nba-40-sea { background-position: 0px -1350px; }
+.nba-40-tor { background-position: 0px -1400px; }
+.nba-40-uth { background-position: 0px -1450px; }
+.nba-40-was { background-position: 0px -1500px; }
+/* NBA team logos (40 x 40) sprite End */
+
+
+/* NBA team logos MEDIUM (50 x 50) sprite Start */
+.logo-nba-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-medium-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nba-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-medium-vert-ie6.png); background-repeat: no-repeat;}
+.nba-medium-atl { background-position: 0px 0px; } 
+.nba-medium-bos { background-position: 0px -50px; }
+.nba-medium-cha { background-position: 0px -100px; }
+.nba-medium-chi { background-position: 0px -150px; }
+.nba-medium-cle { background-position: 0px -200px; }
+.nba-medium-dal { background-position: 0px -250px; }
+.nba-medium-den { background-position: 0px -300px; }
+.nba-medium-det { background-position: 0px -350px; }
+.nba-medium-gsw { background-position: 0px -400px; }
+.nba-medium-hou { background-position: 0px -450px; }
+.nba-medium-ind { background-position: 0px -500px; }
+.nba-medium-lac { background-position: 0px -550px; }
+.nba-medium-lal { background-position: 0px -600px; }
+.nba-medium-mem { background-position: 0px -650px; }
+.nba-medium-mia { background-position: 0px -700px; }
+.nba-medium-mil { background-position: 0px -750px; }
+.nba-medium-min { background-position: 0px -800px; }
+.nba-medium-njn { background-position: 0px -850px; }
+.nba-medium-nor { background-position: 0px -900px; }
+.nba-medium-nyk { background-position: 0px -950px; }
+.nba-medium-okc { background-position: 0px -1000px; }
+.nba-medium-orl { background-position: 0px -1050px; }
+.nba-medium-phi { background-position: 0px -1100px; }
+.nba-medium-pho { background-position: 0px -1150px; }
+.nba-medium-por { background-position: 0px -1200px; }
+.nba-medium-sac { background-position: 0px -1250px; }
+.nba-medium-sas { background-position: 0px -1300px; }
+.nba-medium-sea { background-position: 0px -1350px; }
+.nba-medium-tor { background-position: 0px -1400px; }
+.nba-medium-uth { background-position: 0px -1450px; }
+.nba-medium-was { background-position: 0px -1500px; }
+/* NBA team logos MEDIUM (50 x 50) sprite End */
+/* NBA team logos SMALL (25 x 50) sprite Start */
+.logo-nba-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-small-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nba-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nba/logo-nba-teams-small-vert-ie6.png); background-repeat: no-repeat;}
+.nba-small-atl { background-position: 0px 0px; } 
+.nba-small-bos { background-position: 0px -50px; }
+.nba-small-cha { background-position: 0px -100px; }
+.nba-small-chi { background-position: 0px -150px; }
+.nba-small-cle { background-position: 0px -200px; }
+.nba-small-dal { background-position: 0px -250px; }
+.nba-small-den { background-position: 0px -300px; }
+.nba-small-det { background-position: 0px -350px; }
+.nba-small-gsw { background-position: 0px -400px; }
+.nba-small-hou { background-position: 0px -450px; }
+.nba-small-ind { background-position: 0px -500px; }
+.nba-small-lac { background-position: 0px -550px; }
+.nba-small-lal { background-position: 0px -600px; }
+.nba-small-mem { background-position: 0px -650px; }
+.nba-small-mia { background-position: 0px -700px; }
+.nba-small-mil { background-position: 0px -750px; }
+.nba-small-min { background-position: 0px -800px; }
+.nba-small-njn { background-position: 0px -850px; }
+.nba-small-nor { background-position: 0px -900px; }
+.nba-small-nyk { background-position: 0px -950px; }
+.nba-small-okc { background-position: 0px -1000px; }
+.nba-small-orl { background-position: 0px -1050px; }
+.nba-small-phi { background-position: 0px -1100px; }
+.nba-small-pho { background-position: 0px -1150px; }
+.nba-small-por { background-position: 0px -1200px; }
+.nba-small-sac { background-position: 0px -1250px; }
+.nba-small-sas { background-position: 0px -1300px; }
+.nba-small-sea { background-position: 0px -1350px; }
+.nba-small-tor { background-position: 0px -1400px; }
+.nba-small-uth { background-position: 0px -1450px; }
+.nba-small-was { background-position: 0px -1500px; }
+/* NBA team logos SMALL (25 x 50) sprite End */
+/* NFL team logos LARGE (80 x 80) sprite start */
+.logo-nfl-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-large-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nfl-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-large-vert-ie6.png); background-repeat: no-repeat;}
+.nfl-large-ari { background-position: 0px 0px; }
+.nfl-large-atl { background-position: 0px -100px; }
+.nfl-large-bal { background-position: 0px -200px; }
+.nfl-large-buf { background-position: 0px -300px; }
+.nfl-large-car { background-position: 0px -400px; }
+.nfl-large-chi { background-position: 0px -500px; }
+.nfl-large-cin { background-position: 0px -600px; }
+.nfl-large-cle { background-position: 0px -700px; }
+.nfl-large-dal { background-position: 0px -800px; }
+.nfl-large-den { background-position: 0px -900px; }
+.nfl-large-det { background-position: 0px -1000px; }
+.nfl-large-gnb { background-position: 0px -1100px; }
+.nfl-large-hou { background-position: 0px -1200px; }
+.nfl-large-ind { background-position: 0px -1300px; }
+.nfl-large-jac { background-position: 0px -1400px; }
+.nfl-large-kan { background-position: 0px -1500px; }
+.nfl-large-mia { background-position: 0px -1600px; }
+.nfl-large-min { background-position: 0px -1700px; }
+.nfl-large-nwe { background-position: 0px -1800px; }
+.nfl-large-nor { background-position: 0px -190px; }
+.nfl-large-nyg { background-position: 0px -2000px; }
+.nfl-large-nyj { background-position: 0px -2100px; }
+.nfl-large-oak { background-position: 0px -2200px; }
+.nfl-large-phi { background-position: 0px -2300px; }
+.nfl-large-pit { background-position: 0px -2400px; }
+.nfl-large-sdg { background-position: 0px -2500px; }
+.nfl-large-sfo { background-position: 0px -2600px; }
+.nfl-large-sea { background-position: 0px -2700px; }
+.nfl-large-stl { background-position: 0px -2800px; }
+.nfl-large-tam { background-position: 0px -2900px; }
+.nfl-large-ten { background-position: 0px -3000px; }
+.nfl-large-was { background-position: 0px -3100px; }
+/* NFL team logos MEDIUM (50 x 50) sprite end */
+
+/* NFL team logos MEDIUM (50 x 50) sprite start */
+.logo-nfl-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-medium-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nfl-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-medium-vert-ie6.png); background-repeat: no-repeat;}
+.nfl-medium-ari { background-position: 0px 0px; }
+.nfl-medium-atl { background-position: 0px -50px; }
+.nfl-medium-bal { background-position: 0px -100px; }
+.nfl-medium-buf { background-position: 0px -150px; }
+.nfl-medium-car { background-position: 0px -200px; }
+.nfl-medium-chi { background-position: 0px -250px; }
+.nfl-medium-cin { background-position: 0px -300px; }
+.nfl-medium-cle { background-position: 0px -350px; }
+.nfl-medium-dal { background-position: 0px -400px; }
+.nfl-medium-den { background-position: 0px -450px; }
+.nfl-medium-det { background-position: 0px -500px; }
+.nfl-medium-gnb { background-position: 0px -550px; }
+.nfl-medium-hou { background-position: 0px -600px; }
+.nfl-medium-ind { background-position: 0px -650px; }
+.nfl-medium-jac { background-position: 0px -700px; }
+.nfl-medium-kan { background-position: 0px -750px; }
+.nfl-medium-mia { background-position: 0px -800px; }
+.nfl-medium-min { background-position: 0px -850px; }
+.nfl-medium-nwe { background-position: 0px -900px; }
+.nfl-medium-nor { background-position: 0px -950px; }
+.nfl-medium-nyg { background-position: 0px -1000px; }
+.nfl-medium-nyj { background-position: 0px -1050px; }
+.nfl-medium-oak { background-position: 0px -1100px; }
+.nfl-medium-phi { background-position: 0px -1150px; }
+.nfl-medium-pit { background-position: 0px -1200px; }
+.nfl-medium-sdg { background-position: 0px -1250px; }
+.nfl-medium-sfo { background-position: 0px -1300px; }
+.nfl-medium-sea { background-position: 0px -1350px; }
+.nfl-medium-stl { background-position: 0px -1400px; }
+.nfl-medium-tam { background-position: 0px -1450px; }
+.nfl-medium-ten { background-position: 0px -1500px; }
+.nfl-medium-was { background-position: 0px -1550px; }
+/* NFL team logos MEDIUM (50 x 50) sprite end */
+
+/* NFL team logos (40 x 40) sprite start */
+.logo-nfl-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-40-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nfl-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-40-vert-ie6.png); background-repeat: no-repeat;}
+.nfl-40-ari { background-position: 0px 0px; }
+.nfl-40-atl { background-position: 0px -50px; }
+.nfl-40-bal { background-position: 0px -100px; }
+.nfl-40-buf { background-position: 0px -150px; }
+.nfl-40-car { background-position: 0px -200px; }
+.nfl-40-chi { background-position: 0px -250px; }
+.nfl-40-cin { background-position: 0px -300px; }
+.nfl-40-cle { background-position: 0px -350px; }
+.nfl-40-dal { background-position: 0px -400px; }
+.nfl-40-den { background-position: 0px -450px; }
+.nfl-40-det { background-position: 0px -500px; }
+.nfl-40-gnb { background-position: 0px -550px; }
+.nfl-40-hou { background-position: 0px -600px; }
+.nfl-40-ind { background-position: 0px -650px; }
+.nfl-40-jac { background-position: 0px -700px; }
+.nfl-40-kan { background-position: 0px -750px; }
+.nfl-40-mia { background-position: 0px -800px; }
+.nfl-40-min { background-position: 0px -850px; }
+.nfl-40-nwe { background-position: 0px -900px; }
+.nfl-40-nor { background-position: 0px -950px; }
+.nfl-40-nyg { background-position: 0px -1000px; }
+.nfl-40-nyj { background-position: 0px -1050px; }
+.nfl-40-oak { background-position: 0px -1100px; }
+.nfl-40-phi { background-position: 0px -1150px; }
+.nfl-40-pit { background-position: 0px -1200px; }
+.nfl-40-sdg { background-position: 0px -1250px; }
+.nfl-40-sfo { background-position: 0px -1300px; }
+.nfl-40-sea { background-position: 0px -1350px; }
+.nfl-40-stl { background-position: 0px -1400px; }
+.nfl-40-tam { background-position: 0px -1450px; }
+.nfl-40-ten { background-position: 0px -1500px; }
+.nfl-40-was { background-position: 0px -1550px; }
+/* NFL team logos (40 x 40) sprite end */
+
+
+/* NFL team logos SMALL (25 x 50) sprite start */
+.logo-nfl-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-small-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nfl-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nfl/logo-nfl-teams-small-vert-ie6.png); background-repeat: no-repeat;}
+.nfl-small-ari { background-position: 0px 0px; }
+.nfl-small-atl { background-position: 0px -50px; }
+.nfl-small-bal { background-position: 0px -100px; }
+.nfl-small-buf { background-position: 0px -150px; }
+.nfl-small-car { background-position: 0px -200px; }
+.nfl-small-chi { background-position: 0px -250px; }
+.nfl-small-cin { background-position: 0px -300px; }
+.nfl-small-cle { background-position: 0px -350px; }
+.nfl-small-dal { background-position: 0px -400px; }
+.nfl-small-den { background-position: 0px -450px; }
+.nfl-small-det { background-position: 0px -500px; }
+.nfl-small-gnb { background-position: 0px -550px; }
+.nfl-small-hou { background-position: 0px -600px; }
+.nfl-small-ind { background-position: 0px -650px; }
+.nfl-small-jac { background-position: 0px -700px; }
+.nfl-small-kan { background-position: 0px -750px; }
+.nfl-small-mia { background-position: 0px -800px; }
+.nfl-small-min { background-position: 0px -850px; }
+.nfl-small-nwe { background-position: 0px -900px; }
+.nfl-small-nor { background-position: 0px -950px; }
+.nfl-small-nyg { background-position: 0px -1000px; }
+.nfl-small-nyj { background-position: 0px -1050px; }
+.nfl-small-oak { background-position: 0px -1100px; }
+.nfl-small-phi { background-position: 0px -1150px; }
+.nfl-small-pit { background-position: 0px -1200px; }
+.nfl-small-sdg { background-position: 0px -1250px; }
+.nfl-small-sfo { background-position: 0px -1300px; }
+.nfl-small-sea { background-position: 0px -1350px; }
+.nfl-small-stl { background-position: 0px -1400px; }
+.nfl-small-tam { background-position: 0px -1450px; }
+.nfl-small-ten { background-position: 0px -1500px; }
+.nfl-small-was { background-position: 0px -1550px; }
+/* NFL team logos MEDIUM (50 x 50) sprite end */
+
+/* MLB team logos LARGE (80 x 80) sprite start */
+.logo-mlb-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-large-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-mlb-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-large-vert-ie6.png); background-repeat: no-repeat;}
+.mlb-large-bal { background-position: 0px 0px; }
+.mlb-large-bos { background-position: 0px -100px; }
+.mlb-large-cle { background-position: 0px -200px; }
+.mlb-large-chw { background-position: 0px -300px; }
+.mlb-large-det { background-position: 0px -400px; }
+.mlb-large-kan { background-position: 0px -500px; }
+.mlb-large-laa { background-position: 0px -600px; }
+.mlb-large-min { background-position: 0px -700px; }
+.mlb-large-nyy { background-position: 0px -800px; }
+.mlb-large-oak { background-position: 0px -900px; }
+.mlb-large-sea { background-position: 0px -1000px; }
+.mlb-large-tor { background-position: 0px -1100px; }
+.mlb-large-tam { background-position: 0px -1200px; }
+.mlb-large-tex { background-position: 0px -1300px; }
+.mlb-large-atl { background-position: 0px -1400px; }
+.mlb-large-ari { background-position: 0px -1500px; }
+.mlb-large-chc { background-position: 0px -1600px; }
+.mlb-large-col { background-position: 0px -1700px; }
+.mlb-large-cin { background-position: 0px -1800px; }
+.mlb-large-fla { background-position: 0px -1900px; }
+.mlb-large-hou { background-position: 0px -2000px; }
+.mlb-large-lad { background-position: 0px -2100px; }
+.mlb-large-mil { background-position: 0px -2200px; }
+.mlb-large-nym { background-position: 0px -2300px; }
+.mlb-large-phi { background-position: 0px -2400px; }
+.mlb-large-pit { background-position: 0px -2500px; }
+.mlb-large-stl { background-position: 0px -2600px; }
+.mlb-large-sdg { background-position: 0px -2700px; }
+.mlb-large-sfo { background-position: 0px -2800px; }
+.mlb-large-was { background-position: 0px -2900px; }
+/* MLB team logos MEDIUM (50 x 50) sprite end */
+
+
+/* MLB team logos MEDIUM (50 x 50) sprite start */
+.logo-mlb-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-medium-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-mlb-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-medium-vert-ie6.png); background-repeat: no-repeat;}
+.mlb-medium-bal { background-position: 0px 0px; }
+.mlb-medium-bos { background-position: 0px -50px; }
+.mlb-medium-cle { background-position: 0px -100px; }
+.mlb-medium-chw { background-position: 0px -150px; }
+.mlb-medium-det { background-position: 0px -200px; }
+.mlb-medium-kan { background-position: 0px -250px; }
+.mlb-medium-laa { background-position: 0px -300px; }
+.mlb-medium-min { background-position: 0px -350px; }
+.mlb-medium-nyy { background-position: 0px -400px; }
+.mlb-medium-oak { background-position: 0px -450px; }
+.mlb-medium-sea { background-position: 0px -500px; }
+.mlb-medium-tor { background-position: 0px -550px; }
+.mlb-medium-tam { background-position: 0px -600px; }
+.mlb-medium-tex { background-position: 0px -650px; }
+.mlb-medium-atl { background-position: 0px -700px; }
+.mlb-medium-ari { background-position: 0px -750px; }
+.mlb-medium-chc { background-position: 0px -800px; }
+.mlb-medium-col { background-position: 0px -850px; }
+.mlb-medium-cin { background-position: 0px -900px; }
+.mlb-medium-fla { background-position: 0px -950px; }
+.mlb-medium-hou { background-position: 0px -1000px; }
+.mlb-medium-lad { background-position: 0px -1050px; }
+.mlb-medium-mil { background-position: 0px -1100px; }
+.mlb-medium-nym { background-position: 0px -1150px; }
+.mlb-medium-phi { background-position: 0px -1200px; }
+.mlb-medium-pit { background-position: 0px -1250px; }
+.mlb-medium-stl { background-position: 0px -1300px; }
+.mlb-medium-sdg { background-position: 0px -1350px; }
+.mlb-medium-sfo { background-position: 0px -1400px; }
+.mlb-medium-was { background-position: 0px -1450px; }
+/* MLB team logos MEDIUM (50 x 50) sprite end */
+
+/* MLB team logos (40 x 40) sprite start */
+.logo-mlb-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-40-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-mlb-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-40-vert-ie6.png); background-repeat: no-repeat;}
+.mlb-40-bal { background-position: 0px 0px; }
+.mlb-40-bos { background-position: 0px -50px; }
+.mlb-40-cle { background-position: 0px -100px; }
+.mlb-40-chw { background-position: 0px -150px; }
+.mlb-40-det { background-position: 0px -200px; }
+.mlb-40-kan { background-position: 0px -250px; }
+.mlb-40-laa { background-position: 0px -300px; }
+.mlb-40-min { background-position: 0px -350px; }
+.mlb-40-nyy { background-position: 0px -400px; }
+.mlb-40-oak { background-position: 0px -450px; }
+.mlb-40-sea { background-position: 0px -500px; }
+.mlb-40-tor { background-position: 0px -550px; }
+.mlb-40-tam { background-position: 0px -600px; }
+.mlb-40-tex { background-position: 0px -650px; }
+.mlb-40-atl { background-position: 0px -700px; }
+.mlb-40-ari { background-position: 0px -750px; }
+.mlb-40-chc { background-position: 0px -800px; }
+.mlb-40-col { background-position: 0px -850px; }
+.mlb-40-cin { background-position: 0px -900px; }
+.mlb-40-fla { background-position: 0px -950px; }
+.mlb-40-hou { background-position: 0px -1000px; }
+.mlb-40-lad { background-position: 0px -1050px; }
+.mlb-40-mil { background-position: 0px -1100px; }
+.mlb-40-nym { background-position: 0px -1150px; }
+.mlb-40-phi { background-position: 0px -1200px; }
+.mlb-40-pit { background-position: 0px -1250px; }
+.mlb-40-stl { background-position: 0px -1300px; }
+.mlb-40-sdg { background-position: 0px -1350px; }
+.mlb-40-sfo { background-position: 0px -1400px; }
+.mlb-40-was { background-position: 0px -1450px; }
+/* MLB team logos (40 x 40) sprite end */
+
+
+/* MLB team logos SMALL (25 x 50) sprite start */
+.logo-mlb-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-small-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-mlb-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/mlb/logo-mlb-teams-small-vert-ie6.png); background-repeat: no-repeat;}
+.mlb-small-bal { background-position: 0px 0px; }
+.mlb-small-bos { background-position: 0px -50px; }
+.mlb-small-cle { background-position: 0px -100px; }
+.mlb-small-chw { background-position: 0px -150px; }
+.mlb-small-det { background-position: 0px -200px; }
+.mlb-small-kan { background-position: 0px -250px; }
+.mlb-small-laa { background-position: 0px -300px; }
+.mlb-small-min { background-position: 0px -350px; }
+.mlb-small-nyy { background-position: 0px -400px; }
+.mlb-small-oak { background-position: 0px -450px; }
+.mlb-small-sea { background-position: 0px -500px; }
+.mlb-small-tor { background-position: 0px -550px;}
+.mlb-small-tam { background-position: 0px -600px; }
+.mlb-small-tex { background-position: 0px -650px; }
+.mlb-small-atl { background-position: 0px -700px; }
+.mlb-small-ari { background-position: 0px -750px; }
+.mlb-small-chc { background-position: 0px -800px; }
+.mlb-small-col { background-position: 0px -850px; }
+.mlb-small-cin { background-position: 0px -900px; }
+.mlb-small-fla { background-position: 0px -950px; }
+.mlb-small-hou { background-position: 0px -1000px; }
+.mlb-small-lad { background-position: 0px -1050px; }
+.mlb-small-mil { background-position: 0px -1100px; }
+.mlb-small-nym { background-position: 0px -1150px; }
+.mlb-small-phi { background-position: 0px -1200px; }
+.mlb-small-pit { background-position: 0px -1250px; }
+.mlb-small-stl { background-position: 0px -1300px; }
+.mlb-small-sdg { background-position: 0px -1350px; }
+.mlb-small-sfo { background-position: 0px -1400px; }
+.mlb-small-was { background-position: 0px -1450px; }
+/* MLB team logos MEDIUM (50 x 50) sprite end */
+/* NHL team logos LARGE (80 x 80) sprite start */
+.logo-nhl-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-large-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nhl-large { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-large-vert-ie6.png); background-repeat: no-repeat;}
+.nhl-large-ana { background-position: 0px 0px; }
+.nhl-large-atl { background-position: 0px -100px; }
+.nhl-large-bos { background-position: 0px -200px; }
+.nhl-large-buf { background-position: 0px -300px; }
+.nhl-large-cgy { background-position: 0px -400px; }
+.nhl-large-car { background-position: 0px -500px; }
+.nhl-large-chi { background-position: 0px -600px; }
+.nhl-large-col { background-position: 0px -700px; }
+.nhl-large-cls { background-position: 0px -800px; }
+.nhl-large-dal { background-position: 0px -900px; }
+.nhl-large-det { background-position: 0px -1000px; }
+.nhl-large-edm { background-position: 0px -1100px; }
+.nhl-large-fla { background-position: 0px -1200px; }
+.nhl-large-los { background-position: 0px -1300px; }
+.nhl-large-min { background-position: 0px -1400px; }								
+.nhl-large-mon { background-position: 0px -1500px; }
+.nhl-large-nsh { background-position: 0px -1600px; }
+.nhl-large-njd { background-position: 0px -1700px; }
+.nhl-large-nyi { background-position: 0px -1800px; }
+.nhl-large-nyr { background-position: 0px -1900px; }
+.nhl-large-ott { background-position: 0px -2000px; }
+.nhl-large-phi { background-position: 0px -2100px; }
+.nhl-large-pho { background-position: 0px -2200px; }
+.nhl-large-pit { background-position: 0px -2300px; }
+.nhl-large-san { background-position: 0px -2400px; }
+.nhl-large-stl { background-position: 0px -2500px; }
+.nhl-large-tam { background-position: 0px -2600px; }
+.nhl-large-tor { background-position: 0px -2700px; }
+.nhl-large-van { background-position: 0px -2800px; }
+.nhl-large-was { background-position: 0px -2900px; }
+/* NHL team logos MEDIUM (50 x 50) sprite end */
+/* NHL team logos MEDIUM (50 x 50) sprite start */
+.logo-nhl-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-medium-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nhl-medium { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-medium-vert-ie6.png); background-repeat: no-repeat;}
+.nhl-medium-ana { background-position: 0px 0px; }
+.nhl-medium-atl { background-position: 0px -50px; }
+.nhl-medium-bos { background-position: 0px -100px; }
+.nhl-medium-buf { background-position: 0px -150px; }
+.nhl-medium-cgy { background-position: 0px -200px; }
+.nhl-medium-car { background-position: 0px -250px; }
+.nhl-medium-chi { background-position: 0px -300px; }
+.nhl-medium-col { background-position: 0px -350px; }
+.nhl-medium-cls { background-position: 0px -400px; }
+.nhl-medium-dal { background-position: 0px -450px; }
+.nhl-medium-det { background-position: 0px -500px; }
+.nhl-medium-edm { background-position: 0px -550px; }
+.nhl-medium-fla { background-position: 0px -600px; }
+.nhl-medium-los { background-position: 0px -650px; }
+.nhl-medium-min { background-position: 0px -700px; }								
+.nhl-medium-mon { background-position: 0px -750px; }
+.nhl-medium-nsh { background-position: 0px -800px; }
+.nhl-medium-njd { background-position: 0px -850px; }
+.nhl-medium-nyi { background-position: 0px -900px; }
+.nhl-medium-nyr { background-position: 0px -950px; }
+.nhl-medium-ott { background-position: 0px -1000px; }
+.nhl-medium-phi { background-position: 0px -1050px; }
+.nhl-medium-pho { background-position: 0px -1100px; }
+.nhl-medium-pit { background-position: 0px -1150px; }
+.nhl-medium-san { background-position: 0px -1200px; }
+.nhl-medium-stl { background-position: 0px -1250px; }
+.nhl-medium-tam { background-position: 0px -1300px; }
+.nhl-medium-tor { background-position: 0px -1350px; }
+.nhl-medium-van { background-position: 0px -1400px; }
+.nhl-medium-was { background-position: 0px -1450px; }
+/* NHL team logos MEDIUM (50 x 50) sprite end */
+
+/* NHL team logos (40 x 40) sprite start */
+.logo-nhl-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-40-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nhl-40 { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-40-vert-ie6.png); background-repeat: no-repeat;}
+.nhl-40-ana { background-position: 0px 0px; }
+.nhl-40-atl { background-position: 0px -50px; }
+.nhl-40-bos { background-position: 0px -100px; }
+.nhl-40-buf { background-position: 0px -150px; }
+.nhl-40-cgy { background-position: 0px -200px; }
+.nhl-40-car { background-position: 0px -250px; }
+.nhl-40-chi { background-position: 0px -300px; }
+.nhl-40-col { background-position: 0px -350px; }
+.nhl-40-cls { background-position: 0px -400px; }
+.nhl-40-dal { background-position: 0px -450px; }
+.nhl-40-det { background-position: 0px -500px; }
+.nhl-40-edm { background-position: 0px -550px; }
+.nhl-40-fla { background-position: 0px -600px; }
+.nhl-40-los { background-position: 0px -650px; }
+.nhl-40-min { background-position: 0px -700px; }								
+.nhl-40-mon { background-position: 0px -750px; }
+.nhl-40-nsh { background-position: 0px -800px; }
+.nhl-40-njd { background-position: 0px -850px; }
+.nhl-40-nyi { background-position: 0px -900px; }
+.nhl-40-nyr { background-position: 0px -950px; }
+.nhl-40-ott { background-position: 0px -1000px; }
+.nhl-40-phi { background-position: 0px -1050px; }
+.nhl-40-pho { background-position: 0px -1100px; }
+.nhl-40-pit { background-position: 0px -1150px; }
+.nhl-40-san { background-position: 0px -1200px; }
+.nhl-40-stl { background-position: 0px -1250px; }
+.nhl-40-tam { background-position: 0px -1300px; }
+.nhl-40-tor { background-position: 0px -1350px; }
+.nhl-40-van { background-position: 0px -1400px; }
+.nhl-40-was { background-position: 0px -1450px; }
+/* NHL team logos (40 x 40) sprite end */
+
+
+/* NHL team logos SMALL (25 x 50) sprite start */
+.logo-nhl-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-small-vert.png); background-repeat: no-repeat;}
+.ie6 .logo-nhl-small { background-image: url(http://a.espncdn.com/prod/assets/teamlogos/nhl/logo-nhl-teams-small-vert-ie6.png); background-repeat: no-repeat;}
+.nhl-small-ana { background-position: 0px 0px; }
+.nhl-small-atl { background-position: 0px -50px; }
+.nhl-small-bos { background-position: 0px -100px; }
+.nhl-small-buf { background-position: 0px -150px; }
+.nhl-small-cgy { background-position: 0px -200px; }
+.nhl-small-car { background-position: 0px -250px; }
+.nhl-small-chi { background-position: 0px -300px; }
+.nhl-small-col { background-position: 0px -350px; }
+.nhl-small-cls { background-position: 0px -400px; }
+.nhl-small-dal { background-position: 0px -450px; }
+.nhl-small-det { background-position: 0px -500px; }
+.nhl-small-edm { background-position: 0px -550px; }
+.nhl-small-fla { background-position: 0px -600px; }
+.nhl-small-los { background-position: 0px -650px; }
+.nhl-small-min { background-position: 0px -700px; }								
+.nhl-small-mon { background-position: 0px -750px; }
+.nhl-small-nsh { background-position: 0px -800px; }
+.nhl-small-njd { background-position: 0px -850px; }
+.nhl-small-nyi { background-position: 0px -900px; }
+.nhl-small-nyr { background-position: 0px -950px; }
+.nhl-small-ott { background-position: 0px -1000px; }
+.nhl-small-phi { background-position: 0px -1050px; }
+.nhl-small-pho { background-position: 0px -1100px; }
+.nhl-small-pit { background-position: 0px -1150px; }
+.nhl-small-san { background-position: 0px -1200px; }
+.nhl-small-stl { background-position: 0px -1250px; }
+.nhl-small-tam { background-position: 0px -1300px; }
+.nhl-small-tor { background-position: 0px -1350px; }
+.nhl-small-van { background-position: 0px -1400px; }
+.nhl-small-was { background-position: 0px -1450px; }
+/* NHL team logos MEDIUM (50 x 50) sprite end */

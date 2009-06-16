@@ -1,0 +1,1150 @@
+/*
+Last Updated: 2/20/2008
+*/
+
+/* overrides */
+
+.main {
+	border-left: 1px solid #3d4144;
+	border-right: 1px solid #3d4144;
+}
+
+.content {
+	/**** This DIV holds the content of this page ****/
+	padding: 0px;
+}
+
+/* grid */
+.si-container {
+	background: url(http://assets.espn.go.com/i/design07/index/si_content_bg_alt.gif) repeat-y;
+	font-size: x-small;
+	line-height: 1.3;
+}
+
+.si-col1 {
+	float: left;
+	width: 424px;
+	font-size: 110%;
+}
+
+.si-col2 {
+	float: right;
+	width: 564px;
+	padding: 0 0 0 2px;
+	font-size: 110%;
+}
+
+.si-col2-stack1 {
+	padding: 7px 0 7px 0;
+	background: url(http://assets.espn.go.com/i/design07/index/si_content_col2_stack1_bg.gif) repeat-y;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.si-col2-col1 {
+	float: left;
+	width: 308px;
+	padding: 0 6px 0 6px;
+}
+
+.si-col2-col2 {
+	float: left;
+	width: 230px;
+	padding: 0 0 0 7px;
+}
+
+.si-col2-stack2 {
+	padding: 6px 7px 6px 6px;
+}
+
+.si-container h1 {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: xx-large;
+	line-height: 1em;
+	margin: 3px 0 7px 0;
+	padding: 0;
+}
+
+/* gutter */
+/* this adds 7xp bottom margin to whatever it is attached to */
+.gutter {
+	margin-bottom: 10px;
+}
+
+/* subhead */
+.si-subhead {
+	position: relative;
+	margin-bottom: 4px;
+}
+
+.si-subhead h3 {
+	font-size: 11px;
+	padding: 3px 0 3px 10px;
+	/*background: #eeeedf url(http://assets.espn.go.com/i/design07/index/cornerNotch.gif) no-repeat;*/
+	background: #eeeedf;
+	margin: 0;
+}
+
+* html si-subhead {
+	padding: 1px 0 1px 16px;
+}
+
+* html .si-subhead .si-subhead-link {
+	top: 1px;
+}
+
+.si-subhead .si-subhead-link {
+	position: absolute;
+	right: 0;
+	top: 3px;
+	margin-right: 10px;
+}
+
+.si-subhead .si-subhead-link a {
+	font-size: x-small;
+	color: #888;
+}
+
+.si-subhead .si-subhead-link a:hover {
+	color: black;
+}
+
+/* top story - horiz */
+
+.topPhoto img {
+	border: 0;
+}
+
+.topPhotoCaption {
+	border-bottom: 1px solid #d9d9ca;
+	margin-right: 6px;
+	padding-bottom: 5px;
+	font-size: x-small;
+	font-weight: bold;
+	color: #8e8e7e;
+}
+
+.topStoryBlurb1 {
+	padding: 7px 0;
+}
+
+#topStoryBlurb2 {
+	padding: 0 0 10px 0;
+	/*
+	padding: 7px 0;
+	padding-bottom: 8px;
+	*/
+}
+
+/* top story - vertical */
+
+.topPhotoV img {
+	border: 0;
+}
+.topPhotoV {
+	width: 205px;
+	float: left;
+	margin-right: 6px;
+}
+.topPhotoCaptionV {
+	background: #333;
+	color: #999;
+	padding-bottom: 5px;
+}
+.topPhotoCaptionPad {
+	padding: 2px 0 5px 4px;
+}
+.topPhotoCredit {
+	font-size: x-small;
+	color: #8e8e7e;
+	text-align: right;
+	padding: 0 2px 5px 0;
+}
+
+/* Vertical War */
+.warvert {
+	height: 710px;
+	overflow: hidden;
+	color: #fff;
+	background: #000;
+}
+.warvert a, .warvert a:visited {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.warvert  a:hover, .warvert a:visited:hover {color: #e7a500;}
+
+.warvert .bullets {
+	position: relative;
+	top: 0;
+	left: 8px;
+	width: 400px;
+	overflow: hidden;
+	line-height: 16px;
+}
+.warvert .superheadline {
+	position: relative;
+	top: 0px;
+	left: 5px;
+	z-index: 10000;
+}
+.warvert .subheadline{
+	font-family: arial, verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	font-style: italic;
+	position: relative;
+	top: 0px;
+	left: 8px;
+	width: 395px;
+	line-height: 18px;
+}
+.warvert .subheadline a {
+	color: #fff;
+	text-decoration: underline;
+}
+.warvert .subheadline a:hover {
+	color: #e7a500;
+	text-decoration: underline;
+}
+
+/* spotlight */
+.si-spotlight {
+    padding-top: 7px;
+    margin-bottom:10px;
+}
+
+/* must read */
+.mustRead h3, .storyArchive h3 {
+	background: #d5d2c3;
+	padding: 4px 5px;
+	margin: 0 0 7px 0;
+	border-top: 1px solid #bab8a9;
+	border-bottom: 1px solid #bab8a9;
+	font-size: 100%;
+}
+
+.mustRead img.mr-img {
+	float: left;
+}
+
+.mustRead p.mr-content {
+	padding: 0;
+	margin: 0 0 0 143px;
+}
+
+.mustRead .mr-item {
+	margin: 0 7px 7px 0;
+	padding: 0 0 7px 0;
+	border-bottom: 1px dashed #bab8a9;
+	height:75px;
+}
+
+/* story archive */
+.storyArchive p {
+	font-size: x-small;
+	padding: 0 0 6px 5px;
+	margin: 0 0 6px 0;
+	border-bottom: 1px dashed #bab8a9;
+}
+
+.storyArchive p a.active {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.storyArchive ul {
+	padding: 0;
+	margin: 0 0 0 18px;
+}
+
+.storyArchive ul li {
+	padding: 4px 0;
+	margin: 0;
+}
+
+.storyArchive .timediff {
+	color: #929283;
+	font-size: x-small;
+}
+
+/* contests/special section */
+.contests .contests-item {
+	margin: 0;
+	padding: 5px 7px;
+	background: #DDD;
+}
+
+.contests h3 {
+	margin: 0;
+	padding: 4px 5px;
+	color: #FFF;
+	background: #5d7081;
+	font-size: 100%;
+}
+
+.contests-item a {
+	display: block;
+	margin: 0 0 2px 0;
+}
+
+.contests {
+	margin-bottom: 0px;
+}
+
+/* news twin top larger (used on sports) */
+.twinTopLarge {
+	border: 0;
+	margin-top: 5px;
+	padding: 2px 4px 2px 6px;
+}
+* html .twinTopLarge {
+	padding-left: 6px;
+}
+.twinTopLarge h3 {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0 0 3px;
+	padding: 0;
+}
+.twinTopLarge h3 a {
+	text-decoration: none;
+	color: black;
+}
+.twinTopLarge img.twinImage {
+	margin: 0px 9px 1px 0px;
+	float: left;
+}
+
+/* news twin top smaller (used for outdoors) */
+
+.twinTop {
+	padding-left: 6px;
+}
+* html .twinTop {
+	padding-left: 6px;
+}
+.twinTop h3 {
+	font-size: 12px;
+	padding: 0;
+	margin: 0 0 6px 0;
+	font-weight: bold;
+}
+.twinTop h3 a {
+	color: black;
+}
+.twinTop img.twinImage {
+	float: left;
+	margin: 0 6px 6px 0;
+}
+
+/* breaking news */
+
+.bn {
+	padding: 0 0 5px 0; 
+	font-size: 10px; 
+	line-height: 14px;
+	color: #000; 
+	background: #efefef;
+}
+.bn .content {padding: 6px 8px 6px 6px;}
+.bn .content .mug {
+	margin: 0 8px 0 0;
+	float: left;
+	border: 1px solid #fff;
+}
+.bn h2 {
+	padding: 6px 0 6px 6px;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	color: #fff;
+	background: #d50000 url(http://assets.espn.go.com/i/sportindex/design05/h_breakingNews2.gif) no-repeat center right;
+}
+.bn h3 {
+	padding: 0 0 4px 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	font-weight: bold;
+}
+.bn a, .bn a:hover, .bn a:visited, .bn a:visited:hover {color: #000;}
+
+
+/* espnews headlines */
+.espnews {
+}
+
+.espnews .espnews-inner {
+	background: #eeeedf url(http://assets.espn.go.com/i/design07/index/cornerNotch.gif) no-repeat;
+	position: relative;
+}
+
+.espnews h3 {
+	/*float: left; */
+	font-size: 12px;
+	padding: 1px 0 1px 13px;
+	margin: 0;
+}
+
+/* IE6 needs a nudge */
+* html .espnews h3 {
+	padding: 1px 0 1px 16px;
+}
+
+.si-subhead .rss a {
+	background: url(http://assets.espn.go.com/i/design07/index/icon_rss.gif) 0 2px no-repeat;
+	padding-left: 14px;
+	font-size: x-small;
+	color: #888;
+}
+
+.si-subhead gutter .rss-sub a:hover {
+	color: #e87b37;
+}
+
+.espnews ul {
+	padding: 0;
+	margin: 0 0 0 13px;
+}
+
+/* IE6 needs a nudge */
+* html .espnews ul {
+	padding: 0;
+	margin: 0 0 0 16px;
+}
+
+.espnews ul li {
+	padding: 0;
+	margin: 6px 0;
+}
+
+.espnews-more {
+	font-size: x-small;
+	font-weight: bold;
+	padding: 2px 0 2px 13px;
+}
+
+/* IE6 needs a nudge */
+* html .espnews-more {
+	padding: 0 0 0 16px;
+}
+
+
+/* team thing */
+.teamThing {
+	/*
+	border-top: 1px solid #dadaca;
+	*/
+	padding: 5px 0 0 6px;
+}
+
+.teamThing img.tt-img {
+	float: left;
+	padding: 0 6px 0 0;
+}
+
+.teamThing .tt-blurb {
+	float: left;
+	width:115px;
+	height: 60px;
+	margin: 0 3px 0 0;
+	font-size: x-small;
+}
+
+.teamThing .tt-nav {
+	float: right;
+	width: 115px;
+	border-left: 1px solid #dadaca;
+	padding: 0 0 0 7px;
+	height: 60px;
+}
+
+.teamThing form {
+	padding: 0;
+	margin: 4px 0;
+}
+
+.teamThing select {
+	font-size: x-small;
+	font-family: Verdana, Arial, Sans-serif;
+}
+
+
+/* blogs */
+.si-blogs {
+	padding: 4px 0 0 0;
+}
+
+.si-blogs .post-item {
+	border-bottom: 1px dashed #dadaca;
+	padding: 0 0 5px 13px;
+	margin: 0 0 5px 0;
+}
+
+* html si-blogs .post-item {
+	paddinG: 0 0 5px 16px;
+}
+
+.si-blogs img.post-img {
+	float: left;
+	border: 0;
+}
+
+.si-blogs p.post-info {
+	margin: 0 0 0 41px;
+	padding: 0;
+	
+}
+
+.si-blogs .featured p.post-info {
+	margin: 0 0 0 71px;
+	padding: 0;
+}
+
+
+/* promo twin mod */
+#twin1a {
+	color: #1c3577;
+	border: 2px solid #808cbb;
+	background: #495688;
+	padding: 3px 5px 6px 5px;
+}
+#twin1a img {
+    padding: 0 0 0 6px;
+}
+#twin1a a {
+    color: #1c3577;
+}
+#twin1a #twinhdr {
+	font-weight: bold;
+    margin: 0;
+    padding: 0 0 4px;
+	color: white;
+}
+#twin1a #twinhdr a, #twin1a #twinhdr a:visited {
+	color: white;
+}
+#twin1a #twintxt {
+	font-size: 10px;
+	margin: 0;
+	color: white;
+	line-height: 1.3em;
+}
+#twin1a #twintxt a, #twin1a #twintxt a:visited {
+	color: white;
+	font-weight: bold;
+}
+
+/* stats leaders */
+.statsContainer {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.statsContainer h4 {
+	margin: 0;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	font-size: 100%;
+}
+.statsContainer h5 {
+	margin: 4px 0 0 0;
+	font-size: 100%;
+	color: #a80b00;
+}
+
+.playerContainer {
+	margin-right: 4%;
+	margin-bottom: 5px;
+	width: 30%;
+	float: left;
+	text-align: center;
+	border: 1px solid #dadaca;
+}
+
+/* Helping IE6 understand what I want */
+*html .playerContainer {margin-right: 1.9%;}
+
+.playerContainer p {
+	margin: 0;
+	padding: 3px;
+}
+
+.playerContainer img {
+	margin: 4px 0px;
+}
+
+.statsContainer a {
+	font-size: 100%;
+}
+
+/* generic html module */
+.genericModule {
+	margin: 5px 5px 5px 13px;
+}
+
+/* contributors */
+.si-contributors {
+	padding: 5px 0 0 13px;
+}
+
+.si-cont-mugLinks {
+	float: left;
+	padding: 0 5px;
+}
+
+.si-cont-links {
+	border-top: 1px dashed #dadaca; 
+	padding: 3px 0 0 0;
+}
+
+.si-cont-list {
+	float: right; 
+	width: 115px;
+	border-left: 1px solid #dadaca;
+	padding: 0 0 0 7px;
+}
+
+.si-contributors p {
+	padding: 0 0 6px 0;
+	margin: 0;
+}
+
+.si-contributors ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.si-contributors ul li {
+	font-size: x-small;
+	margin: 0;
+	padding: 2px 0 2px 10px;
+	line-height: 100%;
+}
+
+.si-contributors ul li.active {
+	background: url(http://assets.espn.go.com/i/design07/index/bullet_arrow_rev.gif) no-repeat 0 5px;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.si-contributors ul li.active a {
+	text-decoration: none;
+}
+
+/* begin flash tabs */
+.writers1 {
+	padding: 0px;
+	margin: 0px 0px 0px 6px;
+	width: 308px; 
+	background: #fff;
+}
+.writers1 a {
+    font-weight: bold;
+}
+.writers4 {
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+	padding: 6px 0px 0px 0px;
+	overflow: hidden;
+}
+.writers4b {
+	padding: 0px;
+	margin: 0px;
+	height: 120px;
+	padding: 6px 0px 0px 0px;
+	overflow: hidden;
+}
+.writers5 {
+	margin: 0px;
+	padding: 0px 6px 0px 95px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Verdana, sans-serif;
+	font-size: 10px;  
+	color: #000; 
+	line-height: 12px;
+}
+.writers5 H4 {
+	padding: 0px;
+	margin: 0px;
+	font-family: Verdana, sans-serif;
+	font-size: 10px;  
+	color: #900;
+}
+.writers5b {
+	margin: 0px;
+	padding: 0px 6px 0px 6px;
+	height: 70px;	
+	overflow: hidden;
+	font-family: Verdana, sans-serif;
+	font-size: 10px;  
+	color: #000; 
+	line-height: 12px;
+}
+.writers5b H4 {
+	padding: 0px;
+	margin: 0px; 
+	font-family: Verdana, sans-serif;
+	font-size: 10px;  
+	color: #900;
+}
+.writers5c {
+	margin: 0px;
+	padding: 0px 6px 0px 6px;
+	height: 110px;	
+	overflow: hidden;
+	font-family: Verdana, sans-serif;
+	font-size: 10px;  
+	color: #000; 
+	line-height: 12px;
+}
+.writers5c H4 {
+	padding: 0px;
+	margin: 0px; 
+	font-family: Verdana, sans-serif;
+	font-size: 10px;  
+	color: #900;
+}
+/* end flash tabs */
+
+/* begin scoreboard */
+
+.si-sb-inner {
+	padding: 0px;
+}
+* html .si-sb-inner {
+	padding: 3px 0 0 16px;
+}
+.si-sb-teams {
+	float: left;
+	width: 115px;
+}
+.si-sb-score {
+	float: left;
+	width: 35px
+}
+.si-sb-status {
+	float: left;
+	width: 100px;
+}
+.si-sb-nav {
+	float: left;
+}
+.si-sb-nav a {
+	padding: 0 4px;
+	font-weight: bold;
+	margin: 0 1px;
+}
+.si-sb-footer {
+	clear: both;
+	font-size: x-small;
+	padding: 0 0 0 10px;
+}
+/* end scoreboard */
+
+/* new partner module */
+.pm {
+	background: white url(http://assets.espn.go.com/i/design07/index/subhead_gradientbg.gif) repeat-x top left;
+	border: 1px solid #ccc;
+	margin: 0 0 6px 0;
+}
+.pm h3 {
+	font-size: 11px;
+	color: black;
+	border-bottom: 1px dashed #ccc;
+	padding: 0;
+	margin: 2px 8px 2px 8px;
+	padding: 0 0 5px 0;
+}
+.pm-inner {
+	padding: 3px 8px;
+}
+.pm-inner img {
+	border: 0;
+	float: right;
+	margin: 0 0 3px 5px;
+}
+.pm-inner p {
+	margin: 0 0 4px 0;
+	padding: 0;
+}
+.pm-inner ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.pm-inner ul li {
+	padding: 0 0 0 10px;
+	margin: 0 0 6px 0;
+	background: url(http://assets.espn.go.com/i/fp/07/bull.gif) no-repeat 0 3px;
+}
+
+.pm-inner li img {
+    	float: none;
+  	margin: 0;
+}
+
+/* photo gallery */
+.pg {
+	padding: 4px 10px 4px 14px;
+}
+.pg .pg-left {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.pg .pg-right {
+	margin: 0;
+}
+.pg .pg-left img {
+	border: 0;
+	margin: 0 0 0 7px;
+	padding: 0;
+}
+.pg .pg-left p {
+	font-size: x-small;
+	text-align: right;
+}
+
+/* true hoop */
+ul.th-posts {
+	margin: 0;
+	padding: 0 4px 0 0;
+	list-style: none;
+}
+
+ul.th-posts li {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+/* mlb - baseball america */
+.si-ba {
+	padding: 4px 0 0 13px;
+}
+.si-ba img.logo {
+	border: 0;
+	margin: 0 0 4px -4px;
+}
+.si-ba p {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+.si-ba form {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+.si-ba select {
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: x-small;
+}
+.si-ba ul {
+	padding: 0;
+	margin: 0 0 0 -14px;
+	list-style: none;
+}
+.si-ba ul li {
+	margin: 0;
+	padding: 0 0 4px 14px;
+	background: url(http://assets.espn.go.com/i/fp/07/bull.gif) no-repeat 0 3px;
+}
+
+/* briefing room */
+.si-br {
+	padding: 4px 0 0 13px;
+}
+.si-br p {
+	padding: 0 0 9px 0;
+}
+.si-br ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.si-br ul li {
+	margin: 0;
+	padding: 0 0 5px 0;
+	margin: 0 0 5px 0;
+	border-bottom: 1px dashed #DADACA;
+}
+.si-br p {
+	margin: 0;
+	padding: 0;
+}
+
+/* standings */
+.standings {
+	padding: 0 8px 0 8px;
+}
+.standings h3 {
+	margin: 0;
+	font-size: 100%;
+	padding: 4px 0;
+	text-align: center;
+}
+.standings p {
+	margin: 0;
+	padding: 4px 0 3px 0;
+}
+.standings-nav {
+	padding: 0 0 8px 0; 
+	text-align: center;
+}
+.standings-nav a {
+	padding: 0 0 6px 0;
+}
+.standings-nav a.active {
+	background: url(http://assets.espn.go.com/i/design07/index/carrot.gif) no-repeat 50% 100%;
+	text-decoration: none;
+	font-weight: bold;
+}
+.standings-nav a.active:hover, .standings-nav a.active:visited {
+	color: black;
+}
+.standings-si {
+	width: 100%;
+	font-size: x-small;
+}
+.standings-si thead {
+	text-align: left;
+}
+.standings-si tr.odd td {
+	background: #f0f0f0;
+}
+.standings-si th.fixed-golf {
+	width: 35px;
+}
+.standings-si th.fixed-racing {
+	width: 45px;
+}
+
+/* nascar icons */
+#iconsboxwrap {
+	width: 308px;
+	font: 10px Verdana;
+	color: #000;
+}
+#iconsboxtitle {
+	background: url(http://assets.espn.go.com/i/design07/index/nascarIconsbg.jpg) no-repeat top right; 
+}
+#iconsboxcontent {
+	margin: 0;
+}
+#iconsboxlinks {
+	clear: both; 
+	margin: 0 auto; padding: 5px;
+	text-align: center;
+}
+#iconsboxlinks a{
+	color: #000;
+}
+#iconsboxlinks a:hover{
+	color: #f00;
+}
+
+/* html tabs */
+ul.awtabs {
+    font-family: Verdana, Helvetica, Sans-serif;
+    font-size: x-small;
+    position: relative;
+    list-style: none;
+    padding: 2px 0 3px 0;
+    margin: 0 0 5px 0;
+    background: url(http://assets.espn.go.com/i/design07/index/tabs/fp/tabLoBg.gif) repeat-x 0 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul.awtabs li {
+    padding: 0;
+    margin: 0 0px;
+    font-size: x-small;
+    display: inline;
+    background: none;
+}
+
+ul.awtabs li a, ul.awtabs li a:visited {
+    color: white;
+    padding: 2px 6px 8px 6px;
+    margin: 0 -1px;
+    text-decoration: none;
+}
+
+ul.awtabs li a:hover {
+    cursor: pointer;
+    color: white;
+    background: url(http://assets.espn.go.com/i/design07/index/tabs/fp/tabHoverBg.gif) repeat-x center 0;
+}
+
+ul.awtabs li.active a {
+    background: url(http://assets.espn.go.com/i/design07/index/tabs/fp/tabHiBg.gif) repeat-x center 0;
+}
+
+ul.awtabs li.active a:hover, ul.awtabs li.active a:visited {
+    color: white;
+    background: url(http://assets.espn.go.com/i/design07/index/tabs/fp/tabHiBg.gif) repeat-x center 0;
+    cursor: default;
+}
+
+/* Impact Unit */
+.impactUnit {
+	padding: 7px 7px 7px 7px; 
+	border-bottom: 1px solid #eaeaea;
+	background: #fff;
+	clear: both;
+}
+.impactUnit990 {
+	padding: 7px 7px 7px 7px; 
+	border-bottom: 1px solid #eaeaea;
+	background: #fff;
+	clear: both;
+}
+
+/* begin tv callout style*/
+.photowrap {
+	font-size: 0;
+}
+h4.tvcallout {
+	font-weight: bold;
+	font-size: x-small;
+	line-height: normal;
+	background: black;
+	margin: 0;
+	color: white;
+	padding: 3px 0;
+}
+h4.tvcallout span {
+	background: url(http://assets.espn.go.com/i/fp/07/tvcalloutbg4.gif) no-repeat top right;
+	padding: 3px 8px;
+	margin-right: 5px;
+}
+/* end tv callout style*/
+
+
+
+/* PodCast */
+ul#podcast-mod {
+background: #000;
+	color: #9a9a9a;
+	list-style: none;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0 4px 8px;
+}
+ul#podcast-mod a:link, ul#podcast-mod a:link:visited {color: #9a9a9a;}
+ul#podcast-mod a:link:hover, ul#podcast-mod a:link:visited:hover {color: #fff;}
+
+ul#podcast-mod li.podcast-player {margin: 8px 0;}
+
+ul#podcast-mod li.podcast-highlight {
+	background: #2e2e2e;
+	margin: 8px 8px 0 0;
+	padding: 8px;
+}
+ul#podcast-mod li.podcast-highlight em {
+	color: #fff;
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+}
+ul#podcast-mod li.podcast-highlight em a:link, ul#podcast-mod li.podcast-highlight em a:link:visited {color: #fff; text-decoration: none;}
+ul#podcast-mod li.podcast-highlight em a:link:hover, ul#podcast-mod li.podcast-highlight em a:link:visited:hover {color: #fff; text-decoration: underline;}
+
+ul#podcast-mod li.podcast-highlight a:link, ul#podcast-mod li.podcast-highlight a:link:visited {color: #d5c882;}
+ul#podcast-mod li.podcast-highlight a:link:hover, ul#podcast-mod li.podcast-highlight a:link:visited:hover {color: #fff;}
+
+ul#podcast-mod li.podcast-off {
+	border-bottom: 1px solid #4d4d4d;
+	margin: 0 8px 0 0;
+	padding: 6px;
+}
+
+ul#podcast-mod li.podcast-footer {
+	font-size: 10px;
+	margin: 0 8px 0 0;
+	padding: 6px 2px 6px 2px;
+	text-align: center;
+}
+
+ul#podcast-mod li.podcast-off em {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ul#podcast-mod li.podcast-off em a:link, ul#podcast-mod li.podcast-off em a:link:visited {text-decoration: none;}
+ul#podcast-mod li.podcast-off em a:link:hover, ul#podcast-mod li.podcast-off em a:link:visited:hover {text-decoration: underline;}
+
+/* end PodCast */
+
+/* begin poll */
+.pollLinks {
+	color: #333;
+	float: center; 
+	padding:0 0 25px 0;	
+}	
+.pollLinks a:link {
+	color: #333;
+}
+.pollLinks a:hover {
+	color: #FF0000;
+}
+/* end poll */
+
+/* begin blog network */
+.si-contributors {padding: 10px 0 0 13px;}
+.si-cont-header h3 {
+display: block;
+margin: 0;
+height: 43px;
+padding: 0;
+text-indent: -9999px;
+width: 308px;
+}
+.si-cont-header p {
+background: #EEEEDF;
+border: solid #000;
+border-width: 0 1px;
+font-size: 0.9em;
+margin: 0;
+padding: 5px 0;
+text-align: center;
+}
+.si-cont-content {
+float: left;
+height: 176px;
+width: 165px;
+}
+.si-contributors img.mug {
+background-image: none;
+float: left;
+margin: 0 0 6px 0;
+width: 35px;
+}
+.si-cont-mugLinks {
+background-image: none;
+float: left;
+padding: 0 5px;
+width: 115px;
+}
+.si-cont-mugLinks h4 {
+background-image: none;
+font-size: 1.1em;
+font-family: arial;
+margin: 0;
+padding: 0;
+}
+.si-contributors p em.tstamp {
+background-image: none;
+color: #888;
+display: block;
+font-style: normal;
+font-size: 0.8em;
+}
+/* end blog network */

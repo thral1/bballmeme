@@ -1,0 +1,7 @@
+<% if 30 == @team.id %>
+      <%= link_to "#{@team.city} Bucs", {:controller => controller.controller_name, :action => "show", :id => FBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% elsif 19 == @team.id %>
+      <%= link_to "NE #{@team.name}", {:controller => controller.controller_name, :action => "show", :id => FBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% else %>
+      <%= link_to "#{@team.city} #{@team.name}", {:controller => controller.controller_name, :action => "show", :id => FBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% end %>

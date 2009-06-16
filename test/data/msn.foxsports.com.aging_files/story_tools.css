@@ -1,0 +1,55 @@
+/* CSS Document */
+#story_date{
+	float:left;
+	color:#898989;
+	font-weight:normal;
+	font-size:10px;
+	padding:0px;
+	margin:0px;
+	vertical-align:text-top;
+}
+.comment_bubble_blue, .comment_bubble_white{
+	font-size:10px;
+	background:url(/fe/img/Story/comment_bubble_blue.jpg) no-repeat left top;
+	padding-left:19px;
+	margin-left:11px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#1c62b4;
+}
+.comment_bubble_white{
+	font-size:10px;
+	background-image:url(/fe/img/Story/comment_bubble_white.jpg);
+	padding-left:19px;
+}
+#story_nav{
+	color:#898989;
+	font-size:10px;
+}
+	#story_nav .story_nav_links{
+		float:right;
+		height:27px;
+		margin-right:9px;
+		padding-top:15px;
+		color:#898989;
+		background:no-repeat center top;
+	}
+		#story_nav .story_nav_links.print{
+			background-image:url(/fe/img/Story/printer.jpg);
+		}
+		#story_nav .story_nav_links.email{
+			background-image:url(/fe/img/Story/email.jpg);
+			background-position:center 4px;
+		}
+		#story_nav .story_nav_links.blog{
+			background-image:url(/fe/img/Story/blog.jpg);
+		}
+		#story_nav .story_nav_links.digg{
+			background-image:url(/fe/img/Story/digg.jpg);
+		}
+			#addthis_dropdown15{
+				margin-top:-30px !important;
+			}
+		#story_nav .story_nav_links.rss{
+			background-image:url(/fe/img/Story/rss.jpg);
+		}

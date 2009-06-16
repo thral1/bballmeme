@@ -1,0 +1,205 @@
+/* blog photos */
+
+.blogpic200 { 
+	width:200px;
+	margin-left:14px;
+	line-height:100%; 
+	text-align:left; 
+	float:right; 
+}
+.blogpic345 {
+	width:345px;
+	margin-left:14px;
+	line-height:100%; 
+	text-align:left; 
+	float:right; 
+}
+.blogpic450 {
+	width:450px;
+	margin-left:14px;
+	line-height:100%; 
+	text-align:left; 
+	float:right; 
+}
+.blogpic575 {
+	width:575px;
+	margin-left:14px;
+	line-height:100%; 
+	text-align:left; 
+	float:right; 
+}
+.blogpic296 {
+	width:298px;
+	margin-left:14px; 
+	line-height:100%; 
+	text-align:left; 
+	float:right; 
+}
+.blogpic608 {
+	width:610px;
+	line-height:100%; 
+	text-align:left; 
+	float:right; 
+}
+
+
+/* current calendar */
+.calendar {
+	border-collapse: collapse;
+	border-top: none;
+	border-right: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	border-left: none;
+	font-size:91%;
+}
+.calendar a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.calendar a:hover {
+	background-color: #E6EDF5;
+	width:100%;
+	margin:auto;
+	padding:0px;
+	padding:3px 0px 3px 0px !important;
+} 
+
+.calendar td {
+	border-top: 1px solid #DEDEDE;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px solid #DEDEDE;
+}
+
+.today td {
+	border-top: 1px solid #DEDEDE;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px solid #DEDEDE;
+	background-color:#037;
+	color:#999;
+}
+*/
+
+/* new calendar */
+#blogcalendar p.month {
+	font-size:78%;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:4px;
+}
+#blogcalendar table {
+	width:100%;
+}
+#blogcalendar table.labels td {
+	font-weight:bold;
+	font-size:65%;
+	color:#666;
+	text-align:center;
+	width:14%;
+}
+#blogcalendar table.days {
+	border-left:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+}
+#blogcalendar table.days td {
+	font-size:78%;
+	color:#666;
+	text-align:center;
+	width:14%;
+	height:30px;
+	border-right:1px solid #dedede;
+	border-top:1px solid #dedede;
+}
+#blogcalendar td a,
+#blogcalendar td a:link,
+#blogcalendar td a:active,
+#blogcalendar td a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#fff;
+	display:block;
+	line-height:30px;
+}
+#blogcalendar td a:hover {
+	background-color:#e6edf5;
+	display:block;
+	line-height:30px;
+}
+#blogcalendar td.today {
+	background-color:#294766;
+	color:#999;
+}
+#blogcalendar td.today a,
+#blogcalendar td.today a:link,
+#blogcalendar td.today a:active,
+#blogcalendar td.today a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#294766;
+	color:#fff;
+	display:block;
+	line-height:30px;
+}
+#blogcalendar td.today a:hover {
+	background-color:#335980;
+	display:block;
+	line-height:30px;
+}
+
+/* misc */
+
+p.blogdivider {
+	margin-top:14px;
+	padding-top:14px;
+	border-top:1px solid #CCC;
+	clear:both;
+	height:1px;
+}
+p.text img.rssicon {
+	width:12px;
+	height:12px;
+	margin:0 2px -2px 0;
+}
+
+/* calendar widget overrides */
+#blog_calendar .calendar_widget div.nav{
+	background-color:transparent;
+	margin-bottom:4px;
+}
+#blog_calendar .calendar_widget table{
+	width:100%;
+	border-top:1px solid #DEDEDE;
+	border-left:1px solid #DEDEDE;
+	border-collapse:collapse;
+}
+#blog_calendar .calendar_widget td{
+	padding:0px;
+	background-color:#FFFFFF;
+	border-right:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+}
+#blog_calendar .calendar_widget td.weekday_name{
+	height:auto;
+}
+#blog_calendar .calendar_widget td a{
+	color:#666666;
+	display:block;
+	line-height:30px;
+	text-decoration:none;
+}
+#blog_calendar .calendar_widget td.current_date{
+	background-color:#294766;
+}
+#blog_calendar .calendar_widget td.weekday_name{
+	font-weight:bold;
+	font-size:65%;
+}
+#blog_calendar .calendar_widget td.extra a{
+	font-weight:bold;
+	color:#003388;
+}
+#blog_calendar .calendar_widget td.extra a:hover{
+	background-color:#E6EDF5;
+}

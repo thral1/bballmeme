@@ -1,0 +1,54 @@
+
+  /* Bleacher report */
+#hat {float: left; background: url("images/brbackground.png") repeat-x 0 0; color: #eee; font: 12px Helvetica, Arial, sans-serif; height: 43px; left: 0; position: left; text-align: left; top: 0; width: 1024px; z-index: 900000}
+#hat-container {margin: 0 auto; padding-bottom: 5px; width: 974px}
+
+#dynamic-text {float: left; height: 10px}
+#dynamic-text li {float: left; font: 15px Helvetica, Arial, sans-serif; list-style-type: none; margin: 10px 0px 0 20px; color: #ffffff; 0 -1px 0}
+
+#user-tasks {float: right; height: 10px}
+#user-tasks li {float: left; font: 15px Helvetica, Arial, sans-serif; list-style-type: none; margin: 10px 0px 0 20px; color: #ff9900; text-shadow: #1f1f1f 0 -1px 0}
+#user-tasks a {color: #ff9900}
+
+/*#user-tasks a:active, #user-tasks a:focus, #user-tasks a:hover {border-bottom: 1px solid #ff4000} */
+#user-tasks li.admin {margin-top: 10px; position: relative}
+#user-tasks li.fb-promo {margin-top: 11px}
+#user-tasks li.logout a, #user-tasks li.settings a {border-bottom-color: #aaa; color: #aaa}
+#user-tasks li.user {color: #fff}
+#user-tasks li.user a {border-bottom-color: #fff; color: #fff}
+
+#hat-footer {float: left; background: url("images/brbackground.png") repeat-x 0 0; color: #eee; font: 12px Helvetica, Arial, sans-serif; height: 43px; left: 0; position: left; text-align: left; top: 0; width: 1024px; z-index: 900000}
+#hat-container-footer { text-align: center; margin: 0 auto; padding-bottom: 5px; width: 974px}
+
+#user-tasks-footer {text-align: center; height: 10px}
+#user-tasks-footer li {font: 18px Helvetica, Arial, sans-serif; list-style-type: none; margin: 0px 110px -10px 50px; color: #ff9900; text-shadow: #1f1f1f 0 -1px 0}
+#user-tasks-footer li.test {font: 8px Helvetica, Arial, sans-serif; list-style-type: none; margin: 0px 110px -10px 50px; color: #ffffff; text-shadow: #1f1f1f 0 -1px 0}
+#user-tasks-footer a {color: #ff9900}
+.tabmenu {
+ list-style-type:none;
+ white-space:nowrap;
+ display:inline;
+ float: right;
+/* margin:26px -3px; */
+ margin:-17px -6px;
+}
+.tabmenu li {
+ display:inline;
+ font-weight:bold;
+ margin:0px 3px;
+}
+.tabmenu li a {
+ padding:2px 6px 0 6px;
+ color: #ffffff;
+ /*background-color:#eff7ff;*/
+ background-color:#1f1f1f;
+ vertical-align: bottom;
+ }
+.tabmenu li.selected a{
+ /*color:orangered;*/
+ color:#ff9900;
+ background-color:white;
+ border:1px solid #1f1f1f;
+ border-bottom:2px solid white;
+ z-index:100;
+}

@@ -1,0 +1,575 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+
+
+
+ <title>Embedded schmapplet</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- get si parameter from the query string -->
+    
+        
+        
+            
+        
+    
+    
+    
+    
+
+
+    
+        
+    
+
+
+
+    
+        
+    
+
+
+
+    <meta name="IconsDir" content="/images/minitemplate/pageiconst011/">
+<meta name="MapIconsDir" content="/images/minitemplate/mapiconssports/">
+<meta name="TemplateCode" content="s011">
+<meta name="MiniTabOrder" content="htmltitle,maptitle,htmltitle1">
+<meta name="FooterType" content="Panel">
+<meta name="NormalIconSize" content="16,16">
+<meta name="NormalIconAnchor" content="0.5,0.5">
+<meta name="OverIconSize" content="48,64">
+<meta name="OverIconAnchor" content="0.5,0.875">
+<meta name="ThumbInPlaceStrip" content="yes">
+<meta name="TitleInPlaceStrip" content="yes">
+<meta name="ShortDescInPlaceStrip" content="yes">
+<meta name="urlInPlaceStrip" content="no">
+<meta name="AddrLine1InPlaceStrip" content="yes">
+<meta name="PhoneNoInPlaceStrip" content="no">
+<meta name="ZoomLevel" content="16">
+<meta name="ZoomMode" content="Satellite">
+<meta name="ZoomHideIcons" content="yes">
+<meta name="ZoomOutOnChange" content="no">
+<meta name="T000LinkInPlaceStrip" content="">
+<meta content="true" name="UseFunctionIcons">
+<meta name="Autoplay" content="0">
+<meta name="Delay" content="5000">
+<meta name="OnePlaceOnly" content="false">
+<meta name="TitleSplitChar" content="-">
+<meta content="no" http-equiv="imagetoolbar">
+<meta name="ShowAllPlayButtons" content="false">
+<meta name="isGuideSchmapplet" content="true">
+<meta name="loadPhotosOnDemand" content="false">
+<meta name="UseAlternativeThumbs" content="true">
+<meta name="DisableTitleLinks" content="true">
+<meta name="CenteredLayout" content="true">
+<meta name="ZoomToStadiumOffset" content="10">
+<meta name="TopMargin" content="5,6">
+<meta name="ShowMenus" content="11">
+<meta name="FeedbackLink" content="/guides/feedback.shtml?widgets_sports_general">
+<meta name="UseFirstNormalIcon" content="1">
+<!--v only -->
+<meta content="-" name="TitleSplitChar">
+<meta name="HasBoldSubtitle" content="yes">
+<meta name="SchmappletHome" content="/%uid%/%sid%">
+<meta name="CopyrightText" content="Copyright">
+<meta name="TrackPage" content="true">
+<meta name="OmitDuplicateIcons" content="true">
+<meta name="TitleLink" content="true">
+<meta name="SubTitleLink" content="true">
+<meta name="GameVenueLink" content="true">
+<meta name="MapLink" content="true">
+<meta name="WidgetLinkPopupWidth" content="980">
+<meta name="WidgetLinkPopupHeight" content="740">
+<meta name="RemoveFutureSchedule?" content="true">
+<meta name="RemoveLinksOverride" content="mlb">
+
+	
+<meta name="Footer" content="t:Get this widget...">
+<meta name="detailtitle" content="Details">
+<meta name="miniphotostitle" content="Photos">
+<meta name="PlacesXmlName" content="places.xml">
+<meta name="MiniMenuOverrideName" content="mininavusasports.xml.var">
+<meta name="ZoomText" content="zoom to stadium">
+<meta name="PlaceNumerText" content="Game %1">
+<meta name="ZoomOutText" content="zoom out">
+<meta name="MiniMenu2OverrideName" content="nav.xml.var">
+<meta name="PrevButtonTxt" content="prev game">
+<meta name="NextButtonTxt" content="next game">
+<meta name="MapTitle" content="map:160,map:10000|Map view">
+<meta name="htmltitle1" content="stats:160,stats:10000|Statistics view">
+<meta name="htmltitle" content="sch:160,sched:180,Schedule:10000|Schedule view">
+
+
+    
+        <script type="text/javascript">
+            var template = {'ident': 's011'};
+			template.ident = template.ident.substr(0,4);
+        </script>
+    
+
+
+
+
+
+
+
+<!--it's hard coded here, template code should be checked for generic way
+will do it better -leslie 2008-01-10 -->
+
+    
+
+
+<script language="javascript" src="s011s_data/MochiKit.js" type="text/javascript"></script>
+<link rel="stylesheet" href="s011s_data/embedded.css">
+<link rel="stylesheet" href="s011s_data/platforms.css">
+
+
+ 
+ 
+
+   
+   <script language="javascript" type="text/javascript" src="s011s_data/t010.js"></script><script src="s011s_data/ga.js" type="text/javascript"></script>
+   
+
+
+
+
+</head><body>
+    ﻿<script language="javascript" type="text/javascript">
+
+    var schmappletBorder = 2;
+    var Panelborder = 2;
+
+colorset_template = [
+        [/a:link|a:visited|a:active/i,
+                ['color', 12]
+                ],
+        [/.canvas/,
+                ['backgroundColor', 2],
+                ['borderTopColor', schmappletBorder],
+                ['borderLeftColor', schmappletBorder],
+                ['borderBottomColor', schmappletBorder],
+                ['borderRightColor', schmappletBorder]
+                ],
+        [/.title/,
+                ['color', 13]
+                ],
+        [/.title-link/,
+                ['color', 13]
+                ],
+        [/.subtitle-div/,
+                ['borderTopColor', Panelborder],
+                ['borderRightColor', Panelborder],
+                ['borderBottomColor', 10],
+                ['backgroundColor', 6],
+                ['color', 14]
+                ],
+        [/.subtitle-ie/,
+                ['borderTopColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder],
+                ['borderBottomColor', Panelborder],
+                ['backgroundColor', 6]
+                ],
+        [/.details/,
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.place-name-top/,
+                ['borderTopColor', 10],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.schedule/,
+                ['color', 17]
+                ], 
+        [/.stats/,
+                ['color', 17]
+                ],
+        [/.counter/,
+                ['color', 14]
+                ],
+        [/.details/,
+                ['color', 17]
+                ],
+        [/.place-name-top/,
+                ['color', 17]
+                ],
+        [/.TitleIn/,
+                ['color', 17]
+                ],
+        [/.TitleIn a/,
+                ['color', 17]
+                ],
+        [/.place-info/,
+                ['color', 17] ,
+                ['borderTopColor', Panelborder]
+                ],
+         [/.ShortDescIn/,
+                ['color', 17]
+                ],     
+        [/.view-panel/,
+                ['color', 14],
+                ['borderTopColor', 10],
+              //  ['borderBottomColor', 10],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder],
+                ['backgroundColor', 6]
+                ],
+        [/.photos/,
+                ['borderTopColor', 10],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.map/,
+                ['borderTopColor', 10],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.GetSchmappletText/,
+                ['borderTopColor', Panelborder],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.guide-hotswap-div/,
+                ['borderTopColor', Panelborder],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.section-hotswap-div/,
+                ['borderTopColor', Panelborder],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.schedule/,
+                ['borderTopColor', Panelborder],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.stats/,
+                ['borderTopColor', 10],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder]
+                ],
+        [/.place-info/,
+                ['borderTopColor', 10],
+                ['borderBottomColor', Panelborder],
+                ['borderLeftColor', Panelborder],
+                ['borderRightColor', Panelborder],
+                ['backgroundColor', 15]
+                ],
+        [/.schedule/,
+                ['backgroundColor', 7]
+                ],
+        [/.stats/,
+                ['backgroundColor', 7],
+                ['color', 18]
+                ],
+        [/.details/,
+                ['backgroundColor', 7]
+                ],
+     //   [/.GetSchmappletText/,
+          //      ['backgroundColor', 7]
+             //   ['color', 17]
+         //       ],
+        [/.guide-hotswap-div/,
+                ['backgroundColor', 7],
+                ['color', 17]
+                ],
+        [/.section-hotswap-div/,
+                ['backgroundColor', 7],
+                ['color', 17]
+                ],
+        [/.place-name-top/,
+                ['backgroundColor', 7]
+                ],
+        [/.photos/,
+                ['backgroundColor', 7]
+                ],
+        [/.photo-attr/,
+                ['color', 18]
+                ],
+        [/.sportsDay/,
+                ['color', 18]
+                ],
+        [/.backDay/,
+                ['backgroundColor', 19]
+                ],
+        [/.sportsMonth/,
+                ['color', 18]
+                ],
+        [/.whatsthis/,
+                ['color', 13]
+                ],
+        [/.logo-url/,
+                ['color', 13]
+                ],
+        [/.zoom-p/,
+                ['color', 12]
+                ],
+        [/.print-p/,
+                ['color', 12]
+                ],
+        [/.directions-p/,
+                ['color', 12]
+                ],
+        [/.html-url/,
+                ['color', 12]
+                ]];
+
+</script>
+
+<div style="visibility: visible;" id="canvas">
+<img id="loading-message-guide" src="s011s_data/loading.gif" style="border-style: none; border-width: 0px; position: absolute; top: 38px; left: 10px; z-index: 1000; width: 70px; height: 20px; visibility: hidden;">
+  <div style="left: 1px; visibility: visible;" id="subtitle-ie"> </div>
+
+  <div style="left: 2px; right: 1px; visibility: visible;" id="subtitle-div"><div id="margin-p">&nbsp;    </div>
+    <div style="font-weight: bold; cursor: pointer;" id="subtitle-p" class="">Los Angeles Clippers</div>
+
+    <div style="visibility: visible; display: block;" id="subtitle-button-span"><img src="s011s_data/MiniSectionMenuBtn.png" id="subtitle-button" height="12" width="16"></div>
+  </div>
+  <div id="title-div">
+  <div id="infoEle"><img src="s011s_data/info.png" height="13" width="13"></div>
+    <div style="padding: 0px;" id="title-link">
+      <b style="display: none;" id="title" onclick="clickTitle();" class="n-placeInfo"></b><img src="s011s_data/nba.png" height="22" width="122"></div>
+    <div style="display: block;" id="title-button-span"><img src="s011s_data/MiniGuidesMenuBtn.png" id="title-button" height="16" width="50"></div>
+  </div>
+
+  <div id="map" style="visibility: hidden; left: 2px; right: 2px; top: 38px; position: absolute;"></div>
+  <div id="map2" style="visibility: hidden; left: 2px; right: 2px; top: 38px; position: absolute;"></div>
+
+
+  <div id="guide-hotswap-div" style="background-color: rgb(255, 255, 255); left: 1px; visibility: hidden;"><iframe id="guide-hotswap-frame" name="guide-hotswap-frame" marginwidth="0" marginheight="0" allowtransparency="true" style="border-style: none; border-width: 0px; position: fixed; width: 141px; height: 273px;" frameborder="0" scrolling="no"></iframe></div>
+  <div id="section-hotswap-div" style="background-color: rgb(255, 255, 255); left: 1px; visibility: hidden;"><iframe id="section-hotswap-frame" name="section-hotswap-frame" marginwidth="0" marginheight="0" allowtransparency="true" style="border-style: none; border-width: 0px; position: fixed; width: 141px; height: 273px;" frameborder="0" scrolling="no"></iframe></div>
+  <div id="copyright-hotswap-div" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); left: 1px;">
+    ﻿
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+﻿<p id="cutomize-info">Brighten
+up your website or blog with one of our cool and stylish schmap widget.
+To see the full range covering sports, concert tours, politics, and
+more, click <a id="info-link" class="feedbackLink" href="javascript:void(0);" onclick="gotoMylink();">here</a></p>
+<p style="display: block;" id="feedback"> Click <a id="feedbackHref" class="feedbackLink" href="javascript:void(0);">here </a>to provide feedback about this widget. </p>
+<div id="copyrightTxt"><a id="copyright" class="feedbackLink" href="javascript:void(0);">Copyright/Disclaimer </a></div>
+  </div>
+  <div style="left: 1px; right: 1px; visibility: hidden;" id="GetSchmappletText"><div style="display: none;">﻿
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+﻿</div><p id="SchmappletLongText">Click on a button to install this widget on the platform of your choice:</p>
+<p id="platform">		﻿
+ 
+
+
+
+	<img class="platform-small-icon" onclick="installToWordpress();" title="Add to Wordpress" src="s011s_data/wordpress-little.gif" border="0">
+<img class="platform-small-icon" onclick="installToTypepad();" title="Add to Typepad" src="s011s_data/typepad-little.gif" border="0">
+<img class="platform-small-icon" onclick="installToDrupal();" title="Add to Drupal" src="s011s_data/drupal-little.gif" border="0">
+<img class="platform-small-icon" src="s011s_data/blogger-little.gif" title="Add to Blogger" onclick="installToBlogger('/entries/blogger.html', 0);" border="0">
+<img class="platform-small-icon" src="s011s_data/igoogle-little.gif" title="Add to iGoogle" onclick="installToGoogle();" style="display: none;" border="0">
+<img title="Add to Windows Live" src="s011s_data/windowslive-little.gif" class="platform-small-icon" onclick="installToLive('/plugins/live/download.html',this, 0);" style="display: none;" border="0">
+</p><div style="clear: both;"></div>
+  <form name="typepadform" action="https://www.typepad.com/t/app/weblog/design/widgets" method="post" target="_blank">
+                <input name="service_key" value="52616e646f6d495600a999d69d23d99f3eba5cc5b900c1706beb6fc11998e320e02aecfd1375fef2" type="hidden">
+                <input name="service_name" value="Schmapplets" type="hidden">
+                <input name="service_url" value="http://www.schmapplet.com/" type="hidden">
+                <input name="long_name" value="Schmapplet" type="hidden">
+                <input name="short_name" value="schmapplet_weblog" type="hidden">
+
+                <textarea id="typepad_content" name="content" style="display: none;">                </textarea>
+
+                <input name="return_url" value="http://www.schmap.com/" type="hidden">
+            </form>
+
+
+<p id="codeToCopy">Or,paste this code into your website or blog:</p>
+<div id="codetext">
+   <textarea id="code" name="comments"></textarea>
+</div>
+<p id="SchmappletShortText"> If you'd like to first customize color and size, please 
+<a id="custom-link" class="feedbackLink" onclick="clickHere();" href="javascript:void(0);">click here </a>
+</p>
+</div>
+  <div style="left: 2px; right: 2px;" id="view-panel"><p id="counter"><span id="counter-current">#74</span></p><span style="font-size: 9px; cursor: pointer;" title="Schedule view" class="view-link first-view-link current-view-link" id="view-link0">sch</span><span style="font-size: 9px; cursor: pointer;" title="Map view" class="view-link" id="view-link1">map</span><span style="font-size: 9px; cursor: pointer;" title="Statistics view" class="view-link" id="view-link2">stats</span></div>
+  <h1 style="left: 1px; right: 1px; top: 38px; visibility: hidden;" id="place-name-top">Clippers vs. Thunder</h1>
+  <!--
+    <span id="review-tab" class="tab">Review</span>
+  -->
+  <div style="left: 1px; right: 1px; top: 61px; display: none;" id="details">
+    <p style="display: none;" id="detail-street"></p>
+    <p style="display: none;" id="detail-ext"></p>
+    <p style="display: none;" id="detail-pcode"></p>
+    <p style="display: none;" id="detail-tel"></p>
+    <span style="display: none;" id="detail-url">
+      <!--<div id="html-url"></div>-->
+      <a id="html-url" href="#" target="_blank"></a>
+    </span>
+    <br>
+    <p style="display: none;" id="detail-desc"></p>
+  </div>
+
+  <div style="left: 1px; right: 1px; top: 38px; visibility: hidden; z-index: 6;" id="photos" align="center">
+  </div>
+
+
+  <div style="left: 2px; right: 2px; display: block;" class="alignCenter" id="place-info">
+    <p style="cursor: pointer; display: block; margin-top: 5px; margin-bottom: 6px;" class="" id="TitleIn">Clippers vs. Thunder</p>
+    <a style="display: block; margin-right: 8.25px;" id="place-thumb" target="_blank"><img src="s011s_data/NBA-OKC.png"></a>
+	<a id="expand" onclick="stripTitleGo('geotweets/');" target="_blank">[+] Expand</a>
+    <a style="display: block; margin-left: 8.25px;" id="place-thumb-left" target="_blank"><img src="s011s_data/NBA-LAC.png"></a>
+    <p style="display: block;" class="" id="ShortDescIn"><a href="http://scores.espn.go.com/nba/recap?gameId=290415012" target="blank">85-126</a></p>
+    <p style="display: block;" class="" id="AddrLine1In">Home Loss</p>
+    <p style="display: none;" id="PhoneNoIn"></p>
+    <p style="display: none;" id="urlIn"><a id="place-url" href="#" target="_blank"></a></p>
+    <p style="display: none;" id="reviewlink-a"><a id="reviewlink-url" href="#" target="_blank"></a></p>
+
+    <span style="visibility: visible; font-size: 9px; position: absolute; bottom: 10px; left: 4px; width: 141px;" id="zoom-p" class="zoom-p-sports">zoom to stadium</span>
+    <span style="cursor: default;" id="directions-p"></span>
+    <span style="cursor: default;" id="print-p"></span>
+  </div>
+
+  <div style="left: 2px; right: 2px; top: 38px; bottom: 122px; visibility: visible;" id="schedule"><div id="upArrowDiv" class="ArrowDIV" style="display: block;"><img id="upArrow" class="upArrow" src="s011s_data/up.gif" style="display: block; margin-left: 68.5px;"><img id="disup" class="upOrDown" src="s011s_data/disup.gif" style="display: none; margin-left: 68.5px;"></div><div id="scheduleborad" style="overflow: hidden; height: 120px; margin-top: 0px;"><div class="sportsMonth">October 2008</div><div style="cursor: pointer;" class="sportsDay schedule">29th: LAL 117 @ LAC 79</div><div class="sportsMonth">November 2008</div><div style="cursor: pointer;" class="sportsDay">1st: LAC 79 @ UTA 101</div><div style="cursor: pointer;" class="sportsDay">3rd: UTA 89 @ LAC 73</div><div style="cursor: pointer;" class="sportsDay">5th: LAC 88 @ LAL 106</div><div style="cursor: pointer;" class="sportsDay">7th: HOU 92 @ LAC 83</div><div style="cursor: pointer;" class="sportsDay">9th: DAL 92 @ LAC 103</div><div style="cursor: pointer;" class="sportsDay">12th: SAC 103 @ LAC 98</div><div style="cursor: pointer;" class="sportsDay">15th: GSW 121 @ LAC 103</div><div style="cursor: pointer;" class="sportsDay">17th: SAS 86 @ LAC 83</div><div style="cursor: pointer;" class="sportsDay">19th: LAC 108 @ OKC 88</div><div style="cursor: pointer;" class="sportsDay">21st: LAC 88 @ PHI 89</div><div style="cursor: pointer;" class="sportsDay">22nd: LAC 95 @ NJN 112</div><div style="cursor: pointer;" class="sportsDay">24th: NOR 99 @ LAC 87</div><div style="cursor: pointer;" class="sportsDay">26th: DEN 106 @ LAC 105</div><div style="cursor: pointer;" class="sportsDay">29th: MIA 96 @ LAC 97</div><div class="sportsMonth">December 2008</div><div style="cursor: pointer;" class="sportsDay">2nd: LAC 98 @ DAL 100</div><div style="cursor: pointer;" class="sportsDay">3rd: LAC 96 @ HOU 103</div><div style="cursor: pointer;" class="sportsDay">5th: LAC 81 @ MEM 93</div><div style="cursor: pointer;" class="sportsDay">6th: LAC 107 @ MIN 84</div><div style="cursor: pointer;" class="sportsDay">8th: ORL 95 @ LAC 88</div><div style="cursor: pointer;" class="sportsDay">12th: LAC 120 @ POR 112</div><div style="cursor: pointer;" class="sportsDay">13th: HOU 82 @ LAC 95</div><div style="cursor: pointer;" class="sportsDay">16th: LAC 98 @ OKC 88</div><div style="cursor: pointer;" class="sportsDay">17th: LAC 109 @ CHI 115</div><div style="cursor: pointer;" class="sportsDay">19th: LAC 117 @ IND 109</div><div style="cursor: pointer;" class="sportsDay">20th: LAC 85 @ MIL 119</div><div style="cursor: pointer;" class="sportsDay">22nd: TOR 97 @ LAC 75</div><div style="cursor: pointer;" class="sportsDay">28th: DAL 98 @ LAC 76</div><div style="cursor: pointer;" class="sportsDay">30th: LAC 90 @ SAC 92</div><div class="sportsMonth">January 2009</div><div style="cursor: pointer;" class="sportsDay">2nd: LAC 98 @ PHO 106</div><div style="cursor: pointer;" class="sportsDay">4th: DET 88 @ LAC 87</div><div style="cursor: pointer;" class="sportsDay">6th: LAC 102 @ DAL 107</div><div style="cursor: pointer;" class="sportsDay">8th: LAC 84 @ SAS 106</div><div style="cursor: pointer;" class="sportsDay">9th: LAC 80 @ NOR 107</div><div style="cursor: pointer;" class="sportsDay">11th: PHO 109 @ LAC 103</div><div style="cursor: pointer;" class="sportsDay">14th: ATL 97 @ LAC 80</div><div style="cursor: pointer;" class="sportsDay">17th: MIL 92 @ LAC 101</div><div style="cursor: pointer;" class="sportsDay">19th: MIN 94 @ LAC 86</div><div style="cursor: pointer;" class="sportsDay">21st: LAL 108 @ LAC 97</div><div style="cursor: pointer;" class="sportsDay">23rd: OKC 104 @ LAC 107</div><div style="cursor: pointer;" class="sportsDay">25th: LAC 92 @ GSW 107</div><div style="cursor: pointer;" class="sportsDay">26th: POR 113 @ LAC 88</div><div style="cursor: pointer;" class="sportsDay">28th: CHI 95 @ LAC 75</div><div style="cursor: pointer;" class="sportsDay">30th: LAC 95 @ CLE 112</div><div class="sportsMonth">February 2009</div><div style="cursor: pointer;" class="sportsDay">2nd: LAC 95 @ MIA 119</div><div style="cursor: pointer;" class="sportsDay">4th: LAC 96 @ ORL 125</div><div style="cursor: pointer;" class="sportsDay">6th: LAC 126 @ MEM 105</div><div style="cursor: pointer;" class="sportsDay">7th: LAC 121 @ ATL 97</div><div style="cursor: pointer;" class="sportsDay">9th: LAC 73 @ CHA 94</div><div style="cursor: pointer;" class="sportsDay">11th: NYK 124 @ LAC 128</div><div style="cursor: pointer;" class="sportsDay">17th: LAC 100 @ PHO 140</div><div style="cursor: pointer;" class="sportsDay">18th: PHO 142 @ LAC 119</div><div style="cursor: pointer;" class="sportsDay">22nd: LAC 87 @ POR 116</div><div style="cursor: pointer;" class="sportsDay">23rd: GSW 105 @ LAC 118</div><div style="cursor: pointer;" class="sportsDay">25th: BOS 91 @ LAC 93</div><div style="cursor: pointer;" class="sportsDay">27th: LAC 86 @ SAC 98</div><div class="sportsMonth">March 2009</div><div style="cursor: pointer;" class="sportsDay">2nd: SAS 106 @ LAC 78</div><div style="cursor: pointer;" class="sportsDay">7th: IND 106 @ LAC 105</div><div style="cursor: pointer;" class="sportsDay">10th: CLE 87 @ LAC 83</div><div style="cursor: pointer;" class="sportsDay">14th: LAC 94 @ DEN 107</div><div style="cursor: pointer;" class="sportsDay">15th: NJN 105 @ LAC 107</div><div style="cursor: pointer;" class="sportsDay">17th: LAC 120 @ GSW 127</div><div style="cursor: pointer;" class="sportsDay">18th: WAS 108 @ LAC 123</div><div style="cursor: pointer;" class="sportsDay">20th: LAC 90 @ DET 108</div><div style="cursor: pointer;" class="sportsDay">22nd: LAC 76 @ TOR 100</div><div style="cursor: pointer;" class="sportsDay">23rd: LAC 77 @ BOS 90</div><div class="sportsMonth">April 2009</div><div style="cursor: pointer;" class="sportsDay">1st: NOR 104 @ LAC 98</div><div style="cursor: pointer;" class="sportsDay">4th: LAC 104 @ DEN 120</div><div style="cursor: pointer;" class="sportsDay">5th: LAC 85 @ LAL 88</div><div style="cursor: pointer;" class="sportsDay">7th: MIN 87 @ LAC 77</div><div style="cursor: pointer;" class="sportsDay">10th: SAC 78 @ LAC 109</div><div style="cursor: pointer;" class="sportsDay">11th: POR 87 @ LAC 72</div><div style="cursor: pointer;" class="sportsDay">13th: LAC 85 @ UTA 106</div><div style="cursor: pointer;" class="sportsDay schedule backDay">15th: OKC 126 @ LAC 85</div></div><div id="downArrowDIV" class="ArrowDIV" style="display: block;"><img id="down" class="upOrDown" src="s011s_data/down.gif" style="display: none; margin-left: 68.5px;"><img id="disdown" class="upOrDown" src="s011s_data/disdown.gif" style="display: block; margin-left: 68.5px;"></div></div>
+  <div id="stats" style="visibility: hidden; left: 2px; right: 2px; top: 38px;"><div id="upArrowDivStats" class="ArrowDIV" style="display: none;"><img id="upArrowStats" class="upArrow" src="s011s_data/up.gif" style="display: none; margin-left: 68.5px;"><img id="disupStats" class="upOrDown" src="s011s_data/disup.gif" style="display: block; margin-left: 68.5px;"></div><div id="statsContent" style="overflow: hidden; height: 221px;"><b>Clippers 85</b><br>Pts - Gordon 22<br>Rebs - Camby 7<br>Ast - Davis, Jones 5<br><br><br><b>Thunder 126</b><br>Pts - Durant 26<br>Rebs - White 11<br>Ast - Watson 14</div><div id="downArrowDIVStats" class="ArrowDIV" style="display: none;"><img id="downStats" class="upOrDownStats" src="s011s_data/down.gif" style="display: block; margin-left: 68.5px;"><img id="disdownStats" class="upOrDown" src="s011s_data/disdown.gif" style="display: none; margin-left: 68.5px;"></div></div>
+  <!--
+    <span id="schmapit-button"></span>
+  -->
+  <span style="display: none;" id="play-button" title="play"></span>
+  <span style="display: none;" id="stop-button" title="pause cycling"></span>
+  <span style="display: none;" id="pause-button" title="stop cycling"></span>
+  <span id="prev-button" title="prev game"><img src="s011s_data/prev.png" height="13" width="13"></span>
+  <span id="next-button" title="next game"><img src="s011s_data/next.png" height="13" width="13"></span>
+  <span style="left: 1px;" id="whatsthis" onclick="clickLogo();">
+    <a id="logo-url" target="_blank">Get this widget...</a>
+  </span>
+<img src="s011s_data/nba.gif" style="visibility: hidden; position: absolute;"></div>
+<div id="advert">
+  <!-- embed the right html file with the value given by si -->
+
+<!-- Error -->
+
+
+</div>
+
+   
+
+
+	
+		
+		
+	
+ 
+
+
+
+
+	
+        <script language="javascript" type="text/javascript" src="s011s_data/MochiMaps__Schmap.js"></script>
+		<script language="javascript" type="text/javascript" src="s011s_data/google_map_switch.sjs"></script>
+        
+        
+        
+        <!--script language="javascript" type="text/javascript" src="/nba/clippers/xparams.sjs"></script-->
+	    <script language="javascript" type="text/javascript">
+			var map_api_order = ['Schmap'];
+			needGoogle = true;
+            schmapdata = ['/nba/clippers/xparams.sjs', 
+              {'sizeFactors': [0.2,2.5,0.3,3.5,0.4,4.5,0.5,5.5,0.6,0.8,1.0]},
+              [{src: '/images/minitemplate/schmapmaps/US-002.png', 
+                  w: 700, h: 649}],
+              new MochiKit.Maps__Schmap.Bounds(70.787,-160.664,-2.636,-48.867),
+              {'pixelLatitudes': [0.0,70.787,126,62.995,222,55.078,285,48.922,360,40.179,420,32.547,496,21.617,576,9.102,649,-2.636]}
+];
+
+var xparams = {
+    "uid": "nba",
+    "sid": "clippers", 
+    "tCode": "S011",
+    "schmapImg": "US-002.png",
+    "bounds": "70.787,-160.664,-2.636,-48.867",
+    "bestFit": "63,-152,6,-48.867",
+    "imgSize": {'w': "700", 'h': "649"},
+    "mapLogo": "NBA-CLIPPERS-05505500010000.png",
+    "topLogo": "",
+    "topButton": "",
+    "secondButton": "",
+    "prevButton": "",
+    "nextButton": "",
+    "colorString": "f6f6f6cc3333A62122A62122FFF88F006699ffffffFFF88F9898980258a3A62122CC0033ffffffffffffffffff5C5A4E000000000000F0EFDA"
+};
+
+
+			var mapImgCache = IMG({src:schmapdata[2][0].src});
+			
+			    <!-- Error -->
+			
+	    </script>
+
+        
+		
+            <script language="javascript" type="text/javascript">
+			var bwrite = document.write;
+	document.write=function(src){
+	if(src.search(/src=/i)==-1) {
+	    bwrite.apply(document, [src]);
+    }else{
+	url = src.split('src="');
+	if(url.length==2){
+		url = url[1].split('"');
+		url = url[0];
+		if(url.search('ymapapi')!=-1){
+			addScript(url,loadedMap)
+		}else{
+			addScript(url);
+		}
+	}else{
+		url = src.split("src='");
+		url = url[1].split("'");
+		url = url[0];
+		addScript(url,loadedMap);
+		}
+	}
+}
+            </script>
+</body></html>

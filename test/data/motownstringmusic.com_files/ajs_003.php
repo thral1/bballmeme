@@ -1,0 +1,12 @@
+var OX_3998e551 = '';
+OX_3998e551 += "<"+"!--  Rubicon Project tag -->\n";
+OX_3998e551 += "<"+"!--  Site: SB Nation   Zone: NBA - w/Text   Size: Banner (468x60)  -->\n";
+OX_3998e551 += "<"+"script language=\"JavaScript\" type=\"text/javascript\">\n";
+OX_3998e551 += "var cb = Math.random();\n";
+OX_3998e551 += "var d = document;\n";
+OX_3998e551 += "d.write(\'<"+"script language=\"JavaScript\" type=\"text/javascript\"\');\n";
+OX_3998e551 += "d.write(\'src=\"http://optimized-by.rubiconproject.com/a/7470/12007/20895-1.js?cb=\'+cb+\'\">\');\n";
+OX_3998e551 += "d.write(\'<"+"\\/scr\'+\'ipt>\');\n";
+OX_3998e551 += "<"+"/script>\n";
+OX_3998e551 += "<"+"!-- end Rubicon Project tag --><"+"div id=\'beacon_ee35bb5fe0\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://ad.sbnation.com/lg.php?bannerid=274&amp;campaignid=64&amp;zoneid=4130&amp;loc=1&amp;referer=http%3A%2F%2Fwww.motownstringmusic.com%2F2009%2F8%2F10%2F982789%2Fmorning-shootaround-better-know-a&amp;cb=ee35bb5fe0\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+document.write(OX_3998e551);

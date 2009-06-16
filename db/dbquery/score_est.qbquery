@@ -1,0 +1,6 @@
+﻿select
+a.num_comments, a.num_visitors_per_month,
+round((log10(num_c_normalized+num_v_normalized+num_bl_normalized) + age_in_secs/288000)*1000,0) as score_est,
+a.score, a.article_rank
+from articles_scores a
+order by score_est desc;

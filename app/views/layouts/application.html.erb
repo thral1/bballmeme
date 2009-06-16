@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>FBALLNEWS.com - The best football articles and news from around the web all in one place</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+	
+	<div id="left_black">
+		<div class="navcontainer">
+			<ul id="navlist">
+			<li><a href="/articles">Home</a></li>
+			<li><a href="/aboutus">About Us</a></li>			
+			<li><a href="/advertise">Advertise</a></li>			
+			<li><a href="/contact">Contact Us</a></li>
+			<br><br>
+			<% if !@teams.nil? -%>
+			<% for team in @teams -%>
+			<li><%= link_to "#{team.name}", href = "/teams/show/#{team.id}" %></li> 
+			<%end -%>
+			<%end -%>			
+			</ul>	
+		</div>
+	</div>
+	
+	<div id="header">
+		<h1><span>FBALL</span>NEWS</h1>
+		<h2>"The best football articles and news from around the web all in one place"</h2>	
+	</div>
+<%= yield %>
+	<div id="footer">
+	
+		<p>Copyright 2009 FBALLNEWS.com</p>
+		
+	</div>
+	
+</div>
+
+</body>
+</html>
+

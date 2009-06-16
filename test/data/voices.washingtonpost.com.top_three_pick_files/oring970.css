@@ -1,0 +1,53 @@
+#wrapperTop
+{
+  width:970px;
+  background-color:#FFFFFF;
+  padding-bottom:2px;
+  border-bottom:1px solid #CCCCCC;
+  margin-bottom:5px;
+}
+
+#wrapperMain
+{
+  /* should be 970, but less buggy floats when it's set larger */
+  width:1000px;
+  background-color:#FFFFFF;
+  margin-bottom:5px;
+}
+
+#wrapperMainLeft
+{
+  float:left;
+  width:160px;
+  background-color:#FFFFFF;
+}
+
+#wrapperMainCenter
+{
+  float:left;
+  width:474px;
+  background-color:#FFFFFF;
+}
+
+#wrapperInternalCenter
+{
+  float:left;
+  padding-left:10px;
+  padding-right:10px;
+  background-color:#FFFFFF;
+}
+
+#wrapperMainRight
+{
+  float:left;
+  width:336px;
+  background-color:#FFFFFF;
+  z-index:1000
+}
+
+#wrapperBottom
+{
+  clear:both;
+  width:970px;
+  background-color:#FFFFFF;
+}

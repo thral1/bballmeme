@@ -1,0 +1,129 @@
+
+#glidercontent{
+	margin:0px 0 0 5px;
+	border:1px solid #84909C;
+}
+
+
+.glidecontentwrapper{
+	position: relative; /* Do not change this value */
+	width: 683px;
+	height: 230px; /* Set height to be able to contain height of largest content shown*/
+	overflow: hidden;
+	margin:0px 0px 0 5px;
+
+}
+/*
+	Total wrapper width: 350px+5px+5px=360px
+	Or width of wrapper div itself plus any left and right CSS border and padding
+	Adjust related containers below according to comments
+*/
+
+
+.glidecontent{ /*style for each glide content DIV within wrapper.*/
+	position: absolute; /* Do not change this value */
+	background:#e8ebee;
+	padding:5px 5px 5px 0px;
+	visibility: hidden;
+	width: 680px;
+	color:#fff;
+	font-family:century gothic,Arial,Tahoma,sans-serif;
+
+}
+.glidecontent h2{
+	margin:0px 0px 5px 5px;
+	font-size:20px;
+	font-weight:bold;
+}
+.glidecontent h2 a:link, .glidecontent h2 a:visited{
+	color:#374554;
+}
+.hentry {
+	height:160px;
+	padding:0px 5px 10px 5px;
+	overflow:hidden;
+}
+.hentry p{
+	margin:10px 0;
+	color:#47535F;
+}
+
+
+.hentry img {
+	border:0;
+	float:left;
+	padding:4px 4px;
+	background:#fff;
+	border:1px solid #ddd;
+	margin:2px 5px 5px 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+/*
+ Total glidecontent width: 330px+10px+10px=350px
+	Or width of wrapper div itself (not counting wrapper border/padding)
+*/
+
+.glidecontenttoggler{ /*style for DIV used to contain toggler links. */
+	width: 685px;
+	height:30px;
+	margin:0px 0px 5px 5px;
+	background:#134059 url(images/toggler.jpg) bottom repeat-x;
+	text-align: center; /*How to align pagination links: "left", "center", or "right"
+background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+}
+/*
+ Total contenttoggler width: 350px+5px+5px=360px
+	Or total width of wrapper div (counting wrapper border/padding)
+*/
+
+.glidecontenttoggler a{ /*style for every navigational link within toggler */
+	display: -moz-inline-box;
+	display: inline-block;
+	color: #2e6ab1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.glidecontenttoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
+	background: #E4EFFA;
+	color: black;
+}
+
+.glidecontenttoggler a:hover{
+	background: #E4EFFA;
+	color: black;
+}
+
+.glidecontenttoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+}
+
+.glidecontenttoggler a.prev{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+
+	float:left;
+	display:block;
+	background:url(images/prev.jpg) bottom;
+	width:93px;
+	height:30px;
+}
+.glidecontenttoggler a.next{
+	float:right;
+	display:block;
+	background:url(images/next.jpg) bottom;
+	width:98px;
+	height:30px;
+
+}
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover{
+
+	color: white;
+
+}

@@ -1,0 +1,3125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <title>Will aging stars be golden oldies or moldy? - NBA News - FOX Sports on MSN</title>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+
+
+<meta name="description" content="Will aging stars be golden oldies or moldy?">
+<meta name="keywords" content="Basketball, NBA, NBA Playoffs, NBA Playoffs, Atlantic, Celtics, Central, Suns, Southwest, Pacific, Cavaliers, Spurs, Kevin Garnett, Blake Griffin, Anderson Varejao, Richard Jefferson, Clippers, Chris Kaman">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="http://msn.foxsports.com/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://msn.foxsports.com/favicon.ico" type="image/x-icon">
+<!-- The key string is [*____story________]-->
+
+
+
+
+
+<script language="JavaScript1.2" type="text/javascript">
+  var isFanAvail = "false";
+  function checkCookie(cookieName, length) {
+  var allcookies = document.cookie;
+  var cookiePos = allcookies.indexOf(cookieName + "=");
+  if(cookiePos != -1) {
+    var start = cookiePos + length;
+    var end = allcookies.indexOf(";", start);
+    if(end == -1)
+      end = allcookies.length;
+    var value = allcookies.substring(start, end);
+    value = unescape(value);
+    return value;
+  }
+  return "";
+  }
+  var uid = "";
+  var euid = checkCookie("pUID", 5);
+  var fuid = checkCookie("pFUID", 6);
+  var fanid = checkCookie("pFANID", 6);
+  var lmd = checkCookie("pLMD", 5);
+  var flmd = checkCookie("pFLMD", 6);
+  var rme = checkCookie("pRME", 5);
+  var curDate = new Date();
+
+  if (flmd == null || flmd == "") {
+   flmd = curDate.getMilliseconds();
+   document.cookie = "pFLMD=" + curDate + "; path=/; domain=.foxsports.com;";
+  }
+
+  if (lmd != null && lmd != "") {
+    uid = euid;
+  } else{
+    uid = checkCookie("pRME", 5);
+    if (uid != null && uid != "") {
+      curDate = curDate.getMilliseconds();
+      document.cookie = "pLMD=" + curDate + "; path=/; domain=.foxsports.com;";
+    }
+  }
+  document.write('<scr' + 'ipt language="JavaScript1.2" src="/user.js?uid=' + escape(uid) + '&lmd=' + escape(lmd) + '" type="text/javascript"></scr' + 'ipt>');
+  var fantasyUserJsPath = 'http://msn.foxsports.com/fantasy/football/commissioner/fantasyUser.js?epuid=' + escape(euid) + '&flmd=' + escape(flmd);
+  
+</script><script language="JavaScript1.2" src="msn.foxsports.com.aging_files/user.html" type="text/javascript"></script>
+
+<script language="javascript">
+  var NTPT_PGEXTRA = "qc=1";
+
+  function _hbxStrip(a){
+    a = a.replace(/\s+$/, '');
+    a = a.split(",").join("");
+    a = a.split("&").join("");
+    a = a.split("'").join("");
+    a = a.split("#").join("");
+    a = a.split("$").join("");
+    a = a.split("%").join("");
+    a = a.split("^").join("");
+    a = a.split("*").join("");
+    a = a.split(":").join("");
+    a = a.split("!").join("");
+    a = a.split("<").join("");
+    a = a.split(">").join("");
+    a = a.split("~").join("");
+    a = a.split(";").join("");
+    a = a.split("\\").join("");
+    a = a.split(" ").join("+");
+    return a;
+  }
+  var _hbEC=0,_hbE=new Array;function _hbEvent(a,b){b=_hbE[_hbEC++]=new Object();b._N=a;b._C=0;return b;}
+  var hbx=_hbEvent("pv");hbx.vpc="HBX0100u";hbx.gn="h.foxsports.com";
+  hbx.pndef="title";
+  hbx.ctdef="full";
+  hbx.fv="";
+  hbx.lt="auto"; //LINK TRACKING
+  hbx.dlf="n";
+  hbx.dft="n";
+  hbx.elf="n";
+  hbx.seg="";
+  hbx.fnl="";
+  hbx.cmp="";
+  hbx.cmpn="CMP"; //
+  hbx.dcmp="";
+  hbx.dcmpn="DCMP"; //
+  hbx.dcmpe="";
+  hbx.dcmpre="";
+  hbx.hra="";
+  hbx.hqsr="";
+  hbx.hqsp="ATT"; //
+  hbx.hlt="";
+  hbx.hla="";
+  hbx.gp="";
+  hbx.gpn="GP"; //
+  hbx.hcn="";
+  hbx.hcv="";
+  hbx.cp="null";
+  hbx.cpd="";
+
+  function findAge(yr, mon, day, unit, decimal, round) {
+    //Sample usage
+    //findAge (year, month, day, unit, decimals, rounding)
+    //Unit can be "years", "months", or "days"
+    //Decimals specifies demical places to round to (ie: 2)
+    //Rounding can be "roundup" or "rounddown"
+    //findAge(1997, 11, 24, "years", 0, "rounddown")
+
+    var one_day = 1000*60*60*24;
+    var one_month = 1000*60*60*24*30;
+    var one_year = 1000*60*60*24*30*12;
+    today = new Date();
+    var pastdate = new Date(yr, mon-1, day);
+    var countunit = unit;
+    var decimals = decimal;
+    var rounding = round;
+    finalunit = (countunit=="days")? one_day : (countunit=="months")? one_month : one_year;
+    decimals = (decimals<=0)? 1 : decimals*10;
+    if(unit!="years") {
+      if (rounding=="rounddown")
+        return(Math.floor((today.getTime()-pastdate.getTime())/(finalunit)*decimals)/decimals+" "+countunit);
+      else
+        return(Math.ceil((today.getTime()-pastdate.getTime())/(finalunit)*decimals)/decimals+" "+countunit);
+    }
+    else {
+      yearspast = today.getFullYear()-yr-1;
+      tail = (today.getMonth()>mon-1 || today.getMonth()==mon-1 && today.getDate()>=day)? 1 : 0;
+      pastdate.setFullYear(today.getFullYear());
+      pastdate2 = new Date(today.getFullYear()-1, mon-1, day);
+      //tail = (tail==1)? tail+Math.floor((today.getTime()-pastdate.getTime())/(finalunit)*decimals)/decimals : Math.floor((today.getTime()-pastdate2.getTime())/(finalunit)*decimals)/decimals;
+      return(yearspast+tail);
+    }
+  }
+
+  function returnAge() {
+    var age = -1;
+    if(user.MONTH_CODE == "0" || user.MONTH_CODE == "" || user.DATE_CODE == "0" || user.DATE_CODE == "" || user.BIRTH_YEAR == "0" || user.BIRTH_YEAR == "")
+    {
+    }
+    else
+    {
+      var bdayMonth = user.MONTH_CODE;
+      var bdayDate = user.DATE_CODE;
+      var bdayYear = user.BIRTH_YEAR;
+      age = findAge(bdayYear, bdayMonth, bdayDate, "years", 0, "rounddown");
+    }
+
+    if (age > 12 && age < 18) {
+      (age = 1);
+    }
+    if (age > 17 && age < 25) {
+      (age = 2);
+    }
+    if (age > 24 && age < 35) {
+      (age = 3);
+    }
+    if (age > 34 && age < 45) {
+      (age = 4);
+    }
+    if (age > 44 && age < 55) {
+      (age = 5);
+    }
+    if (age > 54 && age < 65) {
+      (age = 6);
+    }
+    if (age > 64) {
+      (age = 7);
+    }
+    return age;
+  }
+
+  if (typeof(user.USER_ID) == 'undefined') {
+      user.USER_ID = '';
+    }
+
+  var user_status="";
+  //var user_age=returnAge();
+
+  if (rme.length > 0)
+  {
+    if (user.USER_ID == '0')
+    {
+      (user_status = "No-Log");
+    }
+      else
+    {
+      (user_status = "Yes|" + returnAge());
+    }
+  }
+    else
+  {
+    (user_status = "Not-Reg");
+  }
+
+  //CUSTOM VARIABLES
+  if (typeof(user.USER_ID) == 'undefined') {
+    user.USER_ID = '';
+  }
+  hbx.ci=user.USER_ID; //
+
+  hbx.hc1=_hbxStrip('Story') + "|" + _hbxStrip('FS');
+  hbx.hc2=_hbxStrip('Charley+Rosen') + "|" + _hbxStrip('Will+aging+stars+be+golden+oldies+or+moldy?');
+  hbx.hc3=user_status;
+  hbx.hc4="";
+  hbx.hrf="";
+  hbx.pec="";
+
+  
+  hbx.acct='DM520329A1SZ95EN3';
+  var _acct='DM520329A1SZ95EN3'; //legacy for back compat
+  var _acctMedia='DM520329OJCS95EN3';  // legacy for back compat
+  
+
+
+  var fsHbxAutoRun; // for bypass
+  var fsHbxPageName = _hbxStrip('Will+aging+stars+be+golden+oldies+or+moldy?'); // set the default page name from jsp
+  var fsHbxTrackingPath = _hbxStrip('/nba/stories/writers/Charley Rosen '); // set the default tracking path
+  
+  fsHbxAutoRun = true; // turn auto run on
+	
+
+</script>
+
+<!-- MSN Ads JS CODE BEGIN -->
+
+<script type="text/javascript" src="msn.foxsports.com.aging_files/dap.js"></script>
+
+<!-- MSN Ads JS CODE END -->
+
+<!-- BEGIN FIM Serve Tracking Pixel -->
+<script> var _l = 364; var _p = 1440; var _f = 1; var _ta = (document.domain).split ("."); var psd = (_ta.length > 1 ? "." + _ta[_ta.length - 2] + "." + _ta[_ta.length - 1] : document.domain); var _cn = "L" + _l + "="; var _call = document.cookie.indexOf (_cn); var _il = 1; var _tl = 0; var _ex; var _rnd = (new Date ()).getTime (); if (_call >= 0) { _pos = document.cookie.substring (_call).indexOf (';'); if (_pos > 0) _val = document.cookie.substring (_call + _cn.length, _call + _pos); else _val = document.cookie.substring (_call + _cn.length); if (_val.indexOf ('.') > 0) { _il = _val.substring (0, _val.indexOf ('.')); _ex = _val.substring (_val.indexOf ('.') + 1); _tl = _ex - (new Date ()).getTime (); } if (_tl <= 0) document.cookie = _cn + "; domain=" + psd + "; path=/; expires=" + (new Date ((new Date ()).getTime () - 1000000)).toGMTString () + ";"; } if (_il < _f || _tl <= 0) { var expiry = (new Date((new Date()).getTime()+_p*2*60*1000)).toGMTString(); if (document.cookie.indexOf(_cn) < 0 ) document.cookie=_cn+''+(1)+'.'+((new Date()).getTime()+_p*60*1000)+'; domain='+psd+';path=/;expires='+expiry; else document.cookie=_cn+''+(_il-0+1)+'.'+_ex+';domain='+psd+'; path=/;expires='+expiry; document.write ("<sc" + "ript language='javascript' src='http://p.opt.fimserve.com/bht/?px=" + _l + "&v=1&rnd=" + _rnd + "'>"); document.write ("</sc" + "ript>"); } </script>
+<!-- END FIM Serve Tracking Pixel -->
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="msn.foxsports.com.aging_files/main.css" rel="stylesheet" type="text/css">
+  <link href="msn.foxsports.com.aging_files/main_002.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="msn.foxsports.com.aging_files/story_add.css">
+
+  
+
+
+
+
+
+
+  <script language="JavaScript1.2" src="msn.foxsports.com.aging_files/site_wide.js" type="text/javascript"></script>
+  <script language="JavaScript1.2" src="msn.foxsports.com.aging_files/vp1.js" type="text/javascript"></script>
+  <script language="JavaScript1.2" src="msn.foxsports.com.aging_files/msn_survey.js" type="text/javascript"></script>
+  <script language="JavaScript1.2" src="msn.foxsports.com.aging_files/FSJavaScriptFlashGateway.js" type="text/javascript"></script>
+
+  <title>Story page</title>
+<link media="all" href="msn.foxsports.com.aging_files/widget13.css" type="text/css" rel="stylesheet"><script defer="defer" type="text/javascript" src="msn.foxsports.com.aging_files/hbx.js"></script><script id="Lm_ntpagetag" src="msn.foxsports.com.aging_files/ntpagetag.js" type="text/javascript"></script><script id="Lm_migration" src="msn.foxsports.com.aging_files/migration.js" type="text/javascript"></script><script type="text/javascript" src="msn.foxsports.com.aging_files/psj"></script><script type="text/javascript" src="msn.foxsports.com.aging_files/cp.js"></script></head><body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+
+
+
+
+
+
+
+<a name="top"></a>
+
+<div id="global" align="center">
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="bodyBg">
+  <div class="hdrContainer">
+    <table border="0" cellpadding="0" cellspacing="0" width="980">
+      <tbody><tr valign="top">
+        <td width="4"></td>
+        <td width="728">
+
+
+
+   <!-- categoryId = 73  -->
+  
+   
+
+
+
+       <div id="ad728x90box"><iframe id="dapIfM0" src="msn.foxsports.com.aging_files/a_003.html" frameborder="0" height="90" scrolling="no" width="728"></iframe></div>
+     
+      <script>
+        dapMgr.enableACB('ad728x90box',false);
+        dapMgr.renderAd('ad728x90box', '&PG=SPTBB1&AP=1390', 728, 90);
+      </script>
+    
+
+
+   <div class="spacer10"></div>
+</td>
+        <td width="5"></td>
+        <td width="243">
+
+
+
+
+
+
+
+
+          <a href="http://msn.foxsports.com/video"><img src="msn.foxsports.com.aging_files/6719558_36_76.jpg" alt="FOX Sports Video" title="FOX Sports Video" border="0" height="90" vspace="3" width="243"></a>
+
+</td>
+      </tr>
+      <tr>
+        <td colspan="4" align="center">
+
+
+
+   
+
+
+<style>
+.msnHdr td {font-family:arial, tahoma, sans-serif; font-size:11px; color:#ffffff;}
+.msnHdr td a:link {font-size:11px; color:#ffffff; text-decoration: none;}
+.msnHdr td a:visited {font-size:11px; color:#ffffff; text-decoration: none;}
+.msnHdr td a:hover {font-size:11px; color:#ffffff; text-decoration: underline;}
+.msnHdrButton {border:1px solid #bdbdbd; background-image: url(/fe/img/MSN/Header/hdr_button_bg.gif);}
+.msnHdrButton2 {border:1px solid #bdbdbd; background-image: url(/fe/img/MSN/Header/hdr_button_bg_on.gif);}
+.msnHdrButtonOn {border:1px solid #ffffff; background-color: #ffffff;}
+td.msnHdrButtonOn a:link {font-size:11px; color:#a0a0a0; text-decoration: none;}
+td.msnHdrButtonOn a:visited {font-size:11px; color:#a0a0a0; text-decoration: none;}
+td.msnHdrButtonOn a:hover {font-size:11px; color:#a0a0a0; text-decoration: underline;}
+
+#msnMenuOn td a:link {font-family:verdana; font-size:11px; color:#183390; text-decoration:none; line-height:16px;}
+#msnMenuOn td a:visited {font-family:verdana; font-size:11px; color:#183390; text-decoration:none; line-height:16px;}
+#msnMenuOn td a:hover {font-family:verdana; font-size:11px; color:#183390; text-decoration:underline; line-height:16px;} 
+
+/* BEGIN: MSN SEARCH HEADER (FSCOM-4763) */
+/* header searchbox css below here */
+.msnHdr #search{
+    position:relative;
+	*position:none;
+	*margin:0;
+	margin:0 0 0 10px;
+}
+.msnHdr #search label{
+    display: none;
+}
+
+.msnHdr #q{
+    display: block;
+    float: left;
+    width: 248px;
+	*width:230px;
+    border:0;
+	margin-top:3px;
+	font-family:"Segoe UI", tahoma, arial, sans-serif;
+	font-size:13px;
+	font-style:italic;
+	color:#6a8ca4;
+}
+.msnHdr #q.typing{	
+	font-family:arial, tahoma, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+.msnHdr #search #leftcorner, 
+.msnHdr #search #searchform, 
+.msnHdr #search #ntwlogo, 
+.msnHdr #search #rightcorner{
+	float:left;
+	height:36px;
+}
+.msnHdr #search #leftcorner{	
+	clear:left;
+	width:6px;
+	background:transparent url(/fe/img/MSN/Header/Search/leftedge_6x36.png) no-repeat left top;
+}
+.msnHdr #search #searchform{	
+	width:289px;
+	background:transparent url(/fe/img/MSN/Header/Search/gradient_1x36.png) repeat-x left top;
+}
+	.msnHdr #search #searchform .searchinputarea{
+		height:26px;
+		width:286px;
+		margin-top:4px;
+		position:relative;
+		background:#fff;	
+		float:left;
+		border:solid 1px #747474;
+		overflow:visible;
+	}
+	.msnHdr #search #searchform .searchinput{
+		float:left;
+		padding-left:5px;
+	}
+	.msnHdr #search #searchform .searchsubmit{	
+		float:right;
+		margin:2px 2px 0px 0px;
+		_margin:2px 1px 0 0;
+		height:22px;
+		width:22px;
+		overflow:hidden;
+	}
+.msnHdr #search #rightcorner{	
+	width:6px;
+	background:transparent url(/fe/img/MSN/Header/Search/rightedge_6x36.png) no-repeat right top;
+}
+.msnHdr #search #drpbutton{	
+	float:left;
+	margin-top:4px;
+ 	border:solid 1px #747474;
+ 	border-left:0;
+ 	height:26px;
+ 	cursor:pointer;
+}
+.msnHdr #search #ntwlogo{
+	float:left;
+	background:transparent url(/fe/img/MSN/Header/Search/gradient_1x36.png) repeat-x left top;
+	overflow:hidden;
+}
+	.msnHdr #search #ntwlogo #logoimg{
+		padding:6px 0 6px 6px;
+		_padding:0 0 0 6px;	
+		_margin:7px 0 0 6px;
+	}
+.msnHdr #search #ntwscopes{	
+	position:relative;
+}
+	.msnHdr #search #ntwscopes div.scopescontainer{	
+		width:150px;
+		height:59px;
+		border:solid 1px #545454;
+		background-color:#fff;
+		display:none;
+		position:absolute;
+		top:31px;
+		text-align:left;
+		right:84px;
+		*left:154px;
+		_left:-228px;
+	}
+		.msnHdr #search #ntwscopes div a{	
+			height:22px;
+			width:127px;
+			display:block;
+			padding:0 0 0 23px;
+			margin-bottom:7px;
+		}
+			.msnHdr #search #ntwscopes div.selected a{	
+				margin-top:8px;
+				margin-bottom:0;
+			}
+	.msnHdr #search #ntwscopes a{
+		font-family: tahoma,sans-serif;
+		font-size: 13px;
+		line-height:22px;
+		color:#1f567d;
+	}
+		.msnHdr #search #ntwscopes .selected a{	
+			background:transparent url(/fe/img/MSN/Header/Search/checkMark.gif) no-repeat left center;
+		}
+		.msnHdr #search #ntwscopes a:hover{
+			background-color:#e5e5e5;
+			text-decoration:none;
+		}
+/* END: MSN SEARCH HEADER (FSCOM-4763) */
+</style>
+<link href="msn.foxsports.com.aging_files/autocomplete_styles.css" rel="stylesheet" type="text/css">
+<script language="JavaScript1.2" src="msn.foxsports.com.aging_files/core.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="msn.foxsports.com.aging_files/site_wide_09.js" type="text/javascript"></script>
+<script type="text/javascript" src="msn.foxsports.com.aging_files/report.js"></script>
+<script type="text/javascript" src="msn.foxsports.com.aging_files/autocomplete.js"></script>
+<script type="text/javascript" language="Javascript1.2">
+  var isOpen = false;
+  //Function for toggling the MORE button in the MSN header menu.
+  function moreMSN () {
+    var msnMoreEl = document.getElementById("msnMore");
+    var msnMoreImgEl = document.getElementById("msnMoreImg");
+    var msnMenuOnEl = document.getElementById("msnMenuOn");
+    var msnMenuOffEl = document.getElementById("msnMenuOff");
+    if (isOpen == true) {
+      msnMoreEl.className = "msnHdrButton";
+      msnMoreImgEl.src = "/fe/img/MSN/Header/arrow_down.gif"; 
+      msnMenuOnEl.style.display = "none";
+      msnMenuOffEl.style.display = "block";
+      isOpen = false;
+    } else {
+      msnMoreEl.className = "msnHdrButtonOn";
+      msnMoreImgEl.src = "/fe/img/MSN/Header/arrow_up.gif"; 
+      msnMenuOnEl.style.display = "block";
+      msnMenuOffEl.style.display = "none";
+      isOpen = true;
+    }
+  }
+</script>
+<script type="text/javascript" language="Javascript1.2">
+  function generateLoginUrl() {
+    var path = location.pathname;
+    var query = location.search ;
+    if (query == '') {
+      query = "?need=prefs";
+    } else {
+      query += "&need=prefs";
+    }
+    if (window.location.href.indexOf('blogs') != -1) {
+      var cfu = escape("https://s.foxsports.com/pp/response?blogs=true&cfu=" + path + query);
+    } else {
+      var cfu = escape("https://s.foxsports.com/pp/response?cfu=" + path + query);
+    }
+    var doubleEscapeCfu = escape (cfu);
+    var queryParams = "&seclog=10&wa=wsignin1.0&wreply=" + cfu + "&cb=" + escape("&wa=wsignin1.0&wreply=") + doubleEscapeCfu;
+    return "https://login.live.com/ppsecure/secure.srf?wp=MBI_FED_SSL" + queryParams;
+  }
+</script>  
+<div class="msnHdr">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td style="padding: 0pt 14px 0pt 5px;" valign="bottom"><a href="http://www.msn.com/" target="_top"><img src="msn.foxsports.com.aging_files/msn_logo.gif" alt="go to MSN.com" title="go to MSN.com" border="0" height="25" width="67"></a></td>
+      <td valign="bottom">
+        <table border="0" cellpadding="3" cellspacing="0" width="290">
+          <tbody><tr align="center">
+            <td class="msnHdrButton">&nbsp;&nbsp;<a href="http://autos.msn.com/">autos</a>&nbsp;&nbsp;</td>
+            <td width="4"></td>
+            <td class="msnHdrButton">&nbsp;&nbsp;<a href="http://moneycentral.msn.com/home.asp">money</a>&nbsp;&nbsp;</td>
+            <td width="4"></td>
+            <td class="msnHdrButton2">&nbsp;&nbsp;<a href="http://msn.foxsports.com/">sports</a>&nbsp;&nbsp;</td>
+            <td width="4"></td>
+            <td class="msnHdrButton">&nbsp;&nbsp;<a href="http://tech.msn.com/">tech</a>&nbsp;&nbsp;</td>
+            <td width="4"></td>
+            <td class="msnHdrButton" id="msnMore">&nbsp;&nbsp;<a href="javascript:moreMSN();">more</a>&nbsp;&nbsp;<img id="msnMoreImg" src="msn.foxsports.com.aging_files/arrow_down.gif" onclick="javascript:moreMSN();" border="0" height="5" width="9">&nbsp;&nbsp;</td>
+          </tr>
+        </tbody></table>
+      </td>
+      <td align="center" valign="bottom">
+      <form id="search" action="http://www.bing.com/search" method="get" onsubmit="return Msn.Report.TrackForm(this)">
+      	<label accesskey="s" for="q">Live search:</label>
+      	<input name="FORM" value="FOXSP" type="hidden">
+          <input name="cp" value="1252" type="hidden">
+      	<div id="leftcorner"></div>
+      	<div style="width: 300px;" id="searchform">
+      	    <div class="searchinputarea">
+      	        <div class="searchinput yui-ac">
+      	            <input autocomplete="off" id="q" name="q" class="" maxlength="215" title="Search for" type="text">
+		            <div class="yui-ac-container" id="autocomplete"><div style="display: none;" class="yui-ac-content"><div style="display: none;" class="yui-ac-hd"></div><div class="yui-ac-bd"><ul><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li></ul></div><div style="display: none;" class="yui-ac-ft"></div></div></div>
+        	        <script type="text/javascript" src="msn.foxsports.com.aging_files/autocomplete_data.js"></script>
+                  </div>
+                  <div class="searchsubmit">
+                      <input id="spyglass" src="msn.foxsports.com.aging_files/searchicon_22x22.gif" alt="Site" type="image">
+                  </div>
+              </div>
+          <input src="msn.foxsports.com.aging_files/dropdownButton_FOX.gif" id="drpbutton" type="image"></div>
+          <div id="ntwlogo">
+              <input id="logoimg" src="msn.foxsports.com.aging_files/logo_56x29.png" alt="bing.com" type="image">
+          </div>
+          <div id="rightcorner"></div>
+          <div id="ntwscopes"><div style="display: none;" class="scopescontainer"><div class="selected"><a href="http://msn.foxsports.com/search">Search FOX Sports</a></div><div><a href="http://www.bing.com/search">Search web</a></div></div></div>
+      </form>
+      </td>
+      <td align="center" valign="middle">
+      &nbsp;&nbsp;<a href="http://www.msn.com/" target="_top">MSN&nbsp;home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://mail.live.com/">Mail</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://my.msn.com/">My&nbsp;MSN</a>&nbsp;&nbsp;|&nbsp;
+		<script type="text/javascript" language="javascript1.2">
+			if (typeof(euid)== "undefined" || euid == null || euid == '') {
+				document.write('<a href="'+generateLoginUrl()+'">Sign&nbsp;in</a>&nbsp;&nbsp;');
+			} else {
+				document.write('<a href="/logout">Sign&nbsp;out</a>&nbsp;&nbsp;');
+			}
+        </script><a href="https://login.live.com/ppsecure/secure.srf?wp=MBI_FED_SSL&amp;seclog=10&amp;wa=wsignin1.0&amp;wreply=https%3A//s.foxsports.com/pp/response%3Fcfu%3D/nba/story/9902688/Will-aging-stars-be-golden-oldies-or-moldy%3Fneed%3Dprefs&amp;cb=%26wa%3Dwsignin1.0%26wreply%3Dhttps%253A//s.foxsports.com/pp/response%253Fcfu%253D/nba/story/9902688/Will-aging-stars-be-golden-oldies-or-moldy%253Fneed%253Dprefs">Sign&nbsp;in</a>&nbsp;&nbsp;
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+<div id="msnMenuOff" style="background-color: rgb(160, 160, 160); display: block;">
+	<table border="0" cellpadding="0" cellspacing="0" width="980">
+		<tbody><tr><td height="5"></td></tr>
+     </tbody></table>
+</div>
+<div id="msnMenuOn" style="width: 980px; background-color: rgb(255, 255, 255); display: none;">
+	<style xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"> #msnMenuDiv table tr td {text-align:left;} #msnMenuDiv table tr td a:link {font-family:verdana; font-size:11px; color:#183390; text-decoration:none; line-height:16px;} #msnMenuDiv table tr td a:visited {font-family:verdana; font-size:11px; color:#183390; text-decoration:none; line-height:16px;} #msnMenuDiv table tr td a:hover {font-family:verdana; font-size:11px; color:#183390; text-decoration:underline; line-height:16px;} </style><div id="msnMenuDiv"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tbody><tr><td><a href="http://mail.live.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><img alt="Hotmail" src="msn.foxsports.com.aging_files/5146F629B72E6A89B01B5FF61E30B8.gif" align="absmiddle" border="0" height="20" width="25"><b>Hotmail</b><br></a><a href="http://download.live.com/?sku=messenger" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><img alt="Messenger" src="msn.foxsports.com.aging_files/5146F629B72E6A89B01B5FF61E30B8.gif" align="absmiddle" border="0" height="20" width="25"><b>Messenger</b><br></a><a href="http://my.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><img alt="My MSN" src="msn.foxsports.com.aging_files/5146F629B72E6A89B01B5FF61E30B8.gif" align="absmiddle" border="0" height="20" width="25"><b>My MSN</b><br></a><a href="http://ie8.msn.com/microsoft/internet-explorer-8/en-us/ie8.aspx?ocid=B037MSN55C0403A" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><img alt="Download IE8 " src="msn.foxsports.com.aging_files/5146F629B72E6A89B01B5FF61E30B8.gif" align="absmiddle" border="0" height="20" width="25"><b>Download IE8 </b><br></a></td><td><a href="http://www.bing.com/travel/?cid=msn_navigation&amp;FORM=MSNNAV" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Airfares &amp; Travel</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://autos.msn.com/default.aspx" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Autos</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://careers.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Careers &amp; Jobs</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://cityguides.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">City Guides</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://msn.match.com/index.aspx?TrackingID=516163&amp;BannerID=543351" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Dating &amp; Personals</a></td><td><a href="http://msn.delish.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Food &amp; Entertaining</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://games.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Games</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://health.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Health &amp; Fitness</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://astrocenter.astrology.msn.com/msn/DeptHoroscope.aspx?When=0&amp;Af=-1000&amp;VS" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Horoscopes</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://lifestyle.msn.com/default.aspx" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Lifestyle</a></td><td><a href="http://www.bing.com/maps/default.aspx?wip=2&amp;v=2&amp;rtp=%7E&amp;FORM=MSNNAV" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Maps &amp; Directions</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://moneycentral.msn.com/home.asp" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Money</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://movies.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Movies</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://music.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Music</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://www.msnbc.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">News</a></td><td><a href="http://realestate.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Real Estate/Rentals</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://www.bing.com/shopping?FORM=SHOPH2" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Shopping</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://msn.foxsports.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Sports</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://tech.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Tech &amp; Gadgets</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://tv.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">TV</a></td><td><a href="http://weather.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Weather</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://msn.whitepages.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">White Pages</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://www.wonderwall.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Wonderwall</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://yellowpages.msn.com/" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">Yellow Pages</a><br xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content"><a href="http://specials.msn.com/alphabet.aspx" xmlns:msncp="urn:schemas-microsoft-com/contentpublishing/content">MSN Directory</a></td></tr></tbody></table>
+</div>
+
+<script type="text/javascript" language="javascript1.2">
+<!--//
+Msn.SiteSearch.bind("#search", { searchParam: "sp_q", searchParams: "", searchUrl: "/search", sitetext: "Search FOX Sports", webtext: "Search web", siteSearchOn: "true", helpertext: "", onepxgif: "http://blstc.msn.com/br//gbl/css/9/decoration/t.gif", drpButtonImgURL: "/fe/img/MSN/Header/Search/dropdownButton_FOX.gif", drpButtonOverImgURL: "/fe/img/MSN/Header/Search/dropdownButton_over_FOX.gif" });
+//-->
+</script>
+
+<img src="msn.foxsports.com.aging_files/c.gif" style="display: none;" border="0" height="0" width="0">
+
+<!--print out my player css classes-->
+<script>
+var hasTeams = userState('teams');
+if (hasTeams) {
+  var mp = '';
+  mp += '<style>';
+  for (var i = 0; i < userTeams.length; i++) {
+    if (typeof(userTeams[i]) == "undefined") continue;
+    mp += '.' + userTeams[i][4] + 'x' + userTeams[i][2] + ' {';
+    mp += 'font-weight:bold;';
+    mp += 'background-image: url(/fe/img/my-black-gold.gif); background-repeat: no-repeat;';
+    mp += 'padding-left:15px;';
+    mp += '}';
+  }
+  mp += '</style>';
+  document.write(mp);
+}
+var hasPlayers = userState('players');
+if (hasPlayers) {
+  var mp = '';
+  mp += '<style>';
+  for (var i = 0; i < userPlayers.length; i++) {
+    if (typeof(userPlayers[i]) == "undefined") continue;
+    mp += '.' + userPlayers[i][8] + 'x' + userPlayers[i][3] + ' {';
+    mp += 'font-weight:bold;';
+    mp += 'background-image: url(/fe/img/my-black-gold.gif); background-repeat: no-repeat;';
+    mp += 'padding-left:15px;';
+    mp += '}';
+  }
+  mp += '</style>';
+  document.write(mp);
+}
+</script>
+<!--end print out my player css classes-->
+
+
+</div></td>
+      </tr>
+    </tbody></table>
+  </div>
+  <div class="bdyContainer">
+    
+
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+if ( typeof(FSFlashTag)=="undefined" || typeof(FSFlashTag.prototype.setSalign)=="undefined" ) {
+  document.write('<scr'+'ipt language="JavaScript1.2" src="/fe/js/lib/javascriptFlash/FSJavaScriptFlashGateway.js" type="text/javascript"></scr'+'ipt>');
+}
+</script>
+
+  
+
+
+<script type="text/javascript" language="JavaScript1.2">
+  var showScorestrip = "true";
+  if (useFlash == true) {
+    var countryCode = "";
+    countryCode = "US";
+    e=document.getElementById("headerScoreboard");
+    function changeH (){
+      e.style.height = x;
+    }
+    var domain = "http://msn.foxsports.com";
+    var menuXml = "/name/public/FS/Jumbotron/scoresMenu";
+    var categoryId="73";
+    var loc="FS"; //[FS, FSW, desk]
+
+    if (loc == "FSW")  menuXml = "/name/public/FSW/Jumbotron/scoresMenu";
+
+    if (countryCode == "CA") loc="CAN";
+    var sectionFront="NBA";  //section front name
+    var sectionFrontUrl="/nba";
+    var gamesUrl="/nugget/9240_73";
+
+    var firstName="";
+    var screenName="";
+    var communityScreenName="";
+    var userStatus=0;
+
+    if(typeof(user) == "undefined" || user.USER_ID == "null" || parseInt(user.USER_ID) == 0) {
+        //logged out
+    } else {
+        //username available
+        firstName=user.USER_FIRST_NAME;
+        screenName=user.SCREEN_NAME;
+	    communityScreenName=user.COMMUNITY_SCREEN_NAME;
+			
+		if (screenName != null && communityScreenName != null && communityScreenName != '') {
+		    if (screenName != communityScreenName) {
+		        screenName = communityScreenName;
+		    }
+		}
+
+		if (screenName == null && communityScreenName != null) {
+			screenName = communityScreenName;
+		}
+		
+        userStatus=1;
+        if (euid != null && euid != '') {
+            //account available
+            userStatus+=2;
+        }
+    }
+
+    var promo="/id/6596366_15_1.swf";
+    var promoUrl="/fantasy/baseball/?FBAJMB";
+    var jtBg="/id/6454868_15_1.swf";
+    var jtBgUrl="";
+    var jtScores="/id/5731736_15_2.swf";
+    var jtScoresUrl="";
+    var adPageCode="";
+    var pageType="story";
+    var jumbotronPath = "/id/8787101_15_99.swf";
+    var isNarrow = "false";
+    var countdownClockUrl = "";
+
+    if ((location.host.indexOf("8050")!=-1) || (location.pathname.indexOf("/scores")!=-1) || (location.pathname.indexOf("/gameTrax")!=-1)){
+      refreshValue="refresh=0&";
+    }else{
+      refreshValue="";
+    }
+    var JTflashVars = refreshValue + 'categoryId='+categoryId+'&sectionFront='+sectionFront+'&sectionFrontUrl='+sectionFrontUrl+'&adPageCode='+adPageCode+'&loc='+loc+'&domain='+domain+'&showScorestrip='+showScorestrip+'&screenName='+screenName;
+    JTflashVars += '&firstName='+firstName +'&userStatus='+userStatus+'&menuXml='+menuXml+'&gamesUrl='+gamesUrl;
+    JTflashVars += '&login=/login&logout=/logout&customize=http://community.foxsports.com/' + screenName + '/blog/wizard.one?step=wizard/Favorite_Teams&register=/login&promo='+promo+'&promoUrl='+promoUrl;
+    JTflashVars += '&jtBg='+jtBg+'&jtBgUrl='+jtBgUrl+'&jtScores='+jtScores+'&jtScoresUrl='+jtScoresUrl;
+    JTflashVars += '&pageType='+pageType+'&isNarrow='+isNarrow;
+    JTflashVars += '&countdownClock='+countdownClockUrl;
+
+    if (typeof(myTeams)!="undefined") JTflashVars += '&myTeams='+myTeams;
+
+    var flashArgs = GetArgs();
+    if (typeof(flashArgs.gameId)!="undefined") {
+      JTflashVars += '&gameId=' + flashArgs.gameId;
+    }
+    document.write('<div id="headerScoreboard">');
+    var tag = new FSFlashTag(jumbotronPath, 980, 80); // movie path, last two arguments are width and height
+    tag.setFlashvars(JTflashVars);
+    tag.setId('jumboTron');
+    tag.setWmodeFF('transparent');
+    tag.setWmode("transparent");
+    tag.write(document);
+    document.write('</div>');
+  }else{
+    document.write('<scr'+'ipt type="text/javascript"  language="JavaScript1.2" src="/fe/js/html_jumbotron.js"></scr'+'ipt>');
+  }
+</script><div id="headerScoreboard"><embed src="msn.foxsports.com.aging_files/8787101_15_99.swf" quality="high" allowscriptaccess="always" type="application/x-shockwave-flash" wmode="transparent" flashvars="categoryId=73&amp;sectionFront=NBA&amp;sectionFrontUrl=/nba&amp;adPageCode=&amp;loc=FS&amp;domain=http://msn.foxsports.com&amp;showScorestrip=true&amp;screenName=&amp;firstName=&amp;userStatus=0&amp;menuXml=/name/public/FS/Jumbotron/scoresMenu&amp;gamesUrl=/nugget/9240_73&amp;login=/login&amp;logout=/logout&amp;customize=http://community.foxsports.com//blog/wizard.one?step=wizard/Favorite_Teams&amp;register=/login&amp;promo=/id/6596366_15_1.swf&amp;promoUrl=/fantasy/baseball/?FBAJMB&amp;jtBg=/id/6454868_15_1.swf&amp;jtBgUrl=&amp;jtScores=/id/5731736_15_2.swf&amp;jtScoresUrl=&amp;pageType=story&amp;isNarrow=false&amp;countdownClock=" name="jumboTron" id="jumboTron" pluginspage="http://www.macromedia.com/go/getflashplayer" height="80" width="980"></div>
+
+
+    
+
+
+
+     
+
+
+
+
+
+<!--  param categoryId: 73 -->
+<!--  nav categoryId: 73 -->
+<!--  listtypecode: 1 -->
+<div id="fs_global">
+<table id="fs_main_navigation_header" summary="Navigation menu for FoxSports.com" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td id="nav_0"><a href="http://msn.foxsports.com/" title="HOME">HOME</a>
+</td>
+<td id="nav_5"><a href="http://msn.foxsports.com/nfl">NFL</a>
+<ul style="" id="0">
+<li><a href="http://msn.foxsports.com/nfl" title="NFL Home">NFL Home</a></li>
+<li><a href="http://msn.foxsports.com/nfl/scores" title="Scores">Scores</a></li>
+<li><a href="http://msn.foxsports.com/nfl/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/nfl/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/Glaze" title="Jay Glazer">Jay Glazer</a></li>
+<li><a href="http://msn.foxsports.com/nfl/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a href="http://msn.foxsports.com/nfl/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/nfl/transactions" title="Transactions">Transactions</a></li>
+<li><a href="http://msn.foxsports.com/nfl/injuries" title="Injuries">Injuries</a></li>
+<li><a href="http://msn.foxsports.com/nfl/teams" title="Teams">Teams</a></li>
+<li><a href="http://msn.foxsports.com/nfl/players" title="Players">Players</a></li>
+<li><a href="http://msn.foxsports.com/nfl/odds" title="Odds">Odds</a></li>
+<li><a href="http://nfl.scout.com/" title="Scout.com">Scout.com</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/football/nfl/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/nfl/pgStory?workingCategoryId=5" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/NFL" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a href="http://msn.foxsports.com/nfl/draftCentral" title="Draft Central">Draft Central</a></li>
+<li><a href="http://msn.foxsports.com/nfl/draftTracker" title="Draft Tracker">Draft Tracker</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/writer/index" title="Writers">Writers</a>
+<ul id="1">
+<li><a href="http://msn.foxsports.com/writer/Alex-Marvez-FOXSports.com-Senior-NFL-Writer?authorId=309" title="Alex Marvez">Alex Marvez</a></li>
+<li><a href="http://msn.foxsports.com/writer/Jay-Glazer-FOXSports.com-Senior-NFL-Writer?authorId=228" title="Jay Glazer">Jay Glazer</a></li>
+<li><a href="http://msn.foxsports.com/writer/John-Czarnecki-FOXSports.com-Senior-NFL-Writer?authorId=211" title="John Czarnecki">John Czarnecki</a></li>
+<li><a href="http://msn.foxsports.com/writer/Terry-Bradshaw-NFL-on-FOX-Analyst?authorId=89" title="Terry Bradshaw">Terry Bradshaw</a></li>
+<li><a href="http://msn.foxsports.com/writer/Howie-Long-NFL-on-FOX-Analyst?authorId=92" title="Howie Long">Howie Long</a></li>
+<li><a href="http://msn.foxsports.com/writer/Jimmy-Johnson-NFL-on-FOX-Analyst?authorId=218" title="Jimmy Johnson">Jimmy Johnson</a></li>
+<li><a href="http://msn.foxsports.com/writer/Michael-David-Smith-FOXSports.com-NFL-Contributor?authorId=302" title="Michael David Smith">Michael David Smith</a></li>
+<li><a href="http://msn.foxsports.com/writer/Adam-Schein-FOXSports.com-NFL-Contributor?authorId=278" title="Adam Schein">Adam Schein</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy/football" title="Fantasy">Fantasy</a>
+<ul id="2">
+<li><a href="http://fantasy.foxsports.com/fantasy/football/commissioner" title="Commissioner">Commissioner</a></li>
+<li><a href="http://fantasy.foxsports.com/fantasy/football/live" title="Live">Live</a></li>
+<li><a href="http://fantasy.foxsports.com/fantasy/football/quick-challenge" title="Quick Challenge">Quick Challenge</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/football/pickem" title="Pro Pick'em">Pro Pick'em</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/football/survivor/" title="Survivor">Survivor</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/nfl-l/&amp;r=438974" title="SimLeague Football">SimLeague Football</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_49"><a href="http://msn.foxsports.com/mlb">MLB</a>
+<ul style="" id="3">
+<li><a href="http://msn.foxsports.com/mlb" title="MLB Home">MLB Home</a></li>
+<li><a href="http://msn.foxsports.com/mlb/scores" title="Scores">Scores</a></li>
+<li><a href="http://msn.foxsports.com/mlb/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/mlb/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/mlb/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a href="http://msn.foxsports.com/mlb/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/mlb/transactions" title="Transactions">Transactions</a></li>
+<li><a href="http://msn.foxsports.com/mlb/injuries" title="Injuries">Injuries</a></li>
+<li><a href="http://msn.foxsports.com/mlb/teams" title="Teams">Teams</a></li>
+<li><a href="http://msn.foxsports.com/mlb/players" title="Players">Players</a></li>
+<li><a href="http://msn.foxsports.com/mlb/odds" title="Odds">Odds</a></li>
+<li><a href="http://mlb.scout.com/" title="Scout.com">Scout.com</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/baseball/mlb/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://community.foxsports.com/go/browse/blogs?SPORTS=2&amp;FAVORITE_TEAMS=&amp;searchfor=&amp;terms=MLB" title="Blogs">Blogs</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewcategory/67101/Baseball" title="Forums">Forums</a></li>
+<li><a href="http://msn.foxsports.com/mlb/pgStory?workingCategoryId=49" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/MLB" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/writer/index" title="Writers">Writers</a>
+<ul id="4">
+<li><a href="http://msn.foxsports.com/writer/Ken-Rosenthal-FOXSports.com-Senior-MLB-Writer?authorId=162" title="Ken Rosenthal">Ken Rosenthal</a></li>
+<li><a href="http://msn.foxsports.com/writer/Dayn-Perry-FOXSports.com-MLB-Contributor?authorId=217" title="Dayn Perry">Dayn Perry</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy/baseball" title="Fantasy">Fantasy</a>
+<ul id="5">
+<li><a href="http://msn.foxsports.com/fantasy/baseball/commissioner" title="Commissioner">Commissioner</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/baseball/hotstreak/" title="Hot Streak">Hot Streak</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/baseball/salary-cap" title="Salary Cap">Salary Cap</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/mlb-l/&amp;r=438974" title="SimLeague Baseball">SimLeague Baseball</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/hbd/&amp;r=438974" title="Hardball Dynasty">Hardball Dynasty</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_73"><a href="http://msn.foxsports.com/nba" title="NBA">NBA</a>
+<ul style="" id="6">
+<li><a href="http://msn.foxsports.com/nba" title="NBA Home">NBA Home</a></li>
+<li><a href="http://msn.foxsports.com/nba/draftCentral" title="Draft Central">Draft Central</a></li>
+<li><a href="http://msn.foxsports.com/nba/draftTracker" title="Draft Tracker">Draft Tracker</a></li>
+<li><a href="http://msn.foxsports.com/nba/scores" title="Scores">Scores</a></li>
+<li><a href="http://msn.foxsports.com/nba/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/nba/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/nba/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a href="http://msn.foxsports.com/nba/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/nba/transactions" title="Transactions">Transactions</a></li>
+<li><a href="http://msn.foxsports.com/nba/injuries" title="Injuries">Injuries</a></li>
+<li><a href="http://msn.foxsports.com/nba/teams" title="Teams">Teams</a></li>
+<li><a href="http://msn.foxsports.com/nba/players" title="Players">Players</a></li>
+<li><a href="http://msn.foxsports.com/nba/odds" title="Odds">Odds</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/basketball/nba/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://community.foxsports.com/go/browse/blogs?SPORTS=3&amp;FAVORITE_TEAMS=&amp;searchfor=&amp;terms=NBA" title="Blogs">Blogs</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewcategory/67111/Basketball" title="Forums">Forums</a></li>
+<li><a href="http://msn.foxsports.com/nba/pgStory?workingCategoryId=73" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/NBA" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/writer/index" title="Writers">Writers</a>
+<ul id="7">
+<li><a href="http://msn.foxsports.com/writer/Mike-Kahn-FOXSports.com-NBA-Contributor?authorId=277" title="Mike Kahn">Mike Kahn</a></li>
+<li><a href="http://msn.foxsports.com/writer/Charley-Rosen-FOXSports.com-NBA-Contributor?authorId=227" title="Charley Rosen">Charley Rosen</a></li>
+<li><a href="http://msn.foxsports.com/writer/John-Galinsky-FOXSports.com-NBA-Editor?authorId=4698321" title="John Galinsky">John Galinsky</a></li>
+</ul>
+</li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/nba-l/&amp;r=438974" title="SimLeague">SimLeague</a></li>
+</ul>
+</td>
+<td id="nav_142"><a href="http://msn.foxsports.com/nhl">NHL</a>
+<ul style="" id="8">
+<li><a href="http://msn.foxsports.com/nhl" title="NHL Home">NHL Home</a></li>
+<li><a href="http://msn.foxsports.com/nhl/scores" title="Scores">Scores</a></li>
+<li><a href="http://msn.foxsports.com/nhl/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/nhl/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/nhl/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a href="http://msn.foxsports.com/nhl/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/nhl/transactions" title="Transactions">Transactions</a></li>
+<li><a href="http://msn.foxsports.com/nhl/injuries" title="Injuries">Injuries</a></li>
+<li><a href="http://msn.foxsports.com/nhl/teams" title="Teams">Teams</a></li>
+<li><a href="http://msn.foxsports.com/nhl/players" title="Players">Players</a></li>
+<li><a href="http://msn.foxsports.com/nhl/odds" title="Odds">Odds</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/hockey/nhl/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/nhl/pgStory?workingCategoryId=142" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/NHL" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/nhl-l/&amp;r=438974" title="SimLeague Hockey">SimLeague Hockey</a></li>
+</ul>
+</td>
+<td id="nav_167"><a href="http://msn.foxsports.com/nascar">NASCAR</a>
+<ul style="" id="9">
+<li><a href="http://msn.foxsports.com/nascar" title="NASCAR Home">NASCAR Home</a></li>
+<li><a href="http://msn.foxsports.com/nascar/cup/raceTrax" title="RaceTrax">RaceTrax</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/nascar/cup/boxscore" title="Box Score">Box Score</a>
+<ul id="10">
+<li><a href="http://msn.foxsports.com/nascar/cup/boxscore" title="Sprint Cup">Sprint Cup</a></li>
+<li><a href="http://msn.foxsports.com/nascar/national/boxscore" title="Nationwide">Nationwide</a></li>
+<li><a href="http://msn.foxsports.com/nascar/truck/boxscore" title="Truck">Truck</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/nascar/cup/results" title="Results">Results</a>
+<ul id="11">
+<li><a href="http://msn.foxsports.com/nascar/cup/results" title="Sprint Cup">Sprint Cup</a></li>
+<li><a href="http://msn.foxsports.com/nascar/national/results" title="Nationwide">Nationwide</a></li>
+<li><a href="http://msn.foxsports.com/nascar/truck/results" title="Truck">Truck</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/nascar/cup/schedule" title="Schedules">Schedules</a>
+<ul id="12">
+<li><a href="http://msn.foxsports.com/nascar/cup/schedule" title="Sprint Cup">Sprint Cup</a></li>
+<li><a href="http://msn.foxsports.com/nascar/national/schedule" title="Nationwide">Nationwide</a></li>
+<li><a href="http://msn.foxsports.com/nascar/truck/schedule" title="Truck">Truck</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/nascar/cup/standings" title="Standings">Standings</a>
+<ul id="13">
+<li><a href="http://msn.foxsports.com/nascar/cup/standings" title="Sprint Cup">Sprint Cup</a></li>
+<li><a href="http://msn.foxsports.com/nascar/national/standings" title="Nationwide">Nationwide</a></li>
+<li><a href="http://msn.foxsports.com/nascar/truck/standings" title="Truck">Truck</a></li>
+</ul>
+</li>
+<li><a href="http://msn.foxsports.com/nascar/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/nascar/cup/stats" title="Stats">Stats</a>
+<ul id="14">
+<li><a href="http://msn.foxsports.com/nascar/cup/stats" title="Sprint Cup">Sprint Cup</a></li>
+<li><a href="http://msn.foxsports.com/nascar/national/stats" title="Nationwide">Nationwide</a></li>
+<li><a href="http://msn.foxsports.com/nascar/truck/stats" title="Truck">Truck</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/nascar/cup/drivers" title="Drivers">Drivers</a>
+<ul id="15">
+<li><a href="http://msn.foxsports.com/nascar/cup/drivers" title="Sprint Cup">Sprint Cup</a></li>
+<li><a href="http://msn.foxsports.com/nascar/national/drivers" title="Nationwide">Nationwide</a></li>
+<li><a href="http://msn.foxsports.com/nascar/truck/drivers" title="Truck">Truck</a></li>
+</ul>
+</li>
+<li><a href="http://msn.foxsports.com/nascar/tracks" title="Tracks">Tracks</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/motor-sports/nascar/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a class="openNavImg" href="http://www.speedtv.com/" title="SPEED">SPEED</a>
+<ul id="16">
+<li><a href="http://www.speedtv.com/" title="SPEEDTV.com">SPEEDTV.com</a></li>
+<li><a href="http://www.speedtv.com/nascaronspeed/" title="NASCAR on SPEED">NASCAR on SPEED</a></li>
+</ul>
+</li>
+<li><a href="http://community.foxsports.com/go/browse/blogs?SPORTS=6&amp;FAVORITE_TEAMS=&amp;searchfor=&amp;terms=NASCAR" title="Blogs">Blogs</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewcategory/67141/NASCAR" title="Forums">Forums</a></li>
+<li><a href="http://msn.foxsports.com/nascar/pgStory?workingCategoryId=167" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/NASCAR" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/writer/index" title="Writers">Writers</a>
+<ul id="17">
+<li><a href="http://msn.foxsports.com/writer/Lee-Spencer-FOXSports.com-Senior-NASCAR-Writer?authorId=163" title="Lee Spencer">Lee Spencer</a></li>
+<li><a href="http://msn.foxsports.com/writer/Jorge-Mondaca-FOXSports.com-NASCAR-Editor?authorId=6568369" title="Jorge Mondaca">Jorge Mondaca</a></li>
+<li><a href="http://msn.foxsports.com/writer/Darrell-Waltrip-NASCAR-on-FOX-Analyst?authorId=87" title="Darrell Waltrip">Darrell Waltrip</a></li>
+<li><a href="http://msn.foxsports.com/writer/Jeff-Hammond-NASCAR-on-FOX-Analyst?authorId=75" title="Jeff Hammond">Jeff Hammond</a></li>
+<li><a href="http://msn.foxsports.com/writer/Larry-McReynolds-NASCAR-on-FOX-Analyst?authorId=65" title="Larry McReynolds">Larry McReynolds</a></li>
+<li><a href="http://msn.foxsports.com/writer/Mike-Joy-NASCAR-on-FOX-Analyst?authorId=88" title="Mike Joy">Mike Joy</a></li>
+<li><a href="http://msn.foxsports.com/writer/Steve-Byrnes-NASCAR-on-FOX-Analyst?authorId=67" title="Steve Byrnes">Steve Byrnes</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/name/public/NASCAR/features" title="More NASCAR">More NASCAR</a>
+<ul id="18">
+<li><a href="http://msn.foxsports.com/fantasy/auto/index.asp" title="Fantasy Racing">Fantasy Racing</a></li>
+<li><a href="http://msn.foxsports.com/nascar/allwaltrip/index" title="AllWaltrip.com">AllWaltrip.com</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy/auto" title="Fantasy">Fantasy</a>
+<ul id="19">
+<li><a href="http://msn.foxsports.com/fantasy/auto" title="Auto Racing">Auto Racing</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/clutch/&amp;r=438974" title="Racing Dynasty">Racing Dynasty</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_24"><a href="http://msn.foxsports.com/cfb">NCAA FB</a>
+<ul style="" id="20">
+<li><a href="http://msn.foxsports.com/cfb" title="NCAA FB Home">NCAA FB Home</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/cfb/scores" title="Scores">Scores</a>
+<ul id="21">
+<li><a href="http://msn.foxsports.com/cfb/scores" title="Top 25">Top 25</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=1" title="ACC">ACC</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=2" title="Big East">Big East</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=4" title="Big Ten">Big Ten</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=71" title="Big 12">Big 12</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=72" title="Conference USA">Conference USA</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=11" title="Independents">Independents</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=6" title="MAC">MAC</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=87" title="Mountain West">Mountain West</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=7" title="Pac-10">Pac-10</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=90" title="Sun Belt">Sun Belt</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=8" title="SEC">SEC</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=10" title="WAC">WAC</a></li>
+<li><a href="http://msn.foxsports.com/cfb/scores?conf=I-AA" title="FCS (D1-AA)">FCS (D1-AA)</a></li>
+</ul>
+</li>
+<li><a href="http://msn.foxsports.com/cfb/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/cfb/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/cfb/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/cfb/bcschampionship" title="BCS Games">BCS Games</a>
+<ul id="22">
+<li><a href="http://msn.foxsports.com/cfb/bcschampionship" title="BCS Championship">BCS Championship</a></li>
+<li><a href="http://msn.foxsports.com/cfb/orangebowl" title="Orange Bowl">Orange Bowl</a></li>
+<li><a href="http://msn.foxsports.com/cfb/fiestabowl" title="Fiesta Bowl">Fiesta Bowl</a></li>
+<li><a href="http://msn.foxsports.com/cfb/sugarbowl" title="Sugar Bowl">Sugar Bowl</a></li>
+<li><a href="http://msn.foxsports.com/cfb/rosebowl" title="Rose Bowl">Rose Bowl</a></li>
+</ul>
+</li>
+<li><a href="http://msn.foxsports.com/cfb/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/cfb/teams" title="Teams">Teams</a></li>
+<li><a href="http://msn.foxsports.com/cfb/odds" title="Odds">Odds</a></li>
+<li><a href="http://msn.foxsports.com/cfb/polls" title="Polls">Polls</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/football/ncaa-football/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/cfb/pgStory?workingCategoryId=24" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/CFB" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a href="http://msn.foxsports.com/fcs" title="FCS">FCS</a></li>
+<li><a href="http://college.scout.com/" title="Scout.com">Scout.com</a></li>
+<li><a href="http://www.bcsfootball.org/" title="BCSFootball.org">BCSFootball.org</a></li>
+<li><a href="http://bigtennetwork.com/" title="Big Ten Network">Big Ten Network</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy/collegefootball/pickem" title="Fantasy">Fantasy</a>
+<ul id="23">
+<li><a href="http://msn.foxsports.com/fantasy/collegefootball/pickem" title="College Pick'em">College Pick'em</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=/gd/&amp;r=438974" title="Gridiron Dynasty">Gridiron Dynasty</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_99"><a href="http://msn.foxsports.com/cbk">NCAA BK</a>
+<ul style="" id="24">
+<li><a href="http://msn.foxsports.com/cbk" title="NCAA BK Home">NCAA BK Home</a></li>
+<li><a href="http://msn.foxsports.com/cbk/story/2229129" title="Brackets">Brackets</a></li>
+<li><a href="http://msn.foxsports.com/cbk/scores" title="Scores">Scores</a></li>
+<li><a href="http://msn.foxsports.com/cbk/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/cbk/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/cbk/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/cbk/powerRankings" title="Power Rankings">Power Rankings</a></li>
+<li><a href="http://msn.foxsports.com/cbk/teams" title="Teams">Teams</a></li>
+<li><a href="http://msn.foxsports.com/cbk/odds" title="Odds">Odds</a></li>
+<li><a href="http://msn.foxsports.com/cbk/polls" title="Polls">Polls</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/basketball/ncaa-basketball/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/cbk/pgStory?workingCategoryId=99" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/CBK" title="Videos">Videos</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Apps">Apps</a></li>
+<li><a href="http://msn.foxsports.com/wcbk" title="Women's BK">Women's BK</a></li>
+<li><a href="http://msn.foxsports.com/fcs" title="FCS">FCS</a></li>
+<li><a href="http://college.scout.com/" title="Scout.com">Scout.com</a></li>
+<li><a href="http://bigtennetwork.com/" title="Big Ten Network">Big Ten Network</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy/collegebasketball/tourney" title="Fantasy">Fantasy</a>
+<ul id="25">
+<li><a href="http://www.whatifsports.com/x.asp?u=/hd/&amp;r=438974" title="Hoops Dynasty">Hoops Dynasty</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_176"><a href="http://msn.foxsports.com/foxsoccer">SOCCER</a>
+<ul style="" id="26">
+<li><a class="openNavImg" href="http://msn.foxsports.com/soccer/usa" title="USA">USA</a>
+<ul id="27">
+<li><a href="http://msn.foxsports.com/soccer/usa" title="USA Home">USA Home</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mls" title="MLS">MLS</a></li>
+<li><a href="http://foxsoccermls.stats.com/" title="MLS Fantasy">MLS Fantasy</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/wps" title="WPS">WPS</a></li>
+<li><a href="http://msn.foxsports.com/soccer/beckham" title="Beckham">Beckham</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/USA/MenNationalTeam" title="Men's NT">Men's NT</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/USA/WomenNationalTeam" title="Women's NT">Women's NT</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/soccer/england" title="England">England</a>
+<ul id="28">
+<li><a href="http://msn.foxsports.com/soccer/england" title="England Home">England Home</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/premierleague" title="Premier League">Premier League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishchampionship" title="Championship">Championship</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague1" title="League 1">League 1</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague2" title="League 2">League 2</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/facup" title="FA Cup">FA Cup</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/championsleague" title="Champions League">Champions League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/europaleague" title="Europa League">Europa League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/England/NationalTeam" title="England NT">England NT</a></li>
+<li><a href="http://foxsoccerpl.stats.com/" title="PL Fantasy">PL Fantasy</a></li>
+<li><a href="http://msn.foxsports.com/fsc/soccer/video" title="PL Video">PL Video</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/soccer/europe" title="Europe">Europe</a>
+<ul id="29">
+<li><a href="http://msn.foxsports.com/soccer/europe" title="Europe Home">Europe Home</a></li>
+<li><a href="http://msn.foxsports.com/soccer/england" title="England">England</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/ligue1" title="France">France</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/bundesliga" title="Germany">Germany</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/seriea" title="Italy">Italy</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/eredivisie" title="Netherlands">Netherlands</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/scottishpremierleague" title="Scotland">Scotland</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/laliga" title="Spain">Spain</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/championsleague" title="Champions League">Champions League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/europaleague" title="Europa League">Europa League</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/soccer/latinamerica" title="Latin America">Latin America</a>
+<ul id="30">
+<li><a href="http://msn.foxsports.com/soccer/latinamerica" title="Latin America Home">Latin America Home</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mexico" title="Mexico">Mexico</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/libertadores" title="Copa Libertadores">Copa Libertadores</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/copasudamericana" title="Copa Sudamericana">Copa Sudamericana</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/foxsoccer/soccer/epl/scores" title="Scores">Scores</a>
+<ul id="31">
+<li><a href="http://msn.foxsports.com/foxsoccer/scores" title="Today's Scores">Today's Scores</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/euro2008/scores" title="Euro 2008">Euro 2008</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/premierleague/scores" title="Premier League">Premier League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mls/scores" title="MLS">MLS</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishchampionship/scores" title="Championship">Championship</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague1/scores" title="League 1">League 1</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague2/scores" title="League 2">League 2</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/ligue1/scores" title="France">France</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/bundesliga/scores" title="Germany">Germany</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/seriea/scores" title="Italy">Italy</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/eredivisie/scores" title="Netherlands">Netherlands</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/scottishpremierleague/scores" title="Scotland">Scotland</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/laliga/scores" title="Spain">Spain</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mexico/scores" title="Mexico">Mexico</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/libertadores/scores" title="Copa Libertadores">Copa Libertadores</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/copasudamericana/scores" title="Copa Sudamericana">Copa Sudamericana</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/foxsoccer/soccer/standings?categoryId=433" title="Standings">Standings</a>
+<ul id="32">
+<li><a href="http://msn.foxsports.com/foxsoccer/euro2008/standings" title="Euro 2008">Euro 2008</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/premierleague/standings" title="Premier League">Premier League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mls/standings" title="MLS">MLS</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishchampionship/standings" title="Championship">Championship</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague1/standings" title="League 1">League 1</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague2/standings" title="League 2">League 2</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/ligue1/standings" title="France">France</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/bundesliga/standings" title="Germany">Germany</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/seriea/standings" title="Italy">Italy</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/eredivisie/standings" title="Netherlands">Netherlands</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/scottishpremierleague/standings" title="Scotland">Scotland</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/laliga/standings" title="Spain">Spain</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mexico/standings" title="Mexico">Mexico</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/libertadores/standings" title="Copa Libertadores">Copa Libertadores</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/foxsoccer/soccer/fixtures?categoryId=433" title="Schedules">Schedules</a>
+<ul id="33">
+<li><a href="http://msn.foxsports.com/foxsoccer/euro2008/fixtures" title="Euro 2008">Euro 2008</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/premierleague/fixtures" title="Premier League">Premier League</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mls/fixtures" title="MLS">MLS</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishchampionship/fixtures" title="Championship">Championship</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague1/fixtures" title="League 1">League 1</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/englishleague2/fixtures" title="League 2">League 2</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/ligue1/fixtures" title="France">France</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/bundesliga/fixtures" title="Germany">Germany</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/seriea/fixtures" title="Italy">Italy</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/eredivisie/fixtures" title="Netherlands">Netherlands</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/scottishpremierleague/fixtures" title="Scotland">Scotland</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/laliga/fixtures" title="Spain">Spain</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/mexico/fixtures" title="Mexico">Mexico</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/libertadores/fixtures" title="Copa Libertadores">Copa Libertadores</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/copasudamericana/fixtures" title="Copa Sudamericana">Copa Sudamericana</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/soccer/fsctv" title="FSC TV">FSC TV</a>
+<ul id="34">
+<li><a href="http://msn.foxsports.com/foxsoccer/fsctv" title="FSCTV">FSCTV</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/tvschedule/shows" title="Printable Schedules">Printable Schedules</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/tvschedule" title="Today's TV Listings">Today's TV Listings</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/tvschedule/weeklyListings" title="Weekly TV Listings">Weekly TV Listings</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/tvschedule/shows" title="Programming Guide">Programming Guide</a></li>
+<li><a href="http://msn.foxsports.com/soccer/fsctv/getfsc" title="How to Get FSC">How to Get FSC</a></li>
+<li><a href="http://msn.foxsports.com/soccer/fsctv/television/press" title="Press Releases">Press Releases</a></li>
+<li><a href="http://msn.foxsports.com/foxsoccer/fsctv/television/advertising" title="Advertising Profile">Advertising Profile</a></li>
+</ul>
+</li>
+<li><a href="http://www.razorgator.com/foxsports/sports/soccer/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/soccer/pgStory?workingCategoryId=176" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/FOXSoccer" title="Videos">Videos</a></li>
+<li><a class="openNavImg" href="http://foxsoccerpl.stats.com/" title="Games">Games</a>
+<ul id="35">
+<li><a href="http://foxsoccermls.stats.com/" title="MLS Fantasy">MLS Fantasy</a></li>
+<li><a href="http://foxsoccerpl.stats.com/" title="PL Fantasy">PL Fantasy</a></li>
+<li><a href="http://powersoccer.foxsoccer.com/" title="Power Soccer">Power Soccer</a></li>
+<li><a href="http://managerzone.foxsoccer.com/" title="Manager Zone">Manager Zone</a></li>
+<li><a href="http://www.whatifsports.com/x.asp?u=soccer/&amp;r=657394" title="FC Dynasty">FC Dynasty</a></li>
+</ul>
+</li>
+<li><a href="http://community.foxsports.com/?site=FOXSoccer" title="Community">Community</a></li>
+</ul>
+</td>
+<td id="nav_220"><a href="http://msn.foxsports.com/golf">GOLF</a>
+<ul style="" id="36">
+<li><a href="http://msn.foxsports.com/golf" title="Golf Home">Golf Home</a></li>
+<li><a href="http://msn.foxsports.com/golf/leaderboard" title="Leaderboard">Leaderboard</a></li>
+<li><a href="http://msn.foxsports.com/golf/schedule" title="Schedule">Schedule</a></li>
+<li><a href="http://www.golfweek.com/" title="Golfweek">Golfweek</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/golf/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/golf/pgStory?workingCategoryId=220" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/Golf" title="Videos">Videos</a></li>
+<li><a href="http://www.pgatour.com/" title="PGATOUR.com">PGATOUR.com</a></li>
+</ul>
+</td>
+<td id="nav_199"><a href="http://msn.foxsports.com/tennis">TENNIS</a>
+<ul style="" id="37">
+<li><a href="http://msn.foxsports.com/tennis" title="Tennis Home">Tennis Home</a></li>
+<li><a href="http://msn.foxsports.com/morenews?categoryId=199" title="News">News</a></li>
+<li><a href="http://msn.foxsports.com/tennis/results" title="Results">Results</a></li>
+<li><a href="http://msn.foxsports.com/tennis/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/tennis/rank" title="Rankings">Rankings</a></li>
+<li><a href="http://msn.foxsports.com/tennis/players" title="Players">Players</a></li>
+<li><a href="http://msn.foxsports.com/tennis/pgStory?workingCategoryId=199" title="Photos">Photos</a></li>
+<li><a href="http://msn.foxsports.com/video/Tennis" title="Videos">Videos</a></li>
+<li><a href="http://www.tennisweek.com/" title="Tennis Week">Tennis Week</a></li>
+</ul>
+</td>
+<td id="nav_2091"><a href="http://msn.foxsports.com/boxing">MMA</a>
+<ul style="" id="38">
+<li><a href="http://msn.foxsports.com/boxing" title="MMA Home">MMA Home</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/boxing/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/video/MMA_Boxing" title="Videos">Videos</a></li>
+<li><a class="openNavImg" href="http://www.thefightnetwork.com/" title="Partners">Partners</a>
+<ul id="39">
+<li><a href="http://www.thefightnetwork.com/" title="Fight Network">Fight Network</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_2662"><a href="http://msn.foxsports.com/name/public/siteIndex">MORE</a>
+<ul style="" id="40">
+<li><a href="http://msn.foxsports.com/name/public/siteIndex" title="Site Index">Site Index</a></li>
+<li><a href="http://msn.foxsports.com/mobile" title="Mobile">Mobile</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/boxing" title="Boxing">Boxing</a>
+<ul id="41">
+<li><a href="http://msn.foxsports.com/boxing" title="Boxing Home">Boxing Home</a></li>
+<li><a href="http://msn.foxsports.com/name/public/Boxing/schedule" title="Schedule">Schedule</a></li>
+<li><a href="http://msn.foxsports.com/name/public/Boxing/champions" title="Champions">Champions</a></li>
+<li><a href="http://www.razorgator.com/foxsports/sports/boxing/?c=79-3-0-0-0-0-0&amp;pid=foxsports/" title="Tickets">Tickets</a></li>
+<li><a href="http://msn.foxsports.com/video/MMA_Boxing" title="Videos">Videos</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/morenews?categoryId=90" title="WNBA">WNBA</a>
+<ul id="42">
+<li><a href="http://msn.foxsports.com/morenews?categoryId=90" title="News">News</a></li>
+<li><a href="http://msn.foxsports.com/wnba/scores" title="Scores">Scores</a></li>
+<li><a href="http://msn.foxsports.com/wnba/schedule" title="Schedules">Schedules</a></li>
+<li><a href="http://msn.foxsports.com/wnba/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/wnba/stats" title="Stats">Stats</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/motor" title="IRL">IRL</a>
+<ul id="43">
+<li><a href="http://msn.foxsports.com/motor" title="Motor Home">Motor Home</a></li>
+<li><a href="http://msn.foxsports.com/motor/irl/results" title="Results">Results</a></li>
+<li><a href="http://msn.foxsports.com/motor/irl/schedule" title="Schedule">Schedule</a></li>
+<li><a href="http://msn.foxsports.com/motor/irl/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/motor/irl/stats" title="Stats">Stats</a></li>
+<li><a href="http://msn.foxsports.com/motor/irl/drivers" title="Drivers">Drivers</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/motor/f1" title="F1">F1</a>
+<ul id="44">
+<li><a href="http://msn.foxsports.com/motor/f1" title="F1 Home">F1 Home</a></li>
+<li><a href="http://msn.foxsports.com/motor/f1/morenews" title="News">News</a></li>
+<li><a href="http://msn.foxsports.com/motor/f1/results" title="Results">Results</a></li>
+<li><a href="http://msn.foxsports.com/motor/f1/schedule" title="Schedule">Schedule</a></li>
+<li><a href="http://msn.foxsports.com/motor/f1/standings" title="Standings">Standings</a></li>
+<li><a href="http://msn.foxsports.com/motor/f1/drivers" title="Drivers">Drivers</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/horseracing" title="Horse Racing">Horse Racing</a>
+<ul id="45">
+<li><a href="http://msn.foxsports.com/horseracing" title="Home">Home</a></li>
+<li><a href="http://msn.foxsports.com/horseracing/story/9143054" title="Events">Events</a></li>
+<li><a href="http://www.tvg.com/special/FoxSportsJumpPage_final.htm" title="Odds/Results">Odds/Results</a></li>
+<li><a href="http://www.tvg.com/special/FoxSportsJumpPage_final.htm" title="TVG">TVG</a></li>
+<li><a href="http://www.racereplays.com/foxsports/index.cfm?start=ws_foxsports.com_navbar" title="Race/Replays">Race/Replays</a></li>
+</ul>
+</li>
+<li><a href="http://www.redbullairrace.com/" title="Air Race Series">Air Race Series</a></li>
+<li><a href="http://msn.foxsports.com/apps" title="Fox Sports Apps">Fox Sports Apps</a></li>
+<li><a href="http://msn.foxsports.com/radio" title="Radio">Radio</a></li>
+<li><a href="http://www.foxsportssupports.com/" title="FOX Sports Supports">FOX Sports Supports</a></li>
+<li><a class="openNavImg" href="http://www.hmshost.com/foxsportsskybox/" title="Restaurants">Restaurants</a>
+<ul id="46">
+<li><a href="http://www.hmshost.com/foxsportsskybox/" title="Fox Sports SkyBox">Fox Sports SkyBox</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/tv/schedule" title="Television">Television</a>
+<ul id="47">
+<li><a href="http://msn.foxsports.com/story/1636002" title="FSN">FSN</a></li>
+<li><a href="http://msn.foxsports.com/fcs" title="FOXCollegeSports">FOXCollegeSports</a></li>
+<li><a href="http://msn.foxsports.com/soccer/fsctv" title="Fox Soccer Channel">Fox Soccer Channel</a></li>
+<li><a href="http://www.speedtv.com/" title="SPEED">SPEED</a></li>
+<li><a href="http://www.fuel.tv/" title="Fuel">Fuel</a></li>
+<li><a href="http://www.fox.com/" title="FOX">FOX</a></li>
+<li><a href="http://www.fxnetworks.com/" title="FX">FX</a></li>
+<li><a href="http://www.foxnews.com/" title="FOX News">FOX News</a></li>
+<li><a href="http://bigtennetwork.com/" title="Big Ten Network">Big Ten Network</a></li>
+</ul>
+</li>
+</ul>
+</td>
+<td id="nav_2407" class="navDark"><a href="http://msn.foxsports.com/fantasy">FANTASY</a>
+<ul style="" id="48">
+<li><a href="http://msn.foxsports.com/fantasy" title="Home">Home</a></li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy-football" title="Football">Football</a>
+<ul id="49">
+<li><a href="http://fantasy.foxsports.com/fantasy/football/commissioner" title="Commissioner">Commissioner</a></li>
+<li><a href="http://fantasy.foxsports.com/fantasy/football/live" title="Live">Live</a></li>
+<li><a href="http://fantasy.foxsports.com/fantasy/football/quick-challenge" title="Quick Challenge">Quick Challenge</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/football" title="News &amp; Analysis">News &amp; Analysis</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/resources/footballdraftguide" title="Draft Guide">Draft Guide</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/football/pickem" title="Pro Pick'em">Pro Pick'em</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/football/survivor/" title="Survivor">Survivor</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/collegefootball/pickem" title="College Pick'em">College Pick'em</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewcategory/67191/Fantasy_Football" title="Forums">Forums</a></li>
+</ul>
+</li>
+<li><a class="openNavImg" href="http://msn.foxsports.com/fantasy/baseball/commissioner" title="Baseball">Baseball</a>
+<ul id="50">
+<li><a href="http://msn.foxsports.com/fantasy/baseball/commissioner" title="Commissioner">Commissioner</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/baseball/hotstreak/" title="Hot Streak">Hot Streak</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/baseball/salary-cap" title="Salary Cap">Salary Cap</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/baseball" title="News &amp; Analysis">News &amp; Analysis</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewcategory/67151/Fantasy_Baseball" title="Forums">Forums</a></li>
+</ul>
+</li>
+<li><a href="http://msn.foxsports.com/fantasy/auto/index.asp" title="Auto Racing">Auto Racing</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewcategory/67191/Fantasy_Football" title="Forums">Forums</a></li>
+<li><a href="http://msn.foxsports.com/fantasy/sim" title="Simulation Games">Simulation Games</a></li>
+</ul>
+</td>
+<td id="nav_5776" class="navDark"><a href="http://community.foxsports.com/">COMMUNITY</a>
+<ul style="" id="51">
+<li><a href="http://community.foxsports.com/" title="Community Central">Community Central</a></li>
+<li><a href="http://community.foxsports.com/go/browse/users" title="People">People</a></li>
+<li><a href="http://community.foxsports.com/go/browse/blogs" title="Blogs">Blogs</a></li>
+<li><a href="http://community.foxsports.com/go/browse/photos" title="Photos">Photos</a></li>
+<li><a href="http://community.foxsports.com/go/browse/videos" title="Videos">Videos</a></li>
+<li><a href="http://community.foxsports.com/go/browse/groups" title="Groups">Groups</a></li>
+<li><a href="http://community.foxsports.com/go/forum/viewboard" title="Forums">Forums</a></li>
+</ul>
+</td>
+<td id="nav_351" class="navDark"><a href="http://msn.foxsports.com/video">VIDEO</a>
+<ul style="" id="52">
+<li><a href="http://msn.foxsports.com/video" title="Video Central">Video Central</a></li>
+<li><a href="http://multimedia.foxsports.com/" title="Video Search">Video Search</a></li>
+<li><a href="http://msn.foxsports.com/video/shows/nfl-on-fox" title="NFL on FOX">NFL on FOX</a></li>
+<li><a href="http://msn.foxsports.com/video/shows/mlb-on-fox" title="MLB on FOX">MLB on FOX</a></li>
+<li><a href="http://msn.foxsports.com/video/shows/big12" title="Big 12 on FSN">Big 12 on FSN</a></li>
+<li><a href="http://msn.foxsports.com/video/shows/pac10" title="Pac-10 on FSN">Pac-10 on FSN</a></li>
+<li><a href="http://msn.foxsports.com/nfl/story/8602664/%27Back-on-Topps%27-Video-Central" title="Back on Topps">Back on Topps</a></li>
+<li><a href="http://msn.foxsports.com/video/shows/wpt" title="World Poker Tour">World Poker Tour</a></li>
+</ul>
+</td>
+<td id="nav_3672" class="navDark"><a href="http://www.bing.com/shopping/search?q=sports&amp;p1=%5bCommerceService+scenario%3d%22f%22+r%3d%22%2cleafcategoryid%7c5795%22+p%3d%22df5c7f1ba4404c05b3f423c4e307eee6%22%5d&amp;FORM=SHOSPO">SHOP</a>
+</td>
+<td id="nav_1117" class="navDark"><a href="http://msn.foxsports.com/FoxSportsMobile/index.jsp">MOBILE</a>
+</td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript">
+<!--// 
+		rackEm("fs_main_navigation_header");
+//--></script>
+</div>
+<div class="sectionFrontNav" style="background-image: url(/fe/img/SectionFront/subnav/subNav_0.gif); background-repeat: no-repeat;">&nbsp; 
+<a href="http://msn.foxsports.com/nba">NBA Home</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/scores">Scores</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/schedule">Schedules</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/standings">Standings</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/stats">Stats</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/transactions">Transactions</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/injuries">Injuries</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/teams">Teams</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/players">Players</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/odds">Odds</a>
+<b>·</b>
+<a href="http://www.razorgator.com/foxsports/sports/basketball/nba/?c=79-3-0-0-0-0-0&amp;pid=foxsports/">Tickets</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/nba/pgStory?workingCategoryId=73">Photos</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/video/NBA">Videos</a>
+<b>·</b>
+<a href="http://msn.foxsports.com/apps">Apps</a>
+</div>
+
+
+
+     
+
+
+  </div>
+
+
+  <div id="pageHolder">
+    <!-- BEGIN: [MAIN FEATURE BLOCKS] -->
+    <div id="sub_feature_block">
+    <div id="category_header">
+     
+
+
+
+
+
+<script type="text/javascript" src="msn.foxsports.com.aging_files/FSJavaScriptFlashGateway.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+  var flashVars = 'sectionTitle=' + ("NBA").replace(/\'/g,"%27").replace("&", "%26");
+  var tag = new FSFlashTag('/id/8833701', 248, 73);
+  tag.setId('FlashSectionTitle');
+  tag.setFlashvars(flashVars);
+  tag.setWmode('transparent');
+  tag.setWmodeFF('transparent');
+  tag.write(document);
+</script><embed src="msn.foxsports.com.aging_files/8833701" quality="high" allowscriptaccess="always" type="application/x-shockwave-flash" wmode="transparent" flashvars="sectionTitle=NBA" name="FlashSectionTitle" id="FlashSectionTitle" pluginspage="http://www.macromedia.com/go/getflashplayer" height="73" width="248">
+
+
+
+
+    </div>
+     
+
+
+<!-- BEGIN calling tombstones widget-->
+
+
+
+
+
+
+
+
+<div class="tomb_stone">
+         <div class="tomb_stone_story"><a href="http://msn.foxsports.com/nba/story/9982028/Tweet-for-help" title="Tweet for help" class="stone_image">
+                     
+                       <img src="msn.foxsports.com.aging_files/9978756_51_1.jpg" alt="Tweet for help">
+                     
+        </a>
+
+    <h2 title="Tweet for help">
+      <a href="http://msn.foxsports.com/nba/story/9982028/Tweet-for-help" title="Tweet for help">Tweet for help</a>
+    </h2>
+    <a href="http://msn.foxsports.com/nba/story/9982028/Tweet-for-help" class="link" title="Tweet for help">
+      Michael Beasley showed off his new tat on Twitter — and also revealed some inner demons. <strong>Mark Kriegel</strong> has seen enough.
+    </a>
+</div><p class="clearMe">
+         </p></div><div class="tomb_stone">
+         <div class="tomb_stone_story"><a href="http://msn.foxsports.com/nba/story/9978280/A-thousand-shots" title="A thousand shots" class="stone_image">
+                     
+                       <img src="msn.foxsports.com.aging_files/9969092_51_1.jpg" alt="A thousand shots">
+                     
+        </a>
+
+    <h2 title="A thousand shots">
+      <a href="http://msn.foxsports.com/nba/story/9978280/A-thousand-shots" title="A thousand shots">A thousand shots</a>
+    </h2>
+    <a href="http://msn.foxsports.com/nba/story/9978280/A-thousand-shots" class="link" title="A thousand shots">
+      In his 1,000th story for FOXSports.com, <b>Charley Rosen</b> looks back at the times he was right on — or dead wrong.
+    </a>
+</div><p class="clearMe">
+         </p></div><div class="tomb_stone">
+         <div class="tomb_stone_story"><a href="http://msn.foxsports.com/nba/story/9962772/Who-wants-me?" title="Who wants me?" class="stone_image">
+                     
+                       <img src="msn.foxsports.com.aging_files/9950766_51_1.jpg" alt="Who wants me?">
+                     
+        </a>
+
+    <h2 title="Who wants me?">
+      <a href="http://msn.foxsports.com/nba/story/9962772/Who-wants-me?" title="Who wants me?">Who wants me?</a>
+    </h2>
+    <a href="http://msn.foxsports.com/nba/story/9962772/Who-wants-me?" class="link" title="Who wants me?">
+      Quentin Richardson has been on a long list of teams ... and that's just this summer. <b>Randy Hill</b> looks at the art of the NBA salary dump.
+    </a>
+</div><p class="clearMe">
+         </p></div>
+
+
+
+
+<!-- END calling tombstones widget-->
+
+
+
+    </div>
+
+    <!-- END: [MAIN FEATURE BLOCKS] -->
+
+    <p class="clearMe">
+
+
+
+    <!-- BEGIN: [MAIN CONTENT] -->
+    </p><div id="main_content">
+
+        <!-- Edgeinclude not created for non-existing logical name: /public/story/promoHdr/73 -->
+
+        <!-- // Story Title// -->
+        
+
+
+
+
+
+<h1>Will aging stars be golden oldies or moldy?</h1>
+
+
+
+
+        <!-- // Writer Attribution// -->
+        
+
+
+
+
+
+
+
+
+  <div id="writer_info">
+          	<a href="http://msn.foxsports.com/writer/Charley-Rosen-FOXSports.com-NBA-Contributor?authorId=227"><img src="msn.foxsports.com.aging_files/9808862_36_3.jpg" border="0"></a>
+          
+          <h2 title="Charley Rosen "><a href="http://msn.foxsports.com/writer/Charley-Rosen-FOXSports.com-NBA-Contributor?authorId=227">by Charley Rosen </a></h2>
+          <div class="expand">Charley Rosen is FOXSports.com's NBA analyst and author of 15 books about hoops, the current ones being <a href="http://www.amazon.com/First-Tip-Off-Incredible-Story-Birth/dp/0071487859/ref=sr_1_2?ie=UTF8&amp;s=books&amp;qid=1247676992&amp;sr=1-2" target="new">The First Tip-Off: The Incredible Story of the Birth of the NBA</a> and <a href="http://www.amazon.com/No-Blood-Foul-Charley-Rosen/dp/1583228284/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1207952386&amp;sr=1-1" target="new">No Blood, No Foul</a>.</div>
+       
+    <p>
+    <br>
+    
+    
+  </p><div class="gray_dots"></div>
+ </div>
+
+  <!-- Meta Tag For Search -->
+  <!-- meta name="author" content="Charley Rosen"-->
+  <!-- meta name="source" content="FOXSports.com"-->
+  <!-- meta name="eventId" content=""-->
+  <!-- meta name="contentTypeCode" content="1"-->
+  <!-- meta name="editorContentCode" content="1"-->
+  <!-- meta name="blurb" content="The Cavs are counting on two aging big men this year. But do Shaq and Big Z still have the goods? <b>Charley Rosen</b> takes a look."-->
+  
+  <!-- meta name="modDate" content="August 7, 2009 16:38:21 GMT"-->
+  
+
+
+
+        <!-- // Story Tools // -->
+        <div id="story-tools-wrapper">
+            
+
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="msn.foxsports.com.aging_files/story_tools.css">
+	
+	<!-- printtracker start -->
+	<link href="msn.foxsports.com.aging_files/fdprint.css" type="text/css" rel="stylesheet" media="print">
+	<script type="text/javascript" name="cleanprintloader" src="msn.foxsports.com.aging_files/pd.js"></script>
+	<!-- printtracker end -->
+  	
+	<script type="text/javascript">addthis_pub  = 'foxSports';</script>
+	<script type="text/javascript" src="msn.foxsports.com.aging_files/addthis_widget.js"></script>
+    
+	
+	<script>
+		function BlogThisStoryTools() {
+			var headline = "Will aging stars be golden oldies or moldy?";
+			var url = document.location.href;
+			var destination = "http://blogs.foxsports.com/BlogThis.aspx?r_title=" + escape(headline) + "&r_url=" + url;
+			window.location.href = destination;
+		}
+		
+	</script>
+	
+	<div id="story_nav">
+    	
+		<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://msn.foxsports.com/nba/story/9902688/Will-aging-stars-be-golden-oldies-or-moldy', 'Will aging stars be golden oldies or moldy?')" onmouseout="addthis_close()" onclick="return addthis_sendto()" class="story_nav_links digg">add this</a>
+        
+		<a href="http://msn.foxsports.com/other/story/2005035" class="story_nav_links rss" title="Get the RSS Feed">RSS</a>
+		<!-- a href="javascript:BlogThisStoryTools();void(0)" class="story_nav_links blog" title="Check out the Blogs on this story">blog</a -->    
+		<a href="#" onclick="openWin('/emailLink?contentId=9902688&amp;title=Will aging stars be golden oldies or moldy?&amp;link=http://msn.foxsports.com/nba/story/9902688/Will-aging-stars-be-golden-oldies-or-moldy','email',400,305);" class="story_nav_links email" title="Email this story to someone who needs to read it.">email</a>
+		<a href="#" onclick="FDCPUrl(); return false;" class="story_nav_links print" title="Print this story">print</a>
+	</div>
+
+
+
+
+            
+
+
+
+
+
+
+		<div id="story_date">
+			Updated: August 7, 2009, 12:38 PM EDT
+		</div>
+		
+ <a href="#tb" id="number_of_comments" class="comment_bubble_blue" title="Click here to enter a comment">71 comments</a>
+
+
+
+
+          
+			<div class="clearMe"> </div>
+        </div>
+        <script type="text/javascript">
+          //document.getElementById('number_of_comments').innerHTML = commentCount+" Comments";
+        </script>
+
+        <!-- // Story Content // -->
+        <div id="story_content">
+          
+
+
+
+
+
+<script>
+   if(fanid.length > 0 && typeof(nflDefaultLeague)!= "undefined") {
+       leagueId = nflDefaultLeague;
+    //find teamId of default league (if exists)
+    for(var i=0; i < teamsInfo.length; i++){
+      if(teamsInfo[i][4] == leagueId){
+        defaultTeamId = teamsInfo[i][0];
+      }
+    }
+    var fantasyLeaguePlayerJsPath = 'http://msn.foxsports.com' + '/nugget/200002_' + leagueId + '|||' + fanid;
+  
+  }
+ </script>
+ 
+
+<div>After exploring what might be expected next season from <a href="http://msn.foxsports.com/nba/story/9889914/What-to-expect-from-young-stars-in-2009-10">several of the almost-elite young players</a>, next up are the aging all-stars.  </div><p></p>
+Which of these geezers have any gas left in their tanks, and which are
+just tanked? Why have some of them aged more gracefully than others?
+And what are the immediate prospects for these post-prime players, all
+of whom will be at least 34 when next season begins?<p></p><div class="storyPoll">
+
+
+
+
+<script language="JavaScript1.2" src="msn.foxsports.com.aging_files/FSJavaScriptFlashGateway.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+var userStatus='vote';
+// if this poll is the one for which they have answered, show results
+if (typeof(pollsVoted)!="undefined") {
+  for (var i = 0; i < pollsVoted.length; i++) {
+    if (pollsVoted[i] == 9902950) {
+      var userStatus = 'results';
+      break;
+    }
+  }
+}
+// has to have retry because hitbox code is defered.
+function hitBoxVote(m,p) {
+}
+var pollHeight = 0;
+if (pollHeight == 0) {
+  pollHeight = Math.max(140 + (4 * 45) );
+}
+var flashPollQuery='choices=4&questionId=495892&pollId=9902950&cUrl=&pgCode=null&categoryId=null&isNarrow=true&userStatus='+userStatus;
+var tag = new FSFlashTag("/id/8796869", 250, pollHeight); // movie path, last two arguments are width and height
+tag.setId('flashPoll');
+tag.setFlashvars(flashPollQuery);
+tag.setWmode('transparent');
+tag.setWmodeFF('transparent');
+tag.write(document);
+</script><embed src="msn.foxsports.com.aging_files/8796869" quality="high" allowscriptaccess="always" type="application/x-shockwave-flash" wmode="transparent" flashvars="choices=4&amp;questionId=495892&amp;pollId=9902950&amp;cUrl=&amp;pgCode=null&amp;categoryId=null&amp;isNarrow=true&amp;userStatus=vote" name="flashPoll" id="flashPoll" pluginspage="http://www.macromedia.com/go/getflashplayer" height="320" width="250">
+
+</div><p>Since both <b>Shaquille O'Neal (age 37)</b> and <b>Zydrunas Ilgauskas (34)</b>
+are their only offensive-minded centers, the Cavaliers are more
+dependent than any other team on getting optimal performances from
+their geriatric players.</p><p>Shaq, of course, enjoyed a
+semi-miraculous resurrection under the care of Phoenix's extraordinary
+training staff. Yet even though he remained sufficiently healthy to
+play in 75 games last season (the most since the 1998-99 season), both
+his lateral movement and his hops continued to be seriously
+compromised. The Cavs can expect Shaq to be as immobile as the Statue
+of Liberty, but still powerful enough to make opponents' feet slide
+when they try to post-up. He'll also set Gargantuan screens, make some
+nifty passes out of the pivot, but make even more errant ones. Because
+of his total loss of speed and quickness, Shaq will always be in, or on
+the verge of, foul trouble.</p><p>However, if he can come close to
+duplicating last season's numbers — 75 games, 30 minutes and 17.8
+points per outing — then the Cavs will indeed be one of the NBA's elite
+ball clubs.</p><p>But don't count on it. Back in 2002, Shaq underwent a
+procedure called a "cheilectomy", which involved a cleaning out of bone
+spurs and arthritic debris from his right big toe. In the ensuing years
+since the surgery, podiatrists agree that the joint has necessarily
+undergone further disintegration. </p><p>"He's got to be hurting big
+time," said one doctor, "especially with the unusual stress on the
+joint that a 300-plus pound individual playing professional basketball
+creates game-after-game. It's a miracle that he hasn't totally broken
+down already, but he undoubtedly will. Sooner rather than later Shaq is
+going to need a surgical fusion and the insertion of a plate to
+maintain the joint's integrity. Such a procedure would put him on the
+shelf for at least six months and likely end his career. Meanwhile,
+he's at great risk."</p><p>The point is that Shaq, more than any of his age-challenged peers, is playing/running/walking on borrowed time.     </p><p></p><table class="emailBoothFields" style="border: 1px solid rgb(0, 0, 0); background-color: rgb(238, 238, 238);" align="right" border="0" cellpadding="5" cellspacing="0" width="250">
+<tbody><tr>
+<td>
+<div style="float: right; padding-left: 2px; width: 250px;">
+	
+<!-- =========== start: EMAIL FORUM ============= -->
+<script>
+var gameSelected = false;
+function verifyForum(f) {
+    for (var i=0; i < f.elements.length; i++) {
+        if (f.elements[i].value == "") {
+            alert("Please fill in the " + f.elements[i].name + " field.");
+            return false;
+        }
+    }
+    var name = f.elements.name.value;
+    if (name.indexOf(" ") == -1) {
+        alert("Please provide a first and last name. Thank you!");
+        return false;
+    }
+    var email = f.elements.email.value;
+    if ((email.indexOf("\@") == -1) || (email.indexOf("\.") == -1)) {
+        alert("Please provide a valid email address. Thank you!");
+        return false;
+    }
+    f.submit();
+}
+</script>
+<style>
+  #emailForum {width:244px; float:right; text-align:left;}
+
+  #emailForumHdr {width:244px; height:35px; background:#fff url(/fe/img/Story/in_box_top.jpg) no-repeat top left;}
+  #emailForumHdr h3 {width:230px; text-transform:uppercase; font-size:12px; font-weight:bold; margin:0px 0px 0px 10px; line-height:22px;}
+
+  #emailForumTitle {width:244px; height:auto; background:#fff url(/fe/img/Story/in_box_mid.gif) repeat-y top left;}
+  #emailForumTitle h4 {width:230px; height:auto; font-size:11px; font-weight:bold; margin:0px 0px 0px 10px; background:url(/fe/img/Story/dots.jpg) repeat-x bottom left;}
+
+  #emailForumBdy {width:244px; height:298px; background:#fff url(/fe/img/Story/in_box_mid_email.jpg) no-repeat top left;}
+  #emailForumBdy div {width:230px; font-size:11px; font-weight:bold; margin:0px 0px 0px 10px;}
+
+  #forum textarea, #forum input {border:1px solid #7f9db9; overflow:auto; width:223px; font-weight:normal;}
+  #forum textarea {height:100px; _height:82px;}
+  #forum input.name {width:183px; _width:178px;}
+  #forum input.email {width:185px; _width:180px;}
+  #forum input.city {width:153px; _width:148px;}
+  #forum input.submit  {width:76px; border:0px solid #ffffff; margin:0px 0px 0px 75px;}
+
+  #emailForumFtr {width:244px; height:6px; background:#fff url(/fe/img/Story/in_box_btm.jpg) no-repeat top left;}
+</style>
+
+<div id="emailForum">
+  <div id="emailForumHdr">
+    <h3><img src="msn.foxsports.com.aging_files/mail.gif" align="absmiddle"> </h3>
+  </div>
+  <div id="emailForumTitle">
+    <h4>If you have a question or comment for Charley Rosen, submit it below and Charley may just respond.<div class="spacer10"></div></h4>
+    <div class="spacer10"></div>
+  </div>
+  <div id="emailForumBdy">
+    <div>
+    <form action="/forum/enter" method="post" name="forum" id="forum" style="display: inline;">
+      <input name="callback" value="/name/thankYou" type="hidden">
+      <input name="errorCallback" value="/name/error" type="hidden">
+      <input name="logicalName" value="/public/FS/NBA/rosenforum" type="hidden">
+      <input name="questionId" value="" type="hidden">
+      Subject:<br>
+      <input name="subject" size="40" maxlength="100" type="text">
+      <div class="spacer10"></div>
+      Comment/Question:<br>
+      <textarea rows="6" cols="41" name="body" class="question"></textarea>
+      <div class="spacer10"></div>
+      Name:&nbsp;
+      <script type="text/javascript">
+        if (typeof(user.USER_FIRST_NAME) == 'undefined') user.USER_FIRST_NAME = '';
+        if (typeof(user.USER_LAST_NAME) == 'undefined') user.USER_LAST_NAME = '';
+        document.write("<input name=\"name\" class=\"name\" type=\"text\" size=\"15\" maxlength=\"50\" value=\"" + user.USER_FIRST_NAME + " " + user.USER_LAST_NAME + "\">");
+      </script><input name="name" class="name" size="15" maxlength="50" value=" " type="text">
+      <div class="spacer10"></div>
+      Email:&nbsp;
+      <script type="text/javascript">
+        if (typeof(user.USER_EMAIL) == 'undefined') user.USER_EMAIL = '';
+        document.write("<input name=\"email\" class=\"email\" type=\"text\" size=\"15\" maxlength=\"128\" value=\"" + user.USER_EMAIL + "\">");
+      </script><input name="email" class="email" size="15" maxlength="128" value="" type="text">
+      <div class="spacer10"></div>
+      Hometown:&nbsp;
+      <script type="text/javascript">
+        if (typeof(user.USER_CITY) == 'undefined') user.USER_CITY = '';
+        document.write("<input name=\"city\" class=\"city\" type=\"text\" size=\"15\" maxlength=\"50\" value=\"" + user.USER_CITY + "\">");
+      </script><input name="city" class="city" size="15" maxlength="50" value="" type="text">
+      <div class="spacer10"></div>
+      <input src="msn.foxsports.com.aging_files/submit.gif" alt="Submit" class="submit" align="middle" height="17" type="image" width="76">
+    </form>
+    </div>
+  </div>
+  <div id="emailForumFtr"></div>
+</div>
+<!-- =========== end: EMAIL FORUM ============= -->
+
+</div>
+</td>
+</tr>
+</tbody></table><p>Ilgauskas has had his own footsie problems in the
+past, but the surgical insertion of various pins have successfully
+stabilized his ankles and are in no immediate danger of disintegrating.
+That said, the Z-Man has lost whatever lateral mobility he had, is
+incapable of posting up stronger opponents, can't defend anybody, and
+has been reduced to being a 7-3 jump shooter. </p><p>However, playing
+18-20 minutes behind Shaq could be a boon for Ilgauskas. That's because
+on offense he would only be involved in high screen/fades, thereby
+generating open jumpers for himself ,and also leaving the middle open
+for LeBron's powerhouse drives. With his daylight limited, Ilguaskas
+won't have to "save" his fouls and can be much more aggressive on
+defense — particularly in attacking shots in the paint.</p><p>Besides, there's always the offensively-challenged Anderson Varejao to do the heavy lifting on defense.</p><p>Still,
+maintaining the health and relative mobility of both Shaq and Ilgauskas
+are critical to the Cavs' championship hopes. If Zydrunas goes down,
+then Shaq's playing time will necessarily increase, putting the Big
+Load further at risk.</p><p>If Shaq goes down, then Cleveland will be stuck with the same kind of lopsided squad that it fielded last season.  </p><p><b>Grant Hill (37):</b>
+Here's another old-timer whose career has been rescued by the Suns'
+trainers. As such, there's no reason why he can't reprise the 29.8
+minutes and 12.0 points per game that he registered last season. In
+fact, with Alvin Gentry intent on reviving the Suns' speedball game
+plan, Hill just might be even more effective. Moreover, Hill's habitual
+turnovers and slow-footed defense won't even be noticed as the Suns
+race up and down the court.</p><p>Despite his age, Hill's various
+injuries have compelled him to miss the equivalent of nearly eight full
+seasons during his career. So Hill's odometer is still only 29 years
+old. </p><p><b>Steve Nash (35):</b> When Shaq was on board, the Suns
+were forced to play much more half-court offense than they had in the
+past. For Nash, this meant a quantum increase in physical contact and a
+six-year low in his minutes played, as well as his assist and point
+totals. </p><p></p><div class="in_info_box">
+<h3><center>The next step</center></h3>
+<div class="in_info_box_content">
+<table><tbody><tr><td>
+<!-- ========== PHOTO ======== -->
+<img src="msn.foxsports.com.aging_files/9889242_51_1.jpg" alt="ALTTEXT" style="padding-left: 2px; padding-right: 5px;" align="right" border="0" height="43" width="66">
+<!-- ========== END PHOTO ======== -->
+<!-- ========== LIST OF LINKS======== -->
+Forget the oldies. How about the young studs? <b>Charley Rosen</b> tells you <a href="http://msn.foxsports.com/nba/story/9889914/What-to-expect-from-young-stars-in-2009-10">what to expect from some rising stars</a> in 2009-10.
+<!-- ========== END LIST OF LINKS======== -->
+</td></tr></tbody></table>
+
+</div>
+<div class="in_info_box_btm"></div>
+</div><p>With the Suns on the run again, Nash will be able to scamper
+freely and drive unmolested by hostile bodies so that his numbers
+should rebound — but only if Amare Stoudemire makes a full recovery.</p><p>If
+the Suns' championship hopes are rapidly dropping below the horizon,
+Nash should still be able to reprise the effectiveness that won him
+double-MVP honors. </p><p><b>Jason Kidd (36):</b> No longer able to
+get to the hoop with the same ease as before, Kidd is still a dangerous
+half-court presence. Getting into the paint is a rare occasion these
+days, which means that his ability to drive and dish will be severely
+curtailed. Also, without the quickness to zip his dribble through
+traffic, his in-the-paint drop-off assists will also be few and far
+between. But he can still read defenses, anticipate teammates moving
+into open spaces, and facilitate a running game with accurate long
+passes.</p><p>Above all, Kidd has become a reliable 3-point shooter
+through the years, and it's this improvement that's the real key to his
+effectiveness when the Mavs are in the attack zone.</p><p>The
+diminishment of his speed and quickness is most evident, however, on
+defense. No longer can he adequately defend virtually every opposing
+point guard. In his defensive dotage, Kidd is still capable, however,
+of playing lock-down defense on most of the league's shooting guards.</p><p>Untouched
+by his advancing years, though, is J-Kidd's razor-sharp competitive
+edge. If most of his other skills of yesteryear are in decline, this
+attitude is enough to be a huge plus for Dallas.</p><p>    </p><table align="right" border="0" cellpadding="3" cellspacing="0" width="225">
+        <tbody><tr><td><img src="msn.foxsports.com.aging_files/9902314_36_3.jpg" border="0" height="280" width="225"></td></tr>
+        <tr><td class="caption"><b>Ray Allen and his sweet stroke aren't rusty yet.</b> (Elsa / Getty Images)</td></tr>
+      </tbody></table>
+
+<p><b>Ray Allen (34):</b> This guy can still play. Indeed, the only
+sign of his advanced age is the increasingly prolonged dry spells he
+has experienced in the last two seasons. Unfortunately, his latest
+extended slump came during last season's playoffs. While this is
+certainly not good news for the Celtics, the mitigating circumstance
+was that Kevin Garnett's absence enabled defenses to focus more on
+Allen. </p><p>Also, Allen essentially petered out in the postseason
+because he averaged 40.3 minutes per game during the regular season. To
+keep him fresh, this total must be reduced to around 35 minutes per.
+That's why it's imperative to avoid using him at the point guard slot. </p><p><b>Marcus Camby (35):</b>
+His game is based almost entirely on length and quickness. But as the
+years fade into memories, he's become increasingly slower off his feet.
+While he remains an influential shot-changer and shot-blocker, his
+swat-average was lower last season than it has been since the 2001-02
+season. As a result, opponents are more eager to take the ball right at
+him.</p><p>When speed-finesse players lose even a half step, their
+usefulness takes a sharp nosedive. And at 6-11 and a mere 235 pounds,
+Camby lacks the bulk to compensate. Also, injuries have been a constant
+bugaboo throughout his career and as he ages he will be more vulnerable
+here.</p><p>With Chris Kaman and blue-chip rookie Blake Griffin in town, Camby would contribute the most to the Clippers as a bench player.</p><p><b>Michael Finley (36):</b>
+Richard Jefferson will inherit most of Finley's minutes. Yet Finley's
+step-back jumper going left remains unstoppable and uncannily accurate.
+Whereas he used to be an elite defender, those days are also long gone.
+But since he's still an incredibly reliable clutch scorer, look for
+Finley to become a situational shooter in the upcoming season.</p><p></p><div class="in_info_box whats_hot_box">
+  <div class="in_info_box_content whats_hot_box_content">
+    <!-- ========== LINKS ========= -->
+    <h4 class="gray_dots">Must-read:</h4>
+    <ul>
+<li><a href="http://msn.foxsports.com/cbk/story/9932508/Pitino-ran-into-the-biggest-dynasty-in-sports" name="&amp;lid=whatshot">Whitlock: All-time undisputed champ</a></li>
+<li><a href="http://msn.foxsports.com/mlb/story/9930716/Beanballs-are-a-part-of-the-game,-but-senseless" name="&amp;lid=whatshot">Rosenthal: Enough with the beanballs!</a></li>
+    </ul>
+    <h4 class="gray_dots">Must-see:</h4>
+    <ul>
+<li><a href="javascript:msnvDwd('33',%20'2f8fa544-11cb-4702-888e-1f69c7b9b686',%20'us',%20'',%20'm1483',%20'foxsports',%20fsHbxTrackingPath);">Hill: Rambis takes over T-Wolves</a><br>
+</li><li><a href="javascript:msnvDwd('33',%20'13d802f3-8425-4f8f-bfda-55bf76291ba9',%20'us',%20'',%20'm1490',%20'foxsports',%20fsHbxTrackingPath);">Schein: Saints' RB duo dangerous</a><br>
+</li></ul>
+    <h4 class="gray_dots">Top headlines:</h4>
+    <ul>
+<li><a href="http://msn.foxsports.com/golf/story/9902246/Driver-helps-Tiger-get-off-to-great-PGA-start" name="&amp;lid=whatshot">Tiger goes low, leads PGA by 1</a></li>
+<li><a href="http://msn.foxsports.com/nfl/story/9931832/Stallworth-suspended-without-pay-for-%2709-season" name="&amp;lid=whatshot">Stallworth suspended for '09 season</a></li>
+<li><a href="http://msn.foxsports.com/cbk/story/9929496/Louisville-president-on-Pitino:-He%27s-%27our-guy%27" name="&amp;lid=whatshot">Louisville backs Pitino: He's 'our guy'</a></li>
+</ul>
+    <div class="more"><a href="http://msn.foxsports.com/">All of today's top stories &gt;&gt;</a></div>
+    <h4 class="gray_dots">Worth a thousand words:</h4>
+    <ul>
+<li><a href="http://msn.foxsports.com/mlb/pgStory?contentId=9924464">Red Sox, Tigers brawl at Fenway</a></li>
+<li><a href="http://msn.foxsports.com/nfl/story/9891488/PHOTOS:-NFL-training-camps">Best shots from NFL training camps</a></li>
+<li><a href="http://msn.foxsports.com/editorschoice/pgStory?contentId=9929188">Maxim's Hometown Hotties</a></li>
+</ul>
+<div class="more"><a href="http://msn.foxsports.com/pgStory?workingCategoryId=0">View more photos &gt;&gt;</a></div>
+</div> 
+<div class="in_info_box_btm"></div>
+</div><p><b>Rasheed Wallace (35):</b> Except for his rebounding, just
+about every category in Rasheed's repertoire is in decline. Even so, he
+remains a valuable asset mainly because of his defense. Also, Rasheed's
+reluctance to venture into the low post in recent years and his
+increased preference for shooting 3-balls have been instrumental in
+extending his career. </p><p><b>Ben Wallace (35):</b> Big Ben has been
+running on empty for several seasons. At this point, he could
+conceivably play effective defense against low-post players for a pair
+of six-minute rotations per game, not enough banging to warrant the big
+bucks he's making. </p><p>Getting old is a drag for everybody.
+Reflexes become dulled. Staying healthy is an increasing problem.
+Endurance is replaced by fatigue. </p><p>For hoopers, jumpers fall
+short, steps are lost, sneakers get heavy, the court seems longer, and
+focus gets fuzzy. The most savvy of NBA veterans try to compensate by
+exerting themselves only when their exertions will make a difference
+(for example, keeping their legs as fresh as possible by avoiding
+extraneous dunks), by flawlessly executing plays, closely following the
+dictates of scouting reports, eating well, and getting more rest. </p><p>And as demonstrated by the two Wallaces, the fact is that physical players generally wear out quicker than finesse players do.</p><p></p>
+
+<!--  LexisNexis Disclaimer -->
+
+
+
+
+
+          <!-- Edgeinclude not created for non-existing logical name: /public/story/footerlink/73 -->
+        </div>
+
+        <div id="talk_back_community">         
+          <!-- // Comments // -->
+          <a name="commentStart"></a>
+
+		  
+					<!-- Comments Disclaimer -->
+					<div class="spacer10"></div>
+					<style>
+	.commentsDisclaimer {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#838383;
+		border-bottom:1px solid #c5c5c5;
+		_height:45px;
+		background-color:#ffffff;
+		background-image:url(/fe/img/Story/comments_disclaimer_bg.jpg);
+		background-repeat:repeat-x;
+		background-position:bottom left;
+		padding:10px 10px 10px 10px;
+	}
+	.commentsDisclaimer a:link, .commentsDisclaimer a:visited, .commentsDisclaimer a:active {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#838383;
+		text-decoration:underline;
+	}
+
+</style>
+
+<div class="commentsDisclaimer">
+	Please note by clicking on "add a comment" you acknowledge that you have read the <a href="http://msn.foxsports.com/name/Legal/termsOfUse" target="_new">Terms of Use</a> and the comment you are posting is in compliance with such terms. 
+	<b>Be polite</b>. Inappropriate posts may be removed by the moderator.
+</div>
+			
+         <div id="talk_back_content">
+			
+
+
+
+  
+<!-- Bottom -->
+<!--Here is the SNAP comments on the page bottom-->
+
+
+
+
+<script type="text/javascript" src="msn.foxsports.com.aging_files/xpath.js"></script>
+<script type="text/javascript" src="msn.foxsports.com.aging_files/SpryData.js"></script>
+<script type="text/javascript" src="msn.foxsports.com.aging_files/SpryEffects.js"></script>
+<script type="text/javascript" src="msn.foxsports.com.aging_files/SpryDOMUtils.js"></script>
+<script type="text/javascript" src="msn.foxsports.com.aging_files/SpryNestedXMLDataSet.js"></script>
+
+<a name="tb" id="tb"></a>
+<div id="member-comments">
+       
+               
+    <div id="comments-header">
+        <h1>Member Comments</h1> 
+        <div class="member-actions">   
+            
+            
+            <!-- /// Member comments header and navigation /// -->
+            <div id="spryregion1" title="Add a Comment" class="commentNavigation">        
+               <a onclick="fsPageComments(this, '2')" href="javascript:void(0);" class="member_comment_next" title="next">&nbsp;</a> 
+                
+                 <span class="comment_counter">Page 1 of 4</span>               
+                <a onclick="fsPageComments(this, '1')" href="javascript:void(0);" class="member_comment_prev" title="previous">&nbsp;</a>
+                
+            </div>
+            
+            <a spry:content="Log in to add a comment" href="https://login.live.com/ppsecure/secure.srf?wp=MBI_FED_SSL&amp;seclog=10&amp;wa=wsignin1.0&amp;wreply=https%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F&amp;cb=wa%3Dwsignin1.0%26wreply%3Dhttps%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F" name="addComment" class="add-comm" title="Log in to add a comment">
+            	<img src="msn.foxsports.com.aging_files/comment_bubble.gif" alt="Add a comment" align="absmiddle"> 
+                Add a comment
+            </a> 
+        </div>
+    </div>
+    <br class="clearMe">
+    
+    <!-- //// Add Comments Section ////-->
+    <div id="add-comments">	
+        <form id="comm" name="comm" action="" method="post" onsubmit="addComments();">
+            <textarea id="comment2add" name="comment2add" rows="3" cols="5"></textarea>
+            <br class="clearMe">
+           	<a spry:content="Log in to add a comment" href="https://login.live.com/ppsecure/secure.srf?wp=MBI_FED_SSL&amp;seclog=10&amp;wa=wsignin1.0&amp;wreply=https%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F&amp;cb=wa%3Dwsignin1.0%26wreply%3Dhttps%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F" onclick="fsPostComments(this);" name="addComment" class="add-comm" title="Log in to add a comment">
+            	<img src="msn.foxsports.com.aging_files/comment_bubble.gif" alt="Add a comment" align="absmiddle"> 
+                Post Comment
+            </a>                    
+        </form>          
+    </div>
+
+    <!-- //// Comments Content Boxes //// -->
+    <div id="comment_content" class="comment_content">              
+        
+        
+        <!-- ///// User Comment ///// -->
+        <div class="comment">
+            <a name="60701258" class="namedAncor"></a>
+           	<a alt="La_Asian" href="http://community.foxsports.com/La_Asian" class="comm-user-link avatar" title="La_Asian">
+                <img src="msn.foxsports.com.aging_files/avatar46_006.jpg" alt="La_Asian" id="fs-user_0" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "60701258")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/La_Asian" title="La_Asian" class="user-name">La_Asian</a>
+                &nbsp;
+                <span class="post-date">8/19/2009 9:36:18 PM</span>
+            </div>
+           <p class="copy">this is a young mans game but you need older veterns to teach them how to play.</p>
+            
+        </div><div class="comment on">
+            <a name="60701218" class="namedAncor"></a>
+           	<a alt="La_Asian" href="http://community.foxsports.com/La_Asian" class="comm-user-link avatar" title="La_Asian">
+                <img src="msn.foxsports.com.aging_files/avatar46_006.jpg" alt="La_Asian" id="fs-user_1" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "60701218")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/La_Asian" title="La_Asian" class="user-name">La_Asian</a>
+                &nbsp;
+                <span class="post-date">8/19/2009 9:35:47 PM</span>
+            </div>
+           <p class="copy">even
+though boston started 29-2, they couldnt keep it up getting injuries
+and slowing down along the way, which led to the magic beating them and
+the lakers finally winning again.</p>
+            
+        </div><div class="comment">
+            <a name="60082188" class="namedAncor"></a>
+           	<a alt="sanesportsfan" href="http://community.foxsports.com/sanesportsfan" class="comm-user-link avatar" title="sanesportsfan">
+                <img src="msn.foxsports.com.aging_files/avatar46.jpg" alt="sanesportsfan" id="fs-user_2" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "60082188")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/sanesportsfan" title="sanesportsfan" class="user-name">sanesportsfan</a>
+                &nbsp;
+                <span class="post-date">8/15/2009 7:04:49 AM</span>
+            </div>
+           <p class="copy">Age
+quickly catches up to you, especially in the NBA!!! This is a YOUNG
+mans game with athletism and quickness!!! What keeps the OLD FOLKS
+around is favorable officiating!!! But, even with that HELP, REALITY
+will CATCH YOU!!! ENJOY!!!</p>
+            
+        </div><div class="comment on">
+            <a name="59941928" class="namedAncor"></a>
+           	<a alt="Spurs_maniac79" href="http://community.foxsports.com/Spurs_maniac79" class="comm-user-link avatar" title="Spurs_maniac79">
+                <img src="msn.foxsports.com.aging_files/defaultUser46.jpg" alt="Spurs_maniac79" id="fs-user_3" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59941928")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/Spurs_maniac79" title="Spurs_maniac79" class="user-name">Spurs_maniac79</a>
+                &nbsp;
+                <span class="post-date">8/14/2009 10:09:18 AM</span>
+            </div>
+           <p class="copy">I
+love Shaq, but I simply don't see that experiment resulting in a
+championship series, much less a ring. Like he's done the last couple
+years, he'll show up and produce for about the first 2 months and then
+his body will catch up with him. King James isn't pacified by the
+signing of Shaq. He's still just waiting for next year, when he'll bolt
+for the brightest lights and biggest paycheck. We all know that.</p>
+            
+        </div><div class="comment">
+            <a name="59567578" class="namedAncor"></a>
+           	<a alt="AUGMAN" href="http://community.foxsports.com/AUGMAN" class="comm-user-link avatar" title="AUGMAN">
+                <img src="msn.foxsports.com.aging_files/avatar46_004.jpg" alt="AUGMAN" id="fs-user_4" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59567578")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/AUGMAN" title="AUGMAN" class="user-name">AUGMAN</a>
+                &nbsp;
+                <span class="post-date">8/11/2009 9:25:37 PM</span>
+            </div>
+           <p class="copy">And
+ended it watching the Lakers in the Finals win for the 4th time this
+decade.&nbsp; But I see your logic...they're getting better with age.</p>
+            
+        </div><div class="comment on">
+            <a name="59459728" class="namedAncor"></a>
+           	<a alt="AUGMAN" href="http://community.foxsports.com/AUGMAN" class="comm-user-link avatar" title="AUGMAN">
+                <img src="msn.foxsports.com.aging_files/avatar46_004.jpg" alt="AUGMAN" id="fs-user_5" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59459728")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/AUGMAN" title="AUGMAN" class="user-name">AUGMAN</a>
+                &nbsp;
+                <span class="post-date">8/11/2009 1:24:53 AM</span>
+            </div>
+           <p class="copy">This
+story could easily have been about the Boston has-beens.&nbsp; Pierce,
+Wallace, Garnett and Allen would have made for great comic
+relief.&nbsp; They should be playing on the Washington Generals squad
+or maybe Stern can start another league, like the veterans league for
+washed up players.&nbsp; Why not?&nbsp; He's force-feeding us the WNBA,
+why not the VNBA starring 4/5's of the Smeltics starting lineup.&nbsp;
+What a ****ing joke.</p>
+            
+        </div><div class="comment">
+            <a name="59358208" class="namedAncor"></a>
+           	<a alt="biscuitbasket" href="http://community.foxsports.com/biscuitbasket" class="comm-user-link avatar" title="biscuitbasket">
+                <img src="msn.foxsports.com.aging_files/defaultUser46.jpg" alt="biscuitbasket" id="fs-user_6" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59358208")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/biscuitbasket" title="biscuitbasket" class="user-name">biscuitbasket</a>
+                &nbsp;
+                <span class="post-date">8/10/2009 11:07:38 AM</span>
+            </div>
+           <p class="copy">Shack's
+ridiculous ego won't let a team have him come off the bench. It won't
+matter anyway- there's no way Cleveland's big men can play compete
+against Garnett/Wallace/Big Baby or Howard/Bass/Gortat.</p>
+            
+        </div><div class="comment on">
+            <a name="59344128" class="namedAncor"></a>
+           	<a alt="danvan727" href="http://community.foxsports.com/danvan727" class="comm-user-link avatar" title="danvan727">
+                <img src="msn.foxsports.com.aging_files/defaultUser46.jpg" alt="danvan727" id="fs-user_7" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59344128")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/danvan727" title="danvan727" class="user-name">danvan727</a>
+                &nbsp;
+                <span class="post-date">8/10/2009 9:26:26 AM</span>
+            </div>
+           <p class="copy">Grant
+Hill is a walking fraud that out-Madoffs Madoff.&nbsp; If his "odometer
+is only 29 years old," maybe he can pay back some of the $$$ he scammed
+from Orlando, or reimburse Detroit the funds he scammed them into
+spending on Mills, Laettner, and "coach" Irivne.&nbsp; Go hang out with
+Oprah, maybe she and Dr. Phil can "understand" why people like this
+thief.</p>
+            
+        </div><div class="comment">
+            <a name="59245618" class="namedAncor"></a>
+           	<a alt="YouAllrRight" href="http://community.foxsports.com/YouAllrRight" class="comm-user-link avatar" title="YouAllrRight">
+                <img src="msn.foxsports.com.aging_files/defaultUser46.jpg" alt="YouAllrRight" id="fs-user_8" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59245618")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/YouAllrRight" title="YouAllrRight" class="user-name">YouAllrRight</a>
+                &nbsp;
+                <span class="post-date">8/9/2009 10:42:48 AM</span>
+            </div>
+           <p class="copy">I
+don't think Shaq should start. He fouls and is on the bench during the
+1st quarter. Bring him off the bench and let Z shoot his shots to start
+the game. Shaq has improved his free throw shooting but he is still a
+liability. The Cavs have all those players and they should have done
+better in the playoffs. The Cavs have to be serious and play ball. All
+that posing and fake camera stuff has got to go. Be Serious.</p>
+            
+        </div><div class="comment on">
+            <a name="59236858" class="namedAncor"></a>
+           	<a alt="sanesportsfan" href="http://community.foxsports.com/sanesportsfan" class="comm-user-link avatar" title="sanesportsfan">
+                <img src="msn.foxsports.com.aging_files/avatar46.jpg" alt="sanesportsfan" id="fs-user_9" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59236858")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/sanesportsfan" title="sanesportsfan" class="user-name">sanesportsfan</a>
+                &nbsp;
+                <span class="post-date">8/9/2009 7:47:36 AM</span>
+            </div>
+           <p class="copy">Neither
+one of them can defend the pick and roll and neither one of them is
+agile and quick enough to adjust to the many more athletic/younger big
+men in the game!!! And both are prone to injury!!! BE REAL HERE!!!</p>
+            
+        </div><div class="comment">
+            <a name="59191118" class="namedAncor"></a>
+           	<a alt="I_know_what_UR_thinkin_punk" href="http://community.foxsports.com/I_know_what_UR_thinkin_punk" class="comm-user-link avatar" title="I_know_what_UR_thinkin_punk">
+                <img src="msn.foxsports.com.aging_files/avatar46_007.jpg" alt="I_know_what_UR_thinkin_punk" id="fs-user_10" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59191118")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/I_know_what_UR_thinkin_punk" title="I_know_what_UR_thinkin_punk" class="user-name">I_know_what_UR_thinkin_punk</a>
+                &nbsp;
+                <span class="post-date">8/8/2009 7:06:53 PM</span>
+            </div>
+           <p class="copy">Please
+Rosen, Shaq and "Z" will play 20 minutes/night each and both will
+cruise into the playoffs rested and ready for action. Cavs will average
+35 and 15 a night from that position.&nbsp; They are 2 pieces that fit
+together perfectly for the season. Of course it will all go in the
+toilet when LeBron leaves for the Knicks in June but....</p>
+            
+        </div><div class="comment on">
+            <a name="59185768" class="namedAncor"></a>
+           	<a alt="1Grizzlie" href="http://community.foxsports.com/1Grizzlie" class="comm-user-link avatar" title="1Grizzlie">
+                <img src="msn.foxsports.com.aging_files/avatar46_008.jpg" alt="1Grizzlie" id="fs-user_11" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59185768")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/1Grizzlie" title="1Grizzlie" class="user-name">1Grizzlie</a>
+                &nbsp;
+                <span class="post-date">8/8/2009 6:18:20 PM</span>
+            </div>
+           <p class="copy">Shaq shall start.</p>
+            
+        </div><div class="comment">
+            <a name="59185678" class="namedAncor"></a>
+           	<a alt="1Grizzlie" href="http://community.foxsports.com/1Grizzlie" class="comm-user-link avatar" title="1Grizzlie">
+                <img src="msn.foxsports.com.aging_files/avatar46_008.jpg" alt="1Grizzlie" id="fs-user_12" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59185678")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/1Grizzlie" title="1Grizzlie" class="user-name">1Grizzlie</a>
+                &nbsp;
+                <span class="post-date">8/8/2009 6:17:48 PM</span>
+            </div>
+           <p class="copy">The center who makes free throws and the one who doesn't.&nbsp; Looks like a starter and a finisher.&nbsp; Brilliant.</p>
+            
+        </div><div class="comment on">
+            <a name="59154828" class="namedAncor"></a>
+           	<a alt="Philly2482" href="http://community.foxsports.com/Philly2482" class="comm-user-link avatar" title="Philly2482">
+                <img src="msn.foxsports.com.aging_files/avatar46_010.jpg" alt="Philly2482" id="fs-user_13" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59154828")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/Philly2482" title="Philly2482" class="user-name">Philly2482</a>
+                &nbsp;
+                <span class="post-date">8/8/2009 1:29:54 PM</span>
+            </div>
+           <p class="copy">all
+this old player talk dosen't even matter. Its gonna be Phil-Kobe and
+the Lakers winning 2 more championships. Another back to back to back
+mirade for Phil. It's nothing new. act like ya know!</p>
+            
+        </div><div class="comment">
+            <a name="59127848" class="namedAncor"></a>
+           	<a alt="Killa_Cali_the_Golden_State" href="http://community.foxsports.com/Killa_Cali_the_Golden_State" class="comm-user-link avatar" title="Killa_Cali_the_Golden_State">
+                <img src="msn.foxsports.com.aging_files/avatar46_003.jpg" alt="Killa_Cali_the_Golden_State" id="fs-user_14" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59127848")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/Killa_Cali_the_Golden_State" title="Killa_Cali_the_Golden_State" class="user-name">Killa_Cali_the_Golden_State</a>
+                &nbsp;
+                <span class="post-date">8/8/2009 1:54:17 AM</span>
+            </div>
+           <p class="copy">Talk about bringing the dinosaurs back to life. Thier ancient history lol www.youtube.com/watch?v=Un6KFNBpmRQ</p>
+            
+        </div><div class="comment on">
+            <a name="59109858" class="namedAncor"></a>
+           	<a alt="GrewUpThereStillDislikeThem" href="http://community.foxsports.com/GrewUpThereStillDislikeThem" class="comm-user-link avatar" title="GrewUpThereStillDislikeThem">
+                <img src="msn.foxsports.com.aging_files/avatar46_002.jpg" alt="GrewUpThereStillDislikeThem" id="fs-user_15" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59109858")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/GrewUpThereStillDislikeThem" title="GrewUpThereStillDislikeThem" class="user-name">GrewUpThereStillDislikeThem</a>
+                &nbsp;
+                <span class="post-date">8/7/2009 9:13:11 PM</span>
+            </div>
+           <p class="copy">LakerinRaiderwhatever,
+Los Angeles is IDEAL compared to Arizona. I'll take a general peak of
+80 degrees to 105-110 degrees any day, having lived in both areas. :)</p>
+            
+        </div><div class="comment">
+            <a name="59109568" class="namedAncor"></a>
+           	<a alt="GrewUpThereStillDislikeThem" href="http://community.foxsports.com/GrewUpThereStillDislikeThem" class="comm-user-link avatar" title="GrewUpThereStillDislikeThem">
+                <img src="msn.foxsports.com.aging_files/avatar46_002.jpg" alt="GrewUpThereStillDislikeThem" id="fs-user_16" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59109568")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/GrewUpThereStillDislikeThem" title="GrewUpThereStillDislikeThem" class="user-name">GrewUpThereStillDislikeThem</a>
+                &nbsp;
+                <span class="post-date">8/7/2009 9:08:17 PM</span>
+            </div>
+           <p class="copy">One more thing, sure to be posted again by me soon:<br><br>CLE23
+is what the gaming community presumably calls a griefer. He posts
+absurd things merely to incite controversy. The best thing you can do
+is ignore these outlandish claims. "LeBron will score 80 points a game
+and the Cavs will go 97-0 because they are the greatest team in sports
+history" sound familiar? IGNORE IT! Don't feed the griefer!</p>
+            
+        </div><div class="comment on">
+            <a name="59108088" class="namedAncor"></a>
+           	<a alt="GrewUpThereStillDislikeThem" href="http://community.foxsports.com/GrewUpThereStillDislikeThem" class="comm-user-link avatar" title="GrewUpThereStillDislikeThem">
+                <img src="msn.foxsports.com.aging_files/avatar46_002.jpg" alt="GrewUpThereStillDislikeThem" id="fs-user_17" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59108088")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/GrewUpThereStillDislikeThem" title="GrewUpThereStillDislikeThem" class="user-name">GrewUpThereStillDislikeThem</a>
+                &nbsp;
+                <span class="post-date">8/7/2009 8:51:46 PM</span>
+            </div>
+           <p class="copy">Hey minnesota_joe and midget, it's Pats and his new SN (other one was too offensive).<br><br>Ilgauskas
+has knees that have endured the pain equivalent of: Ten years of
+running on concrete daily for at least five miles, five years of Thor
+hammers smacking into said knees and two years of Shiva knee crunches
+into a parquet floor. So the fact that he can still walk and imitate a
+running athlete is nothing short of miraculous.</p>
+            
+        </div><div class="comment">
+            <a name="59085778" class="namedAncor"></a>
+           	<a alt="minnesota_joe" href="http://community.foxsports.com/minnesota_joe" class="comm-user-link avatar" title="minnesota_joe">
+                <img src="msn.foxsports.com.aging_files/avatar46_005.jpg" alt="minnesota_joe" id="fs-user_18" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59085778")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/minnesota_joe" title="minnesota_joe" class="user-name">minnesota_joe</a>
+                &nbsp;
+                <span class="post-date">8/7/2009 5:31:05 PM</span>
+            </div>
+           <p class="copy">oleo - haven't heard that word in a bit.</p>
+            
+        </div><div class="comment on">
+            <a name="59083028" class="namedAncor"></a>
+           	<a alt="FightingBronxMidget" href="http://community.foxsports.com/FightingBronxMidget" class="comm-user-link avatar" title="FightingBronxMidget">
+                <img src="msn.foxsports.com.aging_files/avatar46_009.jpg" alt="FightingBronxMidget" id="fs-user_19" class="comm-user">  
+                    <br class="clearMe">
+                </a> 
+                
+            <a onclick='fsReportComments("1068598", "59083028")' href="javascript:void(0);" class="report-abuse" title="Report Abuse">Report Abuse</a> 
+            <div class="user-information">
+               	<a href="http://community.foxsports.com/FightingBronxMidget" title="FightingBronxMidget" class="user-name">FightingBronxMidget</a>
+                &nbsp;
+                <span class="post-date">8/7/2009 5:08:05 PM</span>
+            </div>
+           <p class="copy">The fact that Pudgy the Parrot has a cigarette shoved into his mouth is morally irresponsible.</p>
+            
+        </div> 
+
+    </div>               
+	<div id="comments-footer"> 
+        <div class="member-actions">   
+            
+            
+            <!-- /// Member comments header and navigation /// -->
+            <div id="spryregion2" title="Add a Comment" class="commentNavigation">        
+                <a onclick="fsPageComments(this, '2')" href="javascript:void(0);" class="member_comment_next" title="next">&nbsp;</a> 
+                
+                <span class="comment_counter">Page 1 of 4</span>               
+                <a onclick="fsPageComments(this, '1')" href="javascript:void(0);" class="member_comment_prev" title="previous">&nbsp;</a>
+
+    </div>               
+   
+            <a spry:content="Log in to add a comment" href="https://login.live.com/ppsecure/secure.srf?wp=MBI_FED_SSL&amp;seclog=10&amp;wa=wsignin1.0&amp;wreply=https%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F&amp;cb=wa%3Dwsignin1.0%26wreply%3Dhttps%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F" name="addComment" class="add-comm" title="Log in to add a comment">
+                <img src="msn.foxsports.com.aging_files/comment_bubble.gif" alt="Add a comment" align="absmiddle"> 
+                Add a comment
+            </a> 
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+<!--//	
+if (typeof(user.USER_ID) == 'undefined') {
+}else{
+  if (user.VERIFIED == '' || user.VERIFIED == '0') {
+    var regAlertMessage = 'In order to participate in FOXSports.com community applications (Post comments, messages and create blogs) you will first need to verify your email (<a href="/register">edit<\/a>).<br \/> Would you like to verify now?';
+    var verifyYesFunc = 'takeToVerify('+user.USER_ID+",'"+window.location.pathname + window.location.search+"')";
+    var verifyNoFunc = 'No';    
+  }
+}    
+
+    var passportLoginURL = 'https://login.live.com/ppsecure/secure.srf?wp=MBI_FED_SSL&seclog=10&wa=wsignin1.0&wreply=https%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F&cb=wa%3Dwsignin1.0%26wreply%3Dhttps%3A%2F%2Fs.foxsports.com%2Fpp%2Fresponse%3Fcfu%3Dhttp%3A%2F%2Fmsn.foxsports.com%2Fnba%2Fstory%2F9902688%2FWill-aging-stars-be-golden-oldies-or-moldy%3F'; // get the pasport login url
+
+    // conditionally run the comments.    
+     // story
+    startComments("StoryComments",'9902688');  // load up story comments
+    
+//-->
+</script>
+
+
+
+
+
+            <p class="clearMe">
+          </p></div>
+          <p class="clearMe">
+        </p></div>
+    <p class="clearMe">
+
+    </p></div>
+    <!-- END: [MAIN CONTENT] -->
+
+    <!-- BEGIN: RIGHT RAIL -->
+    <div id="extra_content">
+        <!-- Promotional Area -->
+        <div id="ec_promo">
+
+
+
+
+
+
+
+
+<a href="http://www.facebook.com/foxsports" title=""><img src="msn.foxsports.com.aging_files/9695232_36_10.jpg" alt=""></a>
+</div>
+
+       <!-- // headlines // -->
+       
+
+
+
+
+
+
+
+ <div class="out_info_box" id="sport_headlines">
+   <h3>NBA HEADLINES</h3>
+   <div class="out_info_box_content">
+     <ul>
+       <li><a href="http://msn.foxsports.com/nba/story/9997786/NBA-suspends-Smith,-Richardson-for-car-offenses" title="NBA%20suspends%20Smith%2C%20Richardson%20for%20car%20offenses">NBA suspends Smith, Richardson for car offenses</a></li><li><a href="http://msn.foxsports.com/nba/story/9993382/Shaq-gets-ticket-for-stopping-on-Hollywood-street" title="Shaq%20gets%20ticket%20for%20stopping%20on%20Hollywood%20street">Shaq gets ticket for stopping on Hollywood street</a></li><li><a href="http://msn.foxsports.com/nba/story/9992390/Iverson-says-he-has-offer-from-Grizzlies" title="Iverson%20says%20he%20has%20offer%20from%20Grizzlies">Iverson says he has offer from Grizzlies</a></li><li><a href="http://msn.foxsports.com/nba/story/9921486/Kahn-says-no-resolution-yet-in-Rubio-case" title="Kahn%20says%20no%20resolution%20yet%20in%20Rubio%20case">Kahn says no resolution yet in Rubio case</a></li><li><a href="http://msn.foxsports.com/nba/story/9979830/Former-ref-Donaghy-behind-bars-again" title="Former%20ref%20Donaghy%20behind%20bars%20again">Former ref Donaghy behind bars again</a></li>
+     </ul>
+
+
+     <!-- // Display writer stories if the author is a Fox Writer// -->
+     
+      <div class="gray_dots"></div>
+     <h4>MORE BY CHARLEY ROSEN</h4>
+     	<ul>
+       <li><a href="http://msn.foxsports.com/nba/story/9934370/Rodman-was-a-winner,-but-is-Artest?" title="Rodman was a winner, but is Artest?">Rodman was a winner, but is Artest?</a></li><br><li><a href="http://msn.foxsports.com/nba/story/9953798/In-opinion-game,-you-win-some-and-lose-some" title="In opinion game, you win some and lose some">In opinion game, you win some and lose some</a></li><br><li><a href="http://msn.foxsports.com/nba/story/9990100/Greatness-doesn%27t-carry-over-from-court-to-bench" title="Greatness doesn't carry over from court to bench">Greatness doesn't carry over from court to bench</a></li><br>
+     </ul>
+     
+   </div>
+   <div class="out_info_box_btm"></div>
+ </div>
+
+
+
+        <p class="clearMe">
+
+        <!-- // add 300 X 250 // -->
+        </p><div class="ad_300x250">
+            <img src="msn.foxsports.com.aging_files/arrow_down_gray.gif" border="0">&nbsp;advertisement<br>
+            <div id="ad300x250box"><iframe id="dapIfM1" src="msn.foxsports.com.aging_files/a_003.html" frameborder="0" height="250" scrolling="no" width="300"></iframe>
+    
+
+
+
+            </div>
+        </div>
+        <p class="clearMe">
+        		<!-- // OLE OLE PROMO // -->
+		  
+		<!-- // POWER SOCCER MODULE // -->
+		    
+        <!-- // sports vides // -->
+        
+
+
+
+
+
+
+
+</p><div class="out_info_box" id="fs_video">
+  <h3>FOX SPORTS NBA VIDEO</h3>
+  <div class="out_info_box_content">
+  
+     <div class="video_conent">
+        <img src="msn.foxsports.com.aging_files/9954628_42_1.jpg" alt="" height="69" width="92">
+        <a href="javascript:msnvDwd('33',%20'953c337b-9714-4922-bbbc-eae3e856005e',%20'us',%20'',%20'm1483',%20'foxsports',%20fsHbxTrackingPath);" class="tv" title="J-Rich's jam session">J-Rich's jam session</a><br>
+Jason Richardson isn't just a guard for the Phoenix Suns. He's also a
+DJ. Join J-Rich at Los Angeles' Scratch DJ Academy for a lesson with DJ
+Hapa. </div>
+    
+     <div class="video_conent">
+        <img src="msn.foxsports.com.aging_files/9922932_42_1.jpg" alt="" height="69" width="92">
+        <a href="javascript:msnvDwd('33',%20'4e88e3d6-2504-4bf7-bd40-9f9427da73e2',%20'us',%20'',%20'm1483',%20'foxsports',%20fsHbxTrackingPath);" class="tv" title="Rambis named T-Wolves coach">Rambis named T-Wolves coach</a><br>
+Kurt Rambis talks after being named head coach of the Timberwolves.
+Rambis had been an assistant with the Los Angeles Lakers for most of
+the past seven seasons. </div>
+    
+    <div class="gray_dots"><!-- gray dots --></div>
+    <div>
+        <a href="javascript:msnvDwd('33',%20'',%20'us',%20'',%20'm1483',%20'foxsports',%20fsHbxTrackingPath);" class="fox_sports_more" title="More FOX Sports Video">More FOX Sports Video &gt;</a>
+    </div>
+  </div>
+  <div class="out_info_box_btm"></div>
+</div>
+
+
+
+
+        <p class="clearMe">
+
+        <!-- // MSN More than sports // -->
+        
+
+
+
+
+</p><div id="more_than_sports" class="out_info_box">
+<h3>MORE THAN SPORTS <span>on</span><img alt="msn" class="msn_info_box" src="msn.foxsports.com.aging_files/msn.gif"></h3>
+<div class="out_info_box_content">
+<table border="0" cellpadding="3" cellspacing="0" width="96%">
+<tbody><tr valign="top">
+<td valign="middle" width="90"><a href="http://www.bing.com/xrank?FORM=FOXSP"><img src="msn.foxsports.com.aging_files/19FD1A68193F21B8ABEC62C329C5EB.jpg" border="0" height="90" width="90"></a></td><td valign="middle" width="*">
+                •&nbsp;<a href="http://www.bing.com/xrank?FORM=FOXSP">In demand: Who are the most-searched celebs today?</a>
+<br>
+                •&nbsp;<a href="http://health.msn.com/redefining-your-life-after-40/slideshow.aspx?cp-documentid=100243251">Foods that rejuvenate your body and slow aging</a>
+<br>
+                •&nbsp;<a href="http://video.msn.com/?mkt=en-us&amp;vid=3a48be91-70ed-478d-9c3f-d03ab35f603e&amp;playlist=videoByUuids:uuids:105f4320-65e0-4837-80d5-417f3ac9aa81%2C5a513a1d-9be7-41f1-9a42-94ee5adcd331&amp;from=FOXSPORTS&amp;tab=m1213932813320">Video: Do frequent flyer miles actually pay off?</a>
+<br>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="out_info_box_btm"></div>
+</div>
+        <p class="clearMe">
+
+        <!-- // Fox Store // -->
+        
+          
+
+
+
+                 
+
+
+
+</p><p class="clearMe"></p><div class="out_info_box" id="gear"><h3>FOX SPORTS STORE</h3><div class="out_info_box_content">
+<div class="gear_box gray_dots"><p id="storeitemscontainer0"><table width="100%"><tbody><tr><td><a href="http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605965:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53172%26bing%3d41-53172&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=72TVlqWfE78%3d" +="" target="_blank"><img src="msn.foxsports.com.aging_files/24065070.jpg" style="border: 1px solid rgb(153, 153, 153);" height="100" width="100"></a></td><td align="left"><div class="storeItemTitle"><a href="http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605965:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53172%26bing%3d41-53172&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=72TVlqWfE78%3d" +="" target="_blank">Ben Gordon Red Adidas NBA Replica Chicago Bulls Youth Jersey</a></div><br><div class="storeItemPrice"><a href="http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605965:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53172%26bing%3d41-53172&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=72TVlqWfE78%3d" +="" target="_blank">$19.99</a></div></td></tr></tbody></table></p></div>
+<div class="gear_box gray_dots"><p id="storeitemscontainer1"><table width="100%"><tbody><tr><td><a href="http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875649533:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-09337%26bing%3d51-09337&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=1p2DGKGpP1I%3d" +="" target="_blank"><img src="msn.foxsports.com.aging_files/24084705.jpg" style="border: 1px solid rgb(153, 153, 153);" height="100" width="100"></a></td><td align="left"><div class="storeItemTitle"><a href="http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875649533:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-09337%26bing%3d51-09337&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=1p2DGKGpP1I%3d" +="" target="_blank">Los Angeles Lakers Women's Adidas Action Jackson Long Sleeve Tissue Tee</a></div><br><div class="storeItemPrice"><a href="http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875649533:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-09337%26bing%3d51-09337&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=1p2DGKGpP1I%3d" +="" target="_blank">$31.99</a></div></td></tr></tbody></table></p></div>
+<div class="gear_box gray_dots"><p id="storeitemscontainer2"><table width="100%"><tbody><tr><td><a href="http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:982703328:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004"><img src="msn.foxsports.com.aging_files/46940690.jpg" style="border: 1px solid rgb(153, 153, 153);" height="100" width="100"></a></td><td align="left"><div class="storeItemTitle"><a href="http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:982703328:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004">Los Angeles Lakers Table &amp; Chairs Set</a></div><br><div class="storeItemPrice"><a href="http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:982703328:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004">$160.02</a></div></td></tr></tbody></table></p></div>
+<div><a href="http://www.bing.com/shopping/search?q=sports&amp;p1=%5bCommerceService+scenario%3d%22f%22+r%3d%22%2cleafcategoryid%7c5795%22+p%3d%22df5c7f1ba4404c05b3f423c4e307eee6%22%5d&amp;FORM=SHOSPO" target="_blank" class="fox_sports_more" id="view_fox_sports_store">View the FOX Sports Store &gt;</a></div></div><div class="out_info_box_btm"></div></div>
+<script type="text/javascript">
+				var storeItems = new Array(15);
+				var deliveryAgentStoreItems = new Array(15);
+				var itemsToShow = 1;
+				
+        StoreItem = function(name, url, imageUrl, price) {
+          this.name = name;
+          this.url = url;
+          this.imageUrl = imageUrl;
+          this.price = price;
+        }
+
+        StoreItem.prototype.getHTML = function() {
+          var html = '<table width="100%">';
+          html += '<tr>';
+          html += '<td><a href="'+this.url+'" ><img src="'+this.imageUrl+'" width="100" height="100" style="border:1px solid #999999;" /></a>';
+          html += '</td>';
+          html += '<td align="left">';
+          html += '<div class="storeItemTitle"><a href="'+this.url+'" >'+this.name+'</a></div>';
+          html += '<br/>';
+          html += '<div class="storeItemPrice"><a href="'+this.url+'" >$'+this.price+'</a></div>';
+          html += '</td>';
+          html += '</tr>';
+          html += '</table>';
+          return html;
+        }
+
+        StoreItem.prototype.display = function(container) {
+          container.innerHTML += this.getHTML();
+        }
+
+        DeliveryAgentStoreItem = function(name, url, imageUrl, price) {
+          this.name = name;
+          this.url = url;
+          this.imageUrl = imageUrl;
+          this.price = price;
+        }
+
+        DeliveryAgentStoreItem.prototype.getHTML = function() {
+          var html = '<table width="100%">';
+          html += '<tr>';
+          html += '<td><a href="'+this.url+'" ><img src="'+this.imageUrl+'" width="100" height="100" style="border:1px solid #999999;" /></a>';
+          html += '</td>';
+          html += '<td align="left">';
+          html += '<div class="storeItemTitle"><a href="'+this.url+'" >'+this.name+'</a></div>';
+          html += '<br/>';
+          html += '<div class="storeItemPrice"><a href="'+this.url+'" >$'+this.price+'</a></div>';
+          html += '</td>';
+          html += '</tr>';
+          html += '</table>';
+          return html;
+        }
+
+        DeliveryAgentStoreItem.prototype.display = function(container) {
+          container.innerHTML += this.getHTML();
+        }
+        
+			
+        
+          var item = new StoreItem('NBA Team Throw Nets', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=7:35818:1164858727:S:5956:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fmsn.pricegrabber.com%2frd.php%3fr%3d885%26m%3d17680135%26q%3dn%26pg%3d%7e%7e9%26k%3dcbf761be26de36da87aa560524c995f0%26source%3dfeed%26url%3dhttp%253A%252F%252Fwww%252Etarget%252Ecom%252Fgp%252Fredirect%252Ehtml%252Fref%253Dtgt%255Fadv%255FXSP10001%253FURL%253D%252Fgp%252Fdetail%252Ehtml%25253Fasin%25253DB000BQVU4I%252526AFID%25253Dpricegrabber%255Fdf%252526LNM%25253DIndoor%255FLiving%257CBed%255F%25252B%255FBath%257CB000BQVU4I%252526CPNG%25253Dhome&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=DvqN%2fdAWlqs%3d" + target="_blank', 'http://images.shopping.msn.com/img/6/2987/109/29253502.jpg', '29.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('New Jersey Nets White Knit Hat', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875646621:S:5956:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-12567%26bing%3d51-12567&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=3qAPGAO3aqw%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/14/24069945.jpg', '12.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Detroit Pistons Rocking Chair', 'http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:1004225910:S:5952:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004', 'http://images.shopping.msn.com/img/6/2991/269/48758273.jpg', '99.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Boston Celtics Adidas True Logo Long Sleeve T-Shirt', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875757807:S:5949:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-48502%26bing%3d41-48502&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=wmIO4RrsS%2f0%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/11/24039115.jpg', '18.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Orlando Magic Fitted Cap by New Era', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:1129250168:S:5959:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d64-04451%26bing%3d64-04451&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=183yap9GWYg%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24059310.jpg', '17.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Chicago Bulls NBA On Court Player Track Jacket', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:1124211332:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-92420%26bing%3d51-92420&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=MmaySY4VxU4%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24055828.jpg', '99.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Andres Nocioni White Adidas NBA Replica Chicago Bulls Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605467:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53219%26bing%3d41-53219&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=sWMbBS586Ws%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/11/24039531.jpg', '24.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Kevin Garnett Blue Reebok NBA Swingman Minnesota Timberwolves Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:1124207065:S:5970:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d31-43558%26bing%3d31-43558&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=ZAriru4%2bmic%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/11/24032595.jpg', '29.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('LaMarcus Aldridge Portland Trail Blazers Black Swingman Adidas NBA Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875636518:S:5972:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-55239%26bing%3d41-55239&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=%2b6uwtqNz4D4%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24065162.jpg', '79.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Ben Gordon Red Adidas NBA Replica Chicago Bulls Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605965:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53172%26bing%3d41-53172&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=72TVlqWfE78%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24065070.jpg', '19.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Baron Davis White Adidas NBA Replica Golden State Warriors Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875636339:S:5965:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53677%26bing%3d41-53677&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=3NOxRPitpbs%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/12/24039606.jpg', '19.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Los Angeles Lakers Women\'s Adidas Action Jackson Long Sleeve Tissue Tee', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875649533:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-09337%26bing%3d51-09337&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=1p2DGKGpP1I%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/15/24084705.jpg', '31.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Los Angeles Lakers Table &amp; Chairs Set', 'http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:982703328:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004', 'http://images.shopping.msn.com/img/6/2991/260/46940690.jpg', '160.02');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Michael Redd Adidas NBA Kid\'s 4-7 Replica Milwaukee Bucks Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875636413:S:5955:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-54440%26bing%3d41-54440&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=NP5CXjmhoTQ%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24065120.jpg', '31.99');
+          storeItems.push(item);
+        
+          var item = new StoreItem('Allen Iverson Blue Adidas NBA Light Replica Denver Nuggets Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875604486:S:5964:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-95072%26bing%3d41-95072&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=TjtIsjY6Cng%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/14/24081246.jpg', '18.99');
+          storeItems.push(item);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('NBA Team Throw Nets', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=7:35818:1164858727:S:5956:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fmsn.pricegrabber.com%2frd.php%3fr%3d885%26m%3d17680135%26q%3dn%26pg%3d%7e%7e9%26k%3dcbf761be26de36da87aa560524c995f0%26source%3dfeed%26url%3dhttp%253A%252F%252Fwww%252Etarget%252Ecom%252Fgp%252Fredirect%252Ehtml%252Fref%253Dtgt%255Fadv%255FXSP10001%253FURL%253D%252Fgp%252Fdetail%252Ehtml%25253Fasin%25253DB000BQVU4I%252526AFID%25253Dpricegrabber%255Fdf%252526LNM%25253DIndoor%255FLiving%257CBed%255F%25252B%255FBath%257CB000BQVU4I%252526CPNG%25253Dhome&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=DvqN%2fdAWlqs%3d" + target="_blank', 'http://images.shopping.msn.com/img/6/2987/109/29253502.jpg', '29.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('New Jersey Nets White Knit Hat', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875646621:S:5956:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-12567%26bing%3d51-12567&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=3qAPGAO3aqw%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/14/24069945.jpg', '12.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Detroit Pistons Rocking Chair', 'http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:1004225910:S:5952:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004', 'http://images.shopping.msn.com/img/6/2991/269/48758273.jpg', '99.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Boston Celtics Adidas True Logo Long Sleeve T-Shirt', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875757807:S:5949:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-48502%26bing%3d41-48502&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=wmIO4RrsS%2f0%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/11/24039115.jpg', '18.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Orlando Magic Fitted Cap by New Era', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:1129250168:S:5959:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d64-04451%26bing%3d64-04451&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=183yap9GWYg%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24059310.jpg', '17.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Chicago Bulls NBA On Court Player Track Jacket', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:1124211332:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-92420%26bing%3d51-92420&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=MmaySY4VxU4%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24055828.jpg', '99.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Andres Nocioni White Adidas NBA Replica Chicago Bulls Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605467:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53219%26bing%3d41-53219&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=sWMbBS586Ws%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/11/24039531.jpg', '24.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Kevin Garnett Blue Reebok NBA Swingman Minnesota Timberwolves Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:1124207065:S:5970:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d31-43558%26bing%3d31-43558&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=ZAriru4%2bmic%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/11/24032595.jpg', '29.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('LaMarcus Aldridge Portland Trail Blazers Black Swingman Adidas NBA Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875636518:S:5972:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-55239%26bing%3d41-55239&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=%2b6uwtqNz4D4%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24065162.jpg', '79.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Ben Gordon Red Adidas NBA Replica Chicago Bulls Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875605965:S:5950:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53172%26bing%3d41-53172&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=72TVlqWfE78%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24065070.jpg', '19.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Baron Davis White Adidas NBA Replica Golden State Warriors Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875636339:S:5965:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-53677%26bing%3d41-53677&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=3NOxRPitpbs%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/12/24039606.jpg', '19.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Los Angeles Lakers Women\'s Adidas Action Jackson Long Sleeve Tissue Tee', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875649533:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d51-09337%26bing%3d51-09337&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=1p2DGKGpP1I%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/15/24084705.jpg', '31.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Los Angeles Lakers Table &amp; Chairs Set', 'http://shopping.msn.com/track/TrackResultClick.aspx?p=6:33963:982703328:S:5968:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=prices.aspx&amp;ptnrId=38&amp;ptnrData=24004', 'http://images.shopping.msn.com/img/6/2991/260/46940690.jpg', '160.02');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Michael Redd Adidas NBA Kid\'s 4-7 Replica Milwaukee Bucks Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875636413:S:5955:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-54440%26bing%3d41-54440&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=NP5CXjmhoTQ%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/13/24065120.jpg', '31.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+          var deliveryAgentItem = new DeliveryAgentStoreItem('Allen Iverson Blue Adidas NBA Light Replica Denver Nuggets Youth Jersey', 'http://shopping.msn.com/track/TrackItemClick.aspx?p=4100:15432:875604486:S:5964:5947:-1:32:-1:-1:-1:-1:100:-1:11&amp;u=http%3a%2f%2fwww.fansedge.com%2fProductDetail.aspx%3fpfId%3d41-95072%26bing%3d41-95072&amp;ptnrId=38&amp;ptnrData=24004&amp;hsv=TjtIsjY6Cng%3d" + target="_blank', 'http://images.shopping.msn.com/img/4100/3955/14/24081246.jpg', '18.99');
+          deliveryAgentStoreItems.push(deliveryAgentItem);
+        
+        
+        var itemsShown = 0;
+        var itemIndex = -1;
+        var lastItemIndex = -1;
+        itemsToShow =1;
+        while (itemsShown < itemsToShow) {
+          while ((itemIndex = Math.floor(Math.random() * deliveryAgentStoreItems.length)) && itemIndex != lastItemIndex) {
+            if (deliveryAgentStoreItems[itemIndex]) {
+              lastItemIndex = itemIndex;
+              deliveryAgentStoreItems[itemIndex].display(document.getElementById("storeitemscontainer0"));
+              ++itemsShown;
+              break;
+            }
+          }
+        }
+
+        var itemsShown = 0;
+        var itemIndex = -1;
+        var lastItemIndex = -1;
+        itemsToShow = 2;
+        while (itemsShown < itemsToShow) {
+          while ((itemIndex = Math.floor(Math.random() * storeItems.length)) && itemIndex != lastItemIndex) {
+            if (storeItems[itemIndex]) {
+              lastItemIndex = itemIndex;
+              storeItems[itemIndex].display(document.getElementById("storeitemscontainer1"));
+              ++itemsShown;
+              if ((storeItems.length-1)>itemIndex) {
+                  itemIndex++;
+              }else{
+                  itemIndex--;
+              }
+              storeItems[itemIndex].display(document.getElementById("storeitemscontainer2"));
+              ++itemsShown;
+              break;
+            }
+          }
+        }
+        
+      </script>
+
+
+        
+        <p class="clearMe">
+
+        <!-- // Advertisements -->
+        </p><div class="ad_300x250">
+            <img src="msn.foxsports.com.aging_files/arrow_down_gray.gif" border="0">&nbsp;advertisement<br>
+            
+
+
+    
+       <div id="adOverture300x250box"><iframe id="dapIfM2" src="msn.foxsports.com.aging_files/a_003.html" frameborder="0" height="250" scrolling="no" width="300"></iframe></div>
+       
+     
+      <script>
+        dapMgr.enableACB('adOverture300x250box',false);
+        dapMgr.renderAd('adOverture300x250box', '&PG=SPTX04&AP=1089', 300, 250);
+      </script>
+    
+
+
+        </div>
+        <p class="clearMe">
+
+
+    </p></div>
+    <!-- END: [EXTRA CONTENT SECTION] -->
+ </div>
+    <!-- BEGIN: [FOXSPORTS.COM SITE MAP LINKS] -->
+    <div id="fs_site_links" title="FoxSports.com Site Links">
+      
+
+
+
+<div class="first_seo_div">
+<h3>NBA Coverage</h3>
+<ul title="NBA Coverage">
+<li title="NBA Scores"><a href="http://msn.foxsports.com/nba/scores" title="NBA Scores">NBA Scores</a></li>
+<li title="NBA Schedules"><a href="http://msn.foxsports.com/nba/schedule" title="NBA Schedules">NBA Schedules</a></li>
+<li title="NBA Standings"><a href="http://msn.foxsports.com/nba/standings" title="NBA Standings">NBA Standings</a></li>
+<li title="NBA Stats"><a href="http://msn.foxsports.com/nba/stats" title="NBA Stats">NBA Stats</a></li>
+<li title="NBA Transactions"><a href="http://msn.foxsports.com/nba/transactions" title="NBA Transactions">NBA Transactions</a></li> <li title="NBA Teams"><a href="http://msn.foxsports.com/nba/teams" title="NBA Teams">NBA Teams</a></li>
+<li title="NBA Players"><a href="http://msn.foxsports.com/nba/players" title="NBA Players">NBA Players</a></li>
+<li title="NBA Tickets"><a href="http://www.razorgator.com/tickets/sports/basketball/nba/" title="NBA Tickets" onclick="this.href=this.href+'?c=79-3-2-0-0-0-0&amp;pid=foxsports'">NBA Tickets</a></li>
+</ul>
+</div>
+
+<div>
+<h3>NBA Teams</h3>
+<ul title="NBA Teams">
+<li title="Atlanta Hawks"><a href="http://msn.foxsports.com/nba/team/atlanta-hawks" title="Atlanta Hawks">Atlanta Hawks</a></li>
+<li title="Boston Celtics"><a href="http://msn.foxsports.com/nba/team/boston-celtics" title="Boston Celtics">Boston Celtics</a></li>
+<li title="Charlotte Bobcats"><a href="http://msn.foxsports.com/nba/team/charlotte-bobcats" title="Charlotte Bobcats">Charlotte Bobcats</a></li>
+<li title="Chicago Bulls"><a href="http://msn.foxsports.com/nba/team/chicago-bulls" title="Chicago Bulls">Chicago Bulls</a></li>
+<li title="Cleveland Cavaliers"><a href="http://msn.foxsports.com/nba/team/cleveland-cavaliers" title="Cleveland Cavaliers">Cleveland Cavaliers</a></li>
+<li title="Dallas Mavericks"><a href="http://msn.foxsports.com/nba/team/dallas-mavericks" title="Dallas Mavericks">Dallas Mavericks</a></li>
+<li title="Denver Nuggets"><a href="http://msn.foxsports.com/nba/team/denver-nuggets" title="Denver Nuggets">Denver Nuggets</a></li>
+<li title="Detroit Pistons"><a href="http://msn.foxsports.com/nba/team/detroit-pistons" title="Detroit Pistons">Detroit Pistons</a></li>
+</ul>
+</div>
+
+<div>
+<h3>&nbsp;</h3>
+<ul title="NBA Teams">
+<li title="Golden State Warriors"><a href="http://msn.foxsports.com/nba/team/golden-state-warriors" title="Golden State Warriors">Golden State Warriors</a></li>
+<li title="Houston Rockets"><a href="http://msn.foxsports.com/nba/team/houston-rockets" title="Houston Rockets">Houston Rockets</a></li>
+<li title="Indiana Pacers"><a href="http://msn.foxsports.com/nba/team/indiana-pacers" title="Indiana Pacers">Indiana Pacers</a></li>
+<li title="Los Angeles Clippers"><a href="http://msn.foxsports.com/nba/team/los-angeles-clippers" title="Los Angeles Clippers">Los Angeles Clippers</a></li>
+<li title="Los Angeles Lakers"><a href="http://msn.foxsports.com/nba/team/los-angeles-lakers" title="Los Angeles Lakers">Los Angeles Lakers</a></li>
+<li title="Memphis Grizzlies"><a href="http://msn.foxsports.com/nba/team/memphis-grizzlies" title="Memphis Grizzlies">Memphis Grizzlies</a></li>
+<li title="Miami Heat"><a href="http://msn.foxsports.com/nba/team/miami-heat" title="Miami Heat">Miami Heat</a></li>
+<li title="Milwaukee Bucks"><a href="http://msn.foxsports.com/nba/team/milwaukee-bucks" title="Milwaukee Bucks">Milwaukee Bucks</a></li>
+</ul>
+</div>
+
+<div>
+<h3>&nbsp;</h3>
+<ul title="NBA Teams">
+<li title="Minnesota Timberwolves"><a href="http://msn.foxsports.com/nba/team/minnesota-timberwolves" title="Minnesota Timberwolves">Minnesota Timberwolves</a></li>
+<li title="New Jersey Nets"><a href="http://msn.foxsports.com/nba/team/new-jersey-nets" title="New Jersey Nets">New Jersey Nets</a></li>
+<li title="New Orleans Hornets"><a href="http://msn.foxsports.com/nba/team/new-orleans-hornets" title="New Orleans Hornets">New Orleans Hornets</a></li>
+<li title="New York Knicks"><a href="http://msn.foxsports.com/nba/team/new-york-knicks" title="New York Knicks">New York Knicks</a></li>
+<li title="Oklahoma City Thunder"><a href="http://msn.foxsports.com/nba/team/oklahoma-city-thunder" title="Oklahoma City Thunder">Oklahoma City Thunder</a></li>
+<li title="Orlando Magic"><a href="http://msn.foxsports.com/nba/team/orlando-magic" title="Orlando Magic">Orlando Magic</a></li>
+<li title="Philadelphia 76ers"><a href="http://msn.foxsports.com/nba/team/philadelphia-76ers" title="Philadelphia 76ers">Philadelphia 76ers</a></li>
+</ul>
+</div>
+
+<div>
+<h3>&nbsp;</h3>
+<ul title="NBA Teams">
+<li title="Phoenix Suns "><a href="http://msn.foxsports.com/nba/team/phoenix-suns" title="Phoenix Suns">Phoenix Suns</a></li>
+<li title="Portland Trail Blazers "><a href="http://msn.foxsports.com/nba/team/portland-trail-blazers" title="Portland Trail Blazers">Portland Trail Blazers</a></li>
+<li title="Sacramento Kings"><a href="http://msn.foxsports.com/nba/team/sacramento-kings" title="Sacramento Kings">Sacramento Kings</a></li>
+<li title="San Antonio Spurs"><a href="http://msn.foxsports.com/nba/team/san-antonio-spurs" title="San Antonio Spurs">San Antonio Spurs</a></li>
+<li title="Toronto Raptors"><a href="http://msn.foxsports.com/nba/team/toronto-raptors" title="Toronto Raptors">Toronto Raptors</a></li>
+<li title="Utah Jazz"><a href="http://msn.foxsports.com/nba/team/utah-jazz" title="Utah Jazz">Utah Jazz</a></li>
+<li title="Washington Wizards "><a href="http://msn.foxsports.com/nba/team/washington-wizards" title="Washington Wizards">Washington Wizards</a></li>
+</ul>
+</div>
+
+<div class="last_seo_div">
+<h3>Also on FOXSports.com</h3>
+<ul title="Also on FOXSports.com">
+<li title="NFL"><a href="http://msn.foxsports.com/nfl" title="NFL">NFL</a></li>
+<li title="MLB"><a href="http://msn.foxsports.com/mlb" title="MLB">MLB</a></li>
+<li title="NHL"><a href="http://msn.foxsports.com/nhl" title="NHL">NHL</a></li>
+<li title="NASCAR"><a href="http://msn.foxsports.com/nascar" title="NASCAR">NASCAR</a></li>
+<li title="NCAA Football"><a href="http://msn.foxsports.com/cfb" title="NCAA Football">NCAA Football</a></li>
+<li title="NCAA Basketball"><a href="http://msn.foxsports.com/cbk" title="NCAA Basketball">NCAA Basketball</a></li>
+<li title="Video"><a href="http://msn.foxsports.com/video" title="Video">Video</a></li>
+<li title="Fantasy"><a href="http://msn.foxsports.com/fantasy" title="Fantasy">Fantasy</a></li>
+</ul>
+</div>
+
+    </div>
+    <!-- END: [FOXSPORTS.COM SITE MAP LINKS] -->
+
+        
+
+
+
+<div class="comBottomNav">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr valign="middle">
+      <td style="border-right: 1px solid rgb(227, 227, 227); width: 50%;">
+      	<div class="bottomNav">
+          <b>FOXSports.com &gt;&gt;</b>
+          <a href="http://msn.foxsports.com/feedback" target="_blank" title="Contact Us">Contact Us</a> |
+          <a href="http://msn.foxsports.com/press" target="_blank" title="Press">Press</a> |
+          <a href="http://www.foxcareers.com/" target="_blank" title="Jobs">Jobs</a> |
+          <a href="http://www.razorgator.com/?c=79-3-1-0-0-0-0&amp;pid=foxsports/" target="_blank" title="Tickets">Tickets</a> |
+          <a href="http://surveys2.researchresults.com/192/0030/1920030.htm?l=1" target="_blank" title="Join Our Opinion Panel">Join Our Opinion Panel</a> |
+          <a href="http://msn.foxsports.com/other/story/2005035" title="RSS index page">Subscribe</a>
+          <br>
+          <b>Other Fox Sites &gt;&gt;</b>
+          <a href="http://www.fox.com/" target="_blank" title="FOX.com">FOX.com</a> |
+          <a href="http://www.foxnews.com/" target="_blank" title="FOX News">FOX News</a> |
+          <a href="http://www.newscorp.com/" target="_blank" title="News Corp.">News Corp.</a> |
+          <a href="http://www.foxsportssupports.com/" target="_blank" title="FOX Sports Supports">FOX Sports Supports</a>
+        </div>
+      </td>
+      <td>        	
+        <div class="bottomNav">
+          <div style="float: right;">
+            <span style="color: rgb(153, 51, 51);">New </span><a href="http://msn.foxsports.com/name/Legal/privacyPolicy" target="_blank" title="Privacy Policy">Privacy Policy</a> |
+            <span style="color: rgb(153, 51, 51);">New </span><a href="http://msn.foxsports.com/name/Legal/termsOfUse" target="_blank" title="Terms of Use">Terms of Use</a>
+          </div>
+          <span style="color: rgb(136, 136, 136);">Statistical Information provided by:</span>
+          <a href="http://biz.stats.com/" target="_blank" title="Stats LLC">STATS LLC</a>
+					<br>
+          <div style="float: right;">
+            <!--oobegin-->
+            <script language="javascript" type="text/javascript" charset="windows-1252" src="msn.foxsports.com.aging_files/oo_engine.js"></script>
+            <script language="javascript" type="text/javascript" charset="windows-1252">
+              O_GoT('<img src="/fe/img/Misc/OpinionLab/sm_933_oo.gif" border="0" title="Site Feedback" style="margin-right:5px; float:none;">Site Feedback');
+            </script><a href="javascript:O_LC()" style="font-weight: normal; color: rgb(153, 51, 51);"><img src="msn.foxsports.com.aging_files/sm_933_oo.gif" title="Site Feedback" style="margin-right: 5px; float: none;" border="0">Site Feedback</a>
+            <!--ooend-->
+          </div>
+          <span style="color: rgb(136, 136, 136);">© 2009 Fox Sports Interactive Media, LLC.  All rights reserved.</span>
+        </div>
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+<script type="text/javascript">
+<!--//
+try{
+	if(fsHbxAutoRun == true){ // if there is no hold or bypass, launch hitbox
+		launchFsHbx(); // launch hitbox
+	}
+	
+	function launchFsHbx(){ // launch hbx script
+		hbx.pn= _hbxStrip(fsHbxPageName); // sets the hbx page name
+		hbx.mlc= _hbxStrip(fsHbxTrackingPath); // sets the hbx tracking path
+		var _pn= _hbxStrip(fsHbxPageName);  // sets the hbx page name
+		var _mlc= _hbxStrip(fsHbxTrackingPath); // sets the hbx tracking path			
+			
+		var head = document.getElementsByTagName('head').item(0); // get the header tag	
+		var script = document.createElement('script'); // create a script tag
+		script.src = "/fe/js/hbx.js"; // set the script source
+		script.type = "text/javascript"; // set the type 
+		script.defer = true; // set the defer
+		head.appendChild(script); // place the script on the page	
+	}
+}
+catch(e) { /* ignore */ }
+//-->
+</script>
+
+
+
+
+
+
+
+
+<!-- Begin comScore Tag -->
+<script>
+
+
+</script>
+<script language="javascript" src="msn.foxsports.com.aging_files/beacon.js" type="text/javascript"></script>
+<script type="text/javascript">
+//document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+COMSCORE.beacon({
+
+    c1:2,
+
+    c2:6035208,
+
+    c3:"",
+
+    c4:"",
+
+    c5:"",
+
+    c6:"",
+
+    c15:""
+
+  });
+</script>
+<noscript> <img
+src="http://b.scorecardresearch.com/b?c1=2&c2=6035208&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1"
+style="display:none" width="0" height="0" alt="" />
+</noscript>
+
+<!-- End comScore Tag -->
+
+    <div class="bdyBottom"></div>
+    
+
+
+    
+
+
+
+<style>
+.big7 {font:11px tahoma, sans-serif; color:#183390;}
+.big7 a, .big7 a:link ,.big7 a:visited {font:bold 11px tahoma, sans-serif;text-decoration:none; color:#183390;}
+.big7 a:hover, .big7 a:visited:hover {text-decoration:underline; color:#183390;}
+</style>
+<script language="javascript">
+if (navigator.appName.indexOf('WebTV') != -1) {
+  document.write('<embed src="wtv-tricks:/msndispatch?type=tv-navbar-insert&amp;loc=top-navbar" height="33" width="544"></embed>');
+} else {
+  document.write('<div class="spacer10"></div>');
+  document.write('<div class="dMSNME_1" style="position:relative; top:-8px;"><table width="980" height="41" cellpadding="0" cellspacing="0" class="big7" border="0"><tr><td align="left">&nbsp;&nbsp;<a href="http://go.microsoft.com/fwlink/?LinkId=74170" style="font-weight:normal;">MSN&nbsp;Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://privacy.msn.com/tou" style="font-weight:normal;">Legal</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://advertising.msn.com/home/home.asp" style="font-weight:normal;">Advertise</a></td><td align="right" style="color:#888888;">&copy;&nbsp;2009&nbsp;Microsoft&nbsp;&nbsp;<img src="/fe/img/grey_pixel.gif" width="1" height="11" border="0" hspace="7" vspace="7" align="absmiddle"><img src="/fe/img/Misc/Logos/ms_123x20_grey.gif" width="123" height="20" border="0" hspace="7" vspace="7" align="absmiddle"></td></tr></table></div>');
+}
+</script><div class="spacer10"></div><div class="dMSNME_1" style="position: relative; top: -8px;"><table class="big7" border="0" cellpadding="0" cellspacing="0" height="41" width="980"><tbody><tr><td align="left">&nbsp;&nbsp;<a href="http://go.microsoft.com/fwlink/?LinkId=74170" style="font-weight: normal;">MSN&nbsp;Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://privacy.msn.com/tou" style="font-weight: normal;">Legal</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://advertising.msn.com/home/home.asp" style="font-weight: normal;">Advertise</a></td><td style="color: rgb(136, 136, 136);" align="right">©&nbsp;2009&nbsp;Microsoft&nbsp;&nbsp;<img src="msn.foxsports.com.aging_files/grey_pixel.gif" align="absmiddle" border="0" height="11" hspace="7" vspace="7" width="1"><img src="msn.foxsports.com.aging_files/ms_123x20_grey.gif" align="absmiddle" border="0" height="20" hspace="7" vspace="7" width="123"></td></tr></tbody></table></div>
+
+
+
+
+</div></div></body></html>

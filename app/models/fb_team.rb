@@ -1,0 +1,38 @@
+class FBTeam < Team
+
+  @TEAM_NAME_TO_ID = { 
+  "Cardinals" => 1,
+  "Falcons" => 2,
+  "Ravens" => 3,
+  "Bills" => 4,
+  "Panthers" => 5,
+  "Bears" => 6,
+  "Bengals" => 7,
+  "Browns" => 8,
+  "Cowboys" => 9,
+  "Broncos" => 10,
+  "Lions" => 11,
+  "Packers" => 12,
+  "Texans" => 13,
+  "Colts" => 14,
+  "Jaguars" => 15,
+  "Chiefs" => 16,
+  "Dolphins" => 17,
+  "Vikings" => 18,
+  "Patriots" => 19,
+  "Saints" => 20,
+  "Giants" => 21,
+  "Jets" => 22,
+  "Raiders" => 23,
+  "Eagles" => 24,
+  "Steelers" => 25,
+  "Chargers" => 26,
+  "Rams" => 27,
+  "FortyNiners" => 28,
+  "49ers" => 28,
+  "Titans" => 29,
+  "Buccaneers" => 30,
+  "Redskins" => 31,
+  "Seahawks" => 32 }
+
+end

@@ -1,0 +1,30 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  July 28th 2009 6:00:40 PM PDT                                */
+/*      Machine:  10.16.140.102                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/connect/connect.css h:ahov2obw                           */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/connect/connect.css                                      */
+
+body.fan_widget{background:transparent}
+.fan_box .full_widget{border:solid 1px #94a3c4;background:white}
+.fan_box .full_widget .connect_top{background:#eceff5}
+.fan_box .connect_top{padding:10px 10px 8px 10px}
+.fan_box .profileimage{float:left;width:40px;height:40px;padding:0 10px 0 0;margin:0 0 4px 0}
+.fan_box .connect_action{padding:0 0 0 8px}
+.fan_box .connect_action .name{line-height:15px;font-size:14px;font-weight:bold}
+.fan_box .connect_button{padding-top:5px}
+.fan_box .connect_button .UIActionButton{margin:1px 0 0 0}
+.fan_box .connect_action a.undo{margin:0 0 0 3px}
+.fan_box .page_stream{text-align:center;padding:0 10px;height:100px;overflow:auto;border-top:solid 1px #d8dfea;position:relative}
+.fan_box .page_stream .loader{padding-top:20px}
+.fan_box .UIIntentionalStory{background:transparent;text-align:left;padding:7px 0 0 0}
+.fan_box .UIIntentionalStory .UIMediaItem_UnknownWidth{max-width:100px}
+.fan_box .connections{border-top:solid 1px #d8dfea;padding:10px 0 4px 10px;min-height:150px}
+.fan_box .connections .connections_grid{padding-top:5px}
+.fan_box .connections_grid .grid_item{float:left;padding:0 5px 8px 0;overflow:hidden;width:50px}
+.fan_box .connections_grid .grid_item .name{font-size:9px;color:#808080;overflow:hidden;padding-top:2px;text-align:center;white-space:nowrap}
+.fan_box .hidden{display:none}
+.fan_box .connect_span{margin:0 0 1px 0}
+
+#bootloader_css_connect_connect_css { height: 42px; }

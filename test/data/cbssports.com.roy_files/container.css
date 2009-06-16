@@ -1,0 +1,134 @@
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.2
+*/
+.yui-overlay,
+.yui-panel-container {visibility:hidden;position:absolute;z-index:2;}
+.yui-panel-container form {margin:0;}
+.mask {z-index:1;display:none;position:absolute;top:0;left:0;right:0;bottom:0;}
+.mask.block-scrollbars{overflow:auto;}
+.masked select,
+.drag select,
+.hide-select select{_visibility:hidden;}
+.yui-panel-container select{_visibility:inherit;}
+.hide-scrollbars,
+.hide-scrollbars *{overflow:hidden;}
+.hide-scrollbars select{display:none;}
+.show-scrollbars{overflow:auto;}
+.yui-panel-container.show-scrollbars,
+.yui-tt.show-scrollbars{overflow:visible;}
+.yui-panel-container.show-scrollbars .underlay,
+.yui-tt.show-scrollbars .yui-tt-shadow{overflow:auto;}
+.yui-panel-container.shadow .underlay.yui-force-redraw{padding-bottom:1px;}
+.yui-effect-fade .underlay{display:none;}
+.yui-tt-shadow{position:absolute;}
+
+.yui-skin-spln .mask {
+    background-color:#BBB;
+    opacity:.25;
+    *filter:alpha(opacity=25);
+}
+
+.yui-skin-spln .yui-panel-container.focused .hd { background: url() #E4EBF3; }
+
+.yui-skin-spln .yui-panel-container {
+    padding:0 1px;
+    *padding:2px 3px;
+}
+
+.yui-skin-spln .yui-panel {
+    position:relative;
+    *zoom:1;
+    left:0;
+    top:0;
+    z-index:1;
+    border-bottom:solid 1px #A0A0A0;
+    border-top:solid 1px #A0A0A0;
+}
+
+.yui-skin-spln .yui-panel .hd,
+.yui-skin-spln .yui-panel .bd,
+.yui-skin-spln .yui-panel .ft { 
+    *zoom:1;
+    *position:relative;
+    border-style:solid;
+    border-width:0 1px;
+    border-color:#A0A0A0;
+    margin:0 -1px;
+}
+
+.yui-skin-spln .yui-panel .hd {
+    height: 21px;
+    color: #013567;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 4px;
+    border-bottom: 1px solid #A0A0A0;
+    line-height: 21px;
+    background: #FFFFFF url(/images/cbss/ui2/bg_fc.jpg) repeat-y scroll 0pt;
+    vertical-align: middle;
+}
+
+.yui-skin-spln .yui-panel .bd {
+    padding:0px;
+}
+
+.yui-skin-spln .yui-panel .bd,
+.yui-skin-spln .yui-panel .ft {
+    background-color:#FBFBFD;
+}
+
+.yui-skin-spln .yui-panel .ft { 
+    border-top:solid 0px #A0A0A0;
+    padding:5px 10px;
+    font-size:77%;
+}
+
+.yui-skin-spln .container-close {
+    position:absolute;
+    top:5px;
+    right:6px;
+    height:11px;
+    width:10px;
+    background:url(/images/hp_close.gif) no-repeat;
+    cursor:pointer;
+}
+
+.yui-panel-container .container-close {
+    text-indent: -10000em;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.yui-skin-spln .yui-panel-container.shadow {
+    _padding:2px 5px 0 3px;
+}
+
+.yui-skin-spln .yui-panel-container.shadow .underlay {
+    position:absolute;
+    top:2px;
+    right:-3px;
+    bottom:-3px;
+    left:-3px;
+
+    *top:3px;
+    *left:-1px;
+    *right:-1px;
+    *bottom:-1px;
+    
+    _top:0;
+    _right:0;
+    _bottom:0;
+    _left:0;
+    _margin-top:3px;
+    _margin-left:-1px;
+    
+    background-color:#000;
+    opacity:.12;
+    *filter:alpha(opacity=12);
+}

@@ -1,0 +1,348 @@
+a {
+	text-decoration:none;
+}
+#article a, #pagination_top a, #pagination_bottom a  {
+	text-decoration:underline;
+}
+#content_column a {
+	text-decoration:none;
+}
+#contentColumn {
+	float:right;
+	width:238px;
+	voice-family: "\"}\"" ;
+	voice-family:inherit;
+	width:228px;
+	padding-left:10px;
+	padding-bottom:5px;
+	background-color:#FFFFFF;
+}
+
+/* start breadcrumbs */
+#bread_crumbs {
+	width:100%;
+	padding-top:2px;
+	padding-left:10px;
+	color:#0D3159;
+	font-family:arial,ms-sans-serif,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+#bread_crumbs a {
+	text-decoration:none;
+	color:#0D3159;
+}
+#bread_crumbs a:hover {
+	color:#CC0000;
+}
+
+#bread_crumbs h2 {
+	display:inline;
+	font-size:11px;
+    font-weight:bold;
+}
+
+.bread_crumbs {
+	font-family:arial,sans-serif ;
+	font-size:11px ;
+	font-weight:bold ;
+	color:#0D3159;
+}
+.bread_crumbs a {
+	color:#0D3159 ;
+	text-decoration:none ;
+}
+.bread_crumbs a:visited {
+	color:#08315A;
+}
+.bread_crumbs a:hover {
+	color:#CC0000;
+}
+.bread_crumbs h2 {
+	display:inline;
+	font-size:11px;
+}
+
+/* retrofit the stylechange to old, bad templates */
+.breadcrumbs {
+	width:100%;
+	padding-top:2px;
+	padding-left:10px;
+	color:#0D3159;
+	font-family:arial,ms-sans-serif,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+.breadcrumbs h2 {
+	display:inline;
+	font-size:11px;
+    font-weight:bold;
+}    
+.breadcrumbs a {
+	text-decoration:none;
+	color:#0D3159;
+}
+.breadcrumbs a:hover {
+	color:#CC0000;
+}
+
+/* end breadcrumbs */
+
+/* start caption */
+#caption {
+	font-size:8pt;
+	font-family:arial,sans-serif;
+	color:#333333;
+	padding-bottom:10px;
+}
+
+.caption {
+	font-size:8pt;
+	font-family:arial,sans-serif;
+	color:#333333;
+	padding-bottom:4px;
+}
+
+#caption #credit {
+	color:#666666;
+}
+/* end caption */
+
+/* start article */
+#article, #media {
+}
+#article_body table tr td {
+	font-size:8pt;
+}
+#article h1, #media h1 { /* headline */
+	padding:0;
+	margin:0;
+	font-family:arial,sans-serif;
+	font-size:1.8em;
+	font-weight:bold;
+}
+#article h2 { /* subheadline */
+	padding:0;
+	margin:0;
+	font-size:1.4em;
+	font-weight:normal;
+}
+#article h6, #media h6 { /* kicker */
+	padding:0;
+	margin:0;
+	color:#CC0000;
+	font-size:1em;
+	font-weight:bold;
+}
+#byline {
+	font-style:italic;
+}
+#article_body {
+	font-family: "Times New Roman",times,serif;
+	font-size:1.5em;
+}
+#article_body .story-navigation-vertical-wrapper {
+	font-size:0.667em;
+}
+#article_body p h1 {
+	padding:0;
+	margin:0;
+	font-size:1.1em;
+}
+#article #article_body h1 {
+	padding:0;
+	margin:0;
+	font-size:1.1em;
+	font-weight:bold;
+}
+#article_body .lastPar {
+	padding-bottom:5px;
+}
+/* end article */
+
+#articleCopyright {
+	font-family: arial;
+	font-weight:bold;
+	font-size:12px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#banner_wrapper_top {
+	/*border-bottom:1px solid #0D3195;*/
+	background-color:#EEF3F7;
+	padding:5px 0 5px 0;
+}
+#banner_wrapper_bottom {
+	border-top:1px solid #0D3195;
+	background-color:#EEF3F7;
+	padding:5px 0 5px 0;
+}
+
+/* start toolbox */
+/* Note use of backgrounds instead of html image tags for icons, also note cascade of common div styles */
+.toolbox {
+	padding:6px;
+	border:1px solid #CCCCCC;
+	margin-bottom:4px;
+	text-align:left;
+	background-color:#FFFFFF;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#0C4790;
+}
+.toolboxhack {
+	background-color:#08315A;
+	height:2px;
+}
+.toolbox div {
+	display:inline;
+	padding:0 2px 0 18px;
+	background-repeat:no-repeat;
+	background-position: 0 0px;
+}
+.toolbox .print_tool {
+	background-image:url(http://www.washingtonpost.com/wp-srv/article/pieces/articleIcon_print_15x11.gif);
+}
+.toolbox .email_tool {
+	background-image:url(http://www.washingtonpost.com/wp-srv/article/pieces/articleIcon_email_15x11.gif);
+}
+.toolbox .rss_tool {
+	display:none;
+	padding-left:28px;
+	background-image:url(http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif);
+}
+.toolbox .permission_tool {
+	background-image:url(http://www.washingtonpost.com/wp-srv/article/pieces/articleIcon_permission_15x11.gif);
+}
+.toolbox .subscribe_tool {
+	background-image:url(http://www.washingtonpost.com/wp-srv/article/pieces/articleIcon_subscribe_15x11.gif);
+}
+#topborder_left {
+	border-top:0px solid #08315A;
+}
+#topborder_left a {
+	font-weight:bold;
+}
+#topborder_left div {
+	display:block;
+	margin-bottom:4px;
+}
+#topborder_bottom a {
+	font-weight:bold;
+}
+#topborder_bottom div {
+	display:inline;
+	margin-left:10px;
+}
+/* end toolbox */
+
+/* start extra toolbox */
+.extratool {
+	/* positioning */
+	background-color:#FFFFFF;
+	padding:0;
+	border-top:0;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	margin-bottom:4px;
+
+	/* formatting */
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#0C4790;
+}
+.extratoolhack {
+	background-color:#08315A;
+	height:2px;
+}
+.extratool .rss_tool {
+	padding-left:28px;
+	background-image:url(http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif);
+}
+.extratool .rss_topnews_tool {
+	padding-left:28px;
+	background-image:url(http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif);
+}
+.extratool .rss_topnews_tool a, .extratool .rss_tool a {
+	font-weight:bold;
+}
+.extratool div {
+	margin-bottom:4px;
+	background-repeat:no-repeat;
+	background-position: 0 0px;
+}
+.extratool h2 {
+	background-color:#EEEEEE;
+	padding:2px 2px 2px 2px;
+	border-bottom:1px solid #CCCCCC;
+
+	font-size:8pt;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	color:#CC0000;
+	margin:0;
+}
+.extratool form {
+	padding:0;
+	border:0;
+	margin:0;
+}
+.extratoolcontent {
+	padding:6px 6px 6px 6px;
+}
+/* end extra toolbox */
+
+/* start correction */
+.correction {
+	margin-bottom:10px;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:10px;
+	
+	font-family:arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+}
+.correction strong {
+	color:#CC0000;
+	text-transform:uppercase;
+}
+/* end correction */
+
+/* start list of headlines */
+#listOfHeadlines {
+	margin-bottom:5px;
+	background-color:#FFFFFF;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+}
+#listHeader {
+	color:#CC0000;
+	font-weight:bold; 
+}
+listOfHeadlinesBullet {
+	color:#999999;
+}
+.listCredit {
+	color:#666666;
+}
+.listOfHeadlinesBullet {
+	color:#999999;
+}
+/* end list of headlines */
+
+#ArticleCommentsWrapper	{
+	display:none;
+}
+#ArticleCommentsWrapper a:link, #ArticleCommentsWrapper a:visited { color: #0c4790; text-decoration: none; }
+#ArticleCommentsWrapper a:hover, #ArticleCommentsWrapper a:active { color: #C00; text-decoration: underline; }
+/* start ad stuff */
+#virtual_marketplace, #tile_left, #tile_right, #topjobs, #textlinks, #ad_links_left, #ad_links_bottom {
+	display:block;
+	margin-top:4px;
+	margin-bottom:10px;
+}
+/* end ad stuff */
+#aggregate-knowledge-box {
+}

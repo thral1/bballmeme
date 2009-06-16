@@ -1,0 +1,26 @@
+/*
+Theme Name: NYT_Universal
+Theme URI: http://www.nytimes.com/blogs
+Description: The Universal Blog Theme for The New York Times
+Version: 3.0
+Author: Jon Chretien, Jaymin Patel, David Seguin, Bennett Yates, Jeremy Zilar
+Author URI: http://open.blogs.nytimes.com
+
+$Id: style.css 23213 2009-08-18 21:56:34Z jon $
+/css/blogs_v3/nyt_universal/style.css
+(c)2006 - 2009 The New York Times Company
+
+*/
+
+@import url(/css/common/screen/general.css);
+@import url(/css/common/screen/navigation.css);
+@import url(/css/blogs_v3/nyt_universal/overwrites.css);
+@import url(/css/0.1/screen/common/global.css);
+@import url(/css/blogs_v3/nyt_universal/entry.css);
+@import url(/css/blogs_v3/nyt_universal/layout.css);
+@import url(/css/blogs_v3/nyt_universal/comments.css);
+@import url(/css/0.1/screen/common/util/tooltip.css);
+@import url(/css/blogs_v3/nyt_universal/modules/common.css);
+@import url(/css/0.1/screen/common/modules/rss.css);
+@import url(/css/0.1/screen/common/modules/sharetools.css);
+@import url(/css/blogs_v3/nyt_universal/modules/sharetools.css);

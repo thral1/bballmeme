@@ -1,0 +1,26 @@
+<div id="flash2"><%= flash[:note] %></div>
+
+<% form_tag :action => 'submit_feedback' do %>
+<%= error_messages_for 'user' %>
+  
+  <div title="Submit feedback" id="entryform"> 
+  
+  <h3>Submit Feedback</h3>
+  <div  class="form">
+  <label for="feedback_text">Description</label><br/>
+  <%= text_area 'feedback', 'text', 'cols' => 55, 'rows' => 6 %><br/>
+  
+  <label for="feedback_type">Type</label><br/>
+  <%= options = [['Select a type', ''], ['Report Bug', 'bug'], ['Submit Article', 'article'], ['Other', 'other']]
+      select 'feedback', 'type', options %><br/>
+      
+  <label for="feedback_name">Your Name (Optional)</label><br/>
+  <%= text_field 'feedback', 'submitter'  %><br/></br>
+
+  
+  <%= submit_tag "Submit Feedback" %>
+  
+  <br/>
+  </div>
+
+<% end %>

@@ -1,0 +1,12 @@
+#piStory td.tab, td.tab {background-image: url(tab2.gif); font: bold 10px verdana,sans-serif; color: #fff; height: 15px; padding: 0 0 0 15px;}
+#piStory td.tabsub, td.tabsub {padding: 2px 0 2px 15px; margin: 0; font: bold 10px verdana,sans-serif; background: #0079CC; color: #fff;}
+#piStory td.tabsub a, td.tabsub a {color: #cff;}
+
+#regboxh {border: 1px solid #E5E5E5; background: #e3e8ea; padding: 5px 3px 5px 15px;}
+#piStory #regboxh td, #regboxh td {font: 10px verdana,sans-serif; padding: 0 5px 0 0;}
+
+.loginbutton {font: bold 10px verdana,sans-serif; margin-left: 3px;}
+.introtext {font: 11px verdana,sans-serif; color: #333;}
+.introtext p {margin: 0 0 13px 0;}
+
+.errormessage {font: 11px verdana,sans-serif;}

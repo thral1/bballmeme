@@ -1,0 +1,78 @@
+/*
+Theme Name: freakonomics
+Theme URI: http://www.nytimes.com/freakonomics
+Description: The Universal Blog Theme for The New York Times
+Version: 3.0
+Author: Jon Chretien, Jaymin Patel, Bennett Yates, Jeremy Zilar
+Author URI: http://open.blogs.nytimes.com
+
+$Id: style.css 6023 2008-10-21 22:52:42Z zilarjd $
+/css/blogs_v3/freakonomics/style.css
+(c)2006 - 2008 The New York Times Company
+*/
+
+
+.entry .freak-col {
+	padding:0;
+	background:none;
+}
+
+.entry .freak-col h4 {
+	margin-bottom:5px;
+	padding:10px 0;
+	border-top:2px solid #B3C85F;
+	border-bottom:1px solid #B3C85F;
+	text-align: center;
+}
+
+.entry .freak-col h4 a{text-decoration: none;}
+.entry .freak-col .author{font-family: Arial, sans-serif;}
+
+.entry-content .module.inline {
+	padding:0;
+	background:none;
+}
+
+.entry-content .module.inline .module{
+	padding:0;
+	background:none;
+}
+
+.entry-content .module.inline a{text-decoration: none;}
+
+.entry-content .module.inline h3{
+	padding:10px 0;
+	border-top:2px solid #B3C85F;
+	border-bottom:1px solid #B3C85F;
+	text-align: center;
+	font-size:1.4em;
+	font-family:Arial, sans-serif;
+}
+
+.entry-content .inline {
+	margin-top:5px;
+	margin-left:12px;
+	width:190px;
+	float:right;
+}
+
+.entry-content .module.inline li {
+	font-size:1.2em;
+	margin-bottom:3px;
+}
+
+
+
+/* wide FREAK SHOTS images */
+#cCol .entry img.w354 {
+	margin-top: 4px;
+}
+/* TOP BLOG button */
+#cCol .entry img.topblog {
+	margin: 4px 0;
+}
+/* AMAZON buttons */
+#cCol .entry img.buybook {
+	margin: 6px 0 0 4px;
+}
+

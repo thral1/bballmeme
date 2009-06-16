@@ -1,0 +1,61 @@
+#sidebar  .democracy {
+max-width: 250px;
+}
+
+#sidebar  .democracy img {
+width: 100%;
+margin-bottom: 4px;
+vertical-align: middle;
+}
+
+#sidebar  .democracy input {
+vertical-align: middle;
+margin-right: 5px;
+width: auto;
+}
+
+#sidebar  .democracy .addAnswerText {
+width: 80%;;
+}
+
+#sidebar  .dem-graph {
+border: 1px solid #ccc;
+height: 10px;
+}
+
+#sidebar  .dem-graph a, #sidebar  .dem-graph a:hover {
+background: #efefef;
+border-bottom: 5px solid #e0e0e0;
+border-right: 1px solid #ccc;
+}
+
+
+* html #sidebar  .dem-graph a, * html #sidebar  .dem-graph a:hover {
+border-bottom-width: 6px;
+}
+
+* html #sidebar  .dem-graph {
+height: 11px;
+}
+
+#sidebar  .dem-graph b, #sidebar  .dem-graph i {
+color: #555;
+}
+
+#sidebar  .dem-voted-for-this {
+border-color: #888;
+}
+
+/* blix fix */
+#sidebar  .democracy ul { padding: 0; } 
+#sidebar  .democracy label {
+float: none;
+display: inline;
+}
+
+/*
+.democracy ul li {
+list-style: none;
+background: none;
+}
+*/

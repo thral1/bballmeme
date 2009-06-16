@@ -1,0 +1,1873 @@
+﻿$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090619516/3-shades-is-taking-off.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-19T15:15:00+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = '3 Shades of Blue is going to be offline this weekend working on some technical issues and re-opening at http://3sob.com on Monday morning.3 Shades of Bluehas had a wonderful year with Bloguin. As one of the founding blogs we couldn\'t have asked for better partners and highly recommend their site to anyone interested in serious blogging about all sports subjects. They are really incredible.However an opportunity arose that may be better for our blog. We are going to miss Bloguin and the great group of people here. Derek and Ben have been great friends and we look forward to continuing that friendship despite the move.So for now we will be off-line until Monday morning as we finish the last bit of work on the new site. We hope our dedicated readers and friends will continue reading us at http://3sob.com starting Monday morning.Chip, Matt, Earl, Zack, Lee, Carl, Joe and our leader in abstinencia Josh.';
+$VAR13 = 'title';
+$VAR14 = '3 Shades is Taking Off';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090618513/memphis-grizzlies/june-2009/wallace-says-if-grizzlies-want-rubio-well-take-him.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-18T07:22:13+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = '"If we want (Rubio), we\'re going to take him," Wallace said Wednesday. "We wouldn\'t have taken a 10-hour flight to Spain if we didn\'t have interest in him."Ron Tillery, Commercial AppealWow. If the Grizzlies want Rubio they\'ll take him. What a gutsy statement.I know that there are no guarantees in drafts. The Grizzlies possibly believe someone else is better to draft with the 2nd pick. I\'ve heard rumors people are questioning if Rubio is actually 6-4 in shoes or barefoot. Let me be clear about this.It doesn\'t matter if he is 6-4 in shoes or pantyhose. All that matters is the Grizzlies get the best player available with the 2nd pick. I think Wallace is doing the right thing (and many people including myself have said this from the beginning) in telling Rubio that he is in the draft and the team that drafts him will have his rights. If Rubio want to play in the NBA then he\'ll have to play by the rules.';
+$VAR13 = 'title';
+$VAR14 = 'Wallace Says If We Want Rubio, We\'ll Take Him';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090617512/memphis-grizzlies/june-2009/2009-nba-draft-throwing-down-the-gauntlet.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-17T13:06:59+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Well Grizz fans if you have not heard yet, Ricky Rubio was in Sacramento yesterday to visit the Kings organization and staff.  It seems that Rubio\'s agent is doing his best job to steer him directly to Sacramento.  It started the night of the 2009 NBA Draft Lottery and there has been a steady stream of information coming from Camp (Dan) Fegan.  It is obvious that Rubio\'s agent prefers him in Sacramento first and anywhere else but Memphis second. Fegan is employed by Rubio, so the question really is: How does Ricky Rubio really feel about Memphis?  However, for the purpose of the 2009 NBA draft...it just doesn\'t matter.';
+$VAR13 = 'title';
+$VAR14 = '2009 NBA Draft: Throwing Down The Gauntlet';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090617511/memphis-grizzlies/june-2009/rubio-trade-rumors-swirling.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-17T05:27:14+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'First out of the gate: were I an international player of note, I do not know that Don Fegan would be my first choice of agent. The Yi issue turned into quite a bungle, and the strategy seemingly being employed by Fegan regarding Ricky Rubio doesn\'t seem to be working out so well.So where are the latest rumored destinations for the much-heralded-but-only-18 point guard??';
+$VAR13 = 'title';
+$VAR14 = 'Rubio Rumor Mill Approaching F5 Status';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090616510/memphis-grizzlies/june-2009/is-the-laker-victory-good-for-memphis.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-16T06:00:00+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Pau Gasol has his NBA Finals Trophy. He joins Jason Williams (once) and James Posey (twice) as former Memphis Grizzlies who have hoisted the NBA trophy. So how should Grizzlies fans feel about this? Should they be sad that the Grizzlies were never able to get a single playoff win with these three players? Should they be happy for the players success? Should they even care at all?Well I suppose the fans can be sad that it never worked here for the team since Memphis is really needing something positive to happen after the troubles the Grizzlies have suffered lately and the problems the Tigers are facing right now. Something positive needs to happen for the city. I think the fans of the players are happy for their success but it really doesn\'t resonate here.What difference does it make if the Lakers won the NBA Championship?';
+$VAR13 = 'title';
+$VAR14 = 'Is the Laker Victory Good For Memphis?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090615509/memphis-grizzlies/june-2009/we-got-the-power.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-15T14:16:43+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Thanks so much for the kind words of concern emailed to us about the 3 Shades of Blue staff. We seemed to have survived the sequel to Hurricane Elvis. I guess this storm should be called Tropical Storm Lisa Marie!Anyway, power is back up and we will be back to writing very soon. Thank you for your patience while we get caught up.In other news, today\'s workout scheduled at FedEx Forum was cancelled. The planned workout for today has been rescheduled for some point in the future. More news on workouts as they become available. ';
+$VAR13 = 'title';
+$VAR14 = 'We Got the Power!';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090615491/memphis-grizzlies/june-2009/2009-nba-draft-picks-27-and-36-the-forgotten-picks.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-15T12:59:44+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'The focus of the 2009 NBA draft for Memphis Grizzlies fans has been on what will Chris Wallace do with the #2 pick in the 2009 NBA draft.  It is just more sexy to talk about the the possibilities surrounding the second pick in the 2009 NBA draft.  In fact, I think that the Memphis Grizzlies will use these later pick to move up in the draft to target some higher level prospect in the late lottery or mid first round.  However, on the outside chance that the Chris Wallace does exercise the two late picks, here are five players I would like for him to target.';
+$VAR13 = 'title';
+$VAR14 = '2009 NBA Draft: Picks #27 and #36 (The Forgotten picks)';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090613508/memphis-grizzlies/june-2009/as-the-grizz-turn-jennings-on-rubio-qdont-believe-the-hypeq.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-13T05:23:13+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Our story so far: While some seem to think there\'s a legit case for Memphis to take Hasheem Thabeet over Ricky Rubio at No. 2, SI.com reports that Brandon Jennings says . . . . well . . ."Yeah, I think I\'m a better player than he is. I just shoot the ball better than he can. The only thing I\'ve seen him do sometimes is when he has a home-run pass or something like that. I think the dude is just all hype. I can\'t even front. I\'m just going to be real with you guys."Yeah, that\'s Brandon Jennings guarding Ricky Rubio. "I can\'t wait to see him in summer camp," Jennings says.Tune in next week, when  . . . well, who the heck knows what\'s going to happen on the next episode of . . .Hey. We need a good name for this soap opera. Help me out here . . .Days of Our GrizzAs the Bear TurnsThe Bold And the Blue-tiful ';
+$VAR13 = 'title';
+$VAR14 = 'As The Grizz Turn: Jennings on Rubio: "Don\'t Believe the Hype!"';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090612507/memphis-grizzlies/june-2009/grizzlies-war-room-power-structure.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-12T19:10:17+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'The day is fast approaching. The balls finally came out of the machine in favor of the Grizzlies, and June 25 is right around the corner. The decisions made inside the Grizzlies\' draft war room will, to a VERY large degree, determine the short-, medium-, and long-term direction and viability of the Grizzlies in Memphis in terms of the on-court implications as well as the all-important fanbase (miniscule though it may be).So let\'s ponder how one might think that things might go, decisionmaking-wise, in that war room under various circumstances and with various players involved..and this could almost be titled "As the FedEx Forum Turns".';
+$VAR13 = 'title';
+$VAR14 = 'Heisley-archy';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://3shadesofblue.com/20090611506/memphis-grizzlies/june-2009/mock-draft-from-june11.html';
+$VAR3 = 'feed';
+$VAR4 = '3 Shades of Blue';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-11T21:56:40+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'A new prediction  for the Grizzlies #2 pick by Draft Express.Updated with Chad Ford\'s (@ESPN) full first round  picks.More say the Grizzlies should take Thabeet than Rubio.  It\'s getting  interesting.Grizzlies 27th pick completely wide open, but three are predicting Gani Lawal.   Who and what is Gani Lawal?  Check below for more info on him.  (You can click  on each name and it will take you to states for the player either at ESPN or  Draft Express.';
+$VAR13 = 'title';
+$VAR14 = 'Mock Draft from June 11 with Ford@ESPN full list';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://3shadesofblue.com/feed/rss.html';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/brian_boom_goes_the_dynamite_career_in_waco_blown_up/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T12:24:29+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'It appears Brian Collins is now a free agent after disappearing from Waco\'s KXXV site. Fired? Contract not renewed? Victim of tough economic times? Not good enough? Boom Goes The Dynamite seems to be looking for another job.whathype posted 17 hours ago from www.bustedcoverage.com Find more top sports news, videos, and blogs on BallHype: NBA';
+$VAR13 = 'title';
+$VAR14 = 'Brian "Boom Goes The Dynamite" Collins Career In Waco Blown Up?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/the_10_most_entertaining_nba_players_of_all_time/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T15:24:31+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Oh sure, there is no way on Earth that my top 10 here is going to match a single one of your top tens, but that\'s what makes sports great. The discussions and debates over who is the greatest this or that, or what moment was the best, that sort of thing. So keep that in mind as you read...Scrap posted 14 hours ago from www.epiccarnival.com Find more top sports news, videos, and blogs on BallHype: NBA, Kobe Bryant, Julius Erving, Pete Maravich, Michael Jordan, Larry Bird, LeBron James';
+$VAR13 = 'title';
+$VAR14 = 'The 10 most entertaining NBA players of all-time';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/word_on_the_street_june_22nd/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T06:37:39+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Green Room Invites...The Wacky Top-5 of the Draft...Thabeet Cancels Workout...Harden the last man standing in Memphis?...Kings passing on Rubio? Raja Bell to Golden State?TWolves Blog - Minnesota Timberwolves News and Articles found this 23 hours ago on www.draftexpress.com Find more top sports news, videos, and blogs on BallHype: NBA';
+$VAR13 = 'title';
+$VAR14 = 'Word on the Street, June 22nd';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/demar_derozan_future_all_star_or_draft_day_bust/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T13:40:29+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'If the NBA finals reinforced anything on its viewers, it’s that professional basketball is currently stuck in the anti-big man era. With athletic swingmen that can shoot becoming an increasingly important piece for any team that wants to compete, DeRozan finds himself as one of the most intriguing pdaddycane posted 16 hours ago from thehoopdoctors.com Find more top sports news, videos, and blogs on BallHype: NBA, Demar DeRozan';
+$VAR13 = 'title';
+$VAR14 = 'DeMar DeRozan: Future All-star or Draft Day Bust?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/more_ray_rondo_rumors/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T04:10:41+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = ' 
+
+    
+  
+   
+    
+    
+    
+    
+  
+   
+     
+     
+     via www.examiner.com 
+     
+   
+    
+  
+   View full size photo uploaded June 22, 2009  
+
+  
+
+
+ Take it for whatever it\'s worth, but Adrian Wojnarowski is reporting that Rondo and Ray were offered to the Pistons : 
+ 
+ The Boston Celtics&nbsp;...ranter posted 87 minutes ago from www.celticsblog.com Find more top sports news, videos, and blogs on BallHype: NBA, Ray Allen, Rajon Rondo, Boston Celtics';
+$VAR13 = 'title';
+$VAR14 = 'More Ray, Rondo Rumors';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/healthy_wizards_hold_enviable_spot_in_draft/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T12:11:07+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Mike Jones ( Contact ) | Monday, June 22, 2009  In an NBA Draft that - like many before it - features one perceived franchise savior and only a handful of elite prospects followed by many question marks, the forecast for Thursday is anything but predictable, and many trades are expected.  In&nbsp;...ESPN.com - True Hoop - Blog found this 17 hours ago on www.washingtontimes.com Find more top sports news, videos, and blogs on BallHype: NBA, Washington Wizards';
+$VAR13 = 'title';
+$VAR14 = 'Healthy Wizards hold enviable spot in draft';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/mock_draft_version_6_0_picks_31_60_nba/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T17:54:14+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = ' The NBA draft\'s second round has grown in prominence during the past several years, as a number of talented players chosen there have gone on to great careers.  Since 1998, the list has been pretty impressive. It includes six All-Stars -- Gilbert Arenas , Carlos Boozer , Manu Ginobili , Michael&nbsp;...Celtics Hub found this 12 hours ago on insider.espn.go.com Find more top sports news, videos, and blogs on BallHype: NBA, Gilbert Arenas, Carlos Boozer, Manu Ginobili, Michael Redd, Rashard Lewis, Mehmet Okur';
+$VAR13 = 'title';
+$VAR14 = 'Mock Draft, Version 6.0: Picks 31-60 - NBA';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/team_needs_backup_point_guard/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T01:55:54+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = ' 
+
+    
+  
+   
+    
+    
+      More photos &raquo; 
+    
+    
+     by Brian Babineau - NBAE/Getty Images
+    
+    
+  
+   
+     
+     
+     Rondo is here to stay, but he needs some backup.
+     
+   
+    
+  
+   Browse more photos &raquo; 
+
+  
+
+
+ The final installment of our team needs&nbsp;...ranter posted 4 hours ago from www.celticsblog.com Find more top sports news, videos, and blogs on BallHype: NBA, Boston Celtics';
+$VAR13 = 'title';
+$VAR14 = 'Team Needs: Backup Point Guard';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/ink_stained_mitch_albom_on_the_hangover_micheal/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T17:30:57+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'People often write things that are stupid. We like to laugh at those things. Bookmark It\'s Just Sports or subscribe to our RSS feed. Last week I debuted this little column for the purpose of gently teasing the print...ItsJustSports posted 12 hours ago from blog.mlive.com Find more top sports news, videos, and blogs on BallHype: NBA, Bill Laimbeer, Brett Favre, Mitch Albom, Michael Rosenberg, Jerry Sloan';
+$VAR13 = 'title';
+$VAR14 = 'Ink Stained: Mitch Albom on the Hangover, Micheal Rosenberg talks smack to Bill Laimbeer and Jerry Green writes a love letter to Brett Favre';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/video_ohio_eighth_grader_hits_ridiculous_basketball/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T21:39:26+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = ' This incredible three-quarter court flip shot by Brecksville-Broadview Heights Middle School\'s Aaron Shutway needs to be seen to be believed ... and even then I\'m sure angry, bitter people will cry that the ball is computer generated. To which I say, easy there Michael Bay . It sure looks&nbsp;...Total Pro Sports found this 8 hours ago on sports.yahoo.com Find more top sports news, videos, and blogs on BallHype: NBA, LeBron James';
+$VAR13 = 'title';
+$VAR14 = 'Video: Ohio eighth-grader hits ridiculous basketball shot';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/chicago_bulls_recent_draft_grades/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T05:06:51+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Looking at the Bulls recent drafts and doling out grades.The Zoner posted 31 minutes ago from pippenainteasy.com Find more top sports news, videos, and blogs on BallHype: NBA, Chicago Bulls, Derrick Rose, Joakim Noah, Aaron Gray';
+$VAR13 = 'title';
+$VAR14 = 'Chicago Bulls Recent Draft Grades';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/16_picks_in_the_nba_draft/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T05:03:14+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Looking at what you can get at #16 in the draft. The Zoner posted 35 minutes ago from pippenainteasy.com Find more top sports news, videos, and blogs on BallHype: NBA, Ron Artest, Chicago Bulls, Rodney Carney, Thabo Sefolosha, Nick Young, Joey Graham';
+$VAR13 = 'title';
+$VAR14 = '#16 Picks In the NBA Draft';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/the_50_best_nba_nicknames_ever/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T01:01:51+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Cool list of the best NBA nicknames ever.nbabasketball posted 5 hours ago from www.clevelandcavaliersnews.com Find more top sports news, videos, and blogs on BallHype: NBA';
+$VAR13 = 'title';
+$VAR14 = 'The 50 Best NBA Nicknames Ever';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/today_s_tweets_charlie_bell_and_i_love_big_john_s/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T14:45:16+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Bookmark It\'s Just Sports or subscribe to our RSS feed. Athletes and Twitter were born for each other. Each day, we\'ll try and find some of the weirdest things they are Tweeting about and throw them up. Charlie Bell has...ItsJustSports posted 15 hours ago from blog.mlive.com Find more top sports news, videos, and blogs on BallHype: NBA, Charlie Bell, Andrew Bogut';
+$VAR13 = 'title';
+$VAR14 = 'Today\'s Tweets: Charlie Bell (and I) love Big John\'s Steak and Onion and Andrew Bogut shares Joe Dirt\'s taste in autos';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/rumor_celtics_target_dahntay_jones/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T00:47:54+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = ' Rumor: Celtics Target Dahntay&nbsp;Jones 
+ Stephen A. Smith: Celts won\'t need to make a deal. Their plan is to grab Dahntay Jones from the Nuggets and make sure KG returns 100 percent healthy. (via Twitter.com) 
+
+    
+  ranter posted 5 hours ago from www.celticsblog.com Find more top sports news, videos, and blogs on BallHype: NBA, Dahntay Jones, Boston Celtics, Stephen A. Smith, Denver Nuggets, Kevin Garnett';
+$VAR13 = 'title';
+$VAR14 = 'Rumor:  Celtics Target Dahntay Jones';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/lebron_s_t_shirts_do_the_talking/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T17:00:00+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'If the LBJ MVP t-shirt didn&#8217;t draw the ire of the underground gossip sites enough, I am sure they will have a field day with this one.  I am not sure what motivates LBJ to wear shirts like this, but as a Clevelander, I do find it kind of funny. The question is whether [...]rickg15 posted 13 hours ago from www.waitingfornextyear.com Find more top sports news, videos, and blogs on BallHype: NBA, LeBron James, Cleveland Cavaliers, Danny Ferry';
+$VAR13 = 'title';
+$VAR14 = 'LeBron’s T-Shirts Do the Talking';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/felton_will_get_a_qualifying_offer_and_now_i_m/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-23T01:55:54+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = ' 
+
+    
+  
+   
+    
+    
+      More photos &raquo; 
+    
+    
+     by John Raoux - AP
+    
+    
+  
+   
+    
+  
+   Browse more photos &raquo; 
+
+  
+
+
+ After the draft, the most pressing issue for a Bobcats fan at the moment is probably Raymond Felton \'s fate. DJ Augustin has proven that he&nbsp;...CelticsBlog found this 4 hours ago on www.rufusonfire.com Find more top sports news, videos, and blogs on BallHype: NBA, Charlotte Bobcats, Raymond Felton';
+$VAR13 = 'title';
+$VAR14 = 'Felton Will Get A Qualifying Offer... And Now I\'m Confused';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/not_top_50_wcbias_com_s_dozen_greatest_nba_players_you/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T14:18:09+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Slam recently announced its updated list of The New NBA Top 50 players, which brings on some interesting names and drops off a few legends from the NBA at 50 “Greatest NBA Players of All-Time” list - which was unveiled some 13 years ago.In honor of those fallen greats, WCBias brings you bmilne posted 15 hours ago from www.wcbias.com Find more top sports news, videos, and blogs on BallHype: NBA';
+$VAR13 = 'title';
+$VAR14 = 'Not Top 50: WCBias.com’s Dozen “Greatest NBA Players” You Shouldn’t Forget';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/luol_deng_profile_blog_posts_stats_photos_chicago/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-10T12:00:20+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Transactions/Injuries/Suspensions May 2, 2009 Missed 22 regular season and 7 playoff games (bruised right tibia). March 3, 2009 Bruised right tibia, day-to-day. January 12, 2009 Missed 8 games (sprained left ankle). December 27, 2008 Sprained left ankle, day-to-day. November 24, 2008 Missed 3&nbsp;...Clips Nation found this 12 days ago on www.sbnation.com Find more top sports news, videos, and blogs on BallHype: NBA, Chicago Bulls, Luol Deng, Washington Wizards';
+$VAR13 = 'title';
+$VAR14 = 'Luol Deng Profile, Blog Posts, Stats, Photos - Chicago Bulls - NBA';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://ballhype.com/story/kevin_o_neill_is_back_baby/';
+$VAR3 = 'feed';
+$VAR4 = 'BallHype - Top NBA/Pro Basketball News, Videos, and Blogs';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T21:14:40+00:00';
+$VAR9 = 'author';
+$VAR10 = 'no author';
+$VAR11 = 'desc';
+$VAR12 = 'Former Raptors bench boss Kevin O\' Neill has found a new head coaching job in sunny Southern California. The program is in shambles, and was struggling to bring in a big time coach, yet many observers (including former players) think USC may have made a poor decision in hiring O\'Neill.TM Williamson posted 8 hours ago from raptorsrapture.com Find more top sports news, videos, and blogs on BallHype: NBA';
+$VAR13 = 'title';
+$VAR14 = 'Kevin O\' Neill is Back Baby!';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://ballhype.com/nba/index.xml';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204620-undrafted-but-not-unwanted-nba-style';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T22:20:07-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Andrew  Robeson';
+$VAR11 = 'desc';
+$VAR12 = 'The NBA draft will go two rounds this year. Sixty players will be drafted, and after they are, there will be hundreds of college and international athletes left looking for a job.
+When a draft is so short, there is room for mistake. A team could draft two players and have them both be busts. Or, a solid player could go undrafted.
+After the draft, teams will begin to hold workouts for the guys who were not picked. Some will get contracts, others will go to Europe. Of those who get contracts, some will become a start for their team.
+Here is a look at the top five players currently in the NBA who went undrafted.
+5. Udonis Haslem
+So I admit to playing favorites with my No. 5 pick here, but getting to watch Haslem play routinely for the Heat has been a pleasure. The guy hustles every time he is on the court, regardless of the score. When you see him play you know he had to fight to get where he is as he does not take even a play for granted. Undrafted and overweight out of the University of Florida he started playing professional ball in Europe before the Heat signed him. So far in his NBA career he is averaging 10.0 points a game and 8.1 rebounds. His career field goal percentage is at 50 percent and there are few players in the game who play their role as well as he does.
+4. Bruce Bowen
+I was kind of surprised to learn Bowen was undrafted. When I think of defense, Bowen is one of the first names that comes to mind. Defense in the NBA is somewhat of a lost art, but Bowen is still masterful at after 15 seasons. He only averages 6.1 points a game and shoot 40 percent from the field, but his nominations from 2001-2008 to the NBA All-Defensive Team earn him the four spot on this list.
+3. Brad Miller
+I never really thought much of Miller until I watched his post-season with the Bulls. I knew he was a powerful force as an NBA big man, but I did not know about his long range shot. Miller has averaged 12.1 points and 7.8 rebounds a game for his career. Miller has been in the league over 10 years and is still one of the games dominant big men. His play has earned him two All-Star nominations to date.
+2. Jose Calderon
+Watching this guy play is a sight. After six seasons in Europe he was able to adapt his style of play incredibly to the NBA. Calderon\'s career stats in the NBA are not all that impressive, but last year he showed us just how good he can be. After winning the job of starting point guard from T.J. Ford, in Toronto, Calderon averaged 12.8 points and 8.9 assists in 2009. In international play Calderon has helped Spain to emerge as a power. Did I mention he owns the NBA free-throw shooting percentage record?
+1. Ben Wallace
+Shocked he was not drafted? So was I. Wallace is a four-time Defensive Player of the Year which ties him for the record with Dikimbe Mitumbo. He also has been on the All-Defensive team six times. Aside from his defensive skills he has also been on the All NBA Team five times. Wallace has averaged 6.2 points, 10.3 rebounds, 2.2 blocks, and 1.3 steals a game for his career.
+Hope you enjoyed my top five. I know there are arguments for Marquis Daniels, Raja Bell, and Mike James (the first undrafted player to average 20 points a game over an entire season), but these are who I thought were most deserving.
+&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'Undrafted But Not Unwanted: NBA Style';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204626-more-proof-that-lebron-james-is-a-jerk';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T22:10:07-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Jarrett Carter';
+$VAR11 = 'desc';
+$VAR12 = 'The master of less-than-poignant T-Shirts, LeBron James is at it again.
+
+Check what? Your money? We know you&rsquo;ve got plenty. Your talent? One of the best we&rsquo;ve ever seen. Your fame? You have puppet likeness.
+So what, LeBron James, are you imploring us to check, exactly? Your wit? Your marketing genius? Truth is, very few people can wear a shirt like this and not get clowned. If I wore it, as broke as I am, I&rsquo;d be a fronter. If a drug dealer wore it, he&rsquo;d be flashy and asking to get hit upside his head.
+And if an NBA MVP wears it, it shows how out of touch with humility he really is.
+
+Technorati Tags: LeBron James
+
+';
+$VAR13 = 'title';
+$VAR14 = 'More Proof that LeBron James is a Jerk';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204627-harlem-globetrotters-set-their-sights-on-derrick-mercer';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T21:32:53-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Jarrett Carter';
+$VAR11 = 'desc';
+$VAR12 = 'The Harlem Globetrotters are one of the world&rsquo;s most beloved and well-known basketball teams, traveling with a mission to bring joy to crowds, embarrassment to the Washington Generals and opportunities to basketball players on the fringe of NBA-caliber talent.
+Derrick Mercer, welcome to the show.
+The last time we saw Mercer, he was running an American Eagles team that was about eight minutes away from one of the greatest opening round upsets in NCAA Tournament history. AU fell just short that night, but Mercer&rsquo;s drive and talent apparently left an impression on a franchise known for frustrating opponents with jokes, trickery and the occasional magic circle.
+Should Mercer accept the invitation, he&rsquo;ll join an elite franchise with a high level of personnel turnover, but a tradition of winning and universal fan support.
+Eat your heart out, Stephen Curry.
+
+Technorati Tags: American University, Derrick Mercer, Harlem Globetrotters
+
+';
+$VAR13 = 'title';
+$VAR14 = 'Harlem Globetrotters Set Their Sights on Derrick Mercer';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204567-favre-why-another-comeback-will-not-taint-his-legendary-status';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T20:18:01-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Patrick Cwiklinski';
+$VAR11 = 'desc';
+$VAR12 = 'It goes without saying that Brett Favre is one of the greatest NFL quarterbacks of all time and that his name will undoubtedly go down in the Pro Football Hall of Fame for his incredible achievements and contributions to the game of football.It also goes without saying that a player of Favre\'s calibre doesn\'t come around very often, and when he does, it shouldn\'t come as a surprise that teams are still willing to put good money into a 39-year-old player, because even past his prime, Favre is still better than most quarterbacks half his age.That is the difference between a great player and a legend.A great player will do a lot for about 10 seasons, maybe even lead your team to a few championships, but once that  expiration date hits and he comes back to play for a few more seasons, it just gets  embarrassing and reputations are tarnished.A legend is a player that is timeless. That\'s not to say that when a player reaches a certain age he is still the same player that he once was during his prime, because that just wouldn\'t be true.But a legend is a player that can play those same 10 seasons, come out of retirement, and still make people not second-guess why he\'s a future hall-of-famer.When Michael Jordan returned to play for the Washington Wizards after his second retirement he didn\'t lead his new team an NBA Title, put up as many points as he did with the Chicago Bulls, nor did he even technically make the first NBA All-Star team in 2003.I don\'t hear anyone bad-mouthing Jordan\'s legacy.As a matter of fact, Jordan is so respected that if he were to make another comeback this coming season, his legacy would still have "the greatest basketball player of all-time" written all over it, because that\'s who he is.However, obviously, to call Favre the "Michael Jordan of the NFL" would not be at all accurate because Jordan has done far more to the game of basketball than Favre has for football, but it is clear that certain legacies just stick.&nbsp;So you think a couple comebacks are going to destroy the legacy of one of the greatest quarterbacks of all time?I don\'t think so.Even if Favre were to sign with the Minnesota Vikings this season, you think people would be talking about that in ten years and not the fact that he hold the NFL records for most career touchdown passes, most career passing yards, most career pass completions, and most victories as a starting quarterback?Or how about that he was the first player ever to win the AP MVP three times, or that he led the Green Bay Packers to seven division championships, four NFC Championship Games, two NFC Championships, two Super Bowl  appearances, and one Super Bowl championship&mdash;will they overlook all those things as well?Not a chance.You might be sick of hearing about another comeback in the works, but one thing you know is that at the end of the day, when it\'s all said and done, those two or however many seasons that Favre finishes his career off with won\'t change the impact he has had on the game of football, and that is something that can only be done by a player who is truly a legend.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'Brett Favre: Why Another Comeback Will Not Taint His Legendary Status';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204646-pivotal-nba-free-agents';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T20:09:00-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Gem Jefferson';
+$VAR11 = 'desc';
+$VAR12 = 'There may not be a lot of major names in this year\'s free agent pool, but there are a few guys that can make a big impact for a team on the verge.Rasheed WallaceThe cream of the Unrestricted Free Agent crop. No real introduction or explanation needed here. Former NBA Champion, one of the best offensive big men in the league, a solid post defender&mdash;Wallace is perfect for a team a player or two away from a championship push. And with Detroit seemingly heading in a new direction, Wallace should be willing to play elsewhere.Also, as an aging veteran, Wallace maybe willing to take less to get one more ring. I believe the ideal place for Wallace is Cleveland, but Boston could continue to build it\'s video game roster by adding yet another All-Star to the squad. Fantastic Four? I think so (at least if Rajon Rondo sticks around).Ben GordonOne of the best scorers in the league. A little undersized and will probably demand a little more money than his upside can back up. It\'s reported that Detroit will offer $11.5 million a year. If so, he should take it; it\'s undoubtedly the best deal he\'ll get.If he\'s willing to take less I wouldn\'t mind seeing him as a San Antonio Spur, especially if Manu Ginobli remains the sixth man. Spurs have the contracts to move around if they have to.Shawn MarionIf he\'s still the Matrix, he\'s definitely part three. On a strange decline, he needs to sign to a team that likes to run. And because he decided to hold out in a contract year, he\'ll be making considerably less than he made in his previous contract. But he can still help.Wouldn\'t life be grand if he could just quietly go back to Phoenix and pretend the fallout never happned? Grant Hill and Stromile Swift are off the books, why not?If he would take a one-year deal to prove himself, I would ship him to New Jersey. Yi Jianlian is not the answer they were looking for and Marion would give them a very crafty backcourt with Vince Carter and Devin Harris.
+Marion can still play the four against given teams and when they want to go small and insert Bobby Simmons into the lineup. Brook Lopez, Marion, Harris, Carter, and Josh Boone if he continues to grow, will be a potent starting lineup&mdash;granted Marion returns to form.
+Anthony Johnson
+Huh? What? Yeah. AJ is a stud.With the clutter at point guard in Orlando, the Magic may not want to match an offer if it\'s large enough to keep the backup. If anyone noticed during this year\'s playoffs, the Magic offense ran more efficiently with Johnson at the point than with Alston. In fact, I can almost guarantee the NBA Finals would\'ve been much more competitive had Jameer Nelson not taken AJ\'s spot.He\'s bigger, a better defender, and is better in the lane than Orlando\'s two guards, just older. He seems like San Antonio\'s kind of guy but they probably couldn\'t offer enough money that Orlando wouldn\'t be able to match.But the team that NEEDS AJ would be the Hornets. They needed a backup PG all season long and if they can make the numbers work, they can steal AJ from Orlando; at least in a sign-and-trade.Carlos BoozerI don\'t like him. He\'s going to make more than he should. He\'s a good player, plays hard, gets numbers, but is not what you need from a PF on the defensive end.
+I put him here because his numbers warrant it, but whoever signs him will be the same or worse than they were the year before and won\'t have the money to change their problems because they signed him to a contract no one will want.Nicer guy than Zach Randolph, but about the same player. Similar stats, similar impact. Hopefully, Utah let\'s him go and Millsap gets the nod.If we\'ve learned anything from Carl Landry and Chuck Hayes\' efforts in the playoffs, it\'s that the small PF\'s are back. Smile, Charles Barkley, smile. DeJuan Blair, you can smile, too.Morris AlmondNever had a chance to shine, but the man can shoot. With the acquisition of Kyle Korver (great deal) he was made expendable.He won\'t demand much from the market and will earn his way into an eight-man rotation somewhere. Depending on how the Magic feel about the JJ Redick project, Almond would make a good backup to Courtney Lee and his size at 6\'6" will be a great addition in Cleveland. King James loves to kick it out after all.Denver would like him too if they don\'t re-sign Dahntay Jones or replace him in the draft.Mike BibbyHard to gague. He\'s a big name, but had a rough season; definitely not the dynamic PG he once was. Atlanta should resign him for about $8-10 a year for 2 to 3 years. I\'m not sure that another team has the finances to take a chance on him.Zaza PachuliaAnderson Varejeo with better footwork. He can do somethings here and there, and would make any team happy. Spurs could use him; he\'s a profound upgrade over Fabricio Oberto (his first name is fun to say&mdash;Fabricio...). Spurs LOVE the foreign players, and Duncan would appreciate the help up front, I\'m sure.Either San Antonio or he stays in the ATL. Spurs for the ring, Hawks for the money. Look for a sleeper to woo Pachulia to their team, probably not a winner though.Jamal CrawfordGolden State Warriors head coach, Don Nelson, already politely asked Crawford to look for another team. Playing time will be tight and young guys are getting better.Wow. At least Nelly had the class to let him know, and with that he should take his Early Termination option and test the market, unless he traded on draft day.He\'s such a bonafide scorer but where does his game fit? A wee-bit undersized for the two-guard, a little too much of a scorer for the point, he needs to be surrounded by mature veterans that will compliment his game. He loves to take big shots and score from anywhere&mdash;with proper veteran support, his game can go places.I like...(drum roll please)... Dallas and Denver. Why? Jason Kidd and Chauncey Billups&mdash;especially Billups. Billups was a similar player coming into the league&mdash;not really sure if he was a one or two&mdash;very talented, can shoot it from anywhere, and needed to be surrounded by good players to grow into his own.If Crawford can pair up with a veteran PG (Phoenix with Nash as well), he can really play his game and learn how to play the point. Crawford is a nice passer&mdash;doesn\'t exercise it much&mdash;but certainly has the vision and talent to facilitate an offense if need be.Sleeper:Shaun LivingstonSomeone will give him a chance, hopefully a veteran team. He has all the talent in the world and full recvery permitting, should make a decent addition to a team until he blossoms into a star.
+6\'7" PGs are incredibly hard to find (Penny Hardaway, Magic Johnson...), and his skillset warrants a chance, especially because he can\'t demand much money or a very long-term deal until he proves himself.I like Cleveland to pick him up for $1 million a year or a mid-level exception. He would add some height and length to a very small backcourt.Miami could use him too&mdash;Mario Chalmers is the only sure bet in town. Many teams have solid PGs, but a good backup job shouldn\'t be impossible for him to find.
+';
+$VAR13 = 'title';
+$VAR14 = 'Pivotal NBA Free Agents';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204647-cleveland-cavaliers-need-to-sign-rasheed-wallace-shaun-livingston';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T19:08:00-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Gem Jefferson';
+$VAR11 = 'desc';
+$VAR12 = 'The NBA rumor mill is swirling with Cleveland Cavalier headlines. The Cavs are apparently pursuing All-Star Centers, Shaquille O\'Neal and Yao Ming&mdash;which is great, but unnecessary.For starters, the Phoenix Suns and Houston Rockets would have to be insane to take Sasha Pavlovic and Wally Szczerbiak in exchange for their Centers&mdash;but stranger trades have happened.The two players the Cavaliers need are on the Free Agent market&mdash;Rasheed Wallace and Shaun Livingston.Two of the biggest weaknesses on the Cleveland roster were size in the backcourt (especially defensively) and muscle in the post.
+Zydrunas Ilgauskas is not a defensive force in the middle, Ben Wallace has lot more than a step. Anderson Varajeo is a nice PF off the bench, but not a dependable player for 30 minutes a game.Enter Rasheed Wallace.Once a premier big man in the NBA, he\'s the defensive force the Cavaliers have been missing and will add a new dimension to the offense as well. Few big men in the league can play with their back to the basket and from behind the arc, while still playing like a big man on the defensive end&mdash;exactly what LeBron James needs.He will also bring championship experience and leadership with him as well.Now for the backcourt: Mo Williams, Delonte West, Daniel Gibson shared both Guard spots for a majority of the 2008-09 season and playoffs.
+Offensively, that\'s fine. They can shoot, Williams can create his own scoring, and LeBron runs the offensive 70 percent of the time anyway.Defensively it\'s a greater liability because none of them are above 6\'3" and they cannot defend any of the elite guards and swingmen in the league.Now Shaun Livingston is by no means a defensive juggernaut, but he can at least take up some space on the defensive end. He may be more effective in zone defense, but that\'s better than what they have now.The addition of Livingston will put Mo Williams at the two on the offense and let LeBron move without the ball more often, giving coaches more headaches in preparation.The best part of signing Livingston and Wallace would be the price.
+Livingston hasn\'t played since that nasty injury some years back and would probably sign for the veteran minimum&mdash;around $1 million or so.
+Wallace won\'t demand All-Star money and probably won\'t require more than a two-year deal, maybe around $7-9 million a year.If the Cavaliers need cap room, they can acquire Wallace in a sign and trade in which he would be able to demand more money.If the Cavs are serious about winning a ring, they absolutely must acquire Rasheed, and I believe once the trade hype settles, they will do just that.
+Livingston is a bonus, and the upside is more than worth a $1 million investment for a year&mdash;if he pans out the results can be amazing, if not, try another guard next year.Prospective Roster:Starters:C&mdash;IlgauskusPF&mdash;R. WallaceSF&mdash;JamesSG&mdash;M. WilliamsPG&mdash;LivingstonBench:PF&mdash;VarejeoPF&mdash;J.J. HixonPG&mdash;GibsonSG&mdash;PavlovicPF&mdash;B. WallacePF&mdash;Darnell Jackson...and some other guys that won\'t play.Wow, a bench full a PF\'s. No wonder they have backcourt absences. Maybe they can solve that with some draft day trades as well&mdash;a Courtney Lee-like pick wouldn\'t hurt this team at all.
+';
+$VAR13 = 'title';
+$VAR14 = 'Cleveland Cavaliers Need Rasheed Wallace & Shaun Livingston';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204485-nba-marketing-how-creating-michael-almost-ruined-basketball';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T18:54:41-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Randy Garcia';
+$VAR11 = 'desc';
+$VAR12 = 'Every so often some sportscaster will ask, "What is wrong with basketball?"This question is usually followed by some harangue about fundamentals not being taught or the lack of respect coach&rsquo;s get. Inevitably some ex-basketball player from the "good old days" will tell a story about how this or that coach abused his players and that somehow the ability to be abused and like it created better players.Back in those early years, and really right up to the beginning of the 1980s, basketball was still a sport struggling well behind baseball, football and in many places hockey for recognition. Many of basketball&rsquo;s legendary players were hardly well known in their times and by the \'70s basketball was struggling with the perception that, as Sports Illustrated writer Frank Deford put it, it was a &ldquo;game perceived&hellip;for blacks on drugs."The NBA&rsquo;s biggest marketing coup early on was accidental, fending off the ABA.&nbsp; It was the ABA with its wide open style of play and flashy stars who really began to draw attention to professional basketball. After the NBA-ABA merger in 1976 the NBA adopted ABA innovations like the three point line and the slam dunk contest but the initial rush of interest began to die down. Within a year the NBA was floundering again.In 1979 something wonderful happened in college basketball that would change everything.&nbsp; Two great college players on two great college teams played against each other for the first time. The big star for Indiana was Larry Bird, for Michigan  State it was Magic Johnson. That meeting is still one of the most watched NCAA finals games in history. The two great college rivals ended up with the two teams who constituted the NBA&rsquo;s greatest rivalry: Bird went to the Celtics and Magic to the LakersThe two players would renew that rivalry in the NBA, meeting in the Finals three times in 1984, 1985 and 1987 with Magic&rsquo;s Lakers winning two of those meetings. In all the two players teams won eight of the NBA finals in the decade of the \'80s with the Lakers earning five off those titles.In 1976 the US had lost for the first time in the Olympic basketball finals under somewhat controversial circumstances. The US boycotted the 1980 Olympics, so by 1984 there was a lot of pressure on the US to field a great team. At the time Olympic basketball was still restricted to amateur players. The 1984 team would several future NBA stars. The one that shone the most that year was a young Michael Jordan who led the team in scoring.David Stern became commissioner of basketball in 1984 and with the renewed Laker-Celtics rivalry and an influx of NBA players that included the star of the 1984 Olympic team Stern found a very effective marketing strategy. For the first time games were not billed as team versus team but player versus player. The 1987 Finals weren&rsquo;t the Lakers versus the Celtics but Magic versus Larry. Every team had its star and every matchup was a matchup of the stars not the teams.The NBA was promoting grudge matches; players that would never actually cover each other in a game were billed as rivals. Ewing versus Magic, Barkley versus Stockton, Jordan versus Hakeem. In this star versus star world people began to think of teams as extensions of their star players.At the beginning of the 1980s fans could name all the players on their favorite teams.&nbsp; By the end of the \'80s there were many more fans but fewer could name more than a couple of players in their favorite teams. This marketing scheme worked beautifully from the mid 80&rsquo;s until the late \'90s.Unlike the \'80s, the \'90s featured no great rivalries. The Chicago Bulls dominated the \'90s by winning six championships in the decade, only missing out on the first couple of years in the decade and a couple of years during Jordan&rsquo;s first retirement. The NBA&rsquo;s push of its stars became a push of one star, the star of its dominant team.&nbsp;Michael Jordan&rsquo;s endorsements had always been very successful. His athleticism was a fantastic advertisement for Nike and it didn&rsquo;t hurt that Spike Lee was producing the ads for that campaign. That success prompted Gatorade to offer MJ $10 million to advertise their product in 1991.&nbsp;A clever adman had realized after hearing the Monkey Song from Disney&rsquo;s classic The Jungle Book that a lot of people wanted to be like Mike. Disney wouldn&rsquo;t let him use their song so he wrote his own and the "be like Mike" campaign was born.&nbsp;By the middle of 1993 Michael Jordan had won three NBA Championships in a row and been a part of the first Dream Team in the Olympics. More importantly he was the most recognized athlete in the world as Gatorade told everyone they wanted to &ldquo;be like Mike&rdquo; and McDonalds advertising had him beating Larry Bird in superhuman games of HORSE.The NBA was flourishing and Michael Jordan was at the center of it all.&nbsp; Then Michael dropped a bomb. Michael&rsquo;s father James had murdered in July of 1993 and Michael, being close to his father, needed a break. For the first time David Stern realized that with Michael Jordan gone he had no advertising centerpiece.The NBA&rsquo;s ratings plummeted in 1994 from 17.9 in 1993 to 12.4 the next year. Every good player, from Jerry Stackhouse to Grant Hill was being billed as "the next Michael Jordan."&nbsp; When Jordan came back they rose again briefly but plummeted once he left.The NBA had invested so much in building Michael Jordan as the greatest player that now the fans could care less about any other player. They had done such a good job of building around one great player that young players began trying so hard to imitate Michael&rsquo;s game that they neglected their own strengths. Guys like Harold Miner and Isaiah Rider came and went.&nbsp;The quality of play was better than ever but without an exact duplicate of Michael the perception was that players were not as good.&nbsp; It&rsquo;s no wonder fans are disappointed, they&rsquo;ve been told for over decade that they want to be like Mike and how great Mike was. You could literally have the second coming of Bill Russell, Wilt Chamberlain, etc. and people&rsquo;s conditioning will have them saying things like, "yeah but Michael did it this way."Bill Russell, when asked what he said when his grandchild asked him if he was as good as Michael Jordan answered, &ldquo;I told him, that&rsquo;s the wrong question. The question is, was Michael Jordan as good as me.&rdquo; Ask yourself: "Could Michael have guarded Wilt in the post?" Could Michael have given out as many assists as Magic or Played in the post as well as Kareem? The answer is no, they were different players playing different positions in different circumstances playing in different eras with different rules.The best player in basketball is not a title but a curse, an albatross that the NBA hung around its own neck. There is nothing wrong with basketball, its just bad marketing.&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'NBA Marketing: How Creating Michael Almost Ruined Basketball';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204464-2009-nba-mock-draft-draft-week-edition-ver-40';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T18:17:13-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Kyle  Williams';
+$VAR11 = 'desc';
+$VAR12 = '
+&nbsp;
+This mock draft can also be found on: 5qsports.com
+&nbsp;
+First Round
+1. LA Clippers: Blake Griffin, F, Oklahoma
+ The team with the first pick in the NBA draft always has a lot of thinking to do. This year will be no exception, however, there is not much depth this year behind Griffin, resulting in a little less contemplation. The 2008-2009 NCAA player-of-the-year is a clear-cut choice to go first overall.
+ The Clippers have announced that they will choose the 6&rsquo;10&rdquo; big man first overall to save much drama in later months. Griffin will be a fan-drawer the second team in LA. The aging Clippers should look to shop some of their front line in order to make more playing time room for Griffin.
+ Griffin was a flat-out stud at Oklahoma. He averaged a shade under 23 PPG while grabbing well over 14 RPG. An athletic big man such as Griffin does not come often. Griffin scored and rebounded with ease in college, and also has plenty of room for improvement at the next level. With games of 40, 35, 33(2), and 32 points, respectively, Griffin has proven skill that will make him a great NBA forward.
+&nbsp;
+2. Memphis Grizzlies: James Harden, F/G, Arizona State
+ James Harden was an outstanding player in college as just a freshman, he has proven in just one year that he is a true scorer. The 6&rsquo;4&rdquo; lefty can flat-out put the ball in the hoop. 20 PPG, 5 RPG, and 4 APG is an impressive line.
+Harden can provide energy and the obvious scoring ability to any team in the draft. Crafty is an ideal adjective for Harden in that he can get to the rim at will, or pull up and hit the outside shot, as well as finish in transition. He does not have a set position that he would fulfill in the NBA yet. He also will need to gel to the NBA game, and learn how to run offense through other players.
+&nbsp;
+3. Oklahoma City Thunder: Hasheem Thabeet, C, Connecticut
+ Thabeet is the best Center in this year&rsquo;s draft, and has plenty of size for the position. Standing tall at 7&rsquo;3&rdquo;, Thabeet is a monster of a load in the paint. The Co-Big East player-of-the-year is much like a less-athletic version of Dwight Howard in that he will block almost anything that comes in the paint. He also has an offensive game that is improving, and can get him to the free-throw line. There is one thing that is certain with Thabeet, if you get him the ball close to the rim, it will pay off.
+&nbsp;
+4. Sacramento Kings: Ricky Rubio, G, DKV Joventut
+ Ricky Rubio is well known for his play in the Beijing Olympics for Spain. He started against the U.S.A. as just a seventeen year-old. He displayed endless skill at the point guard position.
+ The 6&rsquo;3&rdquo;, 18-year-old Rubio has a game that is shaped around his incredible ball-handling ability, phenomenal passing, keen court awareness, and quick-handed defense. His weaknesses include his need to strengthen his offensive game. If you look to Rubio for offense, you&rsquo;re in trouble. However, Rubio turns just nineteen in October giving him ample time to improve. Just like any other international star, Rubio will need time to get affiliated with the NBA, but when he does, he will be a very good player.
+&nbsp;
+5. Washington Wizards: Tyreke Evans, G, Memphis
+ Tyreke Evans had an outstanding freshman season at Memphis, where he started the year as a shooting guard, and ended as a point guard under coach John Calapari. The transition was clean that proves his versatility that will pay off in the NBA.
+The 6&rsquo;5&rdquo; freshman was a high-energy scorer in college at 17.1 PPG. He energized the crowd by getting to the rim at will, resulting in an acrobatic lay-in or a high-flying dunk. His shooting form might look unorthodox, but he can dial in from long distance. There are a few kinks in his game that he will iron out in the league. He will need to establish his true position, and when he does, he will be exciting to watch in the NBA.
+&nbsp;
+6. Minnesota Timberwolves: Stephen Curry, G, Davidson 
+ Stephen Curry will grace the 2009 NBA draft with his extremely wide arsenal of offensive talent. He quite possibly may have the best offensive game in the draft class. Averaging over 28 PPG and six assists, Curry has given himself a name.
+The 6&rsquo;3&rdquo; Curry flip-flopped from shooting guard to point guard in the past season, but is naturally a shooting guard. As a junior at Davidson, Curry hit the 20-point plateau 30 times, the 30-point plateau 15 times, and the 40-point plateau four times. Weighing at just 185 lbs, he needs to bulk up quite a bit, however, he will be ready to make a statement in the NBA for a team that is in need of a scoring threat.
+&nbsp;
+7. Golden State Warriors: Jordan Hill, F, Arizona
+ Jordan Hill is a new age power forward that all NBA teams want. The slender Hill is extremely athletic and has tons of leaping ability that shows in this rebounding (11 RPG). He has quick and explosive moves down low, which is where most of his scoring comes from (18.1 PPG), and has the ability to block a few shots once and awhile. He should be able to add more muscle to his frame in the NBA, as well as become better in traffic to lower his turnovers. Also, he gets to the line a lot, but needs to improve his free throw shooting.
+&nbsp;
+8. New York Knicks: Brandon Jennings, G, Italy
+ Many scouts rated Brandon Jennings as the best high school senior last year when college teams were making their offers. Jennings was a well-known guard that was set to hit Memphis and play for John Calapari. Then he just disappeared? No, he was the first big name high school player to make a bigger jump than going to the NBA; he went to the Euro League. Jennings might have been the first big name player to do so, but he is not the last.
+Jennings is an extremely exciting guard that can push the ball on the break and has great court vision. His strengths include: ball handling, vision, can create for himself, and others. His experience is lacking even with leaping to Europe and he needs to add strength to his frame. He will bring solidified talent to a team that needs it at point guard.
+&nbsp;
+9. Toronto Raptors: Demar DeRozan, G/F, USC
+ When you watch Demar DeRozan play you think of one adjective: well-rounded. The 6&rsquo;6&rdquo; DeRozan is a very fundamental player with God-given athleticism. His high-flying dunks and smooth jumper highlight his game. He has been compared to Richard Jefferson, which is realistic since both DeRozan and Jefferson are players who can either pull up for a jumper on any spot on the floor, or can use their athleticism and strength to get to the rim.
+However, DeRozan will not make an instant difference in the NBA because of his lack of defensive fundamentals and inability to create his own shot.
+&nbsp;
+10. Milwaukee Bucks: Johnny Flynn, G, Syracuse
+ Johnny Flynn was one of the top three guards last year in college basketball who can make a difference in the NBA quickly. He has a well-rounded game that includes his strong jump shot and ability to break down defenses in transition and either take in to the basket, or find an open teammate. At 6&rsquo;0&rdquo; his height is a minor concern, and his defense looks to improve as he prepares to forgo the rest of his college career and make the jump to the NBA.
+&nbsp;
+11. New Jersey Nets: Terrence Williams, G/F, Louisville
+Terrence Williams is an athletic freak. His jump shot has improved tremendously throughout his college career into what is now a smooth, NBA jumper. He can score the basketball along with play exceptional defense. Gary Payton will be proud to see Williams drafted this early, as he has been training T-Will.
+There is growing speculation that the Nets could use the 11th pick on Louisville forward Terrence Williams.
+
+"I know from close sources that New Jersey has interest in me, and I have a lot of interest in New Jersey with that level pick," Williams said after his workout with the club on Friday. "With my position, I think I could help right away and learn a lot from Vince Carter."
+&nbsp;
+12. Charlotte Bobcats: Gerald Henderson, G/F, Duke
+ Many College Basketball fan know exactly what Henderson is capable of, nevertheless, the 6&rsquo;5&rdquo; wingman was still questioned on his game in the NBA. Henderson, with the help of the NBA draft combine, has proved himself to NBA scouts and the rest of the draft pool.
+&nbsp;
+13. Indiana Pacers: Dejuan Blair, F/C, Pittsburgh
+ This Pittsburgh bruiser closed out last season being undoubtedly one of the most exciting big men in America. Blair will provide strength to any interior offense and defense. Losing 20 pounds from the end of his college season, Blair is much more agile than he was at Pittsburgh, which is a big factor. With his combination of scoring (15.7 PPG) and rebounding (12.3 RPG), Blair is a proven threat in the low post and on defense.
+&nbsp;
+14. Phoenix Suns: Jrue Holiday, G, UCLA
+ NBA scouts are practically drooling for Holiday. His frame is something that does not come often for a point guard. Standing at nearly 6&rsquo;5&rdquo;, Holiday is loaded with potential and came prove to be an NBA great one day. Holiday, along with his teammate, Darren Collison, left a positive mark on the NBA draft combine, which resulted in their stocks rising substantially.
+&nbsp;
+
+15. Detroit Pistons: Earl Clark, F, Louisville
+ 
+16. Philadelphia 76ers: James Johnson, F, Wake Forest
+ 17. Chicago Bulls: Jeff Teague, G, Wake Forest
+ 18. Minnesota Timberwolves: BJ Mullens, C, Ohio State 
+ 19. Atlanta Hawks: Austin Daye, F, Gonzaga 
+ 20. Utah Jazz: Eric Maynor, G, VCU
+21. New Orleans: Omri Casspi, F, Israel
+ 22. Portland Trailblazers: Tywon Lawson, G, UNC
+ 23. Sacramento Kings: Wayne Ellington, G/F, UNC
+ 24. Dallas Mavericks: Sam Young, G/F, Pittsburgh 
+ 25. Oklahoma City Thunder: Tyler Hansbrough, F, UNC 
+ 26. Chicago Bulls: Chase Budinger, G/F, Arizona
+ 27. Memphis Grizzlies: Patrick Mills, G, Saint Mary&rsquo;s
+ 28. Minnesota Timberwolves: DaJuan Summers, F, Georgetown
+ 29. LA Lakers: Derrick Brown, F, Xavier
+ 30. Cleveland Cavaliers: Darren Collison, G, UCLA
+ 2nd Round
+ 31. Sacramento Kings: Toney Douglas, G, Florida State
+ 32. Portland Trailblazers: Marcus Thorton, G, LSU
+ 33. Washington Wizards: Jonas Jerebko, F, Sweden
+ 34. Denver Nuggets: Dionte Christmas, G, Temple
+ 35. Memphis Grizzlies: Dante Cunningham, F, Villanova
+ 36. Detroit Pistons: Taj Gibson, F, USC
+ 37. San Antonio Spurs: Jermaine Taylor, G, Central Florida
+ 38. Portland Trailblazers: Rodrigue Beaubois, G, France
+ 39. Detroit Pistons: Jeff Pendergraph, F, Arizona State
+ 40. Charlotte Bobcats: DeMarre Carroll, F, Missouri
+ 41. Milwaukee Bucks: Danny Green, F, UNC
+ 42. LA Lakers: Nick Calathes, G, Florida
+ 43. Miami Heat: Curtis Jerrels, G, Baylor
+ 44. Detroit Pistons: Josh Heytvelt, F, Gonzaga
+ 45. Minnesota Timberwolves: Jerel McNeal, G/F, Marquette
+ 46. Cleveland Cavaliers: Jodie Meeks, G, Kentucky
+ 47. Minnesota Timberwolves: AJ Price, G, Uconn
+ 48. Phoenix Suns: Jeff Adrian, F, UConn
+ 49. Atlanta Hawks: Chris Johnson, F/C, LSU
+ 50. Utah Jazz: Tyrese Rice, G, Boston College
+ 51. San Antonio Spurs: Jon Brockman, F, Washington
+ 52. Indiana Pacers: Leo Lyons, F, Missouri
+ 53. San Antonio Spurs: Paul Harris, F, Syracuse
+ 54. Charlotte Bobcats: Jack McClinton, G, Miami (FL)
+ 55. Portland Trailblazers: Wesley Matthews, F, Marquette 
+ 56. Portland Trailblazers: Josh Akognon, G, Cal State Fullerton
+ 57. Phoenix Suns: Emir Preldzic, G/F, Slovenia
+ 58. Boston Celtics: AJ Abrams, G, Texas
+ 59. LA Lakers: Robert Dozier, F, Memphis
+ 60. Miami Heat: Milenko Tepic, G, Intl
+&nbsp;
+&nbsp;
+
+&nbsp;
+';
+$VAR13 = 'title';
+$VAR14 = '2009 NBA Mock Draft: Draft Week Edition Ver. 4.0';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204459-the-boston-celtics-and-the-58th-pick';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T18:11:59-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Frances White';
+$VAR11 = 'desc';
+$VAR12 = 'The prospect of raising banner 18 was put on  hiatus until the 2009 season. The Boston Celtics&mdash;without Kevin Garnett&mdash;came within a game seven of making it back to the Eastern Conference Finals.&nbsp;
+Danny Ainge and Doc Rivers did an admirable job of getting the most out of the players, with second round picks Leon Powe and Glen Davis developing into valuable role-players.
+This year because of the Kevin Garnett deal the Celtics are faced with signing free-agents or&nbsp;undrafted prospects, and the 58th pick in the second round.&nbsp;&nbsp;
+Rajon Rondo, Kendrick Perkins and Ray Allen have all been linked with trade rumors in the Celtics quest for a first round pick.
+The only name not mentioned is Glen Davis, and that may be because he has not started negotiations with other teams.&nbsp; What is Davis worth?&nbsp; He may be worth anywhere from picks 11-15.&nbsp;
+The Celtics need immediate help at the four and five spot.&nbsp;
+Players that may be available are: Austin Daye, B.J. Mullens, Earl Clark and Tyler Hansborough.&nbsp; Some draft boards have Daye taken ahead of Hansborough who is the more celebrated player.&nbsp; Daye is 6\'10", has a nice shooting touch but has no bulk.&nbsp; He has Garnett\'s build but has a better  jump shot.&nbsp;
+KG could take him under his wing but he is not someone you can build a team around. Trading up may not be the wisest choice and keeping Davis can only help.
+The Celtics do have options with the 58th pick.
+Leo Lyons Missouri 6\'9"- He can face up and take his man off the dribble. According to&nbsp;Hollinger\'s  formula Lyons ranked fourth per 100 possessions and third in free throws ahead of Dejuan Blair, Jordan Hill and Earl Clark.
+Jeff Adrienne 6\'6"-The Celtics don\'t need another undersized power forward, but he does have a 7\'4" wingspan.&nbsp; Plus it would be a great story of a hometown boy who makes his pro debut on local sports team.
+Chris Johnson 6\'11\' - Great instincts under the board, needs to add weight.
+If the Celtics do keep this pick, Leo Lyons seems to be a good fit.&nbsp;
+He already has an offensive game and it is predicated on taking it to the basket.&nbsp; His coach was a disciple of Nolan Richardson\'s 40 minutes of Hell school of defense.&nbsp; Lyons could be that athletic James Posey type they can groom.
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'What Can The Boston Celtics Do With The 58th Pick?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204536-draft-day-looming';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T16:52:44-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Busta Bucket';
+$VAR11 = 'desc';
+$VAR12 = '
+After a long five days out of town and out of touch, I\'m back in Oregon trying to wrap my head around the current buzz involving the Blazers and the draft.
+With only three days left, Blazer fans continue to feel confused and unclear on what the team might do.
+I keep going back and forth on the topic, but Jason Quick may have cleared a few things up for us today with his article in the Oregonian. Basically, Paul Allen is telling Pritchard to do work this summer. He wants the team upgraded as the Blazers are ready to take the next step.
+Some of the discussion involves the Blazers trading out of the draft and focusing on a legit free agent when July 1 rolls around. The more I think about it, the more it seems like a good decision.
+If we could somehow get a guy like Brandon Bass, Andre Miller, or Kirk Hinrich, we\'d be set up nicely for next season.
+With all systems a go from Paul Allen, KP just needs to make the right decision. I think the last quote from the article sums it up nicely:
+"But I will assure you: When it\'s time to run -- we will run," Pritchard said. "What I mean by that is when I feel like there\'s the right deal to take us to next level, I\'m not going to be afraid to make it. I just have to make sure it\'s the right one."
+I\'m at the point now where the draft day options don\'t get me as excited as the free agent list. I think this year\'s draft is going to have a lot of flops, including a handful in the top 10.
+Basically, I\'d like someone with a few years of experience in the NBA so they can contrinbute right away. Bass would be excellent as a backup, but I\'m not sure how he would feel about that role.
+Can you imagine Brandon Bass coming off the bench to relieve LaMarcus? Bass would crush people.
+I also see Andre Miller or Kirk Hinrich as major upgrades at the point. Even Jason Kidd or Steve Nash could be huge for Portland for at least a couple years. A veteran point guard who understands Brandon Roy and can control the team is crucial. They\'d be a co-pilot, of sorts, to Roy.
+The draft is close, I am admittedly excited about it. But this could be the first year in a long time in which we do very little. I\'m fine with it, as long as we do something dynamic in free agency.
+So what do you think? What is your ideal scenario for the off-season? Let\'s talk draft day since there are only three days left!';
+$VAR13 = 'title';
+$VAR14 = 'Draft Day Looming';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204391-point-guard-gate-montas-power-grab-or-draft-ruse';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T16:32:07-04:00';
+$VAR9 = 'author';
+$VAR10 = 'GoBears 2008';
+$VAR11 = 'desc';
+$VAR12 = 'In normal circumstances, teams that are looking forward to the draft don\'t have to worry about players they signed to a long extension less than a year earlier. But when the team is the Golden State Warriors and the player is Monta Ellis, all bets are off.On Tuesday, reports came out that a meeting had taken place between new Golden State GM Larry Riley, Don Nelson, and Ellis. In this meeting, Ellis was supposedly promised that the Warriors would not draft a point guard in the upcoming draft.By Thursday, Monta was declaring that he wanted to be a Warrior for the rest of his career, and Golden State management was busy talking about how Ellis wasn\'t a problem.According to Ellis\' agent: &ldquo;The GM and the coach traveled to Memphis to further provide that assurance to Monta that this is his team and they&rsquo;re looking to build this team around him for years to come...[His] response to them was that the most important component is winning. He wants to win and he wants to win with the Warriors.&rdquo;Typical of agent-speak, the quote potentially provides support for those on all sides of the point guard issue.Fans who believe that Monta should stay on the team&mdash;but as a shooting guard &mdash;will point to the fact that a shooting guard is often the center of the team. Although Monta is not Kobe or Jordan, he might become a consistent all-star in the not-so-distant future. As a feature of the offense. Monta would still handle the ball on almost every possession, he just wouldn\'t be passing the ball from the point guard position.In some cases, what would be good from Monta\'s perspective would also help the franchise as a whole.  Trading the shot-hogging Corey Maggette, for example would result in more touches not only for Ellis, but for the entire team.Monta playing the point is not one of them. Below is an excerpt from a scouting report on Ellis from 2005 (predicting either a late first-round or early-second round selection of Ellis in the draft):"His main draw is the fact that he\'s an outstanding athlete, being extremely quick and smooth in the open floor with a dynamite first step. He gets into the lane...whenever he pleases, elevating off one foot in the lane and hanging to finish fearlessly and creatively at the basket. He is very quick off his feet....[But] AAU ball has basically left him no grasp or comprehension of team basketball or fundamentals, and he probably wouldn\'t understand what\'s wrong with that if you tried to explain it to him...His biggest problem, for the short- and possibly long-term, is that he has no NBA position. He\'s a 6-3 SG with absolutely no PG skills whatsoever. The concept of running set plays is completely foreign to him, not being capable of doing anything in a half-court offense at this point except create his own shot off the dribble or drive and dish after drawing a crowd...Ellis has consistently shown a poor attitude and immaturity, pouting when things don\'t go his way or when the ball isn\'t in his hands for more than 5 seconds. He refused to shake anyone\'s hand at the end of the [2005] McDonalds [High-School All-American] game, because he was mad at his coach for not giving him more minutes at the PG spot..." (DraftExpress)The Warriors knew who they were getting in Ellis: a player that had a chance to be superstar in the league, but was a project. In the second round, those types of players are all a GM can hope for. Complete-package superstars almost never fall out of the lottery, let alone the first round. Even supporters of Monta playing the one would agree that Ellis should work more on improving his game, and worry less about his role on the team.Anthony Randolph was also a risk, and has had his maturity issues as well. But Randolph has adapted well to Don Nelson\'s system, and is spending the off-season improving his game by hitting the gym. "I\'m learning when and where to do things...and how to put the ball on the floor as little as possible to get where I need to go," Randolph was quoted as saying earlier this week. No mopeds in sight.Ellis\' main fault (on the court) is that he wants to be a point guard. League scouts and GM\'s know this.Whether or not Monta demanded that the organization not draft a point guard, the issue needs to be addressed. If Baron Davis was still on the team, Monta would be a shooting guard &mdash;a highly-successful one. The only reason why Monta handled the ball more last season was that Jamal Crawford is not a pure point guard either.Ellis needs to realize that if he\'s going to retire a Warrior, he should get used to having the ball passed to him, not trying to be a distributor. If Don Nelson lets him get away with some point-guard duties now, the next coach (hopefully) won\'t.Conspiracy theorists will note that denials and assurances similar to those by Ellis and the Warriors\' brass have taken place just before major trades throughout NBA history, including the Jason Richardson-for-Brandan Wright deal.Trading Ellis is not the answer, however, unless the rumors that Toronto is going to sign-and-trade Chris Bosh are true. Ellis can become a star shooting guard, especially if teamed with a tall point guard who can help him defend wings and long guards.Recent mock drafts, however, suggest that Tyreke Evans could be drafted in the five-to-seven range (possibly even at four by the Kings if Rubio is gone), leaving the Warriors with a choice between point guards Jrue Holliday and Stephen Curry, forwards Terrence Williams and Jordan Hill, and wing DeMar DeRozan. In this case, unless Golden State trades down, large segments of the fan base will likely be upset.Ironically, this scenario would allow Monta to continue his case for point guard duties, unless Williams was used a point-forward.If Golden State selects Hill or DeRozan, those who believe that Monta now controls the team will no doubt contend that Golden State\'s management has caved in by not taking a point guard. But Hill could be the best player on the board by the time the Warriors draft.Jordan would bring rebounding and inside scoring, which is needed on any team hoping to compete in the Western Conference.Some scouts (and no doubt some teams) regard Hill as one of the top talents in the draft, regardless of position, and if he lived up to his potential, Jordan could help appease both the fan-base and Monta by helping Golden State win games.But even a value pick has risks. The 2010 draft looks to be as loaded with forwards as the 2009 draft is with point guards. Ed Davis, Cole Aldrich, Derrick Favors, or even Greg Monroe (if he dramatically improves) or DeMarcus Cousins could all turn out to be better than Hill, who is already twenty-one.In that case, missing out on a point guard (even a risk such as Brandon Jennings) to take Hill would not reflect well on the Warrior\'s new GM. And Warriors fans aren\'t likely to forget that Monta\'s fellow 2005 draftee, Ike Diogu, was the last Pac-10 power forward picked by the organization.Don Nelson is well-known for his draft-related smoke-screens. And a new GM who was apparently appointed to continue the status quo isn\'t likely to begin his tenure by trading an important piece of the team\'s core.There is more than enough futility and poor decisions in the franchise\'s past to make Golden State\'s fans at least a little skeptical of the front office\'s intentions. Hopefully, the Warriors still intend to finally move on from the post-Baron era and find the next point guard who will lead them to the playoffs.';
+$VAR13 = 'title';
+$VAR14 = 'Point-Guard-Gate: Monta\'s Power Grab Or Draft Ruse?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204375-targets-for-hawks-in-the-draft';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T16:12:25-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Sutton Shirley';
+$VAR11 = 'desc';
+$VAR12 = 'On Thursday night the Hawks will have some tough decisions to make.&nbsp; They have the 19th and the 51st picks in the NBA draft.&nbsp; I am going to list five candidates that Rick Sund should consider choosing at each spot.&nbsp;
+1. Ty Lawson
+Lawson may be gone when the 19th pick comes around, but if he isn\'t, Atlanta shouldn\'t hesitate to draft him. He lacks the superstar potential that other point guards in this draft have, but he is also one of the safest picks in the draft.&nbsp;
+Lawson may not be an All-Star, but he will be a good starting point guard in the league for the next 10-12 years.&nbsp; If the Hawks choose Lawson, don\'t be surprised if Mike Bibby isn\'t re-signed.&nbsp;
+
+2. Eric Maynor
+If Lawson is gone by the 19th pick, then Eric Maynor should be available and he is the next-best thing.&nbsp;&nbsp;
+He was a four-year starter at VCU, and has an extremely high basketball IQ. His jump shot is suspect at times, but that can always be improved. He reminds me a lot of Andre Miller.&nbsp;
+&nbsp;
+3. B.J. Mullens
+Mullens will more than likely be gone by the time the Hawks pick, but if he is available they definitely have to consider taking him. Legit seven-footers are hard to come by, and this man is every bit of sevenfeet.
+He might end up being the next Kwame Brown, but he would be worth the risk if he was available this late.&nbsp;
+
+4. Sam Young
+Young should definitely be available at this point in the draft and he would allow the Hawks to go a different route this off season. He is an extremely strong player that plays good defense and has a decent post-up and mid-range game.
+He is also extremely mature at the age of 24.&nbsp; If selected, I would assume the Hawks would use Marvin Williams in a sign and trade, and then resign Bibby. Young would either jump into Marvin\'s starting role, or become the sixth man and let Moe Evans start.&nbsp;
+
+5. Tyler Hansbrough/Taj Gibson
+I put both of these candidates on here because Hansbrough has been flying up draft boards the last week or so.&nbsp; Both guys could add much-needed depth at the power forward spot, though. Neither are going to be stars in the league, but both are adequate frontcourt depth.&nbsp;
+&nbsp;
+For the second-round pick, I think the Hawks should pick an upperclassmen from college that should be able to make the team.&nbsp; They should pick one of these five players:
+&nbsp;
+1. Alade Aminu
+He is a shade shorter than seven feet, extremely athletic, has high character, and would bring relentless energy to the team.&nbsp; Think Anderson Varejao.&nbsp; He would provide insurance in case Atlanta can\'t re-sign Zaza Pachulia.&nbsp;
+&nbsp;
+2. Toney Douglas
+Douglas is the reigning ACC Defensive Player of the Year. He also led Florida State in scoring and was the team\'s leader in the  locker room. Douglas tore up the ACC this past season and could immediately step in and fill the void that Flip Murray filled last season.&nbsp;
+&nbsp;
+3. Goran Suton
+Suton impressed me in the NCAA tournament.&nbsp; He has a nasty side, but also has some finesse to his game. He would be a good rotational big man to have on the bench.&nbsp;
+
+4. Danny Green
+Green was highly touted coming out of high school, but was overshadowed by bigger names at UNC. He could fill a vital roll of the bench for the Hawks playing back up shooting guard and small forward.
+&nbsp;
+5. Jeff Adrien
+Adrien is full of heart and hustle. He is also an extremely strong player.&nbsp; He would be a great addition to the Hawks bench. Think a combination between Jason Maxiell and Glen Davis.
+&nbsp;
+&nbsp;
+&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'Targets for the Atlanta Hawks in the NBA Draft';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204343-are-the-golden-state-warriors-putting-too-much-hope-on-monta-ellis';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T15:25:25-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Hoops4life  ';
+$VAR11 = 'desc';
+$VAR12 = 'The Golden State Warriors have lost a few fans in the last two years.
+That\'s what happens when you go from being an exciting, fast-paced team that pulled off one of the biggest upsets of NBA playoff history to a dull, no-hope team dwelling in the bottom of the Western Conference.
+Personally, I only took real notice of the Warriors because A) I\'m a Stephen Jackson fan and B) I took interest in the conflict between Jamal Crawford and head coach Don Nelson, merely because Crawford was on my fantasy team and I wanted to know if he was actually going to be playing that night.
+So really, the team doesn\'t have much going for it other than the seventh pick in the upcoming draft, and of course, Monta Ellis.
+The 2007 NBA\'s Most Improved Player is the biggest story in the Bay Area this summer, as speculation grows about how management is treating him, and how long his future with the team actually is.
+The Warriors have made it clear that they intend to make Ellis the main piece of the team and to build around him. They have stated that they want him to remain in Golden State for the&nbsp;foreseeable future.
+Not too long ago, we wouldn\'t have thought this would be the case.
+I think we all know the details of how&nbsp;Ellis\' season began, coming off a great 2007-2008 season in which he solidified his status as a young up-and-comer by averaging more than 20 points a game, before injuring the ligament in his left ankle.
+The ankle required surgery, and Ellis claimed he injured it while working out. As we now know, this was not the case, as it was revealed the damage was due to a moped incident.
+The team suspended Ellis for 30 games (which was conveniently how long he was due to be out for rehab anyway) and he started slowly after coming back, not really having time to show how successful his recovery was.
+Understandably, some bad blood bubbled up during these legal wars between Ellis and the Warriors. It happens when you try to forcibly take money from another party.
+Rumors surfaced of management trying to shop Ellis, and of Ellis demanding trades; it seemed like neither wanted anything to do with the other anymore.
+That has now changed, apparently. This week, reports have come out detailing just how much the Warriors are willing to invest in the young Ellis as the future of their basketball team.
+General manager Larry Riley and Don Nelson flew to Memphis in order to sweeten Ellis up, and&nbsp;apparently offered quite a lot to the quick guard.&nbsp;
+"Coach came down here and that\'s exactly what it was," Ellis told KNBR\'s Fitz &amp; Brooks Show on Thursday. "He said, \'I\'m putting the team in your hands, on your shoulders, and we\'re gonna see how it goes.\' And I\'m ready for that responsibility right now."
+OK. This seems fair enough: the Warriors are obviously at a crossroads where they need to pick a direction. They have chosen Ellis. And there are a number of good reasons.
+He is young, he can obviously play, he has an exciting style that can help put butts in the seats, and he did show improvement after coming back from the ankle injury. Though he only managed 25 games, he averaged omore than 25 points per game throughout March and scored in double figures in 23 of those 25 games.
+However, Riley has also reportedly assured Ellis that they will not be choosing a  play-making point guard with their lottery pick on Draft Day.
+So now Ellis is playing GM, too?
+The team is now thinking about their drafting options based purely on what Ellis will think of them? I don\'t see that as a good sign.
+That, to me, seems like the management is clutching at straws. They have decided the only thing afloat in the Bay is Ellis, so they\'re going to all grab onto him hard, even if they still end up sinking.
+But is he worth it? Shouldn\'t the team be concentrating on what they need or the talent available, rather than keeping Ellis happy? They\'re almost acting as if he\'s  LeBron James.
+As mentioned previously, Ellis expressed interest in leaving the team, and still has bad blood with management, so will this all be a waste of time if Ellis wants to walk as soon as he can anyway?
+Shouldn\'t the Warriors be concentrating on someone who wants to be with the team?
+Understand, this is no knock on Monta Ellis. As mentioned, he is an incredibly skilled basketball player. He has a chance to be a star of the future, like so many labeled him two years ago, and it\'s definitely not all that hard to imagine him earning an All-Star berth down the road.
+He has publicly stated his desire to stay with the team, too&mdash;"I\'m not thinking about leaving," he said. "It hasn\'t come across my mind. The only thing I want to do is win.
+"...I don\'t know where that stuff has come out, but right here, right now, I\'ll set the record straight&mdash;that never came from me and I\'m a Warrior. And you don\'t have to worry about Monta Ellis, because No. 8 will be in a Warriors jersey next year."
+No disrespect to him in any way; this is more about wondering what the management is thinking.
+If they want Ellis to be their centerpiece, then that\'s fair enough. He is the highest-paid player on your team, and the one who gets his name in the headlines the most.
+But make sure he is worth building around. Don\'t sell the team down the river in order to just keep him.
+I think this stems from the fact that as a GM, it is better to be seen doing something than nothing.
+I said earlier that the number of Golden State fans has lessened. So Riley is now saying, \'\'Yes, but look, Monta is here, he shall surely save the day," to keep the fans interested, as if this is much better than saying, \'\'Yeah, we lose a lot but remember 2007? That was a good year.\'\'
+Ellis can easily be a star for the Warriors, and can definitely help them in their quest to return to the postseason and make themselves relevant again, but that doesn\'t mean the Warriors have to put all their eggs in his basket.
+As always, I would love to know what you think the Warriors should be doing.';
+$VAR13 = 'title';
+$VAR14 = 'Are the Golden State Warriors Putting Too Much Hope in Monta Ellis?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204334-sacramento-kings-draft-team-works-out-final-candidates-evans-shines';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T15:10:32-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Jason Coldiron';
+$VAR11 = 'desc';
+$VAR12 = 'It appears the Kings have narrowed down their choices for the No. 4 overall pick to three candidates: Tyreke Evans, Ricky Rubio, and Jonny Flynn.
+&nbsp;
+On Sunday, the Kings held a workout with the last remaining prospects they are considering. This was a bit of a who\'s-who of the point guard class.
+&nbsp;
+The workout included Evans, Flynn, Stephen Curry and Patrick Mills.
+&nbsp;
+Each of these prospects bring very different strengths and weaknesses to the table.
+&nbsp;
+Flynn represents a true distributing point guard with a vocal leadership style that the young Kings have been sorely missing. On the downside, there are questions about his size and strength.
+&nbsp;
+For Curry, the obvious strength is his shooting ability. He is considered the best pure shooter in the class. There are, however, questions about his ability to run the point, along with a standing belief that he would rather not play in Sacramento.
+&nbsp;
+Sources say that he was only in Sacramento for this workout for the opportunity to show what he could do against the other top point guards.
+&nbsp;
+Patrick Mills displayed his blazing fast speed and is considered a possibility for the Kings second first-rounder at No. 23, the pick acquired from Houston in the Ron Artest trade.
+&nbsp;
+The real story of this workout, however, was Tyreke Evans.
+&nbsp;
+Evans will enter the NBA with a suspect jump shot and a lack of experience running the point, as he played primarily on the wings in college.
+&nbsp;
+Evans\' strengthes are his size, athleticism and pure physicality. These were on full display in this workout, as he was able to physically dominate the other guards and get himself to the rim at will. One observer noted that, &ldquo;He looked like a man playing among boys.&rdquo;
+&nbsp;
+One of his crossovers on Curry, which left Curry on the ground, led observers to further question Curry\'s defensive ability.
+&nbsp;
+If this workout is any indication, it seems likely that Evans will be the Kings pick on Thursday.
+&nbsp;
+Noticeably absent from this workout were other top point guard prospects Brandon Jennings and Jrue Holliday. This would seem to suggest that they are both out of the running.
+&nbsp;
+The last complication is the wavering interest of the Kings in Spanish point guard Ricky Rubio.
+&nbsp;
+Rubio was in Sacramento last week, but fell ill. As a result, he missed out on both his workout and his interview with Kings ownership, the Malloof brothers.
+&nbsp;
+One obstacle for Rubio was cleared on Sunday as his agent was finalizing the details of his buyout from his team in Spain.
+&nbsp;
+It is still unclear if the Kings will consider Rubio if he is available at No. 4.';
+$VAR13 = 'title';
+$VAR14 = 'Sacramento Kings Draft: Team Works Out Final Candidates; Tyreke Evans Shines';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204330-brandon-jennings-fall-from-the-lottery';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T15:05:03-04:00';
+$VAR9 = 'author';
+$VAR10 = 'D.Michael Lee';
+$VAR11 = 'desc';
+$VAR12 = 'The fascinating thing about the days leading up to a NBA Draft is that the &ldquo;experts,&rdquo; the movers and shakers in many franchises&rsquo; war rooms, start to believe the hype around the young adults that they are about to make very rich.
+No matter if you are Blake Griffin, Eric Maynor, Wayne Ellington, or Brandon Jennings, the team that selects those players are drafting as much on potential as anything else. In essence, the word "potential" is the optimism that all 30 teams have at the start of training camp.
+Title contenders feel they have the potential of winning it all, while some very bad teams feel new players and a new attitude can equal the potential of having a special season. Our latest and next-to-last Mock Draft (last one on Thursday, just hours before the actual one), shows little movement at the top. However, some players are starting to see their names bounce in and out of the lottery.
+&nbsp;
+1. Clippers&mdash;Blake Griffin
+The only drama surrounding this pick is whether being named to be the coverboy for NCAA 2010 video game will cause a Madden-like curse.
+&nbsp;
+2. Grizzlies&mdash;Hasheem Thabeet
+My gut feeling says the Grizz trade this pick, whether moving down later in the top 10 to take a guard like Jonny Flynn, or moving into the late teens or early 20s and going with a James Johnson-Austin Daye caliber player.
+&nbsp;
+3. Thunder&mdash;James Harden
+I think this is pretty much set. The new Big Three (Durant, Westbrook, Harden) are gonna bring some excitement to OKC next year.
+&nbsp;
+4. Kings&mdash;Ricky Rubio
+There&rsquo;s no way the Kings let Rubio slip past them, right? Stranger things have happened, but unless they get an offer they simply can&rsquo;t refuse, Rubio should be able to land right in there laps here.
+&nbsp;
+5. Wizards&mdash;Jordan Hill
+Another pick I feel will likely belong to someone else before the week is out. Hill is coveted by many teams, including the Mavericks and Knicks, and they might both put on a full-court press to move up.
+&nbsp;
+6. Timberwolves&mdash;Tyreke Evans
+Evans has seen his draft stock remain steaddy around the No. 4 to No. 8 range. The Wolves have been rumored to move up to possibly take Rubio, but someone needs to send them a memo that Evans will be a better pro.
+&nbsp;
+7. Warriors&mdash;Jrue Holiday
+If Jamal Crawford thought he was buried on the Warriors bench last year, wait until GSW makes this move. The Warriors also have seen Monta Ellis come out and say he is dedicated to being a Warrior, but that doesn&rsquo;t mean much to management. Holiday and Evans could easily swap here, but the UCLA guard winds up in Oakland in this mock.
+&nbsp;
+8. Knicks&mdash;Stephen Curry
+Other than Blake going to the Clippers, this pick is as predictable as they come. The Knicks will take Curry, if he is here, even though Jonny Flynn (projected to be a better pro) and DeMar DeRozan (a potential All-Star) will be sitting in the green room.
+&nbsp;
+9. Raptors&mdash;DeMar DeRozan
+The next Vince Carter (or Tracy McGrady) heads to Canada. Raptors fans should either rejoice or prepare to watch him leave their team in three years.
+&nbsp;
+10. Bucks&mdash;Jonny Flynn&nbsp;
+The Bucks can&rsquo;t pass up on Flynn at this spot. Don&rsquo;t be surprised if some teams watch how the draft is shaking out, and start ringing the Bucks&rsquo; phone with trade offers.
+&nbsp;
+11. Nets&mdash;Gerald Henderson
+Henderson&rsquo;s arrival could mean Vince is on his way out of Jersey soon.
+&nbsp;
+12. Bobcats&mdash;Earl Clark
+The Bobcats get it right on Draft Day (finally). Clark is a bit of a tweener between a 3 and a 4, but could potentially develop into a poor man\'s Rashard Lewis on the wing.
+
+13. Pacers&mdash;James Johnson 
+The Pacers are quietly putting together a very good young team. Johnson, along with Danny Granger and Troy Murphy, will cause problems for opponents.
+&nbsp;
+14. Suns&mdash;Brandon Jennings&nbsp;
+Steve Kerr rolls the dice in the most important draft of his GM career. Jennings is brought in to learn from Steve Nash on how to run the "Run-N-Fun" offense. Perfect situation for Young Money to develop.
+&nbsp;
+15. Pistons&mdash;Tyler Hansbrough
+The UNC star will be a solid pro in the league, and the Pistons are a good fit for his hard-nosed, workmanlike style.
+&nbsp;
+16. Bulls&mdash;DeJuan Blair
+I believe this pick will eventually not be Chicago&rsquo;s, but they may draft Blair for a team they will make a trade with.
+&nbsp;
+17. Sixers&mdash;Eric Maynor
+Everyone has all but penciled in Maynor to go here.
+18. Wolves&mdash;B.J Mullens
+Mullens and Kevin Love on the same front line? Possibly, but not probable. This pick will get dealt.
+&nbsp;
+19. Hawks&mdash;Terrence Williams
+Williams\' athleticism and potential gives the Hawks another scorer. I think Acie Law will get one more year to develop, rather than the Hawks taking a point guard.
+20. Utah Jazz&mdash;Austin Daye
+Daye can and will be the replacement for Carlos Boozer or Paul Millsap, whichever one departs.
+21. Hornets&mdash;Ty Lawson
+Lawson is a great talent, and a CP3/Lawson backcourt would create matchup problems.
+&nbsp;
+22. Mavericks&mdash;Sam Young
+A younger version of Jerry Stackhouse, potentially.
+&nbsp;
+23. Kings&mdash;Wayne Ellington
+Sacramento gets a steal here. Ellington will get playing time on a losing team, and could develop nicely in a year or so.
+&nbsp;
+24. Blazers&mdash;Omri Cassipi 
+Another capable rebounder who can add depth to the front court.
+&nbsp;
+25. Thunder&mdash;Patrick Mills 
+Mills and Westbrook provide OKC with one of the best young backcourts in the league, potentially.
+&nbsp;
+26. Bulls&mdash;Jeff Teague
+Teague is the best player available at this spot, and while Chicago already has Rookie of the Year Derrick Rose at the point, Teague can offer up valuable minutes with the second team.
+&nbsp;
+27. Grizzlies&mdash;Derrick Brown 
+Derrick Brown could be the sleeper of the NBA Draft, seriously.
+&nbsp;
+28. Timberwolves&mdash;Taj Gibson
+Depth, Depth, Depth&hellip;
+&nbsp;
+29. Lakers&mdash;Jack McClinton 
+McClinton could potentially provide the Lakers with added depth, and play a critical role in the team\'s repeat hopes, should Lamar Odom or Trevor Ariza leave.
+&nbsp;
+30. Cavaliers&mdash;Marcus Thornton 
+Another big frontcourt player to help LeBron in his quest for the ring.
+&nbsp;
+Orignially Posted on LayupDrill.com';
+$VAR13 = 'title';
+$VAR14 = 'Brandon Jennings\' Fall from the Lottery';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204318-nba-draft-preview-can-stephen-curry-be-the-next-reggie-miller';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T14:39:31-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Samuel Bell Jr';
+$VAR11 = 'desc';
+$VAR12 = 'As the NBA Draft quickly approaches, this year\'s crop of players seems to be more unpredictable than a game of poker. Apparently, with the exception of Oklahoma\'s Blake Griffin, the sports public has no idea what hand we\'re being dealt.There are no Kevin Durants, Greg Odens, or Michael Beasleys. Just Blake Griffin, and that\'s it.Or is it?The interesting thing about this draft\'s group of players is that they also have the potential to feature many players with Xenon bright futures. We simply can\'t call it.There\'s a shortage of sure things, but a plethora of possibilities as there\'s a lot of talent to go around.Even some people are questioning whether Griffin will be as good as advertised primarily because his strength and quickness were his major&nbsp;assets at Oklahoma, but the NBA features many big men who can match those qualities.Despite those claims, many of us can agree that Griffin, in this draft,&nbsp;is easily the consensus first pick and the player closest to a sure thing.As much as people continue to forcefully shove Ricky Rubio into my face, I\'m just not sold on the guy yet. When I watch the highlight reel they run of him, I just don\'t see the second pick written on his forehead.It\'s not that he isn\'t good, but second-pick good? Every time I hear his name and the hype surrounding him, I just can\'t help but think of Darko Milicic.Not that there\'s any Dwyane Wades or Carmelo Anthonys in this draft, but Rubio is largely unproven to many American sports fans.Yes, we watched him help take the United States to its limit in the Beijing Olympics, but I had more fun watching Rudy Fernandez. Fernandez was a spark plug in that Gold Medal game, and the U.S had trouble with him.Rubio was good, but Fernandez was better. Fernandez had a very solid rookie season in Portland, where he set a record for most made three-point field goals for a rookie, but he received little-to-no hype in 2007\'s draft when he was taken 24th.Brandon Jennings, now known as the guy who said the truth about Rubio, doesn\'t particularly impress me either. Jennings was quoted as calling Rubio overrated, and I agree, but the problem is so is he.I don\'t see much in Jeff Teague from Wake Forest, Jrue Holliday from UCLA, or James Johnson out of Wake Forest. All of those guys appear to be career role players at best.I am seeing the light with Stephen Curry from Davidson, Jordan Hill from Arizona, and Demar DeRozen out of USC. I also like Hasheem Thabeet from Connecticut and Jonny Flynn out of Syracuse.In trying to make sense of the 2009 NBA Draft\'s top prospects, there\'s one thing I use to try and understand what they may bring to the table: Current NBA player comparisons.What better way to gauge what a player can offer than by looking at a possible NBA equivalent that already has shown us what kind of player they are?Here are five players who are difficult to place based on their overall talent level. And no, Blake Griffin isn\'t on this list. Nor is Ricky Rubio. We\'ve heard enough about them. These guys are potential darkhorses.&nbsp;Jonny Flynn&mdash;Syracuse Orange, Sophomore2008 stats: 17.4 PPG, 6.7 APG, 2.7 APGAlter NBA Ego&mdash;Nate Robinson, New York KnicksFlynn is an ultra-talented guard who proved to the nation last season that he was worthy of a top-10 pick. Leading Syracuse to the NCAA Tournament, Flynn\'s sheer athleticism and overall ability was too much for much of his competition.He and Robinson share many characteristics including short-stature, extreme quickness off of the dribble, and ability to finish at the rim.Much like Robinson leaving the University of Washington, Flynn has an erratic outside shot that he must improve if he\'s going to succeed on the pro level. One thing that is undeniable is his athleticism and ankle-breaking speed.Biggest Pro&mdash;AthleticismBiggest Con&mdash;Shooting&nbsp;Gerald Henderson&mdash;Duke University, Junior2008 stats: 16.5 PPG, 2.5 APG, 5.0 RPGAlter NBA Ego&mdash;Caron Butler, Washington WizardsHenderson isn\'t getting any attention in this draft, and with his humble spirit, he\'d probably prefer it that way. Coached by the legendary Mike Krzyzewski, Henderson plays well in every facet of the game.He improved his outside shooting to complement his slashing and finishing abilities to make him a consistent threat. A three-year starter at Duke, Henderson has improved steadily each year.Like Butler, Henderson is a swing man with size and the ability to knock down shots from the perimeter. If Henderson continues to become a more viable shooting threat, and if he goes to the right team, he may surprise.Biggest Pro&mdash;Slashing AbilityBiggest Con&mdash;Inconsistency&nbsp;Demar DeRozan&mdash;USC, Freshman2008 stats: 13.9 PPG, 1.5 APG, 5.7 RPGAlter NBA Ego&mdash;Corey Maggette, Golden State WarriorsDeRozan clearly has talent, and nobody can question that. What we can question though, is DeRozan\'s overall versatility. He does everything good, but not one thing great, and that can be scary.He\'s a budding scorer who will only improve with time, but he doesn\'t shoot the outside shot consistently; he isn\'t a great passer; and he doesn\'t rebound particularly well.At 6\'7" and 220 pounds, DeRozan needs to become a better rebounder. Just as Maggette was when he left Duke, DeRozan\'s an athlete with lots of scoring potential, but he must improve across the board to maximize his potential. But, I like his chances.He can be a winner if he learns to play defense and can have the right attitude.Biggest Pro&mdash;PotentialBiggest Con&mdash;Experience&nbsp;Tyreke Evans&mdash;Memphis, Freshman2008 stats: 17.1 PPG, 3.9 APG, 5.4 RPGAlter NBA Ego&mdash;J.R. Smith, Denver NuggetsEvans is a very talented player who\'s receiving a little flack for starring at Memphis, a Conference USA school. Derrick Rose is doing pretty well, so that doesn\'t matter to me at all.Evans is extremely versatile, can get in there and rebound a little, pass some, and bring the ball up the floor if needed. He shoots 27 percent from three and 46 percent from the field.He\'s a raw talent much like J.R. Smith was when he entered the league. The ability and talent is there; the potential is there, but it\'s all about his attitude and willingness to learn from the veterans and work hard. If he does that, the moon\'s the limit for Evans.Biggest Pro&mdash;All-around abilityBiggest Con&mdash;Consistency&nbsp;Stephen Curry&mdash;Davidson, Junior2008 stats: 28.6 PPG, 5.6 APG, 4.4 RPGAlter NBA Ego&mdash;Reggie Miller, Indiana Pacers (retired)Steph Curry is probably the biggest wild card of this year\'s draft. You love his huge numbers and outstanding shooting ability. The problem is, he put those numbers up for Davidson College.Is that an issue? I\'m not sure yet, but one thing I can tell you is I believe in this kid\'s ability.Not only did he put on a show against the biggest competition two years ago in the NCAA Tournament, but he also lit up the likes of Duke University and Blake Griffin\'s Oklahoma Sooners this past season.Reggie Miller was one of the deadliest shooters of all time; he could shoot off of the screen like nobody we\'ve seen. Curry can shoot well off of the screen too, but he can also pull up his own shots.What\'s forgotten about Curry is his driving ability and versatility. If he can keep those things consistent in the league, he may be another installment of "Miller Time."Biggest Pro&mdash;ShootingBiggest Con&mdash;Competition&nbsp;There are many players in this draft who are consumed with potential, but that\'s all. This year\'s draft will be very interesting, as nobody really knows which players will emerge to be next season\'s Derrick Rose or O.J. Mayo.One thing we can count on for sure, it will be fun to watch.I know what I\'ll be watching come Thursday, June 25. Do you?';
+$VAR13 = 'title';
+$VAR14 = 'NBA Draft Preview: Can Stephen Curry Be the Next Reggie Miller?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204280-they-myth-of-tyler-hansbrough';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T13:38:31-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Daniel Price';
+$VAR11 = 'desc';
+$VAR12 = 'If you like this piece, please take a look (and bookmark) my blog, The Atlantic Coast Constant at acconstant.blogspot.com.He\'s not athletic.North Carolina listed him taller than he actually is.He has T-Rex arms.He (as a white man) can\'t jump.Throughout Tyler Hansbrough\'s entire career at North Carolina, these have been the almost universally accepted pot shots at the 2008 consensus National Player of the Year. And I will admit, save for the first one, I believed all of them.I also believed, like almost everyone out there, that Blake Griffin was a freak that no NBA team should pass on. He was taller and much more athletic than Hansbrough with a body more suited for the NBA (no comments were ever made of his being undersized or having short arms).So when I read NBA.com\'s look at the power forwards, I was very intrigued by the tale of the tape.Height: Griffin, 6\'10"; Hansbrough, 6\'9 1/2" (A half inch taller than his UNC-listed height)Weight: Griffin, 248 pounds; Hansbrough, 234 pounds (A sleek 16 pounds lighter than his playing weight at UNC)Wingspan: Griffin, 6\'11 1/4"; Hansbrough, 6\'11 1/2" (Probably a foot or so wider than anyone thought)Wha-wha-wha-whaaaaaaat? Hansbrough\'s wingspan is wider than Griffin\'s? Wait. There\'s more.Vertical: Griffin, 35 1/2 inches; Hansbrough, 34 inchesThat\'s right. The freak that is Griffin can only jump an inch and a half higher than the supposedly grounded Hansbrough. It\'s no wonder the ACC\'s all-time leading scorer has been shooting up draft boards into lottery contention.So to Tar Heel fans out there: You were right.Tyler Hansbrough is not an unathletic, stubby-armed bulldozer, he\'s a surprisingly athletic, rather normally proportioned bulldozer. And if selected in the lottery, it might not be the biggest mistake in the history of the franchise that selects him (especially if that franchise is the Portland Trail Blazers).';
+$VAR13 = 'title';
+$VAR14 = 'Tyler Hansbrough: Debunking the Myth';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204218-thabeet-to-the-thunder-bulls-trading-two-first-rounders';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T12:03:05-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Brandon Ribak';
+$VAR11 = 'desc';
+$VAR12 = 'Rumors, rumors, rumors...what are we going to hear next? They could be so entertaining to hear, but so erroneous at the exact same time.
+Today\'s plethora of rumors include one about Hasheem Thabeet and the Oklahoma City Thunder. According to DraftExpress.com it looks as if Thabeet is not very interested in joining the Memphis Grizzlies organization to begin his career.
+While most athletes would rather go to an established team that has experienced players on their roster instead of a lousy young team like the Grizzlies, Thabeet has expressed major interest in becoming a Thunder and from what is heard, it would be a 100 percent guarantee for Oklahoma to draft Thabeet if he is still available when their pick comes along.
+With that in mind, could you imagine how young and tremendous the Thunders lineup could be? Westbrook, Durant, Green, and Thabeet? That sounds like an emerging team in the West!
+In other news, the Chicago Bulls are attempting to trade up their 16th and 26th pick of the first round to the New Jersey Nets for the 11th pick overall.
+Who could the Bulls possibly want with the 11th pick? Possibly Tyler Hansbrough or maybe Gerald Henderson.
+Stay tuned...';
+$VAR13 = 'title';
+$VAR14 = 'NBA Draft Rumors: Thabeet to Thunder, Bulls Trading Two First-Rounders';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204213-heartbreak-city-heartbreaking-defeats-in-sports';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T11:51:43-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Majesh Abraham';
+$VAR11 = 'desc';
+$VAR12 = 'Orlando Magic fans are probably rehashing Courtney Lee\'s missed lay-up in their mind right now. It was a heartbreaking defeat for Magic fans could possibly changed the outcome of the series against  the Los Angeles Lakers, or atleast made it closer.
+
+As someone whose been there and done that, I feel for you.
+
+I am sick of all the lists talking about the best Championship teams, best Super Bowl winners and best everything in general!
+
+They say people only remember the winners, not the losers of a given sporting event.
+
+BULLS**T! Do you know who remembers the losers? The fans of the team that lost, they will never forget.
+
+This is for the fans who follow every play, every game and  every season, just as the fans on the winning team do, but for one measly play, kick, pitch, shot, etc. that snatches defeat from the jaws of victory.
+
+We are the ones who have nothing to show for countless hours spent following a team throughout the season, except for another painful memory.
+
+Plus, we don\'t act like pompous jacka*#%s like the winning fans do afterward.
+
+Please don\'t give me that B.S. about how your team was the better team all along and deserved to win. There\'s luck involved in sports too my friend, not just in a casino.
+
+To make it on this list you as a fan have to have truly suffered for your team because your team has been historically inept and/or inept preceding that game. 
+
+So Yankee fans, if you cry about Game 7 of the 2001 World Series, I will smack you with one of your 26 World series trophies.
+
+Same goes for Lakers fans, Red Wings fans, AC Milan etc.
+
+DISCLAIMER: This is not a comprehensive list. Repeat, THIS IS NOT A COMPREHENSIVE LIST.
+
+Sorry I wasn\'t born when the "Shot heard around the World Happened", so that\'s why its not on there.
+
+Also, I am a Chicago Sports fan, so I will probably have missed some moments that deserve to be on there.
+
+If you have other heartbreaking defeats that you think should go on the list, please feel free to post it as a comment. Also, for length reasons, I only put one loss per team.
+
+Finally, these aren\'t ranked, because obviously each fan of a respective team feels that their loss is the worst.';
+$VAR13 = 'title';
+$VAR14 = 'Heartbreak City: Heartbreaking Defeats in Sports.';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204180-what-the-cavaliers-need-most-is-a-lebron-james-injury';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T10:49:07-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Roger Pimentel';
+$VAR11 = 'desc';
+$VAR12 = 'The Cleveland Cavaliers\' trade rumor mill is running on overdrive this offseason, but the real problems aren\'t with their roster.  What the Cavs need is for LeBron James to go out with an injury.  Not a bad injury&mdash;not a season-ender. They need LeBron out of the lineup for a few weeks of the 2009-2010 season, tops.  It\'s enough time for his teammates to learn how to step it up.  The Cavaliers had a fantastic season in 2008-2009, leading the league and setting a franchise mark with their 66-16 record. They only lost, in effect, one game on their home floor (the garbage-time loss to the Sixers, in which their starters didn\'t even dress, doesn\'t count) and took home individual bling for MVP LeBron James and Coach of the Year Mike Brown.  LeBron\'s hired help showed up to play, too. Mo Williams led the team in scoring 11 times, including 43 and 44-point outings in January and February. Delonte West often led the offense when LeBron was on the bench, and his versatility and three-point shooting were indispensable.  Zydrunas Ilgauskas continued to be 7\'3" and paired up with 6\'11" Anderson Varejao to comprise a serviceable frontcourt. The Cavaliers were third in the league in rebounding differential (averaging 3.3 more than their opponents, plus an unreal +5.4 in the playoffs), and Ilgauskas led the team in scoring on five separate occasions.  The problems, then, aren\'t with the personnel.  The biggest Achilles\' heel of the Cavs\' season was undoubtedly their inability to rise to the occasion in big games. They went 2-6 against the league\'s other elite teams (the Celtics, Magic, and Lakers) and famously collapsed against Orlando in the Eastern Conference Finals, losing the series 4-2.  In the regular season losses, the problem is easily traced to LeBron having bad games (either struggling on his own or being stifled by good defense) and his teammates not picking up the slack. The King averaged 34.9 percent shooting, compared to 59.8 percent in the wins over Boston and Orlando&mdash;and in only two of those six losses did he have a teammate score more than 16 points.  The losses to Orlando in the playoffs, however, are a different story. LeBron put on an all-time great performance, averaging 38.5 points per game on 47.8 percent shooting, plus eight rebounds and eight assists per outing. He won Game Two for the Cavs with a buzzer-beating trey.  And Game Four? LeBron scored or assisted on the team\'s last 32 points.  So where was this help that supposedly came in the offseason moves? Comparing each starter\'s season scoring average to their average in the Orlando series sheds some light on the problem.  Williams averaged 17.8 points per game in the regular season and 18.3 against Orlando. Ilgauskas averaged 12.9 in the regular season and 10.2 against Orlando. West averaged 11.7 and 14.5. Varejao put in 8.6 and 8.7.  The difference? Almost nothing. And that\'s exactly the problem.  None of the Cavaliers, with the obvious exception of LeBron, stepped up their game on the big stage. While the Cavs may have had the better team, the Magic put together a better performance&mdash;a gritty, passionate, playoffs-style performance&mdash;and that\'s why they advanced to the Finals.  It never should have ended the way it did. This is a team with tools.  Williams and West are versatile starting guards. Boobie Gibson comes off the bench and adds a deep threat (he was pivotal in the 2007 Finals run). Ilgauskas and Varejao are backed up in the middle by Ben Wallace and Joe Smith, both experienced and capable big men who can make their presence felt. But the Orlando series revealed some flaws, especially in the backcourt.  Williams lacks leadership experience. In Milwaukee he backed up T.J. Ford and then started alongside the likes of Richard Jefferson, Michael Redd, Charlie Villanueva, and Andrew Bogut&mdash;making Williams the fifth-best-known starter on that team.  West\'s story is in the same vein. His most productive season with Boston was 2006-2007, when the Celtics won only 29 percent of their games. He was traded the following season to the Sonics, who won 24 percent of their games that season, before he finally arrived in Cleveland.  Neither of these guards, talented as they might be, had ever been asked to rise to an occasion like the Eastern Conference Finals before this year. So maybe what the Cavaliers really need is some time without LeBron as a crutch. With The Chosen One on the bench, they\'d be called upon to shoulder the offense and take over games. Then, with LeBron reinserted into the offense, they\'d have their first option back&mdash;plus several backup options that know how to step up.  Nobody wants LeBron to be injured. But maybe what the Cavs need is a reminder that they can play without him.<!--var sc_project=4849448; var sc_invisible=1; var sc_partition=56; var sc_click_stat=1; var sc_security="e059ad0d";// -->&amp;amp;amp;lt;div class="statcounter"&amp;amp;amp;gt;&amp;amp;amp;lt;a title="custom counter" href="http://www.statcounter.com/free_hit_counter.html" target="_blank"&amp;amp;amp;gt;&amp;amp;amp;lt;img class="statcounter" src="http://c.statcounter.com/4849448/0/e059ad0d/1/" alt="custom counter" &amp;amp;amp;gt;&amp;amp;amp;lt;/a&amp;amp;amp;gt;&amp;amp;amp;lt;/div&amp;amp;amp;gt; ';
+$VAR13 = 'title';
+$VAR14 = 'Why a LeBron James Injury Is What the Cavaliers Need Most';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204148-2009-nba-mock-draft-2-full-rounds';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T09:42:34-04:00';
+$VAR9 = 'author';
+$VAR10 = 'John  Lorge';
+$VAR11 = 'desc';
+$VAR12 = 'With the 2009 NBA Draft only a few days a way it\'s time to take a look at how the entire draft might play out.&nbsp; I haven\'t been changing the top half of the lottery much, and am still trying to figure out where the second tier of point guards will land.In doing this two round mock draft, I didn\'t give analysis of each pick but if you\'re wondering anything about a pick or player just drop a line.Here\'s how the 2009 NBA Draft might pan out:1. Clippers select Blake Griffin2. Grizzlies select Hasheem Thabeet3. Thunder select James Harden 4. Kings select Ricky Rubio5. Wizards select Jordan Hill6.  Timberwolves select Tyreke Evans7. Warriors select Stephen Curry8. Knicks select Brandon Jennings9. Raptors select DeMar DeRozan10. Bucks select Jrue Holiday11. Nets select Earl Clark 12. Bobcats select Terrence Williams13. Pacers select Jonny Flynn14. Suns select James Johnson15. Pistons select Austin Daye16. Bulls select B.J. Mullens17. 76ers select Ty Lawson18.  Timberwolves select Jeff Teague 19. Hawks select Tyler Hansbrough20. Jazz select Sam Young21. Hornets select Gerald Henderson 22. Mavericks select Eric Maynor23. Kings select Omri Casspi24. Blazers select DaJuan Summers 25. Thunder select DeJuan Blair26. Bulls select Nick Calathes27. Grizzlies select Derrick Brown28.  Timberwolves select Wayne Ellington29. Lakers select Darren Collison 30. Cavaliers select Chase Budinger31. Kings select Jeff Pendergraph32.  Wizards select Patrick Mills33. Blazers select Victor Claver34. Nuggets select Toney Douglas35. Pistons select Jermaine Taylor36. Grizzlies select Marcus Thornton37. Spurs select Nando De Colo38. Blazers select DeMarre Carroll39. Pistons select Jonas Jerebko40. Bobcats select Danny Green41. Bucks select Josh Heytvelt42. Lakers select Taj Gibson43. Heat select Dante Cunningham44. Pistons select Leo Lyons45.  Timberwolves select Jodie Meeks46. Cavaliers select Jeff Adrian47.  Timberwolves select Jack McClinton48. Suns select Ahmad Nivins49. Hawks select Patrick Beverley50. Jazz select Goran Suton51. Spurs select Paul Harris52. Pacers select Dionte Christmas53. Spurs select Jon Brockman 54. Bobcats select A.J. Price55. Blazers select Jeremy Pargo56. Blazers select Robert Dozier57. Suns select Chris Johnson58. Celtics select Tyrese Rice59. Lakers select Christian Evenga60. Heat select Victor Faverani';
+$VAR13 = 'title';
+$VAR14 = '2009 NBA Mock Draft: Two Full Rounds';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204135-knicks-looking-to-move-up-in-draft';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T08:58:49-04:00';
+$VAR9 = 'author';
+$VAR10 = 'D.Michael Lee';
+$VAR11 = 'desc';
+$VAR12 = 'The World Famous LayupDrill Rumor Mill 
+We\'re just a few short days away from the NBA Draft, and the rumor mill is buzzing with news about possible movement among teams in the lottery.
+Let&rsquo;s start in the Big Apple, where NY Newsday reports today that the Wizards and Knicks have spoken about a deal involving two former Wizards returning to D.C.
+It was first reported that Washington would be interested in acquiring Wilson Chandler from the Knicks, the expiring contract of swingman Larry Hughes, along with Jared Jeffries. The Knicks and Wizards spoke about a deal earlier in the season that would have sent Hughes to D.C for Mike James and Etan Thomas, however the two teams were not able to come to terms before the trade deadline.
+The Knicks are also interested in the Wizards fifth overall pick, as they feel it&rsquo;s possible they will be able to land either Stephen Curry or Ricky Rubio in that spot. It&rsquo;s not certain, other than swapping picks (Knicks select 8th), what the Wizards would want in return.
+Another team that may be interested in in moving into the top five are the Dallas Mavericks.
+The Dallas Morning News reports the Mavs have their eyes set on Arizona forward Jordan Hill, and would offer up the expiring contracts of Jerry Stackhouse and Erick Dampier. The Mavs may opt for Hill if they feel they can&rsquo;t get a deal done for Shaquille O&rsquo;Neal.
+Dallas doesn&rsquo;t expect to be able to land a viable big man where they are drafting currently in the first round, and would likely include that pick in any deal.
+There is still the potential that the Wizards actually keep the pick, though two players that they would be interested in selecting, Rubio and Jrue Holiday, refused to conduct interviews with the team at the request of their agent, Dan Fegan.
+The Washington Post reports that Fegan, who used to represent Wizards star Gilbert Arenas, wants neither of his clients to be teammates with Agent Zero.';
+$VAR13 = 'title';
+$VAR14 = 'Knicks Looking To Move Up In Draft';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204119-kobe-bryant-lessons-in-resiliency';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T06:38:39-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Mayoclinic 32';
+$VAR11 = 'desc';
+$VAR12 = '&ldquo;You can know [God] all you want, but until you got to pick up that cross that you can\'t carry, and He picks it up for you and carries you and the cross .. then you know.&rdquo;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Kobe Bryant on Quite Frankly, January 30, 2006&nbsp;When ranking the best players to have ever played the game, the following names usually come up and together form the top tier: Jordan, Magic, Russell, Wilt, Kareem, Bird, Oscar, and West. Duncan and Bryant are current players, still building their resumes, who may ultimately find themselves in the same category, and some more forgiving lists include Shaq, Malone, Petitt, Hakeem, and Baylor. The majority consensus is that Jordan is in a class all by himself, with the rest forming a secondary subgroup below him.&nbsp;Jordan was the perfect storm of domination and charisma with the immaculate and symmetrical body of work: an early career of absolute superiority followed by two pairs of legacy defining 3-peats. Bryant doesn\'t have Jordan\'s impeccable record; his resume has too many faults on it, the most noticeable being the 24-point lead his team coughed up at home in the Finals that cost them a Game 7 opportunity to win it all in 2008. But while Bryant is Jordan\'s foil, the flawed replica, he has uncovered new depths in dogged determination and professional technique.&nbsp;Let\'s crack open the annals on Kobe Bryant since he switched over from 8 to 24, and see if we can\'t prove a point here.&nbsp;Since the beginning of the 2006-07 season, Bryant has played in 289 out of 294 possible NBA games including playoffs, as well as two summers worth of USA basketball. In short, he has not taken a break from basketball for almost 3 calendar years, in a sport where even the elite tire after an 8 month season and need 4 months of rest. Factor in his age (almost 31) and the fact that he has spent the last 15 months with a wrecked pinkie in his shooting hand, and you may argue that this feat in endurance and persistence might be the most incredible achievement of his career.&nbsp;The body of work accomplished during this 3-year period is mind-boggling: 2 Finals appearances, 1 NBA championship, 1 Finals MVP, 1 Regular Season MVP, 3 All-NBA 1st Team selections, 3 All-Defensive Team selections, 1 scoring title, 3 All-star team selections, 2 All-star MVP\'s, 1 Olympic gold medal, and 1 FIBA Americas Championship.&nbsp;To top it off, the consensus is that this 3-year window began after Bryant had began his physical decline, having reached his physical peak the prior season; he had just come off a 2005-06 campaign in which he averaged 35.4 points, 5.3 rebounds, and 4.5 assists, and, despite having a starting back-court mate named Smush and a starting center named Kwame, came within a Lamar Odom defensive rebound away from upsetting the vaunted Phoenix Suns in the 1st round of the playoffs.&nbsp;There is a significant minority that places Magic (and sometimes Russell) in the same overall category as Jordan, with only the slimmest of hairs separating them from His Airness. It is within this minority that Bryant may one day be placed alongside Magic and Russell as players whose legacies surpass all except for Michael Jordan. Bryant still has 3-5 years of 1st-Team All-NBA basketball left in him and the Lakers have a championship-caliber core that has yet to hit its peak. He will win between 0-3 more championships and Finals MVP\'s, and it is possible that he may add one more Regular Season MVP and a Gold Medal to his resume before he hangs them up. For possibly as long as 20 years, we will have witnessed the near-consensus most skilled player ever destroy opponents on the court &ndash; the tight rotation on his jumpers, the strong base as he twists and contorts to create space, the step-back, the pull-up, the fade-away, the step-through, the impeccable footwork, the lightning fast reaction, the silky handles, the myriad counters to every move, the shutdown defense, mental and physical preparation, and the list goes on and on. When it is all said and done, he will finish his career with more points, rebounds, assists, games played, and possibly championships, than Jordan. Put that all in Exhibit A for dogged determination and professional technique.&nbsp;So what, then, that Bryant will never equal Jordan? Certain things are not under our control, with Bryant\'s case being his teammates, the size of his hands, the modern era of increased parity in which he played, and spending most of the prime of his career on a junior varsity squad. It can only be the stuff of fantasy to imagine what could have been had the 2005-06 Bryant been placed on the 2007-08 Lakers.&nbsp;But does that not only make the storyline that much more compelling when it\'s all said and done, the redemption of Kobe Bryant? The basketball player who made personal and professional mistakes, who pushed through despite unfavorable circumstances and maximized the skill set he was given? There are the chosen ones in Jordan, Lebron, Tiger &ndash; athletes so charismatic, so flawlessly gifted and graced by circumstance that they are crowned with adulation by the entire world. And then, there are the flawed superheroes whose kryptonite humanity is bared for all to see &ndash; the game 5 humiliation at the Palace, the public confession of adultery, the front-rimmed fade-away jumpers. Bryant is not Jordan and never will be, but think about it this way: not to say that Jordan wasn\'t hard working, but if a lesser talent can overcome adversity through sheer determination and hard work, and leave behind a legacy almost as great, is that not victory for the rest of us, all the non-Jordans, the non-Lebrons, the non-Tigers? During this 7-year gap between Laker championships, Bryant has taken us on an incredible journey of ups and downs, and demonstrated to us all the resiliency of the human spirit as well as the promised, albeit sometimes delayed, renumeration for effort and dedication.&nbsp;Do not be deceived, God is not mocked; for whatever a man sows, that he will also reap.  -Galatians 6:7&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'Kobe Bryant: Lessons in Resiliency';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204113-the-top-five-nba-players-to-never-win-a-championship';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T06:26:04-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Graham Brunell';
+$VAR11 = 'desc';
+$VAR12 = 'Also seen at Celtics 17
+There\'s one topic players throughout the league agree about.
+It\'s that winning a championship is the greatest feeling you could ever have.
+The ultimate accomplishment, the most significant achievement, and the most memorable moment of glory.
+Sadly, not all players, even greats, are able to win championships. And those greats especially are deprived of something extraordinary. Deprived of hoisting that Larry O\'Brien trophy high in the air so all can see. Deprived of raising the banner the subsequent season as proof that they were champions. Deprived of winning on the most important stage, and having the privilege to say that you were victorious in the Finals. In some cases, players are not elected into the Hall Of Fame simply because they weren\'t winners in the Association.But which players are seen as "the best of the best (that did not win a ring)?" To answer that question, I\'ve compiled a list of the top five players to never win a championship.
+5. Patrick Ewing: Despite the Knicks appearing in the playoffs multiple times during Ewing\'s career, the celebrated center never won a title. Ewing has been a member of the Hall Of Fame since 2008, in a class which included Hakeem Olajuwon and Adrian Dantley. Ewing is an 11-time All-Star, and was part of an All-NBA team seven times (six times appointed to second team, one time named to first team). Ewing was an active player when the NBA named its top 50 players in honor of its 50th anniversary. However, although his career was not yet over, he was still selected as a member of the historic list.
+The Hoya Destroya matched up against some of the most feared centers ever, including Shaquille O\'Neal, Hakeem Olajuwon, Robert Parish, and David Robinson. He\'s the Knicks franchise leader in points, rebounds, blocked shots, and games played. In short, you could make a very solid argument that Ewing is the greatest Knickerbocker in the team\'s history.The lowest point in Ewing\'s career was perhaps when the Knicks fell to Olajuwon\'s Rockets in the 1994 NBA Finals. The Knicks collapsed in games 6 and 7, two games in which the Rockets won with not many ticks left on the clock. Ewing made the playoffs in years after, but never came as close as he was that season.4. John Stockton: John Stockton is unquestionably one of the most entertaining and talented point guards to ever set foot on a basketball court. He is the league\'s all-time leader in both assists in steals, both categories which he has a substantial lead over the second place holder. He also wrangled 19,711 points in the span of 19 years, all of which were played with the Utah Jazz.Stockton is also featured in the NBA\'s 50 Greatest Players list, as well as a member of the Hall Of Fame, which he was recently voted into (2009). Stockton is a 10-time All-Star as well, two years even winning the All-Star game\'s MVP. He is an 11-time member of the All-NBA team, two times being chosen as a first team player.3. Karl Malone: Malone was a long-time teammate of John Stockton, playing with the point guard for 18 years before leaving Utah to go to the Lakers after Stockton announced his retirement. Malone is not yet a member of the Hall Of Fame, as he retired one year after Stockton and was not eligible for nomination this year. He decided to hang up his shoes after failing to win a championship with LA in the 2003-04 season. Unfortunately for Malone, the Lakers had won a championship each of the three years prior to the \'03-04 season, but were not successful in the one year Malone had joined the team.The NBA saw Malone as one of the league\'s 50 best players in history, too. Malone is the record holder for most free throws attempted and sunk, as well as first in defensive rebounds. He is behind Kareem Abdul Jabbar for the most scored baskets, with 36,928 points.The Mailman may have delivered everything but a championship in his prosperous career.2. Charles Barkley: Charles Barkley is not only amusing in the announcing booth, but on the basketball court, as well. The Round Mound of Rebound is one of only four players to ever record over 20,000 points, 10,000 rebounds, and 4,000 assists. All of this was accumulated over the course of his 16 year career in the NBA.The most remembered segment of his career was his time with the Philadelphia 76ers. Barkley spent more time in Philly than any other individual team, playing as a 76er for eight years. Barkley was drafted in 1984, two picks after Michael Jordan, who had been selected third that year. Barkley entered his first year accompanied by greats such as Julius Erving, Moses Malone, and Maurice Cheeks, three stars crucial to Philly\'s  championship which was won the year prior to Barkley\'s arrival.Although Barkley\'s addition was expected to give the Sixers yet another championship, they eventually fell to the Boston Celtics in the Eastern Conference Finals. The rookie Barkley averaged 14.9 points and 11.1 rebounds in his first ever NBA postseason.1. Elgin Baylor: Elgin Baylor is possibly one of the most underrated NBA players in the history of the game. During his era, he was seen as the Michael Jordan of basketball. Many consider him to be the greatest offensive power ever, as he averaged 27.4 points per game in his CAREER. He was also a tenacious rebounder, his career average being 13.5 rebounds per game. Baylor\'s most successful offensive year had to be his 1960-61 season, in which he averaged 34.8 points per game, 19.8 rebounds per game, and 5.1 assists per game. Most people would chime in to say that it was in fact Baylor\'s \'61-62 season. WRONG.Baylor played a mere 48 games in the 1961-62 season, compared to the 73 games he dressed for in the previous year, 1960-61. He also averaged more rebounds and assists, two categories that are also obviously valued when recognizing a player\'s offensive firepower.Although the Lakers have won 15 championships in their legendary franchise history, Baylor did not have the opportunity to win one with them as a player. Their best chance was the 1969 NBA Finals against the Boston Celtics. The Lakers had traded for Wilt Chamberlain that season to unite current Laker greats such as Baylor and Jerry West. However, the Lakers fell in the ever famous "balloon" game," where the Lakers organization predicted the Lakers would win due to their  unbelievable talent, and had planned to drop balloons from the rafters for some sort of celebration. Powered behind Bill Russell, the Celtics were determined to not let those balloons fall. Honorable Mentions Pete Maravich: A crafty guard known for his canny passing skills and fascinating basketball tricks.Dominque Wilkins: A high-flying dunk master often compared to Michael Jordan in terms of showy dunks.Reggie Miller: One of the game\'s best three-point shooters and one of the most exciting clutch players.';
+$VAR13 = 'title';
+$VAR14 = 'The Top Five NBA Players to Never Win a Championship';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204106-kobe-vs-lebron-the-debate-seems-over-at-least-for-now';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T06:06:03-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Nibeyu Yegezu';
+$VAR11 = 'desc';
+$VAR12 = 'As a 22 year-old guy soon to be 23 I can not think of two players in the NBA who are debated over and compared with one another in my  generation more than Kobe Bryant and LeBron James. I honestly feel  privileged too even have such great stars battle for who should be considered the best NBA player currently and possibly considered the greatest NBA player too play the game by future generations.As of now the debate between LeBron James and Kobe Bryant in my mind at least has seemed too screech to a stop. With Kobe Bryant winning a title as well as MVP honors and LeBron James falling short in the Eastern Conference Finals but coming away with an MVP honor for the season, you could say that Kobe Bryant has dwarfed LeBron\'s accomplishments when you look at the here and now but there is no denying that James is itching for a championship and probably feels as if he\'s only a step away. Unfortunately the same pleading for better players that Kobe was successful with hasn\'t exactly worked in the same manner for Lebron James.&nbsp;In 2007 LeBron James and the Cavaliers reached the NBA Finals too play a very tough San Antonio team and seemed as if they brought their own very formidable team to  match-up with the Spurs but just couldn\'t quite take care of a battle tested Spurs team who finished the regular season with a 45-6 record. Meanwhile after many  disappointing attempts at reaching the Finals, Kobe Bryant and the Lakers faced a revamped Boston Celtics team a year later in 2008. This was thier first time reaching the Finals since 2002 and many have blamed their lack of  success too the trade of  ONeal with the Heat in 2004 for Caron Butler, Lamar Odom, Brian Grant, and a future first-round draft pick. Lamar Odom would emerge from this trade as a key wing man for Kobe and Bryant would later be awarded with his present key squad members of Ariza, Vujacic, Bynum, and his gift from the Grizzlies Pau Gasol. Who would soon enough become an important center piece to the offense. All these players with the exception of Bynum who was slated to be an all star center but only has been vastly improving as of late, have helped Kobe greatly on his journey to capture another title since he enjoyed back to back championships with his partner in crime Shaquille  O\'Neal in 2001 and 2002. Fortunately after rumblings of Kobe leaving the Lakers he was given Pau Gasol in 2007 and the rest is history. The move by the Lakers now almost leaves some Lakers fans asking, Who was Shaq again? Serve\'s Shaq right for messing with Kobe.LeBron James hasn\'t been fortunate enough to land a big piece such as Shaq but his team has done well enough none the less with their own recent key addition in Moe Williams who has provided the team a great lift as well as others over the years who have seemed to complete the puzzle for now. Can another piece get them over the hump or is the team ready for a title now? The Cavaliers have been  perennial playoff contenders since the hiring of now Coach of the Year  honoree Mike Brown in 2005. He led the Cavs to their first playoff berth since the 1998 season and hasn\'t allowed his team to miss the playoffs since. Lebron automatically became named the savior when drafted first overall in 2003 by a franchise who desperately needed one and had run into some lean years before his arrival. In 1996 Kobe Bryant entered the  League to play with the Lakers and lucky for him the Lakers also brought along  ONeal through free  agency. The Lakers had  success but not until Phil Jackson came into the picture in 1999 did they go on to capture a three-peat in his first three seasons. So now that I\'ve brought you up to speed I\'ll further my question from before. Could a key piece such as Shaq himself be the missing answer? Even though my first name means prophet I never have been one to fortune tell so I\'ll let the PTI guys debate that one for now.Now while Kobe did not  receive an MVP title until the 2007-2008 season he did earn his first All-Star spot two seasons after his arrival in the NBA as well as did LeBron within his first two seasons. While LeBron is chasing his accomplishments the more playoff tested Kobe Bryant has won his fourth title plus an NBA Finals MVP award and all after a previous NBA MVP season. This irony between the MVPer\'s reminds me of a little brother and big brother scenario with Kobe proving this year that if it wasn\'t known before he is the much bigger brother. In my opinion this scenario will continue until Kobe Bryant can mention his name among the other great Hall of Famer\'s because at this pace he is certainly headed there. There is a notion out there that Kobe is some "ball hog" and since his assist numbers from this past season were ranked 37th in the NBA that name calling seems justified. When a player with Kobe\'s  caliber scores at will and gives defenses nightmares on the court, is that derogatory term within the basketball world really justified? It isn\'t any more for Kobe Bryant as he showed us all why he wanted a Gasol so badly. More than just stats, Kobe and LeBron have showed me athleticism that is often beyond belief and a knack to fight for their team when it really counts. Despite the accusations of being blessed with superstar players, Phil Jackson\'s Zen-like abilities as a coach are undeniable and Kobe certainly owes his ring to him as I believe if LeBron is patient enough will to another very good but certainly soon to be incredible coach in Mike Brown someday. The athleticism of the two have excited us in different ways with Kobe\'s  cunning way of moving like a snake as he strikes his victims with a deadly shot or dunk and Lebron\'s ferocious way of clearing his path to the lane with a  monstrous dunk of his own and as of late even a heroic game-winning shot or two. The elder Kobe says to LeBron, "man I\'ve been making those shots for years, nice to see you\'ve caught up!" In all seriousness the 24 year-old LeBron has improved aspect\'s of his game such as his shot greatly in recent years but the old soul of 30 year-old Kobe always just seems a step ahead. It has definitely been a  privilege too watch these two entertain us so well and kids of the \'90s should be  privileged too have been a "witness" too LeBron\'s arrival in the NBA. His decision too accompany Kobe Bryant in the NBA has of late, turned into one of the best no relation sibling rivalries among great talent\'s we could have asked for. Those Nike MVP Puppets wouldn\'t have it any other way.';
+$VAR13 = 'title';
+$VAR14 = 'Kobe vs Lebron: The Debate Seems Over, at Least for Now';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204101-danny-ainge-dont-trade-anyoneplease';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T05:43:12-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Jay  King';
+$VAR11 = 'desc';
+$VAR12 = ' 
+The following is brought to you by Celtics Town...
+With all these rumors swirling around the Celtics like the winds of Hurricane Katrina, I&rsquo;ve had to step back and think to myself, &ldquo;What if the Celtics do trade someone?&rdquo;
+I don&rsquo;t think there is anyone in the draft worthy of parting ways with any of the starters, but Danny Ainge may feel differently.&nbsp; I would be shocked to see them trade anyone, but it could happen.&nbsp; And if it does, I&rsquo;ll be incredibly disappointed.
+It&rsquo;s great to think about trades when you&rsquo;re team stinks.&nbsp; Remember when the C&rsquo;s were 24-58? &nbsp;I fell asleep every night praying for them to make a trade.&nbsp; On draft day in 2007, when they traded for Ray Allen, I thanked my lucky stars&mdash;Paul Pierce finally had somebody to play with.&nbsp;
+Then I heard that Kevin Garnett might be on his way to Boston and I broke my web browser refreshing Hoops Hype for constant updates on the news&mdash;I was that excited for the trade.
+When you&rsquo;re bad, your team needs trades.&nbsp;
+You can&rsquo;t fall in love with a team when they win 24 games.&nbsp; I certainly liked all those young guys we traded for Garnett and still root for them to this day, but you can&rsquo;t fall in love with a team that specializes in finding ways to lose games. I was still a huge Celtics fan and I loved the C&rsquo;s, but I wasn&rsquo;t in love with them.&nbsp;
+But you did fall in love with the 2007-2008 Celtics&mdash;a team that won a championship with, above all else, guts, heart, and defense.&nbsp; You can fall in love with a team that immediately gels, rising to the top of the NBA despite no experience playing with each other.&nbsp; You can fall in love with Paul Pierce, a Celtics lifer who shed tears when receiving his championship ring, remembering the journey of winning his first NBA championship.&nbsp; You can fall in love with Kevin Garnett, the maniacal warrior who gave James Posey bear-hugs before every single game and never fails to maintain the utmost intensity.&nbsp; You can fall in love with Ray Allen, the smooth but cold-blooded assassin with a propensity for hitting big shots.&nbsp;
+You can fall in love with Rajon Rondo and Kendrick Perkins, the two developing youngsters during the 2008 championship run, two guys who were supposed to be the Celtics&rsquo; downfall but turned into essential pieces to the puzzle.&nbsp;
+And you certainly stayed in love with them during the 2008-2009 season, when they gamely surpassed all expectations after the debilitating injuries to KG and Leon Powe.&nbsp; The Celtics were no longer one of the most talented teams in the league and their bench was about as deep as your local swimming pool&rsquo;s baby pool.&nbsp;
+Still, you stayed in love with them.&nbsp; With the hearts of champions, the Celtics won their fair share of games after Garnett went down and refused to let his loss deter them from their ultimate goal&mdash;winning the NBA championship.&nbsp; You couldn&rsquo;t help but become even fonder of the Celtics, as every player proved his worth time after time.&nbsp; They weren&rsquo;t as good as the prior year&rsquo;s team had been, but they played every bit as hard.&nbsp; Fighting through the injuries, the Celtics pushed forward, securing the second seed in the east and beating the Bulls in an epic first round series.&nbsp;&nbsp;
+Watching them play, I thought two things almost every night.&nbsp; First, I thought, &ldquo;Damn.&nbsp; If this team still had Garnett, and maybe even if they just had Powe, they would have won the championship.&rdquo;&nbsp; Next, I thought, &ldquo;No matter what happens to this team, I&rsquo;ll always love this collection of individuals that fought and persevered together as a true team.&rdquo;
+When they finally got ousted from the playoffs, I was drained and beaten but still proud.&nbsp; I love the Celtics, and I love the team they have right now.
+That is why I don&rsquo;t want them to trade anyone.&nbsp;
+I want the starting five to return intact and hungry for their second championship in three years.&nbsp; I want to see Kevin Garnett pounding his head against the basket support before every game.&nbsp; I want to see Paul Pierce cement his legacy as one of the all-time Celtics greats.&nbsp; I want to see Ray Allen rain down jumpers from the perimeter.&nbsp; I want to see Rajon Rondo continue his evolution into an elite point guard and Kendrick Perkins become one of the leagues top centers.&nbsp; And I want to see them all do it together.
+Because let&rsquo;s face it...kicking the Lakers&rsquo; asses next year just wouldn&rsquo;t be the same without those five leading the way.
+Click here to see more from Celtics Town.';
+$VAR13 = 'title';
+$VAR14 = 'Danny Ainge: Don\'t Trade Anyone...Please';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204107-kobe-pay-cut-maybe-if-he-owned-the-team';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T05:08:00-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Prashant Shukla';
+$VAR11 = 'desc';
+$VAR12 = 'Now that the Lakers are the 2009 NBA Champions, the talk has begun on how they could repeat their success next year.Two of the major pieces to this championship run, namely Lamar Odom and Trevor Ariza, are unrestricted free agents, but both have said that they want to come back to LA, and Odom will probably give the Lakers a hometown discount because he doesn\'t want to leave LA at this point in his career.The Lakers are already on the books for about $74 million, which is already $3 million above the 2008-2009 salary cap, which is expected to decrease next year with the economic downturn.This means that unless Mitch Kupchak can work some magic and decrease the Lakers\' payroll, every dollar they pay Odom and Ariza will actually represent two dollars, with the extra dollar going to the league to be redistributed to teams under the salary cap.Bringing back Odom and Ariza could prove to carry a hefty bill, and some people have proposed the  idea of Kobe taking a pay cut to allow the team to sign both back while not exorbitantly exceeding the salary cap.I don\'t think it is fair to ask Kobe to limit his earning potential significantly so the team can win a championship. It doesn\'t mean that he doesn\'t care about winning enough, it just means that he\'s not willing to stake his and his family\'s financial future on it. Winning always brings more fame and money, but there\'s always a risk in professional sports. You have to make the most money whenever you can, that\'s just the way the business works.I realize Kobe is already immensely rich and after this championship will likely reign in endorsement after endorsement, but by this logic shouldn\'t players who are somewhat "riding" Kobe to championships also sacrifice?What about Vujacic who made $5 million this year without earning it? What about Bynum? Gasol?I don\'t think all the weight can fall on one guy because everyone perceives his desire to win as so great that he should be willing to pay for it. If it were a collective effort by the team for the benefit of success, that is fair, but asking one guy to shoulder the bill for 11 other players is asking a little more than just being a leader.I know other pros have taken pay cuts before, and Kobe could take a small one like others have, but it likely won\'t do much in helping sign two relatively costly players back to the roster.There are many other ways the Lakers can figure out to free up space, but there are two reasonable and fair ways I could see this playing out in terms of Kobe\'s contribution to the salary cap problem:1) Kobe opts out of his current contract to sign a new contract for about five years, which he might already do, but he backloads the contract so that the major money in the contract comes in the later years. This might allow the Lakers to keep Ariza and Odom and stay closer to the salary cap in the short-run, and will get Kobe in his money he would get anyway, except in about five years when the Lakers will be rebuilding. This could hamper their performance in the seasons four or five years out, where Kobe\'s salary would hinder their potential to pay players, but could prove successful for championships within the next three years.This option is unlikely because teams are a business, after all, and are unlikely to mortgage away a few years of their franchise for success now.2) Kobe takes a pay cut in return for part ownership of the Los Angeles Lakers. I know this sounds ludicrous, but hear me out. Kobe could get part of the team for free in exchange for a pay cut, or for a discounted price. This seems highly unlikely, but Jerry Buss, the Lakers\' owner, has made it a habit of keeping around great Laker players who want to stick around, almost as if the franchise were a family.Jerry West was the GM for the team and brought Shaq and Kobe together. Mitch Kupchak, another ex-Laker, is the current general manager. Kurt Rambis, Brian Shaw, and Kareem Abdul-Jabbar, all ex-Laker players, are assistant coaches. Magic Johnson is a part owner of the team.Unlike other franchises who don\'t keep around their greats who want to be involved in NBA management, like Jordan with the Bobcats instead of the Bulls, Bird with the Pacers instead of the Celtics, McHale with the Timberwolves instead of the Celtics, and Isiah with the Knicks instead of the Pistons, the Lakers like to keep give options to their ex-players who have desires to be NBA executives or coaches.I know Buss nearly traded Kobe after his demands two years ago, but, in all fairness, they were "rebuilding" instead of building for a championship around Kobe, which was his major gripe as he was promised a championship-contending team. Kobe didn\'t want to waste his prime on a non-championship contender. Of course Kobe could and should have handled that much better, but, in the end, it did all work out and culminated in a championship in 2009.If the two could put the past behind them, which I think they have after Kobe sat down with Buss in Europe in the summer of 2007, this idea might not seem so far-fetched. Buss assured Kobe they would get him some help, but was also close to trading the star because he didn\'t like dealing with divas who took private things public. Kupchak traded for Gasol in February 2008, right before the trade deadline, and the Lakers have since been to the Finals twice, with one championship in hand.Kobe is now happy with his supporting cast, and Buss is happy he put up with and kept on to his brilliant star.Odom and Ariza would both be happy to be re-signed under either of these scenarios where they wouldn\'t have to take massive paycuts, otherwise Buss would have to be willing to spend some serious money to keep this team together. One good thing is that all teams are struggling during this economic downturn and can\'t spend as much as usual, so the market price for free agents is lower than normal.When you think about playoff and championship success and how much revenue it brings in for a team, the Lakers made about $48 million on its 12 home playoff games in 2009. This doesn\'t include championship apparel sales and a lot of other revenue items, but just using that number, if the Lakers were to re-sign Odom and Ariza at market value, they\'d spend a third to a half of that on league luxury taxes.The business comparison would have to be between how well the team would do and make if only one of the players were re-signed, versus if both were re-signed. If the amount of extra money the team can expect to make with getting both back eclipses the cost of one of those players, I\'d say bring both back.But again, a championship brings in huge amounts of money from all sorts of places, so looking at this years bottom line it might seem worthwhile to bring both back, but a semi-successful playoff run with just ticket revenue wouldn\'t seem as worthwhile.A lot of it is guessing and hoping, because nobody will know until next May or June whether any decision was right or not.The Lakers could remove a lot of the associated cost risk with going above the luxury tax if Buss is ready to trust part of his sacred franchise with Kobe, and that could and would provide a boost to Lakers\' championship hopes in 2010 and the rest of Kobe\'s prime.';
+$VAR13 = 'title';
+$VAR14 = 'Kobe Pay Cut? Maybe if He Owned the Team';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204068-pop-quiz-nba-postseason-recap-part-i';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T03:06:58-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Kevin Lorello';
+$VAR11 = 'desc';
+$VAR12 = 'As a college graduate (heading back to school) watching the NBA playoffs, I couldn&rsquo;t help but question the importance of a college degree.
+Don&rsquo;t get me wrong.
+Degrees are nice and they make your family proud, but they can be costly and sometimes ineffective.
+Thus far in my short stint out of college, it&rsquo;s been largely ineffective, and eventually it will be very costly (Can&rsquo;t wait).
+Besides, lots of successful people didn&rsquo;t go to college or don&rsquo;t have degrees.
+I mean, look at the NBA playoffs.
+So many key players spent little to no time in college:
+Kobe Bryant, Dwight Howard, LeBron James, Rashard Lewis, and Kevin Garnett&mdash;straight from prom. The one-and-doners:  Carmelo Anthony, Derrick Rose, Trevor Ariza, and Lamar Odom, etc&hellip;They tried the whole school thing out, but ultimately decided they liked money better than calculus.
+Shocking.
+Anyway, I like money more than calculus too, but recognize that it&rsquo;s in my best interest to get as educated as possible.
+
+
+So, to get me back in the mood for school, I created a little test to see just what was learned during the 2009 NBA postseason (at least from my perspective).
+&nbsp;
+1. What do Derrick Rose and Rajon Rondo have in common?
+A.&nbsp;&nbsp;&nbsp;&nbsp; Both won the Rookie of the Year.
+B.&nbsp;&nbsp;&nbsp;&nbsp; Both flashed their respective sets during the postseason.
+C.&nbsp;&nbsp;&nbsp;&nbsp; Both were elevated to elite-point guard status after their performances in Boston and Chicago&rsquo;s epic first round playoff series.
+D.&nbsp;&nbsp;&nbsp; All of the above
+If you answered C, or someone answered it for you, you are correct.
+Everyone knew Derrick Rose and Rajon Rondo we&rsquo;re pretty good heading into the postseason. Then they met in the first round of the Eastern Conference playoffs, and they took their games to another level.
+Rose, the NBA&rsquo;s Rookie of the Year, was not to be intimidated in his first go-round of the NBA postseason. In his first career playoff game (on the road in Boston), Rose led the Bulls to a 105-103 overtime victory to upset the defending champions and set the basketball world abuzz.
+Rose scored 36 points (tying Kareem Abdul Jabbar&rsquo;s playoff debut record set in 1970) on 12-19 shooting, including 12-12 from the charity stripe and 11 assists.
+Rose played superbly in Chicago&rsquo;s two other wins of the series.
+In Game Four, Rose posted a near triple-double with 23 points, 11 rebounds, and nine assists to lead the Bulls to a 121-118 victory. Rose also delivered in the Bulls, thrilling three 0T, 128-127 victory in Game Six.
+Rose scored 28 points to go along with eight rebounds and seven assists. Ironically, it was Rose&rsquo;s defense that sealed the victory and forced a Game Seven. Rose blocked a potential game-winning shot by his counterpart in the game&rsquo;s waning seconds.
+However, as good as Rose was, Rajon Rondo was even better.
+Boston&rsquo;s feisty young point guard played phenomenal throughout the series. In Game Two, Rondo notched a triple-double with 19 points, 12 rebounds, and 16 assists.
+Rose recorded another triple double in the Celtics Game Four loss: 25 points, 11 rebounds, and 11 assists.
+In fact, for the seven game series, Rondo almost averaged a triple-double:&nbsp; 19.4 points on 45 percent shooting, 9.3 rebounds, 11.6 assists, and 2.71 steals.
+Those are pretty remarkable numbers for a 6&rsquo;1&rsquo;&rsquo;, 23-year-old point guard.
+If we learned anything from this series, it&rsquo;s that these two young point guards are very, vary talented. Their paths are certainly going to cross again in the postseason.
+Perhaps, next time, they may even play a little defense. Regardless, they&rsquo;re going to win many games for their teams and earn many All Star selections.
+Rose might even win an MVP by the time it&rsquo;s all said and done.
+He&rsquo;s that good.
+I guess we also learned that the Celtics cannot win a championship without Kevin Garnett. Defense is simply an afterthought when KG is on the sidelines barking obscenities.
+If Garnett is able to return healthy next season, the Celtics return as legitimate title contenders. If not, they&rsquo;re pretenders like the next team we learned a lot about this past postseason.
+Ahh, the &rsquo;08-\'09 Cleveland Cavaliers.
+I admit it.
+You guys had me fooled with the 66-win regular season, the chemistry, the defense, etc&hellip;I really bought into the hype.
+Unfortunately, I rudely learned that this team wasn&rsquo;t who I thought they were. I learned that chemistry is nice, but liking your teammates and intricate pregame rituals can only get you so far.
+Bottom line, I learned that LeBron didn&rsquo;t have players capable of doing just enough to enable him to will a championship for the forlorn city of Cleveland.
+ 
+Here&rsquo;s a little math to sum up the state of Cavs basketball:
+&nbsp;
+2.&nbsp; If LeBron = MVP, Mike Brown = Y, and Teammates Exposed + Unfavorable Matchups = X, what does MVP &ndash; (Y + X) = ?
+&nbsp;&nbsp; A. Help!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B. Hello, New   York!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C. CHAMPS!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D. Whatever. It&rsquo;s Cleveland.
+The correct answer is A, although B and D are also acceptable response at this point.
+Sure, LeBron played like the MVP he most definitely is. It was enough to win 66 games in the regular season and sweep the first two rounds of the playoffs.
+However, his 38.5 points, 8.3 rebounds, and 8.0 assists in the Eastern Conference Finals were not enough to get past the Orlando Magic. Nor was &ldquo;The Three&rdquo; in Game Two or his dominance in the fourth quarter of Game Four.
+As good as LeBron played, it just wasn&rsquo;t enough to overcome the coaching performance mailed in by Mike Brown, Mo Williams shooting 37 percent from the field, or the obvious fact that the Cavs simply could not match up with the taller, more versatile Magic players.
+So, what does this all mean for Cleveland heading into the &rsquo;09-&rsquo;10 season, the last year in which the Cavs have the King under contract?
+It means that the 66-win regular season was an illusion.
+It means that the Magic were clearly the better team.
+It means that that Cavs are a little farther away from a championship than we were led to believe.
+Most importantly, it means Danny Ferry must surround LeBron with championship caliber talent next year.
+They need a tall, athletic swingman.
+They need a low post presence.
+They need a backup point guard.
+In essence, they need better players.&nbsp; Otherwise, LeBron will be leaving Cleveland when his contract is up next summer, and the city will further sink into its 55-year sports depression.
+The being said, we learned that the Orlando Magic were really good.
+They had players everywhere.&nbsp; They had a big man capable of being dominant in Dwight Howard. Rashard Lewis and Hedo Turkoglu were matchup nightmares for opponents to defend.
+They moved the ball great and had shooters everywhere.&nbsp; They were just a really talented team.
+Be that as it may, they still leave the postseason with several questions that need answered.
+&nbsp;
+3. True or False: The Magic will return to the NBA Finals next season.
+The correct answer would have to be False.
+Here&rsquo;s a couple of internal reasons I can&rsquo;t see Orlando reaching the Finals again next season:
+* The loss of Hedo Turkoglu (assuming he leaves) is a major hit to the Orlando Magic.
+Obviously, they&rsquo;re going to miss his 16.8 points a game and clutch shooting. But, what really hurts is losing the 6&rsquo;10&rsquo;&rsquo; small forward&rsquo;s playmaking abilities and versatility.
+Turkoglo averaged nearly five assists a game over the course of the regular season and played the point-forward in spots for Orlando. If Turkoglo chases big money and leaves, that&rsquo;s one less matchup to worry about for the likes of a Boston or Cleveland.
+* Losing the  under-appreciated Marcin Gortat will also hurt the Magic. Gortat is a tough rebounder and defender who provided the Magic with valuable minutes down low.
+There&rsquo;s more.
+Here&rsquo;s another issue that could sidetrack the Magic next season, and the next question.
+&nbsp;
+4.&nbsp; It will be _________ if the Orlando Magic decide to keep both Jameer Nelson and Rafer Alston for next season.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A. bewildering
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B. a debacle
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C. entertaining
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D. All of the above
+The correct response is D (all of the above).
+Keeping Alston to back up a healthy Nelson next season would be a bewildering decision by Orlando management. It most certainly would turn into a debacle, and it sure as hell would be entertaining.
+As a Cavs fan, I am absolutely praying that Otis Smith keeps Rafer Alston on this team.
+I&rsquo;m begging you, Otis, to not question the fact that Rafer has played on five different teams during his ten-year career.
+I&rsquo;m also asking you to ignore his erratic decision-making, his poor shot selection, and his detrimental attitude.
+I mean, think of how interesting Stan Van Gundy&rsquo;s rotation became after you inexplicably allowed Jameer Nelson to return for the NBA Finals after not playing since February.
+You have to admit, it became kind of entertaining watching SVG illogically juggle his point guards during the Finals.
+Now, imagine that for a whole season.
+On second thought, don&rsquo;t imagine that.
+Just stick with what got you to the Finals in the first place and keep Alston on this team.
+Please.
+Here&rsquo;s a more burning question than the future of a certain point guard with a streetball alias. It relates to a self-proclaimed superhero and his offensive inefficiencies.
+&nbsp;
+5. Based on the numbers presented below, which player did not live up to his &ldquo;Superman&rdquo; nickname in his first trip to the NBA Finals as a 23-year-old Center for the Orlando Magic?
+Player A (4 games): 28.0 ppg, 44-74 fg (59.4 percent), 24-42 ft (57.1 percent), 12.5 rpg, 6.2 asp, and 2.5 bpg
+Player B (5 games): 15.4 ppg, 21-43 fg (48.8 percent), 35-58 ft (60.3 percent), 15.3 rpg, 2.2 asp, and 4 bpg
+The correct answer is Player B (Dwight Howard). Player A alludes to Shaquille O&rsquo;Neal, of course.
+This much we know about Dwight Howard five seasons into his NBA career: he doesn&rsquo;t curse, but he cries after virtually every play.
+OK, OK. There&rsquo;s more we know.&nbsp;
+We also know that Howard is a dominant defensive player and rebounder. His averages of 15.4 rebounds and 4.0 blocks during the NBA Finals (highlighted by nine blocks in Game Four) establish that fact quite clearly.
+Unfortunately, we also know his offense isn&rsquo;t exactly superhero worthy, which was on display for all the world to see during the Finals.
+Howard struggled mightily against the Lakers, who had big men that could move and a coach with a game plan (unlike the Cavs).&nbsp; In comparison with Orlando&rsquo;s original Superman, Howard averaged nearly 12.6 points less in his first trip to the NBA Finals, in addition to shooting 10.6 percent lower from the floor.
+Even more telling, O&rsquo;Neal made more field goals than Howard even attempted, despite playing one less game.
+Howard must develop his offense beyond a running hook in the lane if Orlando is able to withstand departures and contend again for a title.
+If he doesn&rsquo;t, you have to wonder why the hell Patrick Ewing is still coaching, because Howard is too athletic, too explosive, and too strong to not dominate the paint on a regular basis.
+(cont.)
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'Pop Quiz:  NBA Postseason Recap (Part One)';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204049-lakers-need-to-pick-big-in-first-round';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T01:58:31-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Michael Del Muro';
+$VAR11 = 'desc';
+$VAR12 = 'Since 2000, the Lakers have either won or made it to the NBA Finals five times.
+That means one thing when it comes to the NBA Draft&mdash;they\'ll be picking very late.
+In each of those drafts, following a trip to the Finals, the Lakers have picked either a role player, a guy to ride the pine, or have moved the pick.
+Expect the same thing this year.
+There are no "future (fill in the position)" type players available that late.
+In a draft not especially deep and with the second to last pick in the first round, the Lakers General Manager has basically admitted as much.
+In comments during the Lakers\' exit interviews, Kupchak said that he\'d be open to trading one or two of the Lakers three picks, or drafting a foreign player and allowing him to stay overseas the next few seasons.
+Since 2000, it can be argued that the Lakers\' best pick was Marc Gasol, who, after the Lakers picked him in the second round, played a season in Spain before being traded for his brother Pau.
+Add that to the fact that Kupchak\'s most difficult job will be in retaining forwards Lamar Odom and Trevor Ariza.&nbsp; Expect some inconsequential players to come to Los Angeles on Thursday.
+The one need the Lakers do have, needs that might be filled by the draft, is that of a fourth power forward/center. The Josh Powell-D.J. Mbenga combination did not get it done this season.
+And they may need to find a shooting guard who can push 2004 first round pick Sasha Vujacic for some playing time, assuming the team decides to let restricted free agent guard Shannon Brown leave for more money elsewhere.
+Another position of concern is the point.
+NBA Finals hero Derek Fisher will be 35 next season, and Jordan Farmar has shown flashes of being able to take over the starting role, but those flashes have come between long stretches of him being unable to make a simple entry pass to the post.
+So, assuming the Lakers keep their first round pick, here are a few players they could make a play for:
+&nbsp;
+Taj Gibson, USC, PF&mdash;He\'s a very strong rebounder and has improved his outside jumper. According to ESPN\'s Chad Ford, scouts were impressed by his inside-outside game.
+Plus, he has an impressive 7-4 wingspan and 9-1 standing reach. Being a bit older than most underclassmen, he\'ll be 24 on draft day.&nbsp; Gibson should be mature to step in and contribute for the Lakers.
+However, he needs to hit the weight room. He\'s very thin for a guy almost 7\' tall.
+Chase Budinger, Arizona, SG/SF&mdash;Although a bit of a stretch to believe he\'ll fall to 29, he\'s much more athletic than Vujacic. Budinger has a 38.5-inch vertical and could be a good player to develop if he falls this low.
+Good three-point shooter&mdash;shot 40 percent for the Wildcats last season.
+Jeff Pendergraph, Arizona State, PF&mdash;Strong low-post player who was often overshadowed by probable top-five pick James Harden. Some mocks have him a second rounder, but it wouldn\'t surprise me to see his name called in the first round.
+He put up 18 points and seven rebounds against USC\'s Gibson in the PAC-10 tourney earlier this year. He also had 14 and 11 and 16 and 12 games against projected lottery pick Jordan Hill out of Arizona.
+Jonas Jerebko, Italy, SF&mdash;Both HoopsHype and DraftExpress have the Lakers drafting this Swedish-born player. He\'s big, 6\'9", 220 lbs., and has been compared to Matt Harpring&mdash;physical defender and decent shooter.
+He might be what Kupchak meant about drafting a foreigner.
+Darren Collison, UCLA, PG&mdash;Many mocks, including Ford\'s at ESPN, have the Lakers drafting the local boy. He\'s a good defender, playmaker, and shooter.
+However, he\'s small, 6\'1" on his tip-toes, and doesn\'t even weigh 170. 
+&nbsp;
+My Take
+
+
+Collison\'s upside isn\'t much more than Farmar\'s, so I don\'t see the Lakers going in that direction.&nbsp;
+In Game Three of the NBA Finals, Gasol, Odom, and Andrew Bynum all picked up two fouls early in the first quarter. The Lakers were forced to insert the seldom-used Powell and Mbenga.
+My initial thought: They need another Ronny Turiaf.
+At least in the first round, the Lakers should concentrate on bringing in a big body who can play decently in emergency minutes.
+Both Gibson and Pendergraph fit the mold.
+In the second round, expect the Lakers to take one or two foreign-born players, or trade both picks for future second rounders.&nbsp;
+&nbsp;';
+$VAR13 = 'title';
+$VAR14 = 'Lakers Need To Pick Big in First Round';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bleacherreport.com/articles/204048-the-european-pgs-battle-whos-really-better-rubio-or-jennings';
+$VAR3 = 'feed';
+$VAR4 = 'Bleacher Report - NBA';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T01:48:36-04:00';
+$VAR9 = 'author';
+$VAR10 = 'Matthew Hayden';
+$VAR11 = 'desc';
+$VAR12 = 'Both under the age of 21 and both pure point guards. But who is truly better, pound for pound. I\'ve evaluated both of them to the fullest extent, and here\'s my opinion on who\'s actually better as a point guard. I will be breaking everything down, not based on stats, but based off of the comments from other players on the two, other draft experts opinions,  and the games that I\'ve seen them play';
+$VAR13 = 'title';
+$VAR14 = 'The European PG\'s Battle: Who\'s Really Better, Rubio or Jennings?';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bleacherreport.com/articles;feed?tag_id=19';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=882';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-22T10:23:22+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'Mike McGraw of the Daily Herald discusses rumors, like the one about the Bulls trying to trade their draft picks (numbers 16 and 26) for New Jersey&#8217;s (number 11): &#8220;This has been discussed, but hasn&#8217;t really heated up. There has been talk that the Nets like North Carolina&#8217;s Tyler Hansbrough, who should be available at 16.';
+$VAR13 = 'title';
+$VAR14 = 'More draft talk';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=879';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-18T13:16:14+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'K.C. Johnson of the Chicago Tribune has more on Ben&#8217;s supposed $11 million promise from the Pistons: &#8220;So, Ben Gordon, do you or your agent have a backroom agreement to sign with Detroit when the free-agency period begins July 1? &#8216;You can&#8217;t even negotiate until July 1, so that&#8217;s just rumors,&#8217; Gordon said Wednesday at';
+$VAR13 = 'title';
+$VAR14 = 'Ben: &#8220;I want to be a Bull. But&#8230;&#8221;';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=876';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-17T13:23:23+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'The Off-Season Easy-Bake Rumor Oven continues to cook up some tasty treats. Here&#8217;s the latest. According to Sam Smith of Bulls.com: &#8220;Gordon&#8217;s agent allegedly has been saying he has an $11 million promise from the Pistons.&#8221;
+Wow. That&#8217;s a lot of money. Unless Gordon&#8217;s agent means $11 million in Schrute Bucks&#8230;which I highly doubt. And here I';
+$VAR13 = 'title';
+$VAR14 = 'How much for Ben Gordon?!';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=874';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-16T13:20:39+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'The Phoenix Suns want to dump Shaq. Or, more accurately, they want to rid themselves Shaq&#8217;s super-sized contract (worth $20 million in 2009-10). Times are tough, and, like many teams, they&#8217;d like to save a little money. Initially, the predominant rumor was Shaq to Cleveland. In return, Phoenix would receive the corpse of Ben Wallace, pine';
+$VAR13 = 'title';
+$VAR14 = 'Latest rumor: Luol for Shaq';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=872';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-15T13:28:37+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'Phil Jackson won six NBA championships during his nine years as head coach of the Chicago Bulls. And yet many of his critics were always quick to point out &#8212; often with an almost sadistic glee &#8212; that his success was due as much (or more so) to luck than his coaching acumen. And by';
+$VAR13 = 'title';
+$VAR14 = 'Congratulations, Phil';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=869';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-12T10:13:02+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'From Dan McGrath and David Heinzmann of the Chicago Tribune: &#8220;Weeks after he was linked to allegations of academic fraud at the University of Memphis, the Bulls&#8217; star guard issued a statement declaring his vehement opposition to gangs in response to a photo posted on the Internet that showed him flashing gang signs at a';
+$VAR13 = 'title';
+$VAR14 = 'More controversy for D-Rose';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=867';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-10T21:31:07+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'Tab Bamford of the Bleacher Report believes that Toronto&#8217;s trade with the Philadelphia 76ers &#8212; a straight-up swap of sharp-shooter Jason Kapono for the rebound-nabbing (and testicle-grabbing) Reggie Evans &#8212; could be a harbinger of an even bigger trade involving the Raptors.
+As Bamford explains: &#8220;The Bulls have a lot of options that might look good';
+$VAR13 = 'title';
+$VAR14 = 'A trade rumor I could get behind';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=865';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-09T13:22:09+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'According to K.C. Johnson of the Chicago Tribune: &#8220;The Bulls began a busy week of draft workouts Monday at the Berto Center with Duke&#8217;s Gerald Henderson, Arizona&#8217;s Chase Budinger, USC&#8217;s Taj Gibson, Maccabi Tel Aviv&#8217;s Omri Casspi, Virginia Tech&#8217;s A.D. Vassallo and Alabama Birmingham&#8217;s Robert Vaden in for a spirited session. John Paxson, Gar Forman,';
+$VAR13 = 'title';
+$VAR14 = 'Workouts, workouts and more workouts';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=862';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-08T13:08:43+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'According to Doug Thonus of ChicagoNow: &#8220;Sources tell me that Luol Deng has started his summer workouts, but he&#8217;s still not 100% yet. He&#8217;s rumored to be going down to IMG to work out with David Thorpe at some point, but he&#8217;s presently in Chicago doing what he can while being cautious with the leg.';
+$VAR13 = 'title';
+$VAR14 = 'Luol Deng: Gettin&#8217; there, I guess';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+
+$VAR1 = 'link';
+$VAR2 = 'http://bullsbythehorns.com/?p=857';
+$VAR3 = 'feed';
+$VAR4 = 'By The Horns';
+$VAR5 = 'feed_level';
+$VAR6 = 1;
+$VAR7 = 'date';
+$VAR8 = '2009-06-04T13:21:27+00:00';
+$VAR9 = 'author';
+$VAR10 = 'Matt McHale';
+$VAR11 = 'desc';
+$VAR12 = 'I&#8217;d be willing to bet cash money that you were just thinking to yourself, &#8220;Self, my shrine to the Chicago Bulls is nearly finished. I need only obtain one final pièce de résistance to make it complete.&#8221; Well, I have just the resistance piece for you: A pair of game-used shoes worn by none other than';
+$VAR13 = 'title';
+$VAR14 = 'Larry Hughes&#8217; game-used shoes!';
+$VAR15 = 'feed_name';
+$VAR16 = 'http://bullsbythehorns.com/?feed=rss2';
+

@@ -1,0 +1,11 @@
+<% if 41 == @team.id %>
+  <%= link_to "G.S. #{@team.name}", {:controller => controller.controller_name, :action => "show", :id => BBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% elsif 49 == @team.id %>
+  <%= link_to "#{@team.city} T-Wolves", {:controller => controller.controller_name, :action => "show", :id => BBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% elsif 51 == @team.id %>
+  <%= link_to "N.O. #{@team.name}", {:controller => controller.controller_name, :action => "show", :id => BBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% elsif 53 == @team.id %>
+  <%= link_to "O.K. City #{@team.name}", {:controller => controller.controller_name, :action => "show", :id => BBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% else %>
+  <%= link_to "#{@team.city} #{@team.name}", {:controller => controller.controller_name, :action => "show", :id => BBTeam::team_name_to_id[@team.name]}, {:class => "heading"} %>
+<% end %>

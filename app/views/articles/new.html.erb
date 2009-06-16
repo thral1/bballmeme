@@ -1,0 +1,63 @@
+<h1>New article</h1>
+
+<% form_for(@article) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <p>
+    <%= f.label :num_visitors_per_month %><br />
+    <%= f.text_field :num_visitors_per_month %>
+  </p>
+  <p>
+    <%= f.label :num_backward_links %><br />
+    <%= f.text_field :num_backward_links %>
+  </p>
+  <p>
+    <%= f.label :length %><br />
+    <%= f.text_field :length %>
+  </p>
+  <p>
+    <%= f.label :publication_date %><br />
+    <%= f.date_select :publication_date %>
+  </p>
+  <p>
+    <%= f.label :rss_feed_level %><br />
+    <%= f.text_field :rss_feed_level %>
+  </p>
+  <p>
+    <%= f.label :teams_mentioned %><br />
+    <%= f.text_field :teams_mentioned %>
+  </p>
+  <p>
+    <%= f.label :writer %><br />
+    <%= f.text_field :writer %>
+  </p>
+  <p>
+    <%= f.label :user_vote_score %><br />
+    <%= f.text_field :user_vote_score %>
+  </p>
+  <p>
+    <%= f.label :publication %><br />
+    <%= f.text_field :publication %>
+  </p>
+  <p>
+    <%= f.label :writer_score %><br />
+    <%= f.text_field :writer_score %>
+  </p>
+  <p>
+    <%= f.label :publication_score %><br />
+    <%= f.text_field :publication_score %>
+  </p>
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_area :text %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', articles_path %>

@@ -1,0 +1,374 @@
+body {text-align: center; margin-left: 4px; margin-top: 1px; color: #000; background: #fff;}
+#piBody {text-align: left; width: 980px; margin: 0 auto;}
+
+/* links */
+a {text-decoration: none; }
+a.link {	color: #004386;}
+a.visited {	color: #895eab;}
+a:hover {color: #c03;}
+
+/* main text styles */
+#piStory .vgray, .vgray {	color: #333333;	font-size: 13px; font-family: arial, sans-serif;}
+#piStory .vgraysmall, .vgraysmall {	color: #333333; font-size: 12px; font-family: arial, sans-serif;}
+#piStory .vgrayHL, .vgrayHL {	color: #333333; font-size: 13px; font-family: arial, sans-serif; line-height: 1.4em;}
+#piStory .vgraysmallHL, .vgraysmallHL {	color: #333333; font-size: 12px; font-family: arial, sans-serif; line-height: 1.4em;}
+.vgraysmallHL2  p {	color: #333333; font-size: 11px; font-family: arial, sans-serif; margin: 6px 0 2px 0;}
+
+/* dateline, headlines, bylines */
+.rddateline {	font: 10px Arial, sans-serif; margin-top: 0px; margin-bottom: 13px;}
+.rdheadline, h1.rdheadline {font: bold 20px/21px arial,serif; margin: 8px 0 4px 0; clear: both;}
+.rddeckline, h2.rddeckline {font: bold 13px arial,serif; margin: 1px 0 15px 0; color: #666;}
+.rdbyline { font: 10px arial, sans-serif; margin-top: 15px;}
+
+/* photo styles */
+#piStory .caption, .caption {	font: 11px Arial, sans-serif; line-height: 1.1em;}
+#piStory .credit, .credit { 	font: 11px Arial, sans-serif; line-height: 1.1em; color: #666666;}
+.creditfull {font: 11px Arial, sans-serif; line-height: 1.1em; color: #666666; text-align: right; padding-bottom: 3px;}
+
+/* headline styles */
+.normhed { font: bold 13px arial,sans-serif;}
+.medhed {	font: bold 14px arial, sans-serif;}
+.subhed {	font: bold 16px arial, sans-serif;}
+.bighed {	font: bold 18px arial, sans-serif;}
+.majorhed {	font: bold 26px arial, sans-serif;}
+
+/* misc styles */
+#piStory .promo, .promo {	font: 11px arial, sans-serif; line-height: 1.1em;}
+.graydate { font: bold 12px arial,sans-serif; color: #999999; }
+.bulletin {	font: bold 10px arial,sans-serif; color : #9C0000;}
+.bulletinb {	font: bold 10px arial,sans-serif; color : #333333;}
+.dropdown {	font: 10px Arial, sans-serif;}
+input.search {	font: 10px Arial, sans-serif;}
+p.wing {	margin-top: 13px; margin-bottom: 3px;}
+.hang { text-indent: -8px; margin: 0 0 0 8px; }
+.squeeze {letter-spacing: -0.04em;}
+.source { font: 10px arial,sans-serif; color: #666;}
+.dd225 {width: 225px; font: 11px arial,sans-serif; margin-bottom: 2px;}
+#piStory td.bar, td.bar {	background-image: url(http://www.seattlepi.com/art2/bar_bg.gif); color: #333333; font: bold 10px arial,sans-serif;}
+.hide {display: none;}
+input.b {background: #ccc; border: 1px solid #333; font-weight: bold;}
+
+/* in article polls */
+#pollArticle {margin-top: 12px; border-bottom: 1px solid #c4d5da; border-left: 1px solid #c4d5da;}
+#pollArticle td {background: #f4f4f4; font: 11px arial,sans-serif; padding: 4px 4px 0 4px;}
+#pollArticle td.pollQ {font-weight: bold; }
+#pollArticle td.pollTab {padding: 0; }
+#pollArticle td.pollB  {padding: 0 4px 4px 0; }
+
+/* soundoff */
+#soundoff {clear: both; margin: 20px 0;}
+#soheader {background-image: url(/art2/soundoff/toptab.jpg); padding-top: 27px; background-repeat: no-repeat;}
+#sofooter {background-image: url(/art2/soundoff/bottomtab.jpg); padding-top: 10px;  background-repeat: no-repeat;}
+#soq {background-image: url(/art2/soundoff/grad.jpg); font: bold 11px arial,sans-serif; color: #333; padding: 8px 0;  background-repeat: repeat-y;}
+#soqi {padding-left: 37px; padding-right: 12px; }
+#soqc {padding: 8px 12px 0 27px; clear: both;}
+#soq a {font-size: 10px; color: #004386;}
+
+/* corrections */
+#correction, #corrections {font: 12px arial,sans-serif; padding: 0 24px 0 14px; color: #666;}
+
+/* top of page */
+#topAds {margin-bottom: 7px;}
+#piTopPage {position: relative; top: 0px; left: 0px; height: 66px; background: #fff;}
+#piTopPageLogo {position: absolute; top: 0px; left: 0; width: 200px;}
+#piTopPage a img, #piTopPage2 a img {border: 0;}
+#piTopPageWeather {position: absolute; left: 610px; top: 20px; height: 50px; overflow: hidden; }
+#weathericon {float: left; }
+a.weathertemp { font: 30px/50px arial,sans-serif; color: #777777; padding-left: 3px;}
+#piTopPageSearch {position: absolute; top: 27px; left: 746px; overflow: hidden; width: 233px; overflow: hidden;}
+#piTopPageSearch form {margin: 0;}
+#piTopPageSearch .searchbox {width: 178px; border: 1px solid #333; font: 10px Arial, sans-serif; margin-right: 2px;}
+
+#piTopPage2 {position: relative; top: 0px; left: 0px; height: 50px; background: #fff;}
+#piTopPageLogo2 {position: absolute; top: 0px; left: 0; width: 160px;}
+#piTopPage2 #piTopPageWeather {top: 4px; }
+#piTopPage2 #piTopPageSearch {top: 11px;}
+#piTopPageTitle {position: absolute; top: 29px; left: 160px; font: 18px arial,sans-serif; color: #438597; width: 400px; overflow: hidden; }
+#piTopPageTitle a {color: #438597;}
+
+/* nav */
+#piNavcontainer {width: 980px; clear: both;}
+#piNav { position: relative; height: 23px;}
+#piNav div ul li {list-style-type: none; margin: 0; padding: 0 0 3px 0; }
+#piNav div ul {  font: bold 11px/11px arial,sans-serif; border-bottom: 1px solid #AFB2B8; border-right: 1px solid #AFB2B8; border-left: 1px solid #AFB2B8; display: none; background: #fff; color: #c90000; margin: 0; padding: 4px 0 1px 0;}
+#piNav div:hover ul {display: block;}
+#piNav div.over ul {display: block;}
+#piNav a {display: block; color: #fff; font: bold 11px/11px verdana,sans-serif; text-decoration: none; }
+#piNav div {background: #9c0000;}
+#piNav div a { padding: 5px 0 5px 11px; font: bold 13px/13px arial,sans-serif;}
+#piNav div a.navhome {padding: 0;}
+#piNav div ul li a {  border: 0; height: 12px; padding: 1px 0 1px 11px; color: #960000; font: bold 11px/11px arial,sans-serif;}
+#piNav a.inlineleft {display: inline; padding-right: 6px;}
+#piNav a.inlineright {display: inline; padding-right: 6px; padding-left: 6px; }
+#piNavLocal, #piNavNat, #piNavBiz, #piNavSports, #piNavAE, #piNavLife, #piNavOpin, #piNavBlogs, #piNavFun, #piNavMulti,  #piNavJobs, #piNavRE, #piNavCars, #piNavMP, #piNavAccount {position: absolute; top: 0px; width: 150px; }
+#piNavHome {width: 30px;}
+#piNav #piNavJobs a, #piNav #piNavCars a, #piNav #piNavRE a, #piNav #piNavMP a {background: #83ABB6; color: #fff; padding-left: 11px; }
+
+#piNav #piNavRE ul { background: #83ABB6; color: #fff;}
+#piNav #piNavAccount a {background: #878D8E; color: #fff; padding-left: 11px;}
+#piNav a:hover, #piNav #piNavJobs a:hover, #piNav #piNavRE a:hover, #piNav #piNavCars a:hover, #piNav #piNavMP a:hover, #piNav #piNavAccount a:hover {background: #438597; color: #fff; }
+
+#piNavLocal {left: 30px;width: 178px;}
+#piNavNat {left: 86px;}
+#piNavBiz {left: 191px;}
+#piNavSports {left: 267px; }
+#piNavAE {left: 330px; }
+#piNavLife {left: 377px; }
+#piNavFun {left: 423px; }
+#piNavMulti {left: 491px;}
+#piNavBlogs {left: 556px; }
+#piNavMP {left: 614px;  }
+#piNavRE {left: 697px;}
+#piNavCars {left: 786px;}
+#piNavJobs {left: 832px; width: 100px;}
+#piNavAccount {left: 884px; width: 96px;}
+#piNavcontainer, #piNav {z-index: 301;}
+#piNavOpin, #piNavSubscribe {display: none;}
+
+/* main page layout */
+#piMain {width: 980px;  float: left; background: #fff; clear: both;}
+#piMain, #piMain td {color: #333;}
+#piWell {width: 487px; float: left; overflow: hidden; }
+#piRight {width: 493px; float: right; font: 12px arial,sans-serif;}
+#piRight1 {width: 300px; float: left; padding-bottom: 15px; overflow: hidden; }
+#piRight2 {width: 193px; float: right; }
+
+#piMain3rd {width: 980px; float: left; }
+#piMainFull {width: 980px; float: left; }
+#piWell3rd, #piWellWide {width: 680px; float: left; }
+#piWellFull {width: 980px; overflow: auto;}
+#piRight3rd {width: 300px; overflow: hidden; padding-top: 10px; float: right; font: 12px arial,sans-serif; color: #333; padding-bottom: 15px;}
+
+#piStory {padding: 10px 15px 10px 0; }
+#piStory, #piStory td {font: .81em arial,sans-serif; }
+#piWell3rd #piStory {padding: 10px 16px 10px 0;}
+#piWellWide #piStory {padding: 10px 8px 10px 9px;}
+
+#piStorytext {margin-top: 10px;  }
+#piStorytext a {text-decoration: underline;}
+#piStory p {margin: 0 0 15px 0;}
+#piStory p.rdbyline { font: 10px arial, sans-serif; margin-top: 15px;}
+
+/* masthead */
+#piMastnolink, #piMasthead {margin-top: 4px;}
+#piMastnolink, #piMasthead a {text-decoration: none; color: #307F7A; font: bold 13px arial,sans-serif; }
+#piMastgraphic {padding: 3px 0 0 10px;}
+
+/* save/share top */
+.pitools {float: right;   width: 175px; text-align: right; margin-top: -4px;}
+.pitools1, .pitools2 {width: 175px;}
+.pitools img {vertical-align: middle; margin-right: 1px;}
+.artsharecont {display: none; text-align: left; }
+.artshare { width: 170px; margin-top: 4px; padding-bottom: 5px; position: absolute; background: #fff; border: 1px solid #666;}
+.artsharelink {padding-bottom: 5px; font-size: 11px;}
+.artsharelink a, .blogsavesharelink a:link, .blogsavesharelink a:visited {color: #666;}
+.artsharelink img.sicon {vertical-align: middle; margin-right: 2px; margin-left: 5px;}
+.artsharelabel {font: bold 12px/12px verdana,sans-serif; margin-bottom: 5px; padding: 1px 5px 1px 5px; background: #666; color: #fff; text-align: right;}
+.artsharelabel a, .blogsavesharelabel a:link, .blogsavesharelabel a:visited {font-size: 11px; color: #fff;}
+/* save/share bottom */
+.pitoolsBot {clear: both; padding-top: 3px;}
+.piToolsBot .artsharelink {float: left; width: 150px;}
+.artshareBot { margin-top: 4px; padding-bottom: 5px; width: 460px; position: absolute; background: #fff; border: 1px solid #666;}
+
+/* in story */
+#abovestory {margin: 12px 0 12px 0; clear: both;}
+#related {width: 202px; float: left; margin-bottom: 12px; font: 12px arial,sans-serif;}
+#relatedlabel {margin-right: 12px; border-top: 1px solid #737384; border-right: 1px solid #737384; padding-top: 1px;}
+#reviewboxlabel { color: #fff; background: #3A4A56; background-image: url(http://www.seattlepi.com/art2/reviewbox.gif); background-repeat: no-repeat; font: bold 12px arial,sans-serif; padding: 2px 0 2px 18px; margin-right: 1px;}
+#relatedbox {margin-right: 12px; padding: 0 5px; border-right: 1px solid #737384; border-bottom: 1px solid #737384;}
+#piStory #relatedbox p, #relatedbox p {margin: 0; padding: 5px 0;}
+#relatedbox .line {border-top: 1px solid #BFC3C6;}
+#piStory td.reviewbox {font: 12px arial,sans-serif;}
+#showlist {font-size: 12px;}
+#showlist a {text-decoration: none;}
+#piStory td.review {background: #878791; color: #FFFFFF; font: bold 12px arial, sans-serif;}
+#related a, #piStory .credit a, #piStory .creditfull a, #piStory .reviewbox a {text-decoration: none;} 
+.videobutton {vertical-align: middle; margin-right: 2px;}
+
+/* soundoffs and webtowns */
+#sowt {margin-top: 20px; clear: both;}
+#soarticle {background-image: url(http://www.seattlepi.com/art2/icons/soundoff.gif); background-repeat: no-repeat; }
+#wtarticle {background-image: url(http://www.seattlepi.com/art2/icons/webtowns.gif); background-repeat: no-repeat; }
+#soarticle, #wtarticle {padding-left: 31px; font: 11px arial,sans-serif; margin: 10px 0 10px 0;}
+#soarticle a, #wtarticle a {font-weight: bold;}
+
+/* old bottom tools */
+#piBottomTools {clear: both; float: left; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin-top: 10px; margin-bottom: 10px; width: 472px;}
+#piShareTools {padding-left: 15px; font: 11px arial,sans-serif; }
+#piShareTools img.sicon {vertical-align: middle; margin-right: 2px;}
+#piShareTools .saveshare { padding: 7px 0 0 0;}
+#piShareTools .headblock { padding: 16px 0 0 0;}
+#piShareTools .saveshare a, #piShareTools .headblock a {font-weight: normal; margin-right: 5px;}
+.pitoolsbtm {font: 10px arial,sans-serif; margin: 0; padding-right: 15px; margin-right: 15px; float: left; }
+#piStory .pitoolsbtm p {margin: 5px 0 5px 0;}
+.headblock a, .saveshare a {font: 11px arial,sans-serif;}
+
+
+/* share block */
+#shareblock {border: 1px solid #ccc; font-weight: bold; margin: 12px 7px 0 4px; clear: both; background: #fff;}
+#shareblock img.sicon {vertical-align: middle; margin-right: 2px;}
+#shareblock .headblock, #shareblock .saveshare, #shareblock .pianywhere { padding: 7px 8px;}
+#shareblock .headblock a {font-weight: normal;}
+#shareblock .saveshare {padding-bottom: 10px; font-weight: normal;}
+#shareblock .saveshare, #shareblock .pianywhere {border-top: 1px solid #D4D4D4;}
+#shareblock .headblockmore {padding-top: 4px;}
+
+/* index pages */
+#indexpromo {width: 241px; float: right; background-image: url(http://www.seattlepi.com/art2/lines/vdivider_wingI.gif); background-repeat: repeat-y; margin-bottom: 15px;}
+#indexpromocontent {padding-left: 15px;}
+#indexpromocontent, #indexpromocontent td {font: 12px arial,sans-serif;}
+#indexpromocontent p {margin: 4px 0 10px 0;}
+#indexpromocontent table {margin-bottom: 10px;}
+.indexbar {background: #ccc; background-image: url(/art2/homepage/hlheader.gif); background-repeat: repeat-x; color: #333; font-weight: bold; clear: both; margin-bottom: 4px; padding: 2px 0 2px 4px;}
+.indeximage {float: left; margin: 0 4px 10px 0;}
+
+/* feature block */
+#fgallcont {margin: 10px 0 10px 0; }
+#fgall {background: #fff; padding-bottom: 3px; border: 1px solid #ccc;}
+#fgalllabel {padding: 2px 2px 2px 8px; font-weight: bold; font: bold 12px arial,sans-serif;}
+#fgall #fgalltable {margin: 0 11px 0 11px; }
+#fgall td {font: 11px arial,sans-serif; }
+#fgall td.promo1, #fgall td.promo2 {padding-right: 10px;}
+#fgall td p {margin: 8px 0;}
+#fgall td img {margin-bottom: 3px;}
+#fgall td a {font-weight: bold;}
+#fgall td a img {border: 0;}
+#fgall td p a {font-weight: normal;}
+#fgallmorelinks {margin: 0 8px; padding-top: 4px; font: 11px arial,sans-serif; text-align: center; color: #6F7A83;}
+#fgallmorelinks a {color: #3a4a56;}
+#fgallmorelinks a:hover {color: #c03;}
+
+/* wing */
+.wingadblock {text-align: center; margin: 10px 0; }
+.wingblock, .wingfeatured {margin-top: 10px; padding: 8px; clear: both; border: 1px solid #ccc; background: #fff;}
+.wingfeatured td {font: 11px arial,sans-serif; color: #333;}
+.wingfeaturedlabel {font-weight: bold;}
+.wingblock p, .wingfeaturedblock p {margin: 0 0 8px 0;}
+.wingvideoblock {clear: both; }
+.wingvideoblock p {margin: 1px 0 1px 0;}
+
+/* polls */
+.wingdailypoll {padding-top: 8px;  clear: both; }
+.wingdailypoll p {margin: 0 0 5px 0;}
+.wingdailypoll p.pollquestion {font-weight: bold; margin-bottom: 8px;}
+.wingdailypoll td {font: 11px arial,sans-serif; padding: 0 4px 5px 0;}
+
+.grayout {background-image: url(/art2/graylabel.gif); background-repeat: no-repeat; background-position: 0 3px;  text-align: center;}
+.grayin {font: bold 11px georgia,arial; letter-spacing: .3em;  padding: 0 7px 0 9px;  display: inline; background: #F0EFF2; color: #3a4a56;}
+
+/* blogs */
+#blogblock {margin-top: 10px; padding: 8px; clear: both; border: 1px solid #ccc; background: #fff;}
+#blogblocklabel {font-weight: bold;}
+#blogblocklabel a {display: block; color: #333;}
+#blogcontainer {}
+.wingblog {clear: both; margin: 3px 0 8px 0;}
+
+/* mypi and affiliates */
+#nomypi {background: #fff; padding-left: 50px; }
+#nomypi a {font: bold 10px arial,sans-serif; color: #999;}
+.mycust {display: none;}
+#mypi {margin: 0 0 0 12px; }
+#mypi {border: 1px solid #ccc; border-top: 0; margin-top: 10px;}
+#mypi .altplat {float: right; margin: 2px 6px 1px 0;}
+#mypi .altplat img {margin-left: 3px;}
+#mypi .mypititle {font: bold 11px arial,sans-serif;  text-transform: lowercase; color: #4b4b4b; background: #ccc;  padding: 2px 4px; }
+#mypi .mypititle a {color: #333; text-decoration: none;}
+#mypi .mypititle a:hover {color: #c03;}
+#mypi .hlblock { font: 11px/13px arial,sans-serif; color: #333; padding: 5px 7px; }
+#mypi .hlblock .wh {padding-top: 5px;}
+#mydisable { padding: 5px 0 5px 5px; font: 11px arial,sans-serif; background: #ccc; }
+
+#followus {margin-top: 10px; margin-left: 12px; font: 11px arial,sans-serif; border: 1px solid #ccc; padding: 5px 2px; }
+#followus .sicon {vertical-align: middle; margin-right: 2px; margin-left: 5px;}
+#followus div {margin-bottom: 4px;}
+
+/* affiliate box */
+#affbox {margin: 25px 0 20px 12px; background: #fff; border: 1px solid #ADB7B8; }
+#affbox img {vertical-align: middle;}
+#afflabel {background: #ADB7B8; color: #fff; font: bold 10px arial,sans-serif; height: 14px; text-align: center;}
+
+/* bottom of page */
+#piBottomInfo {clear: both; background: #fff; margin-top: 10px; border-top: 3px solid #83ABB6; border-bottom: 1px solid #83ABB6; font: 11px arial,sans-serif;}
+#piBottomInfo p {margin: 5px 0;}
+#piBottomInfo a {padding: 0 3px;}
+#piFoot {clear: both; width: 980px; color: #333; text-align: center; margin-top: 12px; font: 11px arial,sans-serif;}
+#piFoot b {font-size: 12px;}
+#piFoot p {margin: 0 0 11px 0;}
+#piFoot a {font-weight: bold;}
+
+/* myseattlepix */
+#myseattlepixpromo {text-align: center; margin-bottom: 7px;  font: 11px arial,sans-serif;}
+#msplinks p {margin: 0;}
+#msplinks a img {border: 2px solid #fff; margin: 0 5px 0 0;}
+#msplinks a:hover img {border: 2px solid #EA6746;}
+#mspwing {margin: 10px 0 0 0; border: 2px solid #F4B3A2; padding: 6px 4px 0 4px; background: #fff;}
+#mspwing #msplinks a img {margin: 0 1px 2px 2px;}
+
+/* scoreboards */
+.stripscores300cont {margin-top: 10px; background: #fff; border: 1px solid #ccc; padding: 2px 5px 2px 5px;}
+.stripscores300 { border-right: 1px solid #fff; border-left: 1px solid #fff;}
+.stripscores300 td {font: 11px arial,arial,sans-serif;  color: #333; }
+.stripscores300 td.score {text-align: right;  padding-right: 5px; border-right: 1px solid #ccc; background: #E3E8EA;}
+.stripscores300 td.links { padding: 1px 4px 3px 0;  text-align: center; }
+.stripscores300 td.team {width: 80px; padding-left: 3px; background: #E3E8EA; }
+.stripscores300 td.logo {width: 25px; padding: 0; border-left: 1px solid #ccc;}
+.stripscores300 td.status {padding-left: 2px; width: 55px; color: #fff; border-right: 1px solid #ccc;}
+.stripscores300 td.status a {color: #fff;}
+.stripscores300 td.score,.stripscores300 td.team, .stripscores300 td.logo, .stripscores300 td.status {border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+
+/* forums, social media */
+.profilethumb {float: left; margin: 0 8px 8px 0; border: 0;}
+#forumtabs .oneforum {padding: 2px 0 4px 0;}
+#forumtabhot {display: none;}
+.forumcredit {font: 11px arial,sans-serif; color: #666; }
+
+/* movie times */
+#movietimetable td {padding: 10px 0; font: 11px arial,sans-serif;}
+.dd200 {width: 200px; font: 11px arial,sans-serif; margin-bottom: 2px;}
+
+/* new export styles */
+em {font-style: normal;}
+em.b {font-weight: bold;}
+em.i {font-style: italic;}
+h3 {font: bold 18px arial,sans-serif;}
+h3.brief_head, h3.infobox_head, h3.howto_head {font: bold 15px arial,sans-serif;}
+p.howto_volume {}
+p.howto_facts {}
+p.component {}
+#piStory p.letter_name, p.letter_name {font-weight: bold; margin-bottom: 0;}
+#piStory p.letter_city, p.letter_city {font-style: italic; margin-top: 0;}
+
+/* yahoo text ads */
+.contextualad {clear: both; margin-top: 15px;}
+.sfg_ysm001 h3, .sfg_ysm001 h4, .sfg_ysm001 p {margin:0; padding:0;}
+.sfg_ysm001 h3 {border-bottom:1px solid #E4E4E4;color:#444444;font-family:Arial,sans-serif;font-size:11px;margin:0pt 0pt 5px;padding:5px;}
+.sfg_ysm001 a:link, .sfg_ysm001 a:visited {color:#000066; text-decoration:none;}
+.sfg_ysm001 a:hover, .sfg_ysm001 a:active {text-decoration:underline;}
+.sfg_ysm001 p a:link, .sfg_ysm001 p a:visited, .sfg_ysm001 p a:hover, .sfg_ysm001 p a:active {color:#000000;}
+#ysm_ads_sky .sfg_ysm001 p.sitehost {overflow:hidden;width:144px;}
+.sfg_ysm001 p.sitehost a:link, .sfg_ysm001 p.sitehost a:visited, .sfg_ysm001 p.sitehost a:hover, .sfg_ysm001 p.sitehost a:active {color:#999999;}
+.sfg_ysm001 {border:1px solid #D6D6D6;font-family:arial,sans-serif;padding-bottom:5px;}
+.sfg_ysm001 .item {margin-bottom:5px;}
+.sfg_ysm001 h3 a:link, .sfg_ysm001 h3 a:visited, .sfg_ysm001 h3 a:hover, .sfg_ysm001 h3 a:active {color:#444444;}
+.sfg_ysm001 h4 {font-size:11px;margin:0 5px;}
+#piStory .sfg_ysm001 p, .sfg_ysm001 p {font-size:11px;margin:0 5px;text-align:left;}
+.sfg_ysm001 p.sitehost {color:#999999;font-size:10px;margin:0 5px;}
+
+/* old styles */
+.summary {	font: 13px Arial, sans-serif;}
+.list {		font: 12px Arial, sans-serif;}
+#piStory td.promob, td.promob {	background: #CCD5DA; color: #333333; font: bold 11px arial,sans-serif; text-align: center;}
+#piStory td.datebar, td.datebar {	font: bold 12px arial,sans-serif; color: #999999;}
+#piStory td.datebar img, td.datebar img {display: none;}
+#piBottomnav {text-align: center; padding: 3px 0; clear: both; width: 980px;  background: #8ABCB9; color: #006; font:  11px/12px arial,sans-serif; }
+#piBottomnavlinks {padding-left: 7px;}
+#piBottomnav a {color: #fff; padding: 2px 5px; font-weight: bold; text-decoration: none;}
+#piStrip {padding-top: 8px; padding-right: 8px; text-align: right; font: 10px verdana,arial,sans-serif; color: #223048;}
+#piStrip a {color: #223048; text-decoration: none;}
+#piStrip a:hover {color: #c03;}
+#piBranding { background: #fff; background-image: url(/art2/top.gif); background-repeat: no-repeat; width: 960px; position: relative; top: 0px; left: 0px; height: 79px;}
+#piBranding2 {  background-image: url(/art2/topnew2.gif); background-repeat: no-repeat; width: 960px; position: relative; top: 0px; left: 0px; height: 79px;}
+#piLogo {position: absolute; top: 0px; left: 0; width: 286px;}
+#piSearch2 {position: absolute; top: 33px; left: 685px; font: 10px verdana,sans-serif; color: #333;}
+#piSearch2 form {margin: 0;}
+#piSearch2 .searchbox {width: 214px; border: 1px solid #333; font: 10px Arial, sans-serif; margin-right: 2px;}

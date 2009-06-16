@@ -1,0 +1,190 @@
+body,html {
+	margin:0;
+	/*padding:3px;*/
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+/*	background: #fff;*/
+}
+
+#ybheader {
+	font-size:0.1em;
+	display:block;
+	padding:4px 0 4px 5px;
+	background:#242424 url(http://www.yardbarker.com/images/widgets/ybn/head_grad.png) repeat-x top left;
+}
+#ybhi {
+	background:url(http://www.yardbarker.com/images/widgets/ybn/ybnheader.png) no-repeat left center;
+	height:20px;
+	width:105px;
+	display:block;
+	text-indent:-10000px;
+}
+
+#wrapper {
+	border:2px solid #242424;
+	border-top:0;
+	padding:1px;
+	background: #fff;
+}
+
+#wbxwidget {
+	background:#fff url(http://www.yardbarker.com/images/widgets/ybn/powered_wbx_160.gif) no-repeat left center;
+	height:25px;
+	display:block;
+	text-indent:-10000px;
+	font-size:0.1em;
+	border:1px solid #ccc;
+	border-top:0;
+}
+h1 {
+        margin:0;
+        padding:5px 3px 4px;
+        line-height:1em;
+        font-size:13px;
+        font-weight:bold;
+}
+h1 span.last {
+        display:block;
+        padding-top:3px;
+        padding-bottom: 3px;
+        font-size:20px;
+}
+
+#yardbarker {padding:8px 5px;}
+#yardbarker img,
+#yardbarker a {display:block;}
+
+#wbox {
+	margin-top:3px;
+	text-align:center;
+	padding:5px;
+}
+#wbox a,
+#wbox img {display:block;margin:0 auto;}
+
+#avatar {
+	float:right;
+	position:relative;
+	z-index:5;
+	margin-top:-20px;
+	height:75px;
+}
+#storywrapper {
+	position:relative;
+	z-index:6;
+	margin-left:7px;
+}
+
+#storyflexwrapper {
+	padding:12px 0 10px 10px;
+	position:relative;
+	left:-7px;
+	margin-right:7px;
+}
+#storyflexwrapper h3 {
+	padding:0;
+	margin:0 0 2px;
+	line-height:1em;
+	font-size:1em;
+	font-weight:bold;
+	color:#003399;
+}
+#storyflexwrapper a {color:#003399;}
+#storyflexwrapper p {margin:3px -10px 3px 0;font-size:0.9em;line-height:1.3em;}
+#storyflexwrapper p.date {margin:0 0 3px;color:#666}
+#storyflexwrapper p .more {text-decoration:none;font-size:1.2em;}
+
+#searchbottomscaler {
+	height:5px;
+	padding-left:29px;
+	margin-right:6px;
+	background:url(http://www.yardbarker.com/images/widgets/ybn/search_rounded.png) no-repeat bottom left;
+	font-size:0.1em;
+}
+#searchbotomrightflexer {
+	height:5px;
+	position:relative;
+	right:-6px;
+	background:url(http://www.yardbarker.com/images/widgets/ybn/search_rounded.png) no-repeat bottom right;
+}
+
+#widbox {width:160px;}
+
+a img {border:0}
+
+#wwrap {margin:0;padding:0}
+.clearer {
+	clear:both;
+	list-style:none;
+}
+
+.clearer p {
+	margin:0;
+	padding:3px 0 4px 3px;
+	font-size:0.9em;
+}
+
+.post {
+	clear:both;
+	list-style:none;
+	margin:2px 0 0 0;
+	padding:0 1px 2px 3px;
+	border-bottom:1px solid #d9d9d9;
+}
+.post .img {
+	float:left;
+	margin-right:4px;
+	margin-left:-2px;
+	display:block;
+}
+.post p {
+	margin:0;
+	padding:2px 0;
+	line-height: 12px;
+}
+.post p a,.clearer p a{
+	text-decoration:none;
+	color:#039;
+}
+.post p a:hover,.clearer p a:hover {
+	text-decoration:underline;
+}
+
+
+#seemore {
+	text-decoration:none;
+	color:#039;
+	padding:0.7em 0;
+	display:block;
+}
+
+
+#search {
+	background:#242424 url(http://www.yardbarker.com/images/widgets/ybn/yourteam.png) no-repeat top left;
+	padding-top:27px;
+	padding-bottom:3px;
+}
+#search form {
+	padding:0 0 0 4px;
+	margin:0;
+}
+#search textarea {
+	color:#666;
+	display:block;
+	float:left;
+	padding:2px;
+	border:0;
+	border-top:1px solid #999;
+	border-left:1px solid #999;
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+	width:113px;
+	height:30px;
+	overflow:hidden;
+}
+#search form .submit {
+	width:auto;
+	display:block;
+	border-left:4px solid #242424;
+	border-top:1px solid #242424;
+}

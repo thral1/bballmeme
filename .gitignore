@@ -1,0 +1,116 @@
+# Ruby on Rails .gitignore
+
+# Claude Code settings
+.claude/
+
+# Ignore bundler config and installed gems
+/.bundle
+/vendor/bundle
+
+# Ignore all logfiles and tempfiles
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+
+# Ignore database files
+*.sqlite3
+*.sqlite3-journal
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all environment files (may contain sensitive data)
+/.env
+/.env.local
+/.env.*.local
+
+# Ignore rails cache
+/tmp/cache
+
+# Ignore master key for decrypting credentials
+/config/master.key
+
+# Ignore public uploads
+/public/uploads
+
+# Ignore node modules (if using Webpacker or modern Rails)
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore compiled assets
+/public/assets
+/public/packs
+/public/packs-test
+
+# Ignore coverage results
+/coverage
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# IDE specific files
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+.project
+.settings
+
+# RubyMine
+.rake_tasks
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# CTags
+tags
+TAGS
+
+# RDoc
+/doc/api
+/doc/app
+/.yardoc
+
+# Test artifacts
+/test/tmp
+/spec/tmp
+
+# Ignore BackgroundRb logs and pids
+/log/backgroundrb_*.log
+/tmp/pids/*.pid
+
+# Ignore database configuration (may contain passwords)
+# Uncomment if you want to ignore database.yml
+# /config/database.yml
+
+# Ignore secrets
+/config/secrets.yml
+
+# Ignore any local development configuration
+/config/local_env.yml

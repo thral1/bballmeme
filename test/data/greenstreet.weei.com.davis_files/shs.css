@@ -1,0 +1,74 @@
+#shsTeamPages .shsTeamHeadlines .shsHeadlineList { border: 2px solid #004d8a; width: 98%}
+#shsTeamPages .shsTeamHeadlines .shsHeadlineList h2 { background: url(/newbg.gif); line-height: 25px; padding: 0px }
+
+#shsFront .shsHeadlineList { border: 2px solid #505050}
+#shsFront .shsHeadlineList h2 { background: url(/newbg.gif); line-height: 25px; padding: 0px }
+
+.shsTableTtlRow {background: url(/newbg.gif) top left; line-height: 25px}
+.shsTableSubttlRow td {background-color: #505050; color: #fff; line-height: 20px}
+.shsCalMonth, .shsCalMonthName {background: url(/newbg.gif); line-height: 25px}
+
+#shsNavTable th {display: none}
+#shsNavTable td a, #shsNavTable td a:link, #shsNavTable td a:visited, #shsNavTable td a:active {text-decoration: none}
+#shsNavTable td a:hover {text-decoration: underline}
+
+#shsBody {padding: 0px 5px 0px 5px;}
+#WEEI_CONTENT {width: 605px}
+
+#shsBody a {color: #000; text-decoration: none; }
+#shsBody a:hover {text-decoration: underline}
+
+/* old color: 7c211e*/
+
+
+table.shsLinescore table td { padding-left: 2px; padding-right: 2px }
+
+.shsScoreSpacer, .shsGamePitchers, .shsGameHomeRuns, .shsGameDetails, .shsHomeStarter, .shsAwayStarter, .shsLiveNav {background-color: #fff}
+
+#shsFront #shsMultisportScoreboard { width: 200px; }
+
+
+#shsNavTable td a,
+#shsBody,
+#shsBody td,
+#shsBody div,
+#shsBody .shsHeadlineList li,
+#shsBody p
+{
+font-family: verdana, arial, times new roman !important; 
+font-size: 12px !important
+}
+
+#shsBody td {line-height: 20px}
+#shsBody .shsMiniRowSpacer td {line-height: 1px}
+#shsBody p.shsHeadline {padding: 5px; line-height: 25px;}
+#shsBody p {padding: 5px; line-height: 15px;}
+
+#shsMiniBody .shsTableTtlRow td a
+{color: #fff}
+
+
+#shsBody #shsFront p.shsHeadline {font-size: 19px !important}
+#shsTeamScoreboards {width: 280px}
+
+#shsScoreboard .shsLeader, #shsScoreboard .shsLeaderTtl, #shsScoreboard .shsLeaderCat {font-size: 12px !important}
+
+#shsBody table { border-collapse: separate;}
+
+#shsBody h2 {padding: 10px 5px; }
+#shsWeekNav {padding: 10px 5px; }
+
+#shsInset {margin-left: 10px}
+
+#shsBody .shsTableTtlRow td, #shsBody .shsTableSubttlRow td {color: #fff}
+
+#shsBody a {color:#7c211e;text-decoration:none;}
+#shsBody a:hover {text-decoration:underline;}
+
+#shsNavTable td a,
+#shsBody,
+#shsBody td,
+#shsBody div,
+#shsBody .shsHeadlineList li,
+#shsBody p
+{font-family:verdana,arial,times new roman !important;font-size:12px !important;color:#000;text-decoration:none;}

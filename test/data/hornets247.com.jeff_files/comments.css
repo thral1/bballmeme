@@ -1,0 +1,204 @@
+#comment-guide { padding: 10px 20px }
+#comment-guide h4 { margin-top: 0 }
+
+#comment-guide ul {
+	list-style: disc;
+	margin: 0;
+	padding: 0 10px 0 20px;
+}
+
+#comment-guide ul li {
+	color: #333;
+	font-size: 12px;
+	margin: 6px 0;
+}
+
+#comment-guide p {
+	color: #666;
+	font-size: 10px;
+	margin: 0;
+}
+
+#comments {
+	margin: 50px 0 40px;
+}
+
+#comments ol {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin: 0 0 40px 0;
+	padding: 5px 0;
+	width: 100%;
+}
+
+#comments ol li {
+	clear: both;
+	display: block;
+}
+
+#comments ol li .the-commenter {
+	display: block;
+	float: left;
+	margin-right: 18px;
+	overflow: hidden;
+	width: 120px;
+}
+
+#comments ol li .the-commenter img {
+	float: right;
+	margin: 0 0 10px 72px;
+}
+
+#comments ol li .the-commenter p {
+	margin: 0;
+	text-align: right;
+}
+
+#comments ol li p.comment-meta {
+	font-size: 9px;
+}
+
+#comments ol li p.comment-meta a {
+	color: #999;
+}
+
+#comments ol li .the-commenter a {
+	text-decoration: none;
+}
+
+#comments p.comment-author, #comments p.comment-author a {
+	color: #666;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+#comments p.comment-author a { color: #069 }
+
+#comments ol li .the-comment {
+	background: #f6f5f1;
+	border: 1px solid #d6d3ca;
+	display: block;
+	float: left;
+	height: auto;
+	margin: 0 0 -1px 0;
+	min-height: 140px;
+	padding-bottom: 20px;
+	position: relative;
+	width: 475px;
+}
+
+#comments ol li.alt .the-comment {
+	background: #eeede7;
+}
+
+#comments ol li .the-comment p {
+	overflow: hidden;
+	line-height: 18px;
+	padding: 15px;
+}
+
+#comments ol li .the-comment p.comment-meta {
+	border-top: 1px #ccc dotted;
+	bottom: -10px;
+	padding: 0;
+	position: absolute;
+	right: 5px;
+}
+
+#comments ol li .the-comment p.comment-meta a {
+	padding: 5px 7px;
+	text-decoration: none;
+}
+
+#comments ol li .the-comment .comment-meta a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+#comments ol li .the-comment .comment-meta .comment-count {
+	border-left: 1px #ccc dotted;
+}
+
+#comments ol li .the-comment .comment-meta .comment-mod {
+	border-left: 1px #ccc dotted;
+	margin-left: -4px;
+}
+
+#comments ol li .the-comment .comment-meta a.delete:hover {
+	color: #f00;
+}
+
+#comments ol li .the-comment .comment-meta .commenter-url {
+	margin-right: -5px;
+}
+
+#comment-form fieldset {
+	background: #f6f5f1;
+	border-color: #d6d3ca;
+	clear: both;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#comment-fork legend {
+	color: #666;
+	font-size: 14px;
+	font-weight: 800;
+	margin-left: -5px;
+}
+
+#comment-form textarea {
+	min-height: 100px;
+	width: 561px;
+}
+
+#private #comments {
+	margin: 0 0 40px 0;
+}
+
+#private #comments ol {
+	list-style: none;
+	margin: 0;
+	padding: 5px 0;
+}
+
+#private #comments .controls {
+	display: block;
+	float: left;
+	margin-left: 18px;
+	width: 307px;
+}
+
+#private #comments .controls p {
+	font-size: 12px;
+	line-height: 16px;
+	margin: 15px 0 0 0;
+}
+
+#private #comments .controls p a {
+	font-weight: 800;
+}
+
+.comment-fork-js a.tab-toggle {
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	color: #333;
+	display: block;
+	float: left;
+	margin-bottom: -1px;
+	padding: 5px 10px;
+	position: relative;
+	z-index: 5;
+}
+
+.comment-fork-js a.active {
+	background: #f6f5f1;
+	border-color: #d6d3ca #d6d3ca #f6f5f1 #d6d3ca;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: 800;
+	text-decoration: none;
+}

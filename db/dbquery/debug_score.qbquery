@@ -1,0 +1,2 @@
+﻿select title,publication_name,(unix_timestamp(publication_date)-1230768000) as age_in_secs,
+num_backward_links,num_comments,num_visitors_per_month,article_rank,score from articles where score <> 0 order by score desc limit 100;

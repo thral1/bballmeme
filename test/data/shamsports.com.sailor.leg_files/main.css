@@ -1,0 +1,223 @@
+body {
+	font: 12 Arial, Helvetica, sans-serif;
+        background-color: #2F2F66;
+        background-image: url(images/background3.JPG);
+        color: white;
+}
+
+p {
+	font: 12 Arial, Helvetica, sans-serif;
+        background-color: #2F2F66;
+        color: white;
+}
+
+.grad{
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#111144,endColorStr=#2F2F66);
+
+}
+
+.grad2{
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#2F2F66,endColorStr=#222266);
+
+}
+
+table { 
+        background-color: #2F2F66; 
+        border: none;
+
+}
+
+td {
+	  font: 12 Arial, Helvetica, sans-serif;
+        background-color: #22226C;
+        color: white;
+}
+
+a {
+        font: bold 12 Arial, Helvetica, sans-serif;
+        color: white;        
+        text-decoration: none; 
+}
+
+a:visited {
+        font: bold 12 Arial, Helvetica, sans-serif;
+        color: white;         
+        text-decoration: none; 
+}
+
+a.black  { 
+         font: 12 Arial, Helvetica, sans-serif; 
+         color: #000000; 
+         text-decoration: none; 
+}
+
+a.black:visited  { 
+         font: 12 Arial, Helvetica, sans-serif; 
+         color: #000000; 
+         text-decoration: none; 
+}
+
+a.blue  { 
+         font: 12 Arial, Helvetica, sans-serif; 
+         color: #222266; 
+         text-decoration: none; 
+} 
+
+a.blue:visited { 
+         font: 12 Arial, Helvetica, sans-serif; 
+         color: #222266; 
+         text-decoration: none; 
+}
+
+a.bluebold  { 
+         font: bold 12 Arial, Helvetica, sans-serif; 
+         color: #222266; 
+         text-decoration: none; 
+} 
+
+a.bluebold:visited { 
+         font: bold 12 Arial, Helvetica, sans-serif; 
+         color: #222266; 
+         text-decoration: none; 
+}
+
+a.bluesmall  { 
+         font: bold 9 Arial, Helvetica, sans-serif; 
+         color: #222266; 
+         text-decoration: none; 
+} 
+
+a.bluesmall:visited  { 
+         font: bold 9 Arial, Helvetica, sans-serif; 
+         color: #222266; 
+         text-decoration: none; 
+} 
+
+a.whitesmall  { 
+         font: bold 9 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF; 
+         text-decoration: none; 
+} 
+
+a.whitesmall:visited  { 
+         font: bold 9 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF; 
+         text-decoration: none; 
+} 
+
+a.whitenonbold  { 
+         font: 13 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF; 
+         text-decoration: none; 
+} 
+
+a.whitenonbold:visited  { 
+         font: 13 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF; 
+         text-decoration: none; 
+} 
+
+a.top   { 
+         font: bold 9 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF;          
+         text-decoration: none; 
+
+} 
+
+
+a.top:visited   { 
+         font: bold 9 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF; 
+         text-decoration: none; 
+
+} 
+
+
+a.side  { 
+         font: 9 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF; 
+         text-decoration: none; 
+ 
+} 
+
+a.side:visited  { 
+         font: 9 Arial, Helvetica, sans-serif; 
+         color: #FFFFFF;          
+         text-decoration: none;
+ 
+} 
+
+.blue1 {
+        background-color: #2F2F66;
+        color: white;
+}
+.blue2 {
+        background-color: #111144;
+        color: white;
+}
+
+.blue3 {
+        background-color: #22225C;
+        color: white;
+}
+
+.blue4 {
+        background-color: #222266;
+        color: white;
+}
+
+.blue5 {
+        background-color: #222273;
+        color: white;
+}
+
+.blue6 {
+        background-color: #333366;
+        color: white;
+}
+
+.blue7 {
+        background-color: #222244;
+        color: white;
+}
+
+.blue8 {
+        background-color: #333377;
+        color: white;
+}
+.blue9 {
+        background-color: #444477;
+        color: white;
+}
+.blue10 {
+        background-color: #121246;
+        color: white;
+}
+
+.white1 { 
+         background-color: #FFFFFF;
+         color: #222266; 
+}
+
+.grey1 { 
+         background-color: #CCCCCC;
+         color: #222266; 
+}
+
+
+.tableBorder {
+    	border: 1px solid #111155;
+}
+
+.MenuItem {        
+	border: 1px solid #111155;
+    background-color: #2F2F66;
+    color: white;
+
+}
+
+.MenuHeader{
+        border: 1px solid #111155;
+        background-color: #22225C;
+        color: white;
+}

@@ -1,0 +1,4399 @@
+/*********************
+  general items
+*********************/
+* {
+	margin: 0;
+	padding: 0;
+}
+a img {
+	border: 0;
+}
+a:focus {
+	outline: 0;
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.clb {
+	clear: both;
+}
+/*********************
+  Main Styles
+*********************/
+.arc90_imgcaption { background-color:#f1f1f1; padding: 0px 0px 2px 0px; margin: 4px 0px; width: 100%; text-align: left;} 
+.arc90_imgcaption p { margin: 0px; padding:0px; padding-left:4px; padding-right:4px;} 
+.arc90_imgcaptionTXT { font-size: 10px; color: #333; text-align: left; } 
+.alignl { float: left; margin-right: 1em; } 
+.alignr { float: right; margin-left: 1em; } 
+
+html {
+	font: .627em Arial, Verdana, Helvetica, sans-serif;
+}
+body {
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	background: url(/sites/all/themes/weei/images/container_bgr.gif) repeat-y 50% 0;
+}
+body.takeoverSBLI 
+{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	background: url(/sites/all/themes/weei/images/sbli_takeover.jpg) repeat-y 50% 0;
+}
+body.takeoverGBO 
+{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	background: url(/sites/all/themes/weei/images/GBO_wp.jpg) repeat-y 50% 0;
+}
+body.takeoverJF
+{
+	text-align: center;
+	color: #000;
+	background: url(/sites/all/themes/weei/images/jf_bg.jpg) no-repeat 50% 0;
+	background-image: url(/sites/all/themes/weei/images/jf_bg.jpg);
+	/* background-color: #5D99CB;
+	background-repeat:no-repeat; */
+	background-attachment: fixed;
+	
+	
+}
+body.takeoverLAX 
+{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	background: url(/sites/all/themes/weei/images/ncaa_lacrosse_wp.jpg) repeat-y 50% 0;
+}
+body.takeoverL
+{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	background: url(/sites/all/themes/weei/images/lexus_takeover.jpg) no-repeat 50% 0;
+}
+body.takeoverFuego
+{
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	background: url(/sites/all/themes/weei/images/en_fuego_takeover.jpg) no-repeat 50% 0;
+}
+body.template_2 {
+	text-align: center;
+	color: #000;
+	background-color: #282828;
+	background-image: url(/sites/all/themes/weei/images/thebigshow_bg.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+body.takeoverHM {
+	background-position:top;
+	color: #000;
+	background-image: url(/sites/all/themes/weei/images/hammer_sickle_bg.gif);
+	background-repeat:no-repeat;
+	background-color: #2e2e2e;
+	
+}
+
+body.takeoverFantasy {
+	color: #000;
+	background-image: url(/sites/all/themes/weei/images/fantasy_football_takeover.jpg);
+	background-repeat:repeat-y;
+
+	
+}
+
+
+#container {
+	margin: 0 auto;
+	padding: 0 5px;
+	width: 976px;
+	text-align: left;
+}
+
+.containerhm {
+
+	background-color:#FFF;
+}
+
+/*********************
+  header & footer
+*********************/
+#header {
+	float: left;
+	width: 976px;
+	height: 89px;
+}
+#logo {
+	float: left;
+	padding-top: 16px;
+}
+#logo img {
+	display: block;
+}
+#top {
+	float: left;
+	padding: 2px 0px 6px 11px;
+	width: 818px;
+}
+#top_nav {
+	float: left;
+	padding: 4px 5px 0 32px;
+	/*width: 448px;  novo!*/
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	text-align: right;
+}
+#top_nav li {
+	display: inline;
+}
+#top_nav li a {
+	padding: 0 4px;
+	color: #858585;
+	text-decoration: none;
+
+}
+#top_nav li a:hover {
+	text-decoration: underline;
+
+}
+#tn_rss_img
+{
+	display: inline;
+	margin: 4px 3px -3px 0;
+	padding: 0;
+	height: 16px;
+}
+#search
+{
+	float: left;
+	width: 234px;
+	height: 24px;
+	margin: 0;
+	padding: 3px 0 0 4px;
+	background: url(/sites/all/themes/weei/images/search_container_bg.png) no-repeat 0 0; 
+}
+#search_btn
+{
+	width: 53px;
+	height: 19px;
+	margin: 0;
+	padding: 0;
+}
+#q 
+{
+	margin: 0 0 0 0;
+	padding: 2px 0px 0 2px;
+	width: 166px;
+	height: 24px;
+	border: 0;
+	background: url(/sites/all/themes/weei/images/search_input_bgr.png) no-repeat 0 0;
+}
+
+#listen {
+	float: left;
+	display: inline;
+	margin: 0px -100px 0 10px;
+	padding: 5px 0 5px 5px;
+	width: 197px;
+	height: 18px;
+	background: url(/sites/all/themes/weei/images/listen_bgr.gif) no-repeat 0 0;
+}
+#listen p {
+	float: left;
+	display: inline;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+#live,
+#demand {
+	float: left;
+	display: inline;
+	margin-left: 4px;
+	padding-top: 18px;
+	width: 53px;
+	height: 0;
+	overflow: hidden;
+	font-size: .1em;
+	background: url(/sites/all/themes/weei/images/live_btn.gif) no-repeat 0 0;
+}
+#demand {
+	padding-top: 18px;
+	width: 91px;
+	height: 0;
+	overflow: hidden;
+	font-size: .1em;
+	background: url(/sites/all/themes/weei/images/on_demand_btn.gif) no-repeat 0 0;
+}
+#footer_content_outer
+{
+padding-left:40px;
+padding-right:40px;
+
+}
+
+#footer {
+ float: left;
+ clear: both;
+ padding: 10px 0 15px;
+ text-align: center;
+ text-transform: uppercase;
+ height: 34px;
+ width: 100%;
+ color: #7f7f7f;
+ font-weight: bold;
+ background: url(/sites/all/themes/weei/images/footer_bgr.png) no-repeat 0 0;
+ 
+}
+.bs {
+	position: relative;
+	z-index: 3;
+	display: inline;
+	margin-left: -3px;
+}
+#footer ul {
+ list-style-type: none;
+}
+#footer ul li {
+ display: inline;
+}
+#footer ul li a {
+ padding: 0 3px;
+ text-decoration: none;
+ color: #7f7f7f;
+}
+#footer ul li a:hover {
+ text-decoration: underline;
+}
+/*********************
+  navigation
+*********************/
+#nav {
+	float: left;
+	display: inline;
+	position: relative;
+	z-index: 20;
+	margin-left: 12px;
+	padding: 0;
+	width: 817px;
+	height: 40px;
+	font-size:1.1em;
+	background: url(/sites/all/themes/weei/images/nav_alt.gif) no-repeat 0 0;
+}
+#nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+}
+#nav a {
+	display: block;
+	padding-top: 40px;
+	height: 0px;
+	overflow: hidden;
+}
+
+#shows       , #shows        a { width: 129px; }
+#boston_teams, #boston_teams a { width: 100px; }
+#scores      , #scores       a { width: 112px; }
+#audio_video , #audio_video  a { width: 158px; }
+#columnists  , #columnists   a { width:  86px; }
+#blogs       , #blogs        a { width:  52px; }
+#member      , #member       a { width: 110px; }
+#laughs      , #laughs       a { width:  69px; }
+
+#nav li ul {
+	position: absolute;
+	top: 40px;
+	left: -9000px;
+	float: left;
+	padding: 5px;
+	background: #900;
+	background-image:url('images/navbarbg.jpg');
+}
+#nav li li {
+	height: auto;
+}
+#nav li ul a {
+	padding: 4px;
+	height: auto;
+	overflow: hidden;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid #ad3333;
+}
+#nav li ul a:hover {
+	color: #900;
+	background: #fff;
+}
+
+#shows        ul { width: 102px; }
+#boston_teams ul { width: 89px; }
+#scores       ul { width: 102px; }
+#audio_video  ul { width: 149px; }
+#columnists   ul { width: 105px; }
+#blogs        ul { width: 140px; }
+#member       ul { width:  99px; }
+#laughs       ul { width: 105px; }
+#shows        ul a { width:  94px; }
+#boston_teams ul a { width:  81px; }
+#scores       ul a { width:  94px; }
+#audio_video  ul a { width: 141px; }
+#columnists   ul a { width:  97px; }
+#blogs        ul a { width:  132px; }
+#member       ul a { width:  91px; }
+#laughs       ul a { width: 97px; }
+#shows:hover        ul, #shows.sf_hover        ul { left: 8px; }
+#boston_teams:hover ul, #boston_teams.sf_hover ul { left: -10px; }
+#scores:hover       ul, #scores.sf_hover       ul { left: -10px; }
+#audio_video:hover  ul, #audio_video.sf_hover  ul { left: -10px; }
+#columnists:hover   ul, #columnists.sf_hover   ul { left: -10px; }
+#blogs:hover        ul, #blogs.sf_hover        ul { left: -10px; }
+#member:hover       ul, #member.sf_hover       ul { left: -20px; }
+#laughs:hover       ul, #laughs.sf_hover       ul { left: -10px; }
+
+/*********************
+  main content items
+*********************/
+#content {
+	float: left;
+	clear: left;
+	width: 976px;
+}
+#content ul {
+	padding: 0px;
+}
+#content ul li {
+	padding: 0;
+}
+#flash_content_1 {
+	float: left;
+	width: 732px;
+}
+#sponsors {
+	float: left;
+	margin-top: 0px;
+	width: 234px;
+	padding-left: 9px;
+}
+#sponsors img {
+	display: block;
+}
+#interactive_content {
+	position: relative;
+	float: left;
+	clear: left;
+	padding: 5px 0;
+	width: 976px;
+	height: 295px;
+}
+#sponsors_2 {
+	float: left;
+	display: inline;
+	margin: 2px 0 8px 26px;
+}
+#headlines_module {
+	position: relative;
+	z-index: 2;
+	float: left;
+	clear: left;
+	width: 260px;
+	height: 209px;
+	background: url(/sites/all/themes/weei/images/headlines_modules_bgr.png) no-repeat 4px 27px;
+}
+#tabs {
+	float: left;
+	list-style-type: none;
+	width: 254px;
+}
+.tab1 {
+	background: url(/sites/all/themes/weei/images/tabs.gif) no-repeat 0 0;
+}
+.tab2 {
+	background: url(/sites/all/themes/weei/images/tabs.gif) no-repeat 0 -29px;
+}
+.tab3{
+	background: url(/sites/all/themes/weei/images/tabs.gif) no-repeat 0 -58px;
+}
+#tabs li {
+	float: left;
+	display: inline;
+}
+#tabs li a {
+	float: left;
+	display: block;
+	padding-top: 29px;
+	height: 0;
+	overflow: hidden;
+}
+#tabs li#first a {
+	width: 93px;
+}
+#tabs li#second a {
+	width: 94px;
+}
+#tabs li#third a {
+	width: 67px;
+}
+
+#module_content_2,
+#module_content_3 {
+	display: none;
+}
+
+.module_content {
+	float: left;
+	clear: left;
+	padding: 10px 0;
+	width: 253px;
+	height: 155px;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/module_content_bgr.gif) no-repeat bottom left;
+}
+.module_content ul {
+	float: left;
+	clear: left;
+	list-style-type: none;
+	font-size: 1.1em;
+}
+.module_content ul li {
+	float: left;
+	clear: left;
+	width: 215px;
+	background: url(/sites/all/themes/weei/images/r_bullet.gif) no-repeat 6px 4px;
+}
+#content .module_content ul li {
+	padding: 0 0 5px 14px;
+}
+.module_content h2 {
+	color: #333;
+	font-size: 1em;
+}
+.module_content h2 a {
+	text-decoration: none;
+	/*color: #cc0000;*/
+	color: #333;
+}
+.module_content h2 a:hover {
+	text-decoration: underline;
+}
+.module_content h3 {
+	color: #333;
+	font-size: 1.1em;
+}
+#flash_content_2 {
+	position: absolute;
+	width: 646px;
+	height: 295px;
+	top: 5px;
+	left: 157px;
+}
+#flash_content_3 {
+	position: absolute;
+	width: 165px;
+	height: 295px;
+	top: 5px;
+	right: 1px;
+}
+
+/*** media modules ***/
+
+#media_modules {
+	float: left;
+	clear: left;
+	padding-bottom: 12px;
+	width: 976px;
+}
+
+.mmodule {
+	float: left;
+	display: inline;
+	margin-left: 12px;
+	width: 317px;
+}
+#right_col_b .mmodule {
+	margin: 0 0 10px 0;
+}
+.first {
+	margin-left: 0;
+}
+.m_heading {
+	float: left;
+	padding: 9px 12px 6px 16px;
+	width: 289px;
+	background: url(/sites/all/themes/weei/images/m_heading_bgr.gif) no-repeat 0 0;
+}
+.m_heading h2 {
+	float: left;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.1em;
+}
+.btns {
+	float: right;
+}
+.embed,
+.personalize {
+	float: left;
+	display: inline;
+	margin-right: 3px;
+	padding-top: 11px;
+	width: 42px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/embed.gif) no-repeat 0 0;
+}
+.personalize {
+	margin-right: 0;
+	width: 74px;
+	background: url(/sites/all/themes/weei/images/personalize.gif) no-repeat 0 0;
+}
+.m_btm {
+	float: left;
+	clear: left;
+	padding-left: 8px;
+	width: 309px;
+height: 351px;
+	background: url(/sites/all/themes/weei/images/m_btm.gif) no-repeat bottom left;
+}
+
+#m_tabs {
+	float: left;
+	display: inline;
+	margin-top: 5px;
+	list-style-type: none;
+}
+.m_tabs_1 {
+	background: url(/sites/all/themes/weei/images/m_tabs.gif) no-repeat 0 0;
+}
+.m_tabs_2 {
+	background: url(/sites/all/themes/weei/images/m_tabs.gif) no-repeat 0 -24px;
+}
+.m_tabs_3 {
+	background: url(/sites/all/themes/weei/images/m_tabs.gif) no-repeat 0 -48px;
+}
+#m_tabs li {
+	float: left;
+	display: inline;
+}
+#m_tabs li a {
+	float: left;
+	display: block;
+	padding-top: 24px;
+	height: 0;
+	overflow: hidden;
+}
+#m_tabs li#mp a {
+	width: 109px;
+	background-position: 0 0;
+}
+#m_tabs li#shows_t a {
+	width: 63px;
+	background-position: -109px 0;
+}
+#m_tabs li#teams_t a {
+	width: 63px;
+	background-position: -172px 0;
+}
+#m_inner2,
+#m_inner3 {
+	display: inline;
+}
+.m_inner {
+	float: left;
+	clear: left;
+	padding-left: 3px;
+	width: 296px;
+	height: 293px;
+	background: url(/sites/all/themes/weei/images/m_content.gif) no-repeat 0 0;
+}
+.m_inner ul {
+	float: left;
+	margin-top: 5px;
+	list-style-type: none;
+	width: 290px;
+}
+.m_inner ul li {
+	position: relative;
+	float: left;
+	clear: left;
+	width: 290px;
+	list-style-type: none;
+	list-style-image: none;
+
+}
+.m_inner li .normal a {
+	float: left;
+	display: block;
+	width: 280px;
+	padding: 15px 0 0 10px;
+	height: 27px;
+	text-decoration: none;
+	font-size: 1em;
+	color: #000;
+	background: url(/sites/all/themes/weei/images/audio_bg.gif) no-repeat 0 0;
+}
+.m_inner li.audio .normal a {
+	font-weight: bold;
+	font-size: 11px;
+	background: url(/sites/all/themes/weei/images/audio_bg.gif) no-repeat 0 0;
+}
+.m_inner li.video .normal a {
+	background: url(/sites/all/themes/weei/images/li_video_bgr.gif) no-repeat 0 0;
+}
+.expanded_content {
+	display: none;
+}
+.normal_first {
+	display: none;
+}
+.expanded_content_first {
+	display: block;
+}
+.exp,
+.col {
+	float: left;
+	display: inline;
+	margin-right: 8px;
+	padding-top: 11px;
+	width: 11px;
+	height: 0;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(/sites/all/themes/weei/images/exp.gif) no-repeat 0 0;
+}
+.col {
+	background: url(/sites/all/themes/weei/images/col.gif) no-repeat 0 0;
+}
+.r_img {
+	position: absolute;
+	z-index: 2;
+	bottom: -4px;
+	right: 50px;
+}
+.l_img {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	bottom: -4px;
+	left: 25px;
+}
+#m_inner1 .r_img {
+	position: absolute;
+	z-index: 0;
+	bottom: -3px;
+	right: 50px;
+}
+#m_inner1 .l_img {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	bottom: 1px;
+	left: 25px;
+}
+#m_inner2 .r_img {
+	position: absolute;
+	z-index: 0;
+	bottom: -3px;
+	right: 50px;
+}
+#m_inner2 .l_img {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	bottom: 1px;
+	left: 25px;
+	width:91px;
+	height:auto;
+}
+#m_inner3 .r_img {
+	position: absolute;
+	z-index: 2;
+	bottom: 4px;
+	right: 165px;
+}
+#m_inner3 .l_img {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	bottom: 4px;
+	left: 25px;
+}
+.indent {
+	margin-left: 95px;
+}
+#m_inner3 .indent {
+	margin-left: 75px;
+}
+/*
+.m_inner ul li.expanded {
+	position: relative;
+	float: left;
+	clear: left;
+	width: 290px;
+	height: 114px;
+}
+*/
+.expanded_content,
+#m_inner3 .expanded_content {
+	float: left;
+	clear: left;
+	padding: 10px;
+	width: 270px;
+	height: 94px;
+	background: url(/sites/all/themes/weei/images/expanded_content.gif) no-repeat 0 0;
+}
+#m_inner3 .expanded_content {
+	height: 136px;
+	background: url(/sites/all/themes/weei/images/expanded_content_3.gif) no-repeat 0 0;
+}
+.left_ec,
+.left_ec_1,
+.left_ec_2 {
+	clear: left;
+	float: left;
+	display: inline;
+	position: relative;
+	margin: -5px 0 0 0;
+	width: 107px;
+	height: 95px;
+}
+#left_ec_one {
+	background: url(/sites/all/themes/weei/images/listen_bgr.png) no-repeat 0 0;
+}
+#left_ec_two {
+	background: url(/sites/all/themes/weei/images/after_big.png) no-repeat 0 0;
+}
+#left_ec_three {
+	background: url(/sites/all/themes/weei/images/iggy_big.png) no-repeat 0 0;
+}
+#left_ec_four {
+	background: url(/sites/all/themes/weei/images/bill_big.png) no-repeat 0 0;
+}
+#left_ec_five {
+	background: url(/sites/all/themes/weei/images/curt_big.png) no-repeat 0 0;
+}
+
+.left_ec_1 {
+	background: url(/sites/all/themes/weei/images/big_big_show.png) no-repeat 0 0;
+}
+#left_ec1_one {
+	background: url(/sites/all/themes/weei/images/big_dc.png) no-repeat 0 0;
+}
+#left_ec1_two {
+	background: url(/sites/all/themes/weei/images/big_dh.png) no-repeat 0 0;
+}
+#left_ec1_three {
+	background: url(/sites/all/themes/weei/images/big_big_show.png) no-repeat 0 0;
+}
+#left_ec1_four {
+	background: url(/sites/all/themes/weei/images/big_planet_mikey.png) no-repeat 0 0;
+}
+#left_ec1_five {
+	background: url(/sites/all/themes/weei/images/big_whiner.png) no-repeat 0 0;
+}
+.left_ec_2 {
+	margin-left: -6px;
+	width: 117px;
+	height: 128px;
+	background: url(/sites/all/themes/weei/images/pattriots_big.png) no-repeat 0 0;
+}
+#left_ec2_one {
+	background: url(/sites/all/themes/weei/images/pattriots_big.png) no-repeat 0 0;
+}
+#left_ec2_two {
+	background: url(/sites/all/themes/weei/images/celtics_big.png) no-repeat 0 0;
+}
+#left_ec2_three {
+	background: url(/sites/all/themes/weei/images/bruins_big.png) no-repeat 0 0;
+}
+#left_ec2_four {
+	background: url(/sites/all/themes/weei/images/red_sox_big.png) no-repeat 0 0;
+}
+.right_ec,
+.right_ec_2 {
+	float: right;
+	width: 149px;
+	margin-top: -11px;
+	padding: 10px 0 5px 10px;
+	height: 75px;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/right_ec_bgr.png) no-repeat top left;
+}
+.right_ec_2 {
+	height: 137px;
+	background: url(/sites/all/themes/weei/images/right_ec_bgr_2.png) no-repeat top left;
+}
+.right_ec h2,
+.right_ec_2 h2 {
+	padding-bottom: 1px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+}
+.right_ec p,
+.right_ec_2 p {
+	font-size: 1.1em;
+	color: #000;
+	padding-bottom: 3px;
+}
+.right_ec_2 a {
+	color: #000;
+	text-decoration: underline;
+}
+.right_ec_2 a:hover {
+	text-decoration: none;
+}
+.date {
+	padding-bottom: 1px;
+	text-transform: uppercase;
+	color: #cc0000;
+	font-size: 1.1em;
+}
+a.listen_btn {
+	display: block;
+	position: absolute;
+	z-index: 3;
+	bottom: 10px;
+	left: 5px;
+	padding-top: 25px;
+	width: 81px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/listen_btn.png) no-repeat 0 0;
+}
+.sponsored_by {
+	clear: left;
+	text-align: center;
+}
+.sponsored_by p {
+	display: inline;
+	padding-right: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #9a9a9a;
+}
+.sponsored_by img {
+	margin-bottom: -5px;
+}
+#m_tabs_2 {
+	float: left;
+	display: inline;
+	width: 299px;
+	margin-top: 5px;
+	list-style-type: none;
+}
+#m_tabs_2 li {
+	float: left;
+	display: inline;
+	margin-right: 4px;
+}
+#m_tabs_2 li a {
+	float: left;
+	display: block;
+	padding-top: 21px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/m_tabs_2.gif) no-repeat 0 0;
+}
+#m_tabs_2 li#m_pop a {
+	width: 99px;
+	background-position: 0 0;
+}
+#m_tabs_2 li#m_pop a:hover,
+
+#m_tabs_2 li#m_pop a.on {
+	background-position: 0 -21px;
+}
+
+#m_tabs_2 li#columns a {
+	width: 70px;
+	background-position: -103px 0;
+}
+#m_tabs_2 li#columns a:hover,
+#m_tabs_2 li#columns a.on {
+	background-position: -103px -21px;
+}
+#m_tabs_2 li#blogs_t a {
+	width: 53px;
+	background-position: -177px 0;
+}
+#m_tabs_2 li#blogs_t a:hover,
+#m_tabs_2 li#blogs_t a.on {
+	background-position: -177px -21px;
+}
+#m_tabs_2 li#tteams a {
+	width: 53px;
+	background-position: -235px 0;
+}
+#m_tabs_2 li#tteams a:hover,
+#m_tabs_2 li#tteams a.on {
+	background-position: -235px -21px;
+}
+
+#m_inner_2 {
+	float: left;
+	clear: left;
+	position: relative;
+	border-bottom: 2px solid white;
+	/*margin-bottom: 12px;*/
+	padding: 0 6px;
+	width: 287px;
+	/*height: 271px;*/
+	height: 320px;
+	overflow: hidden;
+	/*background: url(/sites/all/themes/weei/images/m_content_2.gif) no-repeat 0 -1px; */
+	background: url(/sites/all/themes/weei/images/writers_widget_rounded.gif) no-repeat 0px 0px;
+	
+}
+#scroll_not
+{
+	float: left;
+	margin-bottom: 12px;
+	padding-top: 10px;
+	width: 299px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/writers_wdiget_ft.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+#scroll_up {
+	float: left;
+	padding-top: 11px;
+	width: 299px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/scroll_up.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+#scroll_down {
+	float: left;
+	margin-bottom: 12px;
+	padding-top: 10px;
+	width: 299px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/scroll_down.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+.m_tabs_2_content {
+	position: absolute;
+}
+#m_inner_2 ul {
+	position: relative;
+	float: left;
+	clear: left;
+	width: 287px;
+	list-style-type: none;
+}
+#m_inner_2 ul li {
+	float: left;
+	clear: left;
+	width: 284px;
+	border-bottom: 1px solid #d6d6d6;
+}
+#m_inner_2 ul li .nex_content 
+{
+	float: left;
+	clear: left;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-top: 3px;
+	padding-top: 3px;
+	width: 282px;
+	height: 39px;
+	background: url(/sites/all/themes/weei/images/gradient_bg.gif);
+	background-repeat: repeat-x;
+	
+}
+/*
+#m_inner_2 ul#tteams_content li#patriots {
+	background: url(/sites/all/themes/weei/images/patriots_min.gif) no-repeat 15px -1px;
+}
+#m_inner_2 ul#tteams_content li#celtics {
+	background: url(/sites/all/themes/weei/images/celtics_min.gif) no-repeat 25px -1px;
+}
+#m_inner_2 ul#tteams_content li#bruins {
+	background: url(/sites/all/themes/weei/images/bruins_min.gif) no-repeat 25px -1px;
+}
+#m_inner_2 ul#tteams_content li#red_sox {
+	background: url(/sites/all/themes/weei/images/red_sox_min.gif) no-repeat 25px -1px;
+}
+*/
+.nex_content_first {
+	display: none;
+}
+#m_inner_2 ul li a {
+	display: block;
+	text-decoration: none;
+}
+#columns_content,
+#blogs_t_content,
+#tteams_content {
+	display: none;
+}
+.expand,
+.collapse {
+	float: left;
+	display: inline;
+	margin: 0 10px -1px 0;
+	padding-top: 11px;
+	width: 11px;
+	height: 1px;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(/sites/all/themes/weei/images/exp_red.gif) no-repeat 0 0;
+}
+.collapse {
+	background: url(/sites/all/themes/weei/images/col_red.gif) no-repeat 0 0;
+	margin: 0 10px -1px 4px;
+}
+
+.name,
+.name1 {
+	display: block;
+	float: left;
+	width: 84px;
+	font-weight: bold;
+	color: #000;
+}
+.name1 {
+	padding-left: 10px;
+}
+#tteams_content .name {
+	position: relative;
+	padding-left: 35px;
+}
+img.team_min {
+	position: absolute;
+	bottom: -3px;
+	left: 0px;
+}
+.theading {
+	float: left;
+	width: 170px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #ff0000;
+	overflow: hidden;
+}
+.date_time {
+	font-weight: bold;
+	color: #999;
+}
+.name_date {
+	float: left;
+	padding-top: 5px;
+	width: 267px;
+}
+.ex_content {
+	display: none;
+	float: left;
+	position: relative;
+	clear: left;
+	/* padding-top: 7px; */
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-top: 3px;
+	padding-top: 3px;
+	
+	width: 282px;
+	height: 80px;
+}
+#tteams_content .ex_content {
+	height: 80px;
+}
+.ex_content_first {
+	display: block;
+}
+.ex_content .theading {
+	display: block;
+	clear: left;
+	padding: 5px 10px 5px 10px;
+	line-height: 1.4em;
+	width: 93%;
+}
+.ex_content p {
+	clear: left;
+	padding: 0 0 8px 10px;
+	font-size: 1.1em;
+	color: #000;
+}
+.read_more {
+	float: left;
+	clear: left;
+	display: inline;
+	margin-left: 10px;
+	padding-top: 11px;
+	width: 64px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/read_more.gif) no-repeat 0 0;
+}
+
+.extra {
+	padding: 8px 8px 15px 8px;
+	width: 301px;
+	height: 357px;
+	background: url(/sites/all/themes/weei/images/mmodule_extra_bgr.gif) no-repeat 0 0;
+}
+#image_container {
+	width: 300px;
+	margin-bottom: 15px;
+}
+#image_container img {
+	display: block;
+}
+h2#teams {
+	clear: left;
+	margin: 0 0 5px 5px;
+	padding-top: 15px;
+	width: 44px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_teams.gif) no-repeat 0 0;
+}
+#logos {
+	float: left;
+	clear: left;
+	position: relative;
+	width: 302px;
+	height: 74px;
+	overflow: hidden;
+}
+#scroll_l {
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	z-index: 2;
+	padding-top: 74px;
+	width: 8px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/scroll_l.gif) no-repeat 0 0;
+}
+#scroll_r {
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	z-index: 2;
+	padding-top: 74px;
+	width: 8px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/scroll_r.gif) no-repeat 0 0;
+}
+#logos ul {
+	clear: left;
+	float: left;
+	position: absolute;
+	display: inline;
+	margin-left: 8px;
+	height: 74px;
+	background: url(/sites/all/themes/weei/images/teams_bgr.gif) repeat-x 0 0;
+}
+#logos ul li {
+	float: left;
+	display: block;
+	width: 72px;
+	height: 73px;
+}
+#logos ul li img {
+	display: block;
+}
+#logos ul li a {
+	float: left;
+	display: block;
+	height: 74px;
+	width: 72px;
+}
+
+/*inside weei*/
+
+h2#inside_weei {
+	clear: left;
+	margin: 0 0 10px 7px;
+	padding-top: 17px;
+	width: 222px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_inside_weei.gif) no-repeat 0 0;
+}
+#inside_weei_network {
+	float: left;
+	clear: left;
+	margin-bottom: 20px;
+	padding-bottom: 12px;
+	width: 976px;
+	font-size: 1.1em;
+	background: url(/sites/all/themes/weei/images/iwn_bgr.gif) repeat-y 0 0;
+}
+.btm_module {
+	float: left;
+	display: inline;
+	padding-left: 12px;
+	width: 150px;
+}
+.btm_module img {
+	display: block;
+	margin: 0 auto;
+}
+.btm_module h3 {
+	font-size: 1.1em;
+	color: #000;
+	padding: 5px 0 8px;
+}
+.exp_heading {
+	float: left;
+	width: 150px;
+}
+.exp_heading h3 {
+	float: left;
+	padding-right: 5px;
+	cursor: pointer;
+}
+h3.red {
+	text-transform: uppercase;
+	color: #cb0000;
+	padding-bottom: 2px;
+}
+.show {
+	float: left;
+	padding-top: 7px;
+	margin-top: 9px;
+	width: 9px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/show.gif) no-repeat 0 0;
+}
+.red {
+	display: block;
+	padding-bottom: 10px;
+	color: #cb0000;
+}
+#affliliates_list {
+	list-style-type: none;
+}
+#affliliates_list {
+	padding-bottom: 2px;
+}
+.more {
+	float: right;
+	clear: left;
+	display: inline;
+	margin-right: 8px;
+	color: #cb0000;
+	text-decoration: none;
+}
+.more:hover {
+	text-decoration: underline;
+}
+.features_list {
+	float: left;
+	clear:left;
+	list-style-type: none;
+}
+#content .features_list li {
+	float: left;
+	display: inline;
+	padding: 4px;
+}
+.features_list li img {
+	display: block;
+	margin: 0;
+}
+#first-time {
+	display: none;
+}
+
+/*** big show ***/
+.b_show {
+	background: url(/sites/all/themes/weei/images/content_show_bgr.gif) repeat-y 0 0;
+}
+#the_big_show {
+	float: left;
+	clear: left;
+	width: 970px;
+	height: 300px;
+	background: url(/sites/all/themes/weei/images/big_show_bgr_new.jpg) no-repeat 0 0;
+}
+#subnav ul {
+	float: right;
+	margin: 0 10px 6px 0;
+	display: inline;
+	list-style-type: none;
+	width: 836px;
+}
+#subnav li {
+	float: left;
+	display: inline;
+}
+#subnav li a {
+	float: left;
+	display: block;
+	padding-top: 33px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/subnav_tbs.gif) no-repeat 0 0;
+}
+#subnav li#bio a {
+	width: 48px;
+	background-position: 0 0;
+}
+#subnav li#on_demand a {
+	width: 40px;
+	background-position: -48px 0;
+}
+#subnav li#winner a {
+	width: 77px;
+	background-position: -88px 0;
+}
+#subnav li#bt_frauds a {
+	width: 124px;
+	background-position: -165px 0;
+}
+#subnav li#soundboard a {
+	width: 197px;
+	background-position: -289px 0;
+}
+#subnav li#merchandise a {
+	width: 134px;
+	background-position: -486px 0;
+}
+#subnav li#b_blog a {
+	width: 116px;
+	background-position: -620px 0;
+}
+#subnav li#poll a {
+	width: 100px;
+	background-position: -736px 0;
+}
+
+#ticket {
+	float: right;
+	clear: right;
+	margin-right: 5px;
+	padding: 12px 0px 0 15px;
+	width: 704px;
+	height: 223px;
+	background: url(/sites/all/themes/weei/images/ticket_bgr_tbs.gif) no-repeat 0 0;
+}
+h1#wsrn {
+	float: left;
+	display: inline;
+	padding-top: 212px;
+	margin-right: 4px;
+	width: 33px;
+	height:0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h1_wsrn.gif) no-repeat 0 0;
+}
+#starring {
+	float: left;
+	display: inline;
+	margin-right: 5px;
+	width: 133px;
+}
+#starring img {
+	clear: left;
+	display: block;
+	margin-left: 1px;
+}
+h2#starring_heading {
+	float: left;
+	padding-top: 36px;
+	width: 133px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_starring.gif) no-repeat 0 0;
+}
+#nick {
+	float: left;
+	clear: left;
+	padding-top: 41px;
+	width: 132px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/nick.gif) no-repeat 0 0;
+}
+#from_to {
+	float: left;
+	display: inline;
+	margin-right: 5px;
+	padding-top: 205px;
+	width: 99px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/from_to.gif) no-repeat 0 0;
+}
+#contact_email {
+	float: left;
+	display: inline;
+	width: 180px;
+	margin-right: 5px;
+}
+#contact {
+	float: left;
+	display: inline;
+	padding-top: 99px;
+	margin-bottom: 5px;
+	width: 180px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/contact_tbs.gif) no-repeat 0 0;
+}
+#or {
+	float: left;
+	display: inline;
+	padding-top: 41px;
+	margin-bottom: 2px;
+	margin-top:3px;
+	width: 88px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/or_tbs.gif) no-repeat 0 0;
+}
+a#email {
+	float: left;
+	clear: left;
+	display: inline;
+	margin-left: 7px;
+	padding-top: 53px;
+	width: 165px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/email_show_btn_tbs.gif) no-repeat 0 0;
+}
+#on_tonight {
+	float: left;
+	display: inline;
+	width: 217px;
+}
+h2#on_tonight_heading {
+	position: relative;
+	z-index: 2;
+	float: left;
+	padding-top: 32px;
+	width: 130px;
+	height: 0;
+	overflow: hidden;
+}
+.hosts {
+	float: left;
+	clear: left;
+	margin-top: -38px;
+}
+
+.hosts table tr td {
+padding:0px;
+margin:0px;
+border-collapse:collapse;
+border:0px;
+}
+
+#sponsor_bmw {
+	float: right;
+	clear: right;
+	display: inline;
+	margin: 15px 390px 0 0;
+}
+
+
+#left_column {
+	float: left;
+	padding-left: 12px;
+	width: 632px;
+}
+.b_show #left_column {
+	margin-bottom: 15px;
+}
+
+#left_column_dh {
+	float: left;
+	padding-left: 12px;
+	width: 632px;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height:17px;
+}
+
+#left_column_dh p{
+margin-bottom:15px;
+}
+
+#left_column_dh ul {
+margin-left:20px;
+}
+
+#left_column_dh li {
+margin-bottom:5px;
+}
+
+#left_column_dh a:link {color: #c00; text-decoration: underline;}
+#left_column_dh a:active {color: #c00; text-decoration: underline;}
+#left_column_dh a:visited {color: #c00; text-decoration: underline;}
+#left_column_dh a:hover {color: #c00; text-decoration: none;}
+
+#on_demand_top {
+	float: left;
+	clear: left;
+	width: 632px;
+	text-align: right;
+	color: #fff;
+}
+h2#on_demand_heading {
+	float: left;
+	display: inline;
+	padding-top: 42px;
+	margin-bottom: 4px;
+	width: 632px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_on_demand_tbs.gif) no-repeat 0 0;
+}
+
+#on_demand_top a {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 3px;
+}
+#on_demand_top a:hover {
+	text-decoration: underline;
+}
+#tabs_and_sponsors {
+	float: left;
+	clear: left;
+	width: 632px;
+}
+ul#demand_tabs {
+	float: left;
+	display: inline;
+	list-style-type: none;
+	width: 344px;
+	height: 26px;
+}
+ul#demand_tabs li {
+	float: left;
+	display: inline;
+}
+ul#demand_tabs li a {
+	float: left;
+	display: block;
+	padding-top: 26px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/demand_tabs.gif) no-repeat 0 0;
+}
+ul#demand_tabs li#highlights a {
+	width: 102px;
+	background-position: 0 -26px;
+}
+ul#demand_tabs li#most_popular a {
+	width: 121px;
+	background-position: -102px 0;
+}
+ul#demand_tabs li#advanced_search a {
+	width: 121px;
+	background-position: -223px 0;
+}
+ul#demand_tabs li#highlights a:hover,
+ul#demand_tabs li#highlights a.on {
+	background-position: 0 0;
+}
+ul#demand_tabs li#most_popular a:hover,
+ul#demand_tabs li#most_popular a.on {
+	background-position: -102px -26px;
+}
+ul#demand_tabs li#advanced_search a:hover,
+ul#demand_tabs li#advanced_search a.on {
+	background-position: -223px -52px;
+}
+
+#sponsored {
+	float: right;
+	text-transform: uppercase;
+}
+#sponsored p {
+	display: inline;
+	color: #fff;
+}
+#sponsored img {
+	margin: 5px 9px -4px 5px;
+}
+#d_tabs_content {
+	float: left;
+	clear: left;
+	margin-bottom: 14px;
+	width: 632px;
+}
+#d_tabs_content ul {
+	float: left;
+	clear: left;
+	width: 632px;
+	list-style-type: none;
+}
+#d_tabs_content ul li {
+	float: left;
+	clear: left;
+	width: 632px;
+}
+#d_tabs_content .colapsed_content a {
+	float: left;
+	clear: left;
+	padding: 10px 10px 0 10px;
+	width: 612px;
+	height: 26px;
+	background: url(/sites/all/themes/weei/images/demand_li_bgr_tbs.gif) no-repeat 0 0;
+	text-decoration: none;
+}
+
+#demand_2,
+#demand_3 {
+	display: none;
+}
+
+.d_expand {
+	float: left;
+	display: block;
+	margin: 4px 5px 0 0;
+	padding-top: 8px;
+	width: 8px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/d_expand_new.gif) no-repeat 0 0;
+}
+.d_heading {
+	font-size: 1.4em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.d_expanded_content {
+	float: left;
+	clear: left;
+	display: none;
+	width: 632px;
+	background: #fff;
+}
+.d_expanded_content_first {
+	display: block;
+}
+#d_tabs_content .colapsed_content_first {
+	display: none;
+}
+.d_expanded_content img {
+	float: left;
+	display: inline;
+	margin: 0 0 0 -75px;
+}
+.d_expanded_content h2 {
+	font-size: 1.4em;
+	color: #fff;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.d_expanded_content p {
+	font-size: 1.1em;
+	color: #000;
+	background-color:#e6e6e6;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding:10px;
+}
+.d_more {
+	font-size: 1.1em;
+	color: #000066;
+}
+
+#left_inner_col {
+	float: left;
+	clear: left;
+	width: 160px;
+}
+#only_inner_col 
+{
+	float: left;
+	display: inline;
+	float: left;
+	clear: left;
+	width: 620px;
+	margin-left: 12px;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+#right_inner_col {
+	float: left;
+	display: inline;
+	margin-left: 12px;
+	width: 632px;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+#fcm {
+	float: left;
+	width: 632px;
+	margin-bottom: 24px;
+}
+#fcm ul {
+	float: left;
+	width: 632px;
+	list-style-type: none;
+}
+#fcm ul ul {
+	float: left;
+	width: 632px;
+	list-style-type: none;
+}
+#fcm ul li {
+	position: relative;
+	z-index: 1;
+	float: left;
+	clear: left;
+	width: 632px;
+}
+#fcm ul li li {
+	float: left;
+	display: block;
+	clear: none;
+	width: 195px;
+	padding-left: 20px;
+	background: url(/sites/all/themes/weei/images/blue_bullet.gif) no-repeat 5px 5px;
+	font-size: .92em;
+}
+#fcm ul li li a {
+	display: block;
+	clear: none;
+	width: 100%;
+	padding: 0;
+	background: none;
+	font-size: inherit;
+	overflow: auto;
+	height: auto;
+	color: #fff;
+	text-decoration: none;
+}
+#fcm ul li li a:hover {
+	text-decoration: underline;
+}
+#fcm ul li a {
+	float: left;
+	display: block;
+	padding-top: 42px;
+	width: 632px;
+	height: 0;
+	overflow: hidden;
+	margin-left:-12px;
+	color: white;
+}
+
+#fcm li#whine_of_the_day a.open {
+	padding-top: 118px;
+	background: url(/sites/all/themes/weei/images/li_whine_of_the_day.gif) no-repeat 0 0;
+}
+#fcm li#whine_of_the_day a.open img {
+	display: block;
+	position: absolute;
+	overflow: auto;
+	z-index: 10;
+	top: 0;
+	left: 270px;
+	width: 193px;
+	height: 124px;
+}
+#fcm li#whine_of_the_day a.closed {
+	padding-top: 47px;
+	background: url(/sites/all/themes/weei/images/li_whine_of_the_day_closed.gif) no-repeat 0 0;
+}
+#fcm li#whine_of_the_day a.closed:hover {
+	background-position: 0 -47px;
+}
+#fcm li#whine_of_the_day a.closed img {
+	display: block;
+	position: absolute;
+	overflow: auto!important;
+	z-index: 10;
+	top: -9px;
+	left: 375px;
+	width: 104px;
+	height: 59px;
+}
+
+#fcm li#whine_of_the_week a.closed {
+	padding-top: 44px;
+	background: url(/sites/all/themes/weei/images/li_whine_of_the_week.gif) no-repeat 0 0;
+}
+#fcm li#whine_of_the_week a.open {
+	padding-top: 44px;
+	background: url(/sites/all/themes/weei/images/li_whine_of_the_week.gif) no-repeat 0 -88px;
+}
+#fcm li#whine_of_the_week a.closed:hover {
+	background-position: 0 -44px;
+}
+#fcm li#whine_of_the_week img {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 211px;
+}
+#fcm li div.open_content {
+background:#021f8d url(/sites/all/themes/weei/images/shadow.gif) repeat-x scroll left bottom;
+clear:left;
+color:#ffffff;
+float:left;
+margin-left:-12px;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:0px;
+width:632px;
+}
+
+#fcm li div.open_content
+
+.open_content a:link {color: #fff; text-decoration: none;}
+.open_content a:active {color: #fff; text-decoration: none;}
+.open_content a:visited {color: #fff; text-decoration: none;}
+.open_content a:hover {color: #fff; text-decoration: underline;}
+
+#fcm li#hall_of_fame a.closed {
+	background: url(/sites/all/themes/weei/images/li_whiner_hall_of_fame.gif) no-repeat 0 0;
+}
+#fcm li#hall_of_fame a.open {
+	background: url(/sites/all/themes/weei/images/li_whiner_hall_of_fame.gif) no-repeat 0 -84px;
+}
+#fcm li#hall_of_fame a.closed:hover {
+	background-position: 0 -42px;
+}
+#fcm li#hall_of_fame img {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 5px;
+}
+#fcm li#best_whines a.closed {
+	background: url(/sites/all/themes/weei/images/li_best_whiners.gif) no-repeat 0 0;
+}
+#fcm li#best_whines a.open {
+	background: url(/sites/all/themes/weei/images/li_best_whiners.gif) no-repeat 0 -84px;
+}
+#fcm li#best_whines a.closed:hover {
+	background-position:  0 -42px;
+}
+
+#fcm li a.open,
+#fcm li div.open_content {
+	display: none;
+}
+#fcm li#whine_of_the_day a.closed {
+	display: none;
+}
+#fcm li#whine_of_the_day a.open {
+	display: block;
+}
+
+#fcm li#best_whines img {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 295px;
+}
+
+#the_big_blog {
+	position: relative;
+	float: left;
+	clear: left;
+	width: 460px;
+}
+#bb_top {
+	float: left;
+	clear: left;
+	color: #fff;
+	text-align: right;
+	width: 460px;
+}
+#bb_top a {
+	font-size: .84em;
+	padding: 0 3px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#bb_top a:hover {
+	text-decoration: underline;
+}
+#bb_heading a {
+	float: left;
+	display: inline;
+	padding-top: 27px;
+	width: 167px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_big_blog.gif) no-repeat 0 0;
+}
+#posts {
+	float: left;
+	clear: left;
+	width: 460px;
+	overflow: hidden;
+	color: #000;
+	background: #fff;
+}
+.post_heading {
+	clear: left;
+	padding: 5px 0 0 5px;
+	height: 21px;
+	font-size: 1.1em;
+	color: #003399;
+	background: #fff url(/sites/all/themes/weei/images/post_heading_bgr.gif) repeat-x bottom left;
+}
+#posts ul {
+	float: left;
+	clear: left;
+	width: 460px;
+	background: #fff;
+}
+#posts ul li {
+	float: left;
+	clear: left;
+	border-bottom: 3px solid #000;
+	width: 460px;
+}
+#posts ul li.last {
+	border-bottom: 3px solid #fff;
+}
+#posts .img_container {
+	float: left;
+	display: inline;
+}
+#posts .img_container img {
+	float: left;
+	display: block;
+	padding: 8px;
+}
+#posts .text_container {
+	display: block;
+	padding: 8px;
+}
+#posts .text_container p {
+	padding-bottom: 20px;
+}
+#posts .date_author {
+	font-size: .92em;
+	padding-bottom: 5px;
+}
+#posts .date_author a {
+	color: #003399;
+	text-decoration: none;
+}
+#posts .date_author a:hover {
+	text-decoration: underline;
+}
+#posts p.share {
+	padding-bottom: 5px;
+}
+#content ul.soc_net {
+	display: none;
+	clear: left;
+	list-style-type: none;
+	padding: 10px 0 10px;
+}
+#posts ul.soc_net li {
+	display: inline;
+	width: 23px;
+	height: 23px;
+	margin-left: 3px;
+	float: none;
+	clear: none;
+	border-bottom: none;
+	width: 434px;
+}
+#posts ul.soc_net li.first {
+	margin-left: 0px;
+}
+.comment {
+	clear: left;
+	text-decoration: none;
+	color: #000;
+}
+.comment:hover {
+	text-decoration: underline;
+}
+.video_container {
+	float: left;
+	clear: left;
+	margin-bottom: 20px;
+}
+
+/* right column */
+
+#right_column {
+	float: left;
+	display: inline;
+	margin-left: 15px;
+	width: 300px;
+	font-size: 1.1em;
+}
+.c_module {
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+}
+
+/* schedule module */
+
+.shedule_module {
+	float: left;
+	clear: left;
+	width: 300px;
+	margin-bottom: 15px;
+}
+#sm_top {
+	float: left;
+	clear: left;
+	width: 300px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #fff;
+}
+#sm_top a {
+	padding: 0 3px;
+	color: #fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+#sm_top a:hover {
+	text-decoration: underline;
+}
+h2#ss_heading {
+	float: left;
+	display: inline;
+	padding-top: 27px;
+	width: 164px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_show_schedule.gif) no-repeat 0 0;
+}
+#ss_tabs {
+	float: left;
+	clear: left;
+	width: 300px;
+}
+#ss_tabs ul {
+	float: left;
+	display: inline;
+	width: 238px;
+	height: 26px;
+}
+#ss_tabs ul li {
+	float: left;
+	display: inline;
+}
+#ss_tabs li a {
+	float: left;
+	display: block;
+	padding-top: 26px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/ss_tabs.gif) no-repeat 0 0;
+}
+#ss_tabs li#tw a {
+	width: 103px;
+	background-position: 0 -26px;
+}
+#ss_tabs li#sa a {
+	width: 134px;
+	background-position: -103px 0;
+}
+#ss_tabs li#tw a:hover,
+#ss_tabs li#tw a.on {
+	width: 103px;
+	background-position: 0 0;
+}
+#ss_tabs li#sa a:hover,
+#ss_tabs li#sa a.on {
+	width: 134px;
+	background-position: -103px -26px;
+}
+#shedule {
+	float: left;
+	clear: left;
+	padding: 10px;
+	border: 3px solid #000066;
+	width: 274px;
+	height: 100%;
+	overflow: hidden;
+	color: #000;
+	background: #fff;
+}
+#shedule ul {
+	float: left;
+	width: 245px;
+	list-style-type: none;
+}
+#shedule ul#ss_tab_2 {
+	display: none;
+}
+#shedule ul li {
+	float: left;
+	clear: left;
+	padding-bottom: 14px;
+	margin-bottom: 10px;
+	/*border-bottom: 1px solid #000; */
+	width: 245px;
+}
+span.s_date {
+	display: block;
+	padding-bottom: 1px;
+	color: #0033cc;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+a.listen {
+	clear: left;
+	color: #000;
+}
+a.listen:hover {
+	text-decoration: none;
+}
+
+/* beat the frauds module */
+
+.btf_module {
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+	width: 300px;
+}
+#btf_top {
+	float: left;
+	clear: left;
+	width: 300px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #fff;
+}
+#btf_top p {
+	padding-right: 1px;
+	display: inline;
+	font-size: .8em;
+}
+#btf_top img {
+	margin-bottom: -4px;
+}
+#btf_heading {
+	float: left;
+	display: inline;
+	padding-top: 21px;
+	width: 174px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_beat_the_frauds.gif) no-repeat 0 0;
+}
+#btf_content {
+	float: left;
+	clear: left;
+	padding: 17px 17px 17px 185px;
+	width: 98px;
+	background: #fff;
+}
+#btf_content p {
+	padding-bottom: 3px;
+}
+#btf_content img {
+	float: left;
+	display: inline;
+	margin-left: -168px;
+}
+a#submit_pick {
+	float: left;
+	display: block;
+	padding-top: 28px;
+	width: 94px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/a_submit_pick.gif) no-repeat 0 0;
+}
+.merchandise_module {
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+	width: 300px;
+	height: 151px;
+	background: url(/sites/all/themes/weei/images/show_merchandise.jpg) no-repeat 0 0;
+}
+a#buy {
+	float: right;
+	display: inline;
+	padding-top: 75px;
+	margin: 50px 21px 0 0;
+	width: 116px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/buy_now.gif) no-repeat 0 0;
+}
+a#sm {
+	float: left;
+	display: inline;
+	padding-top: 77px;
+	width: 77px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/show_merchandise.gif) no-repeat 0 0;
+}
+
+/* cartoons module */
+
+.cartoons_module {
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+	width: 300px;
+}
+h2#c_heading {
+	float: left;
+	display: inline;
+	padding-top: 22px;
+	width: 273px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_cartoons.gif) no-repeat 0 0;
+}
+#c_inner {
+	float: left;
+	clear: left;
+	padding: 5px;
+	width: 290px;
+	background: #fff;
+}
+#c_holder {
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-left: 8px;
+}
+#c_inner ul {
+	position: absolute;
+	float: left;
+	display: inline;
+	height: 200px;
+	list-style-type: none;
+	overflow: hidden;
+}
+#c_inner ul li {
+	float: left;
+	display: inline;
+	width: 200px;
+	height: 200px;
+}
+
+#l_arrow,
+#r_arrow {
+	float: left;
+	display: block;
+	padding-top: 199px;
+	width: 40px;
+	height: 0;
+	cursor: pointer;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/l_arrow.gif) no-repeat 0 0;
+}
+#r_arrow {
+	float: right;
+	background: url(/sites/all/themes/weei/images/r_arrow.gif) no-repeat 0 0;
+}
+
+/* soundboard */
+
+.soundboard_module {
+	float: left;
+	clear: left;
+	width: 300px;
+	margin-bottom: 15px;
+}
+h2#s_heading {
+	float: left;
+	display: inline;
+	padding-top: 22px;
+	width: 131px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_soundboard.gif) no-repeat 0 0;
+}
+#widget_area {
+	float: left;
+	clear: left;
+	width: 300px;
+}
+
+/***********************
+	dale and holley
+***********************/
+
+#top_add_module {
+	float: left;
+	clear: left;
+	width: 976px;
+}
+#ads {
+	width: 728px;
+	height: 90px;
+	list-style-type: none;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+#ads li {
+	display: inline;
+	width: 78px;
+	height: 86px;
+}
+
+/*show nav*/
+
+#show_navigation_container {
+	float: left;
+	clear: left;
+	display: inline;
+	margin-left: 10px;
+	width: 955px;
+	height: 86px;
+	background: url(/sites/all/themes/weei/images/show_nav_cont_bgr.gif) no-repeat 0 0;
+}
+#show_nav {
+	float: left;
+	display: inline;
+	margin: 31px 0 0 52px;
+	list-style-type: none;
+}
+#show_nav li {
+	float: left;
+	display: inline;
+}
+#show_nav li a {
+	float: left;
+	display: inline;
+	padding-top: 12px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/show_nav_dh.gif) no-repeat 0 0;
+}
+#show_nav li#home a {
+	width: 126px;
+	background-position: 0 0;
+}
+#show_nav li#bios a {
+	width: 44px;
+	background-position: -126px 0;
+}
+#show_nav li#audio_od a {
+	width: 196px;
+	background-position: -170px 0;
+}
+#show_nav li#behind a {
+	width: 145px;
+	background-position: -366px 0;
+}
+#show_nav li#fom a {
+	width: 106px;
+	background-position: -511px 0;
+}
+#show_nav li#gas a {
+	width: 102px;
+	background-position: -617px 0;
+}
+#show_nav li#show_merchandise a {
+	width: 59px;
+	background-position: -719px 0;
+}
+#show_nav li#behind_glass a {
+	width: 71px;
+	background-position: -778px 0;
+}
+
+#show_wrapper {
+	float: left;
+	clear: left;
+	margin: -29px 0 13px 10px;
+	width: 955px;
+	height: 285px;
+	background: url(/sites/all/themes/weei/images/show_bgr.jpg) no-repeat 0 0;
+}
+
+#show_schedule {
+	float: left;
+	display: inline;
+	width: 261px;
+	height: 285px;
+}
+#ss_module {
+	float: right;
+	display: inline;
+	margin-top: 55px;
+	width: 213px;
+	height: 193px;
+}
+#ss_main_tabs {
+	float: left;
+	display: inline;
+	margin: 0 0 6px 9px;
+	border-bottom: 2px solid #8c3237;
+	width: 198px;
+	list-style-type: none;
+}
+#ss_main_tabs li {
+	float: left;
+	display: inline;
+}
+#ss_main_tabs li a {
+	float: left;
+	display: block;
+	padding-top: 20px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/ss_main_tabs.gif) no-repeat 0 0;
+}
+#ss_main_tabs li#ss a {
+	width: 107px;
+	margin-left: 36px;
+	background-position: 0 -20px;
+}
+#ss_main_tabs li#sl a {
+	width: 76px;
+	background-position: -107px 0;
+}
+#ss_main_tabs li#ss a:hover,
+#ss_main_tabs li#ss a.on {
+	background-position: 0 0;
+}
+#ss_main_tabs li#sl a:hover,
+#ss_main_tabs li#sl a.on {
+	background-position: -107px -20px;
+}
+#ss_main_tabs_content {
+	float: left;
+	clear: left;
+	display: inline;
+	margin-left: 9px;
+	width: 198px;
+}
+#ss_inner_tabs {
+	float: left;
+	clear: left;
+	display: inline;
+	width: 198px;
+	list-style-type: none;
+}
+#ss_inner_tabs li {
+	float: left;
+	display: inline;
+}
+#ss_inner_tabs li a {
+	float: left;
+	display: block;
+	padding-top: 15px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/ss_inner_tabs.gif) no-repeat 0 0;
+}
+#ss_inner_tabs li#tw a {
+	width: 82px;
+	background-position: 0 -15px;
+}
+#ss_inner_tabs li#lw a {
+	width: 116px;
+	background-position: -82px 0;
+}
+#ss_inner_tabs li#tw a:hover,
+#ss_inner_tabs li#tw a.on {
+	background-position: 0 0;
+}
+#ss_inner_tabs li#lw a:hover,
+#ss_inner_tabs li#lw a.on {
+	background-position: -82px -15px;
+}
+#ss_tab,
+#sl_tab {
+	width: 178px;
+}
+#sl_tab {
+	display: none;
+}
+.ss_inner_tabs_content {
+	float: left;
+	clear: left;
+	padding: 10px 5px 10px 10px;
+	width: 178px;
+	height: 128px;
+	overflow: hidden;
+	font-size: 1.1em;
+	background: #fff;
+}
+
+.ss_inner_tabs_content p {
+padding-bottom:10px;
+}
+
+.ss_inner_tabs_content .coming_up {
+	color: #333;
+}
+.ss_inner_tabs_content ul {
+	float: left;
+	clear: left;
+	padding-top: 6px;
+	list-style-type: none;
+	width: 170px;
+}
+.ss_inner_tabs_content ul li {
+	float: left;
+	clear: left;
+	width: 170px;
+	padding-bottom: 4px;
+}
+.ss_2,
+.sl_2 {
+	display: none;
+}
+
+.sh_date {
+	display: block;
+	color: #497aa9;
+}
+.sh_listen {
+	color: #666666;
+	font-size: .94em;
+}
+.sh_listen:hover {
+	text-decoration: none;
+}
+
+#show_flash_area {
+	float: left;
+	display: inline;
+	width: 460px;
+	height: 285px;
+}
+#show_contact {
+	float: left;
+	display: inline;
+	width: 234px;
+	height: 285px;
+}
+
+#sc_inner {
+	float: left;
+	display: inline;
+	width: 192px;
+	height: 192px;
+	margin-top: 39px;
+}
+#contact_us {
+	float: left;
+	padding-top: 78px;
+	margin: 6px 0 1px 12px;
+	width: 165px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_contact_us_dh.gif) no-repeat 0 0;
+}
+
+a#email_the_show {
+	float: left;
+	padding-top: 101px;
+	margin: 0 0 0 14px;
+	width: 174px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/email_the_show.gif) no-repeat 0 0;
+}
+a#email_the_show:hover {
+	background-position: 0 -101px;
+}
+#faux_column_wrapper {
+	float: left;
+	clear: left;
+	margin-bottom:15px;
+	width: 976px;
+	background: url(/sites/all/themes/weei/images/f_col.gif) repeat-y 0 0;
+}
+
+#on_demand_top2 {
+	clear: left;
+	color: #666;
+	float: left;
+	text-align: right;
+	margin-bottom: 8px;
+	width: 632px;
+	background: url(/sites/all/themes/weei/images/show_heading_bgr.gif) repeat-x 0 0;
+}
+#on_demand_heading_dh {
+	float: left;
+	display: inline;
+	padding-top: 31px;
+	width: 407px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_dh_on_demand.gif) no-repeat 0 0;
+}
+#sponsored p.gray {
+	color: #666;
+}
+.ep {
+	float: right;
+	padding-right: 21px;
+	width: 230px;
+	text-transform: uppercase;
+	color:#666;
+}
+.ep a {
+	color:#666;
+	text-decoration: none;
+}
+.ep a:hover {
+	color:#666;
+	text-decoration: underline;
+}
+#dh_demand_tabs {
+	float: left;
+	display: inline;
+	width: 337px;
+	height: 29px;
+	list-style-type: none;
+}
+#dh_demand_tabs li {
+	float: left;
+	display: inline;
+}
+#dh_demand_tabs li a {
+	float: left;
+	display: inline;
+	padding-top: 29px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/dh_demand_tabs.gif) no-repeat 0 0;
+}
+#dh_demand_tabs li#highlights a {
+	width: 102px;
+	background-position: 0 -29px;
+}
+#dh_demand_tabs li#most_popular a {
+	width: 108px;
+	background-position: -102px 0;
+}
+#dh_demand_tabs li#advanced_search a {
+	width: 127px;
+	background-position: -210px 0;
+}
+#dh_demand_tabs li#highlights a:hover,
+#dh_demand_tabs li#highlights a.on {
+	background-position: 0 0;
+}
+#dh_demand_tabs li#most_popular a:hover,
+#dh_demand_tabs li#most_popular a.on {
+	background-position: -102px -29px;
+}
+#dh_demand_tabs li#advanced_search a:hover,
+#dh_demand_tabs li#advanced_search a.on {
+	background-position: -210px -58px;
+}
+
+.dh_demand_tabs_content {
+	float: left;
+	clear: left;
+	margin-bottom: 20px;
+	width: 632px;
+}
+.dh_demand_tabs_content ul {
+	float: left;
+	clear: left;
+	width: 632px;
+	list-style-type: none;
+}
+.dh_demand_tabs_content ul li {
+	float: left;
+	clear: left;
+	width: 632px;
+}
+.dh_demand_tabs_content .dh_colapsed_content a {
+	float: left;
+	clear: left;
+	padding: 5px 10px 0 10px;
+	border-top: 1px solid #ccc;
+	width: 612px;
+	height: 22px;
+	background: #fff;
+	text-decoration: none;
+}
+.dh_expand {
+	float: left;
+	display: block;
+	margin: 2px 5px 0 0;
+	padding-top: 13px;
+	width: 14px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/dh_expand.gif) no-repeat 0 0;
+}
+.dh_heading {
+	font-size: 1.4em;
+	color: #497aa9;
+	text-decoration: none;
+	font-weight: bold;
+}
+.dh_expanded_content {
+	float: left;
+	clear: left;
+	display: block;
+	width: 100%;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-image:url(/sites/all/themes/weei/images/dh_bg.gif);
+	background-repeat:repeat-x;
+}
+.dh_expanded_content img {
+	float: left;
+	display: inline;
+	margin: 0 10px 10px 10px;
+}
+.dh_expanded_content h2 {
+	padding-bottom: 5px;
+	margin-top:10px;
+	margin-left:30px;
+	font-size: 14px;;
+}
+
+
+.dh_expanded_content a:link {color: #C00; font-weight:bold; text-decoration: underline;}
+.dh_expanded_content a:active {color: #C00; font-weight:bold; text-decoration: underline;}
+.dh_expanded_content a:visited {color: #C00; font-weight:bold; text-decoration: underline;}
+.dh_expanded_content a:hover {color: #C00; font-weight:bold; text-decoration: none;}
+
+.dh_expanded_content p {
+margin-left:30px;
+margin-right:10px;
+margin-bottom:10px;
+line-height:17px;
+}
+.lnow {
+	font-size: 1.1em;
+	color: #666;
+}
+.lnow:hover {
+	text-decoration: none;
+}
+#dh_demand_tabs_2,
+#dh_demand_tabs_3 {
+	display: none;
+}
+.dh_colapsed_content_first {
+	display: none;
+}
+.dh_expanded_content {
+	display: none;
+}
+.dh_expanded_content_first {
+	display: block;
+}
+
+#daily_features_top2 {
+	clear: left;
+	color: #666;
+	float: left;
+	text-align: right;
+	width: 632px;
+	background: url(/sites/all/themes/weei/images/show_heading_bgr.gif) repeat-x 0 0;
+	margin-bottom:8px;
+}
+#daily_features_top2 a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #666;
+}
+#daily_features_top2 a:hover {
+	text-decoration: underline;
+}
+h2#daily_features_heading {
+	float: left;
+	display: inline;
+	padding-top: 31px;
+	width: 196px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_daily_features.gif) no-repeat 0 0;
+}
+#sponsored_2 {
+	float: left;
+	text-transform: uppercase;
+	padding: 2px 0 0 43px;
+}
+#sponsored_2 p {
+	display: inline;
+}
+#sponsored_2 img {
+	margin: 5px 9px -4px 5px;
+}
+#daily_features_top2 .ep {
+	padding-top: 9px;
+}
+
+.daily_features .dh_heading {
+	color: #333;
+}
+span.quote {
+	padding-left: 10px;
+	color: #333;
+	font-family: Georgia, Arial, Verdana, sans-serif;
+	font-style: italic;
+	font-size: 1.1em;
+}
+span.mail {
+	padding-left: 10px;
+}
+span.top_five {
+	padding-left: 5px;
+}
+span.mail img,
+span.top_five img {
+	margin-bottom: -3px;
+}
+
+/** behind the glass **/
+
+#bgb_top {
+	float: left;
+	clear: left;
+	text-align: right;
+	width: 632px;
+	color: #666;
+	background: #f2f2f2;
+	margin-left:-12px;
+	margin-bottom:8px;
+}
+h2#behind_glass_heading a {
+	float: left;
+	display: inline;
+	padding-top: 30px;
+	width: 620px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_behind_glass.gif) no-repeat 0 0;
+}
+a#rss_feed {
+	float: left;
+	display: inline;
+	padding-top: 15px;
+	margin-top: 7px;
+	width: 30px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/a_rss_feed.gif) no-repeat 0 0;
+}
+.short {
+	width: 110px;
+	padding-top: 8px;
+}
+#faux_column_wrapper #right_inner_col {
+	font-size: 1em;
+}
+
+#behind_glass_blog ul#posts {
+	float: left;
+	clear: left;
+	list-style-type: none;
+	width: 620px;
+	height: auto;
+	overflow: auto;
+}
+#behind_glass_blog ul#posts li {
+	float: left;
+	clear: left;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #a2a2a2;
+	width: 590px;
+	font-size: 1.1em;
+	background-image:url(/sites/all/themes/weei/images/dh_bg.gif);
+	background-repeat:repeat-x;
+}
+
+#behind_glass_blog ul#posts li a:link {color: #497AA9; font-weight:bold; text-decoration: none;}
+#behind_glass_blog ul#posts li a:active {color: #497AA9; font-weight:bold; text-decoration: none;}
+#behind_glass_blog ul#posts li a:visited {color: #497AA9; font-weight:bold; text-decoration: none;}
+#behind_glass_blog ul#posts li a:hover {color: #497AA9; font-weight:bold; text-decoration: underline;}
+
+#behind_glass_blog ul#posts li img {
+	float: left;
+	display: inline;
+	padding: 2px;
+	margin: 0 8px 8px 0px;
+	border: 1px solid #ddd;
+}
+ul#posts .heding_date {
+	float: left;
+	clear: left;
+	width: 450px;
+	margin-bottom: 5px;
+	text-align: right;
+	font-size: .91em;
+}
+ul#posts .heding_date h2 {
+	float: left;
+	display: inline;
+	text-transform: uppercase;
+	color:#497AA9;
+	font-size: 1.3em;
+	margin-bottom: 5px;
+}
+ul#posts .heding_date .date {
+	text-transform: none;
+	color: #565656;
+	padding-right: 5px;
+}
+a.full {
+	color: #666;
+}
+a.full:hover {
+	text-decoration: none;
+}
+ul#posts .text_area {
+	float: left;
+	display: inline;
+	width: 510px;
+}
+.comments {
+	clear: both;
+	width: 450px;
+	margin-bottom:20px;
+}
+#behind_glass_blog ul#posts .comments ul {
+	clear: both;
+	padding-top: 20px;
+	margin-left: -4px;
+	width: 450px;
+	list-style-type: none;
+}
+#behind_glass_blog ul#posts .comments ul li {
+	clear: none;
+	float: none;
+	display: inline;
+	border-bottom: 0;
+	padding: 0;
+	width: auto;
+	font-size: 1em;
+}
+#behind_glass_blog ul#posts .comments ul li a {
+	color: #565656;
+	padding: 0 4px;
+}
+#behind_glass_blog ul#posts .comments ul li a:hover {
+	text-decoration: none;
+}
+
+/** right column (D&H) **/
+
+#right_column.dh_show {
+	margin-left: 19px;
+}
+#right_column.dh_show .c_module {
+	margin-bottom: 10px;
+}
+h2#adver {
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #818181;
+}
+.front_office_module,
+.behind_scenes_module,
+.soundboard_widget {
+	float: left;
+	clear: left;
+	width: 300px;
+	margin-bottom: 10px;
+}
+#fom_top,
+#bsm_top,
+#snd_top {
+	float: left;
+	clear: left;
+	width: 300px;
+	margin-bottom: 5px;
+	text-align: right;
+	color: #7e7e7e;
+	text-transform: uppercase;
+}
+#snd_top {
+	padding: 3px 5px 0 0;
+	margin-bottom: 0;
+	height: 26px;
+	width: 295px;
+	background: url(/sites/all/themes/weei/images/snd_top_bgr.gif) repeat-x 0 0;
+}
+#fom_top a,
+#bsm_top a,
+#snd_top a {
+	color: #7e7e7e;
+	font-size: .9em;
+}
+#fom_top a:hover,
+#bsm_top a:hover,
+#snd_top a:hover {
+	text-decoration: none;
+}
+h2#fom_heading,
+h2#bsm_heading,
+h2#snd_heading {
+	float: left;
+	display: inline;
+	padding-top: 19px;
+	width: 174px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_fom_heading.gif) no-repeat 0 0;
+}
+h2#bsm_heading {
+	padding-top: 18px;
+	width: 162px;
+	background: url(/sites/all/themes/weei/images/h2_bsm_heading.gif) no-repeat 0 0;
+}
+h2#snd_heading {
+	margin-left: 5px;
+	padding-top: 23px;
+	width: 161px;
+	background: url(/sites/all/themes/weei/images/h2_snd_heading.gif) no-repeat 0 0;
+}
+.merchandise_module_2 {
+	float: left;
+	clear: left;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #cecece;
+	width: 298px;
+	background: #fff;
+}
+#mm_content {
+	float: left;
+	width: 200px;
+}
+#mm_content #show_merchandise_red {
+	float: left;
+	display: inline;
+	margin: -1px 0 0 -1px;
+	padding-top: 79px;
+	width: 77px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/show_merchandise_red.gif) no-repeat 0 0;
+}
+#mm_content #m_text_area {
+	float: left;
+	display: inline;
+	padding: 5px;
+	width: 113px;
+}
+#mm_content #m_text_area p {
+	padding-bottom: 5px;
+}
+h2#mh_book {
+	float: left;
+	clear: left;
+	padding-top: 35px;
+	margin-left: 5px;
+	width: 187px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_mh_book.gif) no-repeat 0 0;
+}
+#mm_img_area {
+	float: left;
+	padding: 4px 0;
+	width: 95px;
+}
+
+/*** big show over states new ***/
+
+#subnav li#bio a:hover         {background-position:   0    -33px;}
+#subnav li#on_demand a:hover   {background-position: -48px  -33px;}
+#subnav li#winner a:hover      {background-position: -88px -33px;}
+#subnav li#bt_frauds a:hover   {background-position: -165px -33px;}
+#subnav li#soundboard a:hover  {background-position: -289px -33px;}
+#subnav li#merchandise a:hover {background-position: -486px -33px;}
+#subnav li#b_blog a:hover      {background-position: -620px -33px;}
+#subnav li#poll a:hover        {background-position: -736px -33px;}
+
+a#email:hover {
+	background-position: 0 -53px;
+}
+
+/** temp blog page **/
+
+#top_content {
+	float: left;
+	clear: left;
+	padding-bottom: 5px;
+	width: 976px;
+}
+#ticker_wide {
+	float: left;
+	clear: left;
+	width: 976px;
+	margin-bottom: 10px;
+}
+#top_flash_area {
+	float: left;
+	display: inline;
+	width: 728px;
+}
+#alerts_newsletter {
+	float: left;
+	display: inline;
+	margin-left: 6px;
+	width: 240px;
+}
+a#phone_alert,
+a#sign_up {
+	float: left;
+	display: block;
+	padding-top: 45px;
+	margin-bottom: 4px;
+	width: 240px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/alerts_newsletter.gif) no-repeat 0 0;
+}
+a#sign_up {
+	clear: left;
+	padding-top: 41px;
+	margin-bottom: 0;
+	background: url(/sites/all/themes/weei/images/alerts_newsletter.gif) no-repeat 0 -49px;
+}
+a#phone_alert:hover {
+ background-position: 0 -90px; 
+}
+a#sign_up:hover {
+ background-position: 0 -139px;
+}
+#top_heading {
+	float: left;
+	clear: left;
+	width: 976px;
+	padding-bottom: 10px;
+}
+#top_heading h1 {
+	font-size: 1.8em;
+	color: #cc0000;
+	padding-bottom: 3px;
+}
+#b_subnav {
+	float: left;
+	clear: left;
+	padding-top: 5px;
+	border-top: 1px solid #ccc;
+	width: 976px;
+	font-size: 1.1em;
+}
+#b_subnav ul {
+	list-style-type: none;
+	width: 976px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ul.centered {
+	text-align: center;
+}
+#b_subnav ul li {
+	display: inline;
+}
+#b_subnav ul li a {
+	padding: 0 10px;
+	text-decoration: none;
+	color: #666;
+}
+#b_subnav ul li a:hover {
+	text-decoration: underline;
+}
+#b_subnav ul li.first a {
+	padding-left: 0;
+}
+#b_subnav ul.centered li a {
+	text-decoration: underline;
+}
+#b_subnav ul.centered li a:hover {
+	text-decoration: none;
+}
+
+
+#left_col_b {
+	float: left;
+	display: inline;
+	width: 658px;
+}
+
+#left_col_article {
+	float: left;
+	display: inline;
+	width: 658px;
+	background-image: url(/sites/all/themes/weei/images/columnist_bio_back_top.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.wide_module,
+.wide_module_inner {
+	float: left;
+	clear: left;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	width: 658px;
+	background: url(/sites/all/themes/weei/images/wide_module_top.gif) no-repeat 0 0;
+}
+.wide_module_inner {
+	float: left;
+	clear: left;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	width: 658px;
+	background: url(/sites/all/themes/weei/images/wide_module_btm.gif) no-repeat bottom left;
+}
+.inner_red {
+	float: left;
+	clear: left;
+	display: inline;
+	margin-left: 14px;
+	padding-top: 8px;
+	width: 624px;
+	background: url(/sites/all/themes/weei/images/inner_red_top.gif) no-repeat 0 0;
+}
+.inner_red_btm {
+	float: left;
+	clear: left;
+	padding-bottom: 8px;
+	width: 624px;
+	background: url(/sites/all/themes/weei/images/inner_red_btm.gif) no-repeat bottom left;
+}
+.inner_red_content {
+	float: left;
+	clear: left;
+	padding: 15px 7px 0px;
+	margin-right: -10px;
+	width: 610px;
+	background: url(/sites/all/themes/weei/images/ir_content_bgr.gif) repeat-y 0 0;
+}
+h2#featured_stories {
+	padding-top: 18px;
+	margin-left: 20px;
+	color: #cc0000;
+	width: 132px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/h2_featured_stories.gif) no-repeat 0 0;
+}
+.stories_top {
+	text-align: right;
+	padding-left: 120px;
+	width: 490px;
+	font-size: 1.1em;
+	color: #cc0000;
+	text-transform: uppercase;
+}
+.stories_top h3 {
+	float: left;
+	display: inline;
+	font-size: 1.2em;
+}
+.stories_top a {
+	padding: 0 10px 0 0;
+	color: #cc0000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.stories_top a:hover {
+	text-decoration: underline;
+}
+.story_name {
+	position: relative;
+	clear: left;
+	padding: 9px 0 8px 120px;
+	margin-bottom: 15px;
+	width: 490px;
+	font-size: 1.1em;
+	color: #cc0000;
+	background: url(/sites/all/themes/weei/images/featured_name_bg.gif) no-repeat 0 0;
+}
+.story_name img {
+	position: absolute;
+	left: 0px;
+	top: -29px;
+}
+.story_name h3 {
+	font-size: 1.2em;
+	color: #cc0000;
+	margin-left:-30px;
+}
+
+.story_name h3 a:link {color: #c00; text-decoration: none;}
+.story_name h3 a:active {color: #c00; text-decoration: none;}
+.story_name h3 a:visited {color: #c00; text-decoration: none;}
+.story_name h3 a:hover {color: #c00; text-decoration: underline;}
+
+p.date_place {
+	clear: left;
+	color: #000;
+	font-size: 10px;
+	margin-left:-30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.text_content_area {
+	float: left;
+	clear: left;
+	padding-right: 10px;
+	margin-left:10px;
+	font-size: 11px;
+	line-height:16px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.brs {
+	background: url(/sites/all/themes/weei/images/boston_red_sox.gif) no-repeat 99% 100%;
+}
+.text_content_area h4 {
+	padding-bottom: 5px;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+.text_content_area img {
+	float: left;
+	display: inline;
+	margin: 2px 10px 10px 0;
+}
+.text_content_area p {
+	padding-bottom: 5px;
+}
+.text_content_area p a {
+	color: #ff0000;
+}
+.text_content_area p a:hover {
+	text-decoration: none;
+}
+.text_content_area .comments p {
+	display: inline;
+	padding: 0 2px 0 0;
+	color: #6a6a6a;
+}
+.comments a {
+	color: #6a6a6a;
+}
+.text_wrapper {
+	float: left;
+	padding-bottom: 15px;
+}
+
+#controls {
+	width: 190px;
+	clear: left;
+	margin: 0 auto;
+}
+a#prev,
+a#next {
+	float: left;
+	display: inline;
+	padding-top: 10px;
+	margin-top: 1px;
+	width: 61px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/previous.gif) no-repeat 0 0;
+}
+a#next {
+	width: 32px;
+	background: url(/sites/all/themes/weei/images/next.gif) no-repeat 0 0;
+}
+#controls ul {
+	list-style-type: none;
+	float: left;
+	width: 92px;
+}
+#controls ul li {
+	float: left;
+	display: inline;
+	width: 12px;
+	height: 12px;
+	margin-left: 9px;
+
+}
+#controls ul li a {
+	float: left;
+	display: inline;
+	padding-top: 12px;
+	width: 12px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/controls_li_bgr.gif) no-repeat 0 0;
+}
+#controls ul li a:hover,
+#controls ul li a.on {
+	background-position: 0 -12px;
+}
+.movable_area {
+	clear: left;
+	float: left;	
+	display: inline;
+	margin-right: -10px;
+	width: 610px;
+}
+#ma2,
+#ma3,
+#ma4 {
+	display: none;
+}
+#find_writers {
+	float: left;
+	clear: left;
+	width: 976px;
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	font-size: 1.1em;
+}
+#find_writers ul {
+	float: left;
+	clear: left;
+	display: inline;
+	list-style-type: none;
+	height: 22px;
+}
+#find_writers ul li {
+	float: left;
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	height: 22px;
+}
+#find_writers ul li.first {
+	padding-top: 4px;
+	margin-right: 8px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666;
+}
+#find_writers ul li a {
+	float: left;
+	display: block;
+	width: 22px;
+	padding-top: 4px;
+	height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ccc;
+}
+#find_writers ul.search_results {
+	border-top: 1px solid #ccc;
+	padding-top: 1px;
+	width: 976px;
+}
+#find_writers ul.search_results li a {
+	float: left;
+	display: block;
+	width: auto!important;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666;
+	padding: 4px 10px 0 0;
+}
+#find_writers ul li a:hover  {
+	color: #666;
+}
+#find_writers ul li a.on  {
+	position:relative;
+	z-index: 2;
+	padding-bottom: 1px;
+	margin-bottom: -1px;
+	color: #ff0000;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-width: 0px 1px;
+}
+
+.two_box_module {
+	float: left;
+	clear: left;
+	display: inline;
+	margin: 0 0 20px 4px;
+	width: 606px;
+	background: url(/sites/all/themes/weei/images/two_box_module_bgr.gif) repeat-y 0 0;
+}
+.two_box_module_btm {
+	float: left;
+	clear: left;
+	width: 606px;
+	padding-bottom: 8px;
+	background: url(/sites/all/themes/weei/images/two_box_module_btm.gif) no-repeat bottom left;
+}
+.box_module_top {
+	position: relative;
+	z-index: 2;
+	width: 293px;
+	height: 42px;
+	background: url(/sites/all/themes/weei/images/box_module_top.gif) no-repeat 0 0;
+}
+.wide_module_inner h2.red_heading {
+	text-transform: uppercase;
+	color: #cc0000;
+	font-size: 1.2em;
+	margin: 0 0 11px 30px;
+	width: 590px;
+}
+.wide_module_inner h2.red_heading_reverse 
+{
+background-color: #cc0000;
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.2em;
+	margin: 0 0 11px 30px;
+	padding: 4px;
+	width: 115px;
+	height: 15px;
+}
+.box_module_top img {
+	position: absolute;
+	z-index: 3;
+	top: -11px;
+	left: 10px;
+}
+.box_module_top h2 {
+	float: left;
+	display: inline;
+	padding: 14px 0 0 90px;
+	text-transform: uppercase;
+	color: #cc0000;
+	font-size: 1.2em;
+}
+.left_box,
+.right_box {
+	float: left;
+	display: inline;
+	width: 293px;
+}
+.right_box {
+	margin-left: 19px;
+}
+.box_module_content {
+	float: left;
+	clear: left;
+	padding: 10px 15px 10px 10px;
+	width: 268px;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.box_module_content p a {
+	color: #cc0000;
+}
+.box_module_content p a:hover {
+	text-decoration: none;
+}
+
+.heading_wrap {
+	text-align: left;
+	color: #cc0000;
+	font-size:11px;
+	font-weight:bold;
+	padding-bottom:5px;
+	line-height:16px;
+}
+
+.heading_wrap a:link {color: #c00; text-decoration: none;}
+.heading_wrap a:active {color: #c00; text-decoration: none;}
+.heading_wrap a:visited {color: #c00; text-decoration: none;}
+.heading_wrap a:hover {color: #c00; text-decoration: underline;}
+
+.time_and_date {
+	clear: left;
+	padding-bottom: 1px;
+	font-size: 10px;
+	color:#666;
+}
+
+.popular .m_btm {
+	padding-top: 10px;
+	height:325px;
+}
+
+
+
+
+
+
+#right_col_b {
+	float: left;
+	display: inline;
+	width: 318px;
+}
+.module_wrap {
+	float: left;
+	clear: left;
+	padding-bottom: 10px;
+}
+.module_wrap .mmodule {
+	margin: 0;
+}
+.module_wrap .c_module {
+	float: none;
+	clear: left;
+	margin: 0 0 0 8px;
+}
+
+.two_box_module {
+ position: relative;
+}
+.left_box img.team_logo {
+ position: absolute;
+ bottom: 7px;
+ left: 252px;
+}
+.right_box img.team_logo {
+ position: absolute;
+ bottom: 6px;
+ right: 12px;
+}
+.box_module_content p {
+ padding-right: 25px;
+}
+#search_bs_content {
+	float: left;
+	clear: left;
+	display: block;
+	padding: 5px 5px 50px 5px;
+	width: 612px;
+	height: 149px;
+	background: #fff;
+	border: 5px solid #000066;
+}
+#dh_demand_tabs_3 #search_bs_content {
+	height: 140px;
+}
+.dh_demand_tabs_content #search_bs_content {
+	border-color: #fff;
+}
+#search_bs_content.d_expanded_content h2 {
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	font-size: 1.1em;
+}
+form#search_bsf {
+	clear: left;
+	width: 100%;
+	font-size: 1.1em;
+}
+form#search_bsf label {
+	float: left;
+	clear: left;
+	width: 130px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	cursor: pointer;
+}
+form#search_bsf input {
+	float: left;
+	clear: left;
+	width: 162px;
+	margin-bottom: 8px;
+	padding: 1px 2px;
+	border: 1px solid #ccc;
+}
+form#search_bsf input#video {
+	margin-bottom: 15px;
+}
+form#search_bsf input.radio {
+	width: 14px;
+	height: 14px;
+	clear: none;
+	width: auto;
+	border: none;
+	margin: 0 3px 0 0;
+	padding: none;
+	vertical-align: top;
+}
+form#search_bsf #go {
+	float: left;
+	clear: left;
+	width: 40px;
+	height: 23px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#share_this {
+	float: left;
+	margin-bottom: 10px;
+	padding: 3px 0;
+	width: 100%;
+	border: 1px solid #999;
+	border-width: 1px 0;
+}
+#share_this_btn {
+	float: left;
+	padding: 2px 0 2px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: .9em;
+	font-weight: bold;
+	color:#cc0000;
+	background: url(/sites/all/themes/weei/images/share_this_btn.gif) no-repeat 0 1px;
+}
+#share_this_btn:hover {
+	text-decoration: underline;
+}
+h2#on_demand_heading {
+	display: block;
+	margin: 0;
+	border-bottom: 4px solid #000;
+}
+
+#show_nav li#home a:hover             {background-position:    0px -12px;}
+#show_nav li#bios a:hover             {background-position:  -126px -12px;}
+#show_nav li#audio_od a:hover         {background-position:  -170px -12px;}
+#show_nav li#behind a:hover           {background-position: -366px -12px;}
+#show_nav li#fom a:hover              {background-position: -511px -12px;}
+#show_nav li#gas a:hover              {background-position: -617px -12px;}
+#show_nav li#show_merchandise a:hover {background-position: -719px -12px;}
+#show_nav li#behind_glass a:hover     {background-position: -778px -12px;}
+
+.box_module_top h2 a,
+.box_module_top .rss_f {
+	color:#CC0000;
+	text-decoration: none;
+}
+.box_module_top .rss_f {
+	float: right;
+	padding: 14px 14px 0 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.box_module_top h2 a:hover,
+.box_module_top .rss_f:hover {
+	text-decoration: underline;
+}
+#dh_datepicker,
+#dh_datepicker1 {
+	float: left;
+	display: inline;
+	margin-left: -10px;	
+	width: 148px;
+}
+#dh_datepicker_f,
+#dh_datepicker1_f {
+	float: left;
+	display: inline;
+	margin: 18px -10px 0 0;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	width: 43px;
+	height: 106px;
+}
+#dh_submit,
+#dh_submit_1 {
+	display: inline;
+	float: left;
+	margin: 72px 0 0 4px;
+	padding-top: 32px;
+	height: 0;
+	width: 37px;
+	overflow: hidden;
+	font-size: 1px;
+	background: url(/sites/all/themes/weei/images/cal_go_btn.gif) no-repeat 0 0;
+}
+#dh_submit:hover,
+#dh_submit_1:hover {
+	background-position: 0 -32px;
+}
+table.columnists tr td {
+	padding: 3px;
+}
+table.columnists tr td a {
+	color: #5895be;
+	text-decoration: none;
+}
+table.columnists tr td a:hover {
+	color: #5895be;
+	text-decoration: underline;
+}
+
+/******* soundboard *********/
+
+#widget_area {
+ position: relative;
+ height: 285px;
+ overflow: hidden;
+}
+.soundboard_widget #widget_area {
+	border: 1px solid #cecece;
+	padding: 11px 0;
+	height: 175px;
+	width: 298px;
+	background: #fff;
+}
+#widget_area ul {
+ float: left;
+ clear: left;
+ width: 275px;
+ list-style-type: none;
+}
+.soundboard_widget #widget_area ul {
+	width: 257px;
+}
+#widget_area ul li {
+ float: left;
+ clear: left;
+ width: 275px;
+}
+.soundboard_widget #widget_area ul li {
+	border-bottom: 1px solid #a2a2a2;
+	width: 257px;	
+}
+#widget_area ul li a.sound_closed_content {
+ float: left;
+ clear: left;
+ padding-top: 9px;
+ width: 275px;
+ height: 33px;
+ text-decoration: none;
+ font-weight: bold;
+ color: #0033cc;
+ background: #fff url(/sites/all/themes/weei/images/li_soundboard_bgr.gif) repeat-x bottom left;
+}
+.soundboard_widget #widget_area ul li a.sound_closed_content {
+	width: 257px;
+	height: 26px;
+	background: #fff;
+	color: #666;
+}
+#widget_area ul li .sound_open_content {
+ float: left;
+ clear: left;
+ display: none;
+ padding-top: 9px;
+ width: 275px;
+ cursor: pointer;
+ background: #fff url(/sites/all/themes/weei/images/snd_open_bgr.gif) repeat-x top left;
+}
+.soundboard_widget #widget_area ul li .sound_open_content {
+	width: 257px;
+	background: #fff;
+}
+#widget_area ul li a.sound_closed_content_first {
+	display: none;
+}
+#widget_area ul li .sound_open_content_first {
+	display: block;
+}
+#widget_area ul li .left_quo {
+ float: left;
+ clear: left;
+ width: 275px;
+ background: url(/sites/all/themes/weei/images/left_quo.gif) no-repeat 2px 3px;
+}
+.soundboard_widget #widget_area ul li .left_quo {
+	background: url(/sites/all/themes/weei/images/left_quo_red.gif) no-repeat 2px 3px;
+}
+.soundboard_widget #widget_area ul li .left_quo {
+	width: 257px;
+}
+#widget_area ul li .sound_open_inner {
+ float: left;
+ clear: left;
+ width: 273px;
+ font-weight: bold;
+ font-size: 2em;
+ color: #000;
+ background:  url(/sites/all/themes/weei/images/right_quo.gif) no-repeat bottom right;
+}
+.soundboard_widget #widget_area ul li .sound_open_inner {
+	background:  url(/sites/all/themes/weei/images/right_quo_red.gif) no-repeat bottom right;
+}
+.soundboard_widget #widget_area ul li .sound_open_inner {
+	font: 1.1em Georgia, Arial, Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #a73d2f;
+}
+.soundboard_widget #widget_area ul li .sound_open_inner {
+ width: 255px;
+}
+#widget_area ul li .sound_open_inner p {
+ float: left;
+ padding: 10px 0 8px 10px;
+ width: 240px;
+}
+.soundboard_widget #widget_area ul li .sound_open_inner p {
+	padding: 4px 0 3px 25px;
+}
+.soundboard_widget #widget_area ul li .sound_open_inner p {
+	width: 232px;
+}
+.sound_widget_area {
+ clear: left;
+ width: 275px;
+}
+.soundboard_widget .sound_widget_area {
+	width: 257px;
+}
+.soundboard_widget .sound_widget_area img {
+	margin-top: 5px;
+}
+span.snd_open,
+span.snd_close {
+ float: left;
+ display: inline;
+ margin: 4px 3px 0 5px;
+ padding-top: 8px;
+ width:8px;
+ height: 0;
+ overflow: hidden;
+ background: url(/sites/all/themes/weei/images/snd_open.gif) no-repeat 0 0;
+}
+.soundboard_widget span.snd_open {
+	margin-top: 0;
+}
+.soundboard_widget span.snd_open,
+.soundboard_widget span.snd_close {
+	padding-top: 15px;
+	width: 14px;
+	background: url(/sites/all/themes/weei/images/snd2_open.gif) no-repeat 0 0;
+}
+span.snd_close {
+ background: url(/sites/all/themes/weei/images/snd_close.gif) no-repeat 0 0;
+}
+span.txt {
+ float: left;
+ display: block;
+ padding-left: 11px;
+ width: 235px;
+ background: url(/sites/all/themes/weei/images/lq_bgr.gif) no-repeat 0 0;
+}
+.soundboard_widget span.txt {
+ padding-left: 13px;
+ background: url(/sites/all/themes/weei/images/rcq_gray.gif) no-repeat 0 0;
+}
+.soundboard_widget span.txt {
+	width: 222px;
+}
+.txt .rq {
+ position: relative;
+}
+.txt .rq span {
+ position: absolute;
+ z-index: 1;
+ display: block;
+ width: 11px;
+ height: 5px;
+ top: 7px;
+ left: 0;
+ background: url(/sites/all/themes/weei/images/rq_bgr.gif) no-repeat 0 0;
+}
+.soundboard_widget .txt .rq span {
+ background: url(/sites/all/themes/weei/images/lcq_gray.gif) no-repeat 0 0;
+}
+
+/*** shedule ***/
+
+#schedule {
+	padding: 2px 4px;
+	width: 157px;
+	height: 291px;
+	background: url(/sites/all/themes/weei/images/schedule.gif) no-repeat 0 0;
+}
+#schedule_bigshow {
+	padding: 2px 4px;
+	width: 290px;
+	height: 100%;
+	border: 2px solid #003;
+	
+}
+#top_info {
+	width: 157px;
+	height: 36px;
+	background: url(/sites/all/themes/weei/images/top_info_bgr.gif) no-repeat 0 0;
+}
+#current_date_and_time {
+	padding-top: 4px;
+	margin-bottom: 6px;
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
+	font-size: 1em;
+}
+#current_date_and_time span {
+	padding: 0 8px 0 6px;
+	margin-top: 5px;
+}
+#time_and_program {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+span#time {
+	float: left;
+	display: inline;
+	clear: left;
+	padding-left: 8px;
+	width: 69px;
+	background: url(/sites/all/themes/weei/images/separator.gif) no-repeat center right;
+}
+span#program {
+	float: left;
+	display: inline;
+	padding-right: 7px;
+	width: 72px;
+	text-align: right;
+}
+#schedule_content {
+	float: left;
+	clear: left;
+	position: relative;
+	padding: 0;
+	width: 157px;
+	height: 232px;
+	overflow: hidden;
+}
+#schedule_content_in {
+	float: left;
+	clear: left;
+	position: relative;
+	width: 157px;
+	height: 232px;
+	overflow: hidden;
+}
+#su {
+	/*position: absolute;
+	z-index: 50;
+	top: 0;
+	left: 1px;*/
+	clear: left;
+	float: left;
+	padding-top: 11px;
+	width: 155px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/scu.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+#sd {
+	/*position: absolute;
+	z-index: 50;
+	bottom: 0;
+	left: 1px;*/
+	clear: left;
+	float: left;
+	padding-top: 11px;
+	width: 155px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/sd.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+#schedule_content ul#schedule_content_holder {
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	clear: left;
+	width: 157px;
+	list-style-type: none;
+}
+#schedule_content ul#schedule_content_holder li {
+	float: left;
+	clear: left;
+}
+.closed_schedule_content {
+	width: 157px;
+	padding-top: 7px;
+	height: 26px;
+	background: url(/sites/all/themes/weei/images/schedule_closed_bgr.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7,
+.h8,
+.h9,
+.h10,
+.h11,
+.h12 {
+	float: left;
+	display: inline;
+	padding-top: 19px;
+	margin-left: 7px;
+	width: 11px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/time.gif) no-repeat 0 0;
+}
+
+.h2  {background-position: -24px 0;}
+.h3  {background-position: -49px 0;}
+.h4  {background-position: -74px 0;}
+.h5  {background-position: -100px 0;}
+.h6  {background-position: -125px 0;}
+.h7  {background-position: -150px 0;}
+.h8  {background-position: -175px 0;}
+.h9  {background-position: -201px 0;}
+.h10 {
+	width: 23px;
+	background-position: -227px 0;
+}
+.h11 {
+	width: 23px;
+	background-position: -266px 0;
+}
+.h12 {
+	width: 23px;
+	background-position: -305px 0;
+}
+
+.am,
+.am_half,
+.pm,
+.pm_half {
+	float: left;
+	display: inline;
+	margin: 2px 0 0 2px;
+	padding-top: 17px;
+	width: 16px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/am_pm.gif) no-repeat 0 0;
+}
+.am_half {
+	background-position: -17px 0;
+}
+.pm {
+	background-position: -33px 0;
+}
+.pm_half {
+	background-position: -49px 0;
+}
+.name_dc,
+.name_tbs,
+.name_dh,
+.name_pm {
+	float: left;
+	display: inline;
+	margin: 1px 0 0 12px;
+	padding-top: 17px;
+	width: 46px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/name_dc.gif) no-repeat 0 0;
+}
+.name_tbs {
+	width: 33px;
+	background: url(/sites/all/themes/weei/images/name_tbs.gif) no-repeat 0 0;
+}
+.name_dh {
+	width: 34px;
+	background: url(/sites/all/themes/weei/images/name_dh.gif) no-repeat 0 0;
+}
+.name_pm {
+	width: 33px;
+	background: url(/sites/all/themes/weei/images/name_pm.gif) no-repeat 0 0;
+}
+.listen {
+	clear: left;
+	width: 151px;
+	padding: 4px 0 0 4px;
+	height: 16px;
+	background: url(/sites/all/themes/weei/images/listen_bgr_gray.gif) no-repeat 0 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+}
+.listen span {
+	float: left;
+}
+.open_schedule_content {
+	float: left;
+	clear: left;
+	display: none;
+}
+.open_schedule_content_first {
+	display: block;
+}
+.open_schedule_content img {
+	float: left;
+	clear: left;
+	display: block;
+}
+a.live,
+a.on_demand,
+a.coming_up {
+	float: left;
+	display: block;
+	margin: -1px 0 0 5px;
+	padding-top: 14px;
+	width: 38px;
+	height: 0;
+	overflow: hidden;
+	background: url(/sites/all/themes/weei/images/live_btn_sml.gif) no-repeat 0 0;
+}
+a.on_demand {
+	width: 60px;
+	background: url(/sites/all/themes/weei/images/demand_btn_sml.gif) no-repeat 0 0;
+}
+a.coming_up {
+	width: 60px;
+	background: url(/sites/all/themes/weei/images/coming_btn_sml.gif) no-repeat 0 0;
+}
+.on_today_show {
+	float: left;
+	clear: left;
+	background: #fff;
+	width: 145px;
+	padding: 5px;
+}
+.on_today_show h2 {
+	margin-bottom: 4px;
+	text-transform: uppercase;
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 1em;
+}
+.on_today_show_inner {
+	float: left;
+	clear: left;
+	background: #fff;
+	padding: 0;
+	width: 145px;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+.strong {
+	font-weight: bold;
+}
+
+span.date,
+span.month,
+span.year {
+	display: none;
+}
+.clickme
+{}
+.gobu
+{
+	font-size: 1px;
+	margin-top: 5px;
+	padding: 0;
+}
+.comments
+{
+	font-size: 12px;
+}
+.comments a
+{
+	text-decoration: none;
+}
+.box h2
+{
+	font-size: 12px;
+}
+.comment-body
+{
+	margin: 2px 20px 2px 20px;
+	padding: 10px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid white;
+}
+whitelink a 
+{
+	color: white;
+	text-decoration: none;
+}
+whitelink
+{
+	color: white;
+	text-decoration: none;
+}
+	.whitelink a:link 
+	{
+		color: white;
+		text-decoration: none;
+
+	}
+	.whitelink a:visited 
+	{
+		color: white;
+		text-decoration: none;
+
+	}
+
+	.whitelink a:hover 
+	{
+		color: white;
+		text-decoration: none;
+
+	}
+
+	.whitelink a:active 
+	{
+		color: white;
+		text-decoration: none;
+
+	}
+	
+.dh_content p{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+margin-bottom:15px;
+line-height:17px;
+}
+
+.ljgallery
+{}
+
+.ljgallery img
+{
+	margin:10px;
+	border:2px solid #ffffff;
+	}
+	
+.ljgallery a img 
+{
+	margin:10px;
+	border:2px solid #ffffff;
+	}
+	
+.ljgallery a:hover img
+{
+	margin:10px;
+	border:2px solid #CC0000;
+	}

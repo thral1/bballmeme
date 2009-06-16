@@ -1,0 +1,52 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+</head><body>
+<script language="JavaScript">
+var zy0=new Array();var ze1=0;
+function zF0(zq0){
+if(ze1<1){
+var za0=''+window.location.search;var zi0=new Array();var zz3=za0.indexOf(';l=')+1;
+if(zz3>1){
+zy0['l']=za0.substring(zz3+2);
+za0=za0.substring(0,zz3);
+}
+za0=za0.replace(/^\?/,'');
+zi0=za0.split(';');
+ze1=zi0.length;
+for(var i=0;i<ze1;i++){
+if(zi0[i].length>2){
+zy0[zi0[i].substring(0,1)]=zi0[i].substring(2,zi0[i].length);
+}}}
+if(zy0[zq0]){return zy0[zq0];}
+else{return '';}
+}
+var zv5=zF0('f');var zt9='';
+if(document.cookie.indexOf('aps')==-1){
+document.cookie='aps=1000;domain=.zedo.com;path=/;';
+}
+if(document.cookie.indexOf('aps')!=-1){
+if(document.cookie.match(/aps=([^;]*)/)){
+zt9=RegExp.$1;
+}
+if(zt9==1000){
+document.cookie='aps=1;domain=.zedo.com;path=/;';
+if(zv5==2 |zv5==1){
+var zv6="http://d3.zedo.com/jsc/d3/ff2.html?n=933;c=3;s=1;d=15;w=1;h=1";
+ifrm=document.createElement("IFRAME");
+ifrm.setAttribute("src",zv6);
+ifrm.style.width=0+"px";
+ifrm.style.height=0+"px";
+ifrm.style.border=0+"px";
+document.body.appendChild(ifrm);
+}
+if(zv5==2 |zv5==3){
+var zv6="http://d3.zedo.com/jsc/d3/ff2.html?n=933;c=1;s=1;d=15;w=1;h=1";
+ifrm=document.createElement("IFRAME");
+ifrm.setAttribute("src",zv6);
+ifrm.style.width=0+"px";
+ifrm.style.height=0+"px";
+ifrm.style.border=0+"px";
+document.body.appendChild(ifrm);
+}}}
+</script>
+</body></html>

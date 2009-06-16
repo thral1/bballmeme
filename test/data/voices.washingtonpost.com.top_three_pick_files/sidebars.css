@@ -1,0 +1,262 @@
+/* start extra toolbox */
+.sidebar {
+	/* positioning */
+	background-color:#FFFFFF;
+	padding:0;
+	border-top:0;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	margin-bottom:4px;
+
+	/* formatting */
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#000000;
+	line-height:1.3;
+	font-weight:normal;
+}
+.sidebarhack {
+	background-color:#08315A;
+	height:2px;
+}
+.sidebar h2, #article .sidebar h2, .sidebar div.seo-header, #article .sidebar div.seo-header {
+	border-bottom:1px solid #CCCCCC;
+}
+.sidebar h2, #article .sidebar h2, .sidebar h2 a, #article .sidebar h2 a, .sidebar div.seo-header, #article .sidebar div.seo-header, .sidebar div.seo-header a, #article .sidebar div.seo-header a {
+	background-color:#EEEEEE;
+	padding:2px;
+	font-size:8pt;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#C00;
+	margin:0;
+}
+.sidebar_blog {
+	background-color:#EEEEEE;
+	padding:2px;
+	font-size:8pt;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#C00;
+	margin:0;
+	padding-left:7px;
+}
+.sidebar_blog .arrow {
+	color:#6F6F6F;
+}
+.sidebar_blog .blog_link a {
+	color:#0C4790;
+	padding-left:20px;
+}
+.sidebar h2 table tr td.sb-left, #article .sidebar h2 table tr td.sb-left, .sidebar h2 table tr td.sb-right, #article .sidebar h2 table tr td.sb-right, .sidebar div.seo-header table tr td.sb-left, #article .sidebar div.seo-header table tr td.sb-left, .sidebar div.seo-header table tr td.sb-right, #article .sidebar div.seo-header table tr td.sb-right {
+	font-size:8pt;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#C00;
+}
+.sidebar h2 table tr td.sb-right a, #article .sidebar h2 table tr td.sb-right a, .sidebar div.seo-header table tr td.sb-right a, #article .sidebar div.seo-header table tr td.sb-right a {
+	text-transform:none;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#0C4790;
+}
+.sidebar form, #article .sidebar form {
+	padding:0;
+	border:0;
+	margin:0;
+}
+.sidebarcontent {
+	padding:6px;
+}
+.sidebarcontent .sidebarColumn {
+	float:left;
+	width:103px;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#0C4790;
+	font-weight:bold;
+}
+.sidebarcontent .sidebar_comments {
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#696969;
+	font-weight:normal;
+}
+.sidebarcontent .sidebar_comments a:link, .sidebarcontent .sidebar_comments a:visited, {
+	color:#0C4790;
+	text-decoration:none;
+}
+.sidebarcontent .sidebar_comments a:hover, .sidebarcontent .sidebar_comments a:active, {
+	color:#C00;
+	text-decoration:underline;
+}
+#comments_policy_expando, #signin_again_expando {
+	width:228px;
+	background-color:#EEEEEE;
+	border:1px solid #999999;
+	border-top:2px solid #0D3159;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+	color:#696969;
+	font-weight:normal;
+}
+#comments_policy_expando a, #signin_again_expando a {
+	color:#0C4790;
+	text-decoration:none;
+	font-weight:bold;
+}
+#comments_policy_expando .policy_header, #signin_again_expando .signin_again_header {
+	border-bottom:1px dashed #999999;
+	padding-top:8px;
+	padding-left:11px;
+	padding-right:10px;
+	margin-bottom:5px;
+}
+#comments_policy_expando .policy_header_text, #signin_again_expando .signin_again_header_text {
+	font-family:arial;
+	font-size:9pt;
+	font-weight:bold;
+	color:#333333;
+	float:left;
+}
+#comments_policy_expando .policy_header_close, #signin_again_expando .signin_again_header_close {
+	float:right;
+}
+#comments_policy_expando .policy_text, #signin_again_expando .signin_again_text {
+	padding-left:11px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+#comments_policy_expando #policy_link, #signin_again_expando #signin_again_link {
+	float:right;
+}
+.comments_policy_on, .signin_again_on {  position: absolute; z-index:100; }
+.comments_policy_off, .signin_again_off { display: none; }
+.saveDevelop {
+	padding:2px 4px;
+}
+.emailDevelop {
+	padding:2px 4px;
+}
+.saveDevelopBorder {
+	background-color:#EEE;
+	color:#000;
+	padding:1px 3px;
+	border:1px solid #CCC;
+	border-bottom:0px;
+}
+.sidebar h3, #article .sidebar h3, .sidebar div.seo-subhead, #article .sidebar div.seo-subhead {
+	margin:0;
+	padding:0;
+	font:bold 11px Arial;
+}
+.sidebar ul, #article .sidebar ul {
+	margin:0;
+	padding:0 0 6px 0;
+	float:left;
+	list-style-type:none;
+	font-weight:normal;
+}
+.sidebar li, #article .sidebar li {
+	background:url(http://media.washingtonpost.com/wp-srv/shared/gr/dk_gray_bullet.gif) no-repeat 0px 0.5em;
+	padding:0 0 0.5em 0.6em;
+	list-style-type:none;
+	font-weight:normal;
+}
+.sidebar ul.rss li {
+	background:none;
+	padding:0;
+	 word-wrap:break-word;
+}
+.sidebar ul.rss li a {
+	background:url(http://media.washingtonpost.com/wp-srv/article/pieces/articleIcon_rss_25x13.gif) no-repeat 0 0;
+	padding:0 0 0 33px;
+}
+.sidebar p.bulletwrap a {
+	background:url(http://media.washingtonpost.com/wp-srv/shared/gr/dk_gray_bullet.gif) no-repeat 0 5px;
+	padding-left:7px;
+}
+.sidebar div.bulletwrap {
+	background:url(http://media.washingtonpost.com/wp-srv/shared/gr/dk_gray_bullet.gif) no-repeat 0 5px;
+	padding-left:7px;
+}
+.sidebar .imgfloatleft {
+	float:left;
+	margin: 0 6px 0 0;
+}
+.sidebar .imgfloatright {
+	float:right;
+	margin: 0 0 0 6px;
+}
+.sidebar p, #article .sidebar p {
+	margin:0;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+.sidebar .clearboth {
+	clear:both;
+}
+.sidebar .bold {
+	font-weight:bold;
+}
+.sidebar .padtop {
+	padding-top:6px;
+}
+.sidebar .padbtm {
+	padding-bottom:6px;
+}
+.sidebar a, #article .sidebar a {
+	font-weight:bold;
+}
+.sidebar a:link,    #article .sidebar a:link,
+.sidebar a:visited, #article .sidebar a:visited {
+	text-decoration:none;
+	color:#0C4790;
+}
+.sidebar a:hover, #article .sidebar a:hover,
+.sidebar a:active, #article .sidebar a:active {
+	text-decoration:underline;
+	color:#C00;
+}
+.sidebar .txtbullet {
+	font:normal 12px Arial;
+}
+/* START: SPHERE */
+#sphere.sidebar {
+	border-bottom:0;
+}
+#sphere.sidebar h2, #sphere.sidebar div.seo-header {
+	text-align:left;
+}
+#sphere.sidebar .left {
+	float:left;
+}
+#sphere.sidebar .right {
+	float:right;
+}
+#sphere.sidebar .right a {
+	text-transform:none;
+}
+#sphere.sidebar .right a:link, #sphere.sidebar .right a:visited {
+	color:#0C4790;
+}
+#sphere.sidebar .right a:hover, #sphere.sidebar .right a:active {
+	color:#C00;
+}
+#sphere.sidebar .gray {
+	color:#666;
+}
+/* END: SPHERE */
+.expand_on {  position: absolute; z-index:100; }
+.expand_off{ display: none; }
+
+/* Hides from IE-mac \*/
+* html .sidebarbox {height: 1%;}
+/* End hide from IE-mac */
+

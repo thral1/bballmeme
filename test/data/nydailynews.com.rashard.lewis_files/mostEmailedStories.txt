@@ -1,0 +1,13 @@
+
+// Provide a default path to dwr.engine
+if (dwr == null) var dwr = {};
+if (dwr.engine == null) dwr.engine = {};
+if (DWREngine == null) var DWREngine = dwr.engine;
+
+dwr.engine._defaultPath = '/nydn/dwr';
+
+if (mostEmailedStories == null) var mostEmailedStories = {};
+mostEmailedStories._path = '/nydn/dwr';
+mostEmailedStories.getMostEmailedStoriesLists = function(p0, callback) {
+  dwr.engine._execute(mostEmailedStories._path, 'mostEmailedStories', 'getMostEmailedStoriesLists', p0, callback);
+}

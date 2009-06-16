@@ -1,0 +1,318 @@
+/*
+Theme Name: Red Train Extra
+Theme URI: http://www.wordpress-themes.perun.net/
+Description: Red Train is a Theme for WP 2.x. Made by <a href="http://www.vlad-design.de">Vladimir Simovic</a> (aka <a href="http://www.perun.net">Perun</a>).
+Version: 2.6.1
+Author: Vladimir Simovic (aka Perun )
+Author URI: http://www.vlad-design.de
+Tags: red, train, two-column, widget-ready, widgets, fixed-width
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+body {
+    background: /*#64081d url(images/hintergrund.gif) repeat-x fixed; black;*/ #000000 url(images/blackfade.gif) repeat-x fixed;
+    text-align: center;
+    padding: 1em 0;
+    font: 67.5% verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffc;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    display: none;
+}
+
+img {
+    border: none;
+}
+
+ins {
+    text-decoration: none;
+    border-bottom: 1px dashed #eee;
+}
+
+acronym, abbr, dfn {
+    border-bottom: 1px dashed #eee;
+    font-style: normal;
+}
+
+blockquote {
+    border-left: 5px solid #320000;
+    margin: 1em 0;
+    padding: 10px;
+    background: #600000;
+    width: 90%;
+}
+
+code, pre {
+    color: #f93;
+    font-family: verdana, sans-serif;
+}
+
+.bild-links {
+    float: left;
+    margin: 0 15px 3px 0;
+}
+
+.bild-rechts {
+    float: right;
+    margin: 0 0 3px 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.search-button, #commentform input {
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid #300000;
+    background: #800000;
+    color: #ffc;
+    padding: 1px 2px;
+}
+
+#pagebox {
+	margin: 30px 0 0 0;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: left;
+    width: 730px;
+    border-bottom: 5px solid #eee;
+    background: url(images/container.gif);
+    color: #eee;
+    line-height: 1.5;
+}
+
+#header {
+    height: 205px;
+    background: url(images/hornsbanner.jpg) no-repeat;
+}
+
+#header h1 {
+    font: italic 22px georgia, serif;
+    color: #fff;
+    /*line-height: 200px;*/
+    padding: 75px 15px;
+}
+
+#header h1 a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.1em;
+}
+
+#navi {
+    float: right;
+    width: 235px;
+}
+
+#navi-innen {
+    padding: 0 15px 10px 15px;
+}
+
+#navi h2 {
+    font: bold 1.4em veradana, sans-serif;
+    margin: .8em 0 .2em 0;
+}
+
+#navi ul {
+    list-style: none;
+    margin: .4em 0 1em 0;
+    padding: 0;
+}
+
+#navi ul li ul {
+    margin: .2em 0 .4em .5em;
+}
+
+#navi a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navi .navi-search {
+    margin-bottom: 3px;
+    background: #eee;
+    font-size: 1em;
+    width: 150px;
+    border: 1px solid #300000;
+}
+
+#navi #tickets { margin-left: -10px; color: #ffffff; }
+
+#content {
+    margin: 1em 250px 1.5em 15px;
+    font-size: 1.1em;
+    color: #000;
+}
+
+#content a { color: #64081d; }
+
+#content a:hover { color: #E80F37; }
+
+#content h2 {
+    font: 2.1em georgia, serif;
+    margin: 5px 0;
+    letter-spacing: 1px;
+}
+
+#content h2 a {
+    text-decoration: none;
+}
+
+#content h3 {
+    margin: 1.2em 0 .4em 0;
+    font-size: 1.4em;
+}
+
+#content h4 {
+    font-size: 1.3em;
+    padding: 0;
+    margin: 1em 0;
+}
+
+#content h5 {
+    font-size: 1.1em;
+    padding: 0;
+    margin: 1em 0;
+}
+
+#content .date {
+    font-size: 1em;
+    text-align: right;
+    font-weight: bold;
+}
+
+#content .meta {
+    font-size: .9em;
+}
+
+#content .feedback {
+    margin: 15px 0 15px 0;
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #700000;
+}
+
+#commentlist li {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #700000;
+}
+
+#commentlist li img.avatar {
+    float: right; margin: 2px 0 5px 10px;
+    border: 1px solid #300; padding: 4px; background: #eee;
+}
+
+#commentform {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #300000;
+    background: #600000;
+}
+
+#commentform textarea {
+    background: #eee;
+    border: 1px solid #300000;
+}
+
+#commentform #email, #commentform #author, #commentform #url {
+    font-size: 1.1em;
+    background: #eee; color: #333;
+    border: 1px solid #300000;
+    width: 180px;
+}
+
+#footer {
+    clear: both;
+    margin: 3em 15px 0 15px;
+    padding: 5px;
+    text-align: center;
+    font-size: .8em;
+}
+
+/* *** Plugins *** */
+.tags {
+    margin: 1.5em 0;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+#wp_grins {
+    margin-top: 2px;
+}
+
+.pagebar {
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 2em;
+}
+
+.pagebar .this-page {
+    font-weight: bold;
+}
+
+.pagebar a {
+    border: 1px solid #300000;
+    background: #900;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #ffc;
+}
+
+.pagebar a:hover {
+    color: #fff;
+}
+
+/* WordPress 2.6 */
+
+.aligncenter,
+div.aligncenter {
+   display: block; margin-left: auto; margin-right: auto; text-align: center;
+}
+.alignleft {
+   float: left;
+}
+.alignright {
+   float: right;
+}
+
+.wp-caption {
+   text-align: center;
+   background-color: #f9f9f9; border: 1px solid #300000;
+   padding-top: 4px; margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0; padding: 0; border: 0 none;
+}
+
+#text-inhalt div.wp-caption a { border: none; }
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px; line-height: 17px; color: #333;
+   padding: 0 5px 5px 5px; margin: 0;
+}

@@ -1,0 +1,25 @@
+#fadeinbox{
+	position:absolute;
+	width: 300px;
+	left: 0;
+	top: -400px;
+	border: none;
+	z-index:9999999;
+}
+#int_bg{
+	position:absolute;
+	z-index:9999998;
+	width: 300px;
+	top: -400px;
+	left: 0;
+	border: none;
+	background-color:#fff;
+}
+#fadeinbox td,#fadeinbox th{
+	padding:0;
+	vertical-align:middle;
+}
+#fadeinbox img, #fadeinbox tbody{border:0 none;border-top:0 none;background:none;}
+#creative{
+	text-align:center;
+}
